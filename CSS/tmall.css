@@ -52,7 +52,7 @@ body{
     background: url("../pictures/cart.png") no-repeat;
     background-size: 100% 100%;
     position: absolute;
-    left:285px;top:-6px;
+    left:245px;top:-6px;
     float: left;
 }
 .phone{
@@ -61,7 +61,7 @@ body{
     background: url("../pictures/phone.png") no-repeat;
     background-size: 100% 100%;
     position: absolute;
-    left:448px;top:-5px;
+    left:438px;top:-5px;
     float: left;
 }
 .header{
