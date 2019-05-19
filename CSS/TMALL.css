@@ -141,20 +141,26 @@ ul,ol,li{
     float: left;
     width: 200px;height: 36px;
 }
-#content1 .main .main-left li{
+#content1 .main .main-left .type1{
     width: 100px;height: 36px;
     text-align: center;
     line-height: 36px;
     float: left;
     font-size: 14px;
     color: #f0f0f0;
+    background: #c60a0a;
     cursor: pointer;
 }
-#content1 .main .main-left .type1{
-    background: #c60a0a;
-}
+
 #content1 .main .main-left .type2{
-    background: url("../image/tmall/Lb/tmbj.png") repeat;
+    width: 100px;height: 36px;
+    text-align: center;
+    line-height: 36px;
+    float: left;
+    font-size: 14px;
+    color: #f0f0f0;
+    background: #c60a0a;
+    cursor: pointer;
 }
 #content1 .main .main-right{
     float: right;
@@ -251,7 +257,7 @@ ul,ol,li{
     margin-right: 15px;
 }
 
-#content1 .cate-lbt .cate1{
+#content1 .cate-lbt .cate1,#content1 .cate-lbt .cate2{
     float: left;
     width: 200px;height: 500px;
     background: rgba(0,0,0,0.8);
@@ -269,6 +275,14 @@ ul,ol,li{
     box-sizing: border-box;
     border-radius: 12px;
 }
+#content1 .cate-lbt .cate2 li{
+    width: 152px;height: 25px;
+    color: #ffffff;
+    font-size: 12px;
+    position: relative;
+    float: left;
+    margin-top: 8px;
+}
 #content1 .cate-lbt .cate1 li .img{
     display: inline-block;
     width: 16px;height: 31px;
@@ -276,6 +290,13 @@ ul,ol,li{
     line-height: 31px;
     float: left;
     margin-left: 30px;
+}
+#content1 .cate-lbt .cate1 li .img{
+    display: inline-block;
+    width: 16px;height: 25px;
+    font-size: 14px;
+    line-height: 25px;
+    float: left;
 }
 #content1 .cate-lbt .cate1 li .con{
     display: inline-block;
@@ -413,6 +434,26 @@ ul,ol,li{
     margin-right: 1px; margin-bottom: 1px;
     float: left;
     cursor: pointer;
+    display: block;
+    position: relative;
+}
+#content3 .mask{
+    width: 123px; height: 108px;
+    position: absolute;
+    top: 0;
+    left:0;
+    background: rgba(0,0,0,0.8);
+    cursor: pointer;
+    display: none;
+}
+#content3 .mask span{
+    width: 123px; height: 20px;
+    cursor: pointer;
+    display: block;
+    color: white;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-left: 30px;
 }
 #content3 .brand-item .brand-img{
     margin: 0 auto;
@@ -420,6 +461,7 @@ ul,ol,li{
     text-align: center;
     line-height: 108px;
     background-color: #fff;
+    cursor: pointer;
 }
 #content3 .brand-item .brand-img img{
     width: 82%;height: 50px;
@@ -561,6 +603,10 @@ ul,ol,li{
     color: #ffffff;
     background: #00b262;
 }
+#content4 .T-mart .con2 .c1 .grid .tab .tab2{
+    color: #ffffff;
+    background: #ebebeb;
+}
 #content4 .T-mart .con2 .c1 .grid .tab li span{
     font-size: 18px;
     margin-top: 16px;
@@ -593,7 +639,7 @@ ul,ol,li{
 }
 #content4 .T-mart .con2 .c1 .tab-detail .detail-info .up span{
     display: inline-block;
-    width: 100px;height: 32px;
+    width: 120px;height: 32px;
     font-weight: 700;
     line-height: 32px;
     color: #00b262;
@@ -602,7 +648,7 @@ ul,ol,li{
 }
 #content4 .T-mart .con2 .c1 .tab-detail .detail-info .down span{
     display: inline-block;
-    width: 80px;height: 32px;
+    width: 120px;height: 32px;
     line-height: 32px;
     color: #000000;
     font-size: 20px;
@@ -1575,6 +1621,10 @@ ul,ol,li{
     margin: 10px auto;
 }
 
+.end-show{
+    width: 100%; height: 40px;
+    background:  url("../image/tmall/end/end.png") no-repeat center ;
+}
 
 /*结尾部分*/
 #end{

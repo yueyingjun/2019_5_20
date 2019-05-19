@@ -6,25 +6,34 @@
     <link rel="stylesheet" href="CSS/TMALL.css">
 
     <script>
-        window.onload = function (ev) {
-            var lbt = document.querySelectorAll(".lb");
-            var n = document.querySelectorAll(".btn");
+        // window.onload = function (ev) {
+
+        // }
+
+        window.onload = function () {
+            var con1 = document.querySelectorAll("#content4 .T-mart .con2 .c1 .tab-detail");
+            var title1 = document.querySelectorAll("#content4 .T-mart .con2 .c1 .grid .tab li");
+            var con2 = document.querySelectorAll("#content1 .cate-lbt .cate ");
+            var title2 = document.querySelectorAll("#content1 .main .main-left .type");
             var num=0;
             setInterval(function () {
                 num++;
-
-                if(num==6){
+                if(num===2){
                     num=0;
                 }
-                for (var i = 0; i < lbt.length; i++) {
-                    console.log(lbt[i]);
-                    lbt[i].style.display="none";
-                    n[i].style.background="black";
+                for (var i = 0; i < con1.length; i++) {
+                    // console.log(con[i]);
+                    con1[i].style.display="none";
+                    title1[i].style.background="#ebebeb";
+                    con2[i].style.display="none";
+                    title2[i].style.background="rgba(0,0,0,0.8)";
                 }
                 // console.log(num);
-                lbt[num].style.display="block";
-                n[num].style.background="white";
-            },3000)
+                con1[num].style.display="block";
+                title1[num].style.background="#00b262";
+                con2[num].style.display="block";
+                title2[num].style.background="#c60a0a";
+            },1000)
         }
     </script>
 
@@ -74,7 +83,7 @@
             <img class="img" src="./image/tmall/logo.png" alt="">
             <div class="mallSearch">
                 <p>
-                    <input class="search" type="text">
+                    <input class="search" type="text" placeholder="搜索 天猫 商品/品牌/店铺">
                     <input class="button" type="submit" value="搜 索">
                 </p>
                 <p>
@@ -98,8 +107,8 @@
     <div id="content1">
         <div class="main">
             <ul class="main-left">
-                <li class="type1">商品分类</li>
-                <li class="type2">天猫520活动</li>
+                <li class="type1 type">商品分类</li>
+                <li class="type2 type">天猫520活动</li>
             </ul>
 
             <ul class="main-right">
@@ -120,7 +129,7 @@
             </ul>
         </div>
         <div class="cate-lbt">
-            <ul class="cate1">
+            <ul class="cate1 cate">
                 <a href="javascript:;">
                     <li>
                         <span class="img">👗</span>
@@ -183,6 +192,99 @@
                 </a>
             </ul>
 
+            <ul class="cate2 cate">
+                <a href="javascript:;">
+                    <li>
+                        <span class="img">👗</span>
+                        <span class="con">女装 /内衣</span>
+                    </li>
+                </a>
+                <a href="javascript:;">
+                    <li>
+                        <span class="img">🏃</span>
+                        <span class="con">男装 /运动户外</span>
+                    </li>
+                </a>
+                <a href="javascript:;">
+                    <li>
+                        <span class="img">👜</span>
+                        <span class="con">女鞋 /男鞋/箱包</span>
+                    </li>
+                </a>
+                <a href="javascript:;">
+                    <li>
+                        <span class="img">💄</span>
+                        <span class="con">美妆 /个人护理</span>
+                    </li>
+                </a>
+                <a href="javascript:;">
+                    <li>
+                        <span class="img">👓</span>
+                        <span class="con">腕表 /眼镜 /珠宝饰品</span>
+                    </li>
+                </a>
+                <a href="javascript:;">
+                    <li>
+                        <span class="img">💻</span>
+                        <span class="con">手机 /数码 /电脑办公</span>
+                    </li>
+                </a>
+                <a href="javascript:;">
+                    <li>
+                        <span class="img">💇</span>
+                        <span class="con"> 母婴玩具</span>
+                    </li>
+                </a>
+                <a href="javascript:;">
+                    <li>
+                        <span class="img">🌮</span>
+                        <span class="con"> 零食 /茶酒 /进口食品</span>
+                    </li>
+                </a>
+                <a href="javascript:;">
+                    <li>
+                        <span class="img">🍇</span>
+                        <span class="con"> 生鲜水果</span>
+                    </li>
+                </a>
+                <a href="javascript:;">
+                    <li>
+                        <span class="img">📠</span>
+                        <span class="con"> 大家电 /生活电器</span>
+                    </li>
+                </a>
+                <a href="javascript:;">
+                    <li>
+                        <span class="img">🏠</span>
+                        <span class="con">家具建材</span>
+                    </li>
+                </a>
+                <a href="javascript:;">
+                    <li>
+                        <span class="img">🚐</span>
+                        <span class="con">汽车 /配件 /用品</span>
+                    </li>
+                </a>
+                <a href="javascript:;">
+                    <li>
+                        <span class="img">💐</span>
+                        <span class="con"> 家纺 /家饰 /鲜花</span>
+                    </li>
+                </a>
+                <a href="javascript:;">
+                    <li>
+                        <span class="img">😺</span>
+                        <span class="con">厨具 /收纳 /宠物</span>
+                    </li>
+                </a>
+                <a href="javascript:;">
+                    <li>
+                        <span class="img">📕</span>
+                        <span class="con">图书音像</span>
+                    </li>
+                </a>
+            </ul>
+
             <div class="lbt1 lb"></div>
             <div class="lbt2 lb"></div>
             <div class="lbt3 lb"></div>
@@ -236,121 +338,217 @@
     <div id="content3">
         <ul class="brand">
             <li class="brand-item">
+                <div class="mask">
+                    <span>Uniqlo/优衣库</span>
+                    <span>点击进入</span>
+                </div>
                 <div class="brand-img">
                     <img src="image/tmall/brand/brand1.png" alt="">
                 </div>
             </li>
             <li class="brand-item">
+                <div class="mask">
+                    <span>优惠券 ￥200</span>
+                    <span>点击进入</span>
+                </div>
                 <div class="brand-img">
                     <img src="image/tmall/brand/brand2.png" alt="">
                 </div>
             </li>
             <li class="brand-item">
+                <div class="mask">
+                    <span>优惠券 ￥200</span>
+                    <span>点击进入</span>
+                </div>
                 <div class="brand-img">
                     <img src="image/tmall/brand/brand3.png" alt="">
                 </div>
             </li>
             <li class="brand-item">
+                <div class="mask">
+                    <span>优惠券 ￥200</span>
+                    <span>点击进入</span>
+                </div>
                 <div class="brand-img">
                     <img src="image/tmall/brand/brand4.png" alt="">
                 </div>
             </li>
             <li class="brand-item">
+                <div class="mask">
+                    <span>优惠券 ￥200</span>
+                    <span>点击进入</span>
+                </div>
                 <div class="brand-img">
                     <img src="image/tmall/brand/brand5.png" alt="">
                 </div>
             </li>
             <li class="brand-item">
+                <div class="mask">
+                    <span>优惠券 ￥200</span>
+                    <span>点击进入</span>
+                </div>
                 <div class="brand-img">
                     <img src="image/tmall/brand/brand6.png" alt="">
                 </div>
             </li>
             <li class="brand-item">
+                <div class="mask">
+                    <span>优惠券 ￥200</span>
+                    <span>点击进入</span>
+                </div>
                 <div class="brand-img">
                     <img src="image/tmall/brand/brand7.png" alt="">
                 </div>
             </li>
             <li class="brand-item">
+                <div class="mask">
+                    <span>优惠券 ￥200</span>
+                    <span>点击进入</span>
+                </div>
                 <div class="brand-img">
                     <img src="image/tmall/brand/brand8.png" alt="">
                 </div>
             </li>
             <li class="brand-item">
+                <div class="mask">
+                    <span>优惠券 ￥200</span>
+                    <span>点击进入</span>
+                </div>
                 <div class="brand-img">
                     <img src="image/tmall/brand/brand9.png" alt="">
                 </div>
             </li>
             <li class="brand-item">
+                <div class="mask">
+                    <span>优惠券 ￥200</span>
+                    <span>点击进入</span>
+                </div>
                 <div class="brand-img">
                     <img src="image/tmall/brand/brand10.png" alt="">
                 </div>
             </li>
             <li class="brand-item">
+                <div class="mask">
+                    <span>优惠券 ￥200</span>
+                    <span>点击进入</span>
+                </div>
                 <div class="brand-img">
                     <img src="image/tmall/brand/brand11.png" alt="">
                 </div>
             </li>
             <li class="brand-item">
+                <div class="mask">
+                    <span>优惠券 ￥200</span>
+                    <span>点击进入</span>
+                </div>
                 <div class="brand-img">
                     <img src="image/tmall/brand/brand12.png" alt="">
                 </div>
             </li>
             <li class="brand-item">
+                <div class="mask">
+                    <span>优惠券 ￥200</span>
+                    <span>点击进入</span>
+                </div>
                 <div class="brand-img">
                     <img src="image/tmall/brand/brand13.png" alt="">
                 </div>
             </li>
             <li class="brand-item">
+                <div class="mask">
+                    <span>优惠券 ￥200</span>
+                    <span>点击进入</span>
+                </div>
                 <div class="brand-img">
                     <img src="image/tmall/brand/brand14.png" alt="">
                 </div>
             </li>
             <li class="brand-item">
+                <div class="mask">
+                    <span>优惠券 ￥200</span>
+                    <span>点击进入</span>
+                </div>
                 <div class="brand-img">
                     <img src="image/tmall/brand/brand15.png" alt="">
                 </div>
             </li>
             <li class="brand-item">
+                <div class="mask">
+                    <span>优惠券 ￥200</span>
+                    <span>点击进入</span>
+                </div>
                 <div class="brand-img">
                     <img src="image/tmall/brand/brand16.png" alt="">
                 </div>
             </li>
             <li class="brand-item">
+                <div class="mask">
+                    <span>优惠券 ￥200</span>
+                    <span>点击进入</span>
+                </div>
                 <div class="brand-img">
                     <img src="image/tmall/brand/brand17.png" alt="">
                 </div>
             </li>
             <li class="brand-item">
+                <div class="mask">
+                    <span>优惠券 ￥200</span>
+                    <span>点击进入</span>
+                </div>
                 <div class="brand-img">
                     <img src="image/tmall/brand/brand18.png" alt="">
                 </div>
             </li>
             <li class="brand-item">
+                <div class="mask">
+                    <span>优惠券 ￥200</span>
+                    <span>点击进入</span>
+                </div>
                 <div class="brand-img">
                     <img src="image/tmall/brand/brand19.png" alt="">
                 </div>
             </li>
             <li class="brand-item">
+                <div class="mask">
+                    <span>优惠券 ￥200</span>
+                    <span>点击进入</span>
+                </div>
                 <div class="brand-img">
                     <img src="image/tmall/brand/brand20.png" alt="">
                 </div>
             </li>
             <li class="brand-item">
+                <div class="mask">
+                    <span>优惠券 ￥200</span>
+                    <span>点击进入</span>
+                </div>
                 <div class="brand-img">
                     <img src="image/tmall/brand/brand21.png" alt="">
                 </div>
             </li>
             <li class="brand-item">
+                <div class="mask">
+                    <span>优惠券 ￥200</span>
+                    <span>点击进入</span>
+                </div>
                 <div class="brand-img">
                     <img src="image/tmall/brand/brand22.png" alt="">
                 </div>
             </li>
             <li class="brand-item">
+                <div class="mask">
+                    <span>优惠券 ￥200</span>
+                    <span>点击进入</span>
+                </div>
                 <div class="brand-img">
                     <img src="image/tmall/brand/brand23.png" alt="">
                 </div>
             </li>
             <li class="brand-item">
+                <div class="mask">
+                    <span>优惠券 ￥200</span>
+                    <span>点击进入</span>
+                </div>
                 <div class="brand-img">
                     <img src="image/tmall/brand/brand24.png" alt="">
                 </div>
@@ -422,6 +620,19 @@
                             </div>
                             <img class="shop" src="./image/tmall/TMart/con2-1-1.jpg" alt="">
                         </div>
+                        <div class="tab-detail">
+                            <div class="detail-info">
+                                <div class="up">
+                                    <img class="small" src="./image/tmall/TMart/small.png" alt="">
+                                    <span>ABC卫生巾</span>
+                                </div>
+                                <div class="down">
+                                    <span>抢第二件0元</span>
+                                </div>
+                            </div>
+                            <img class="shop" src="./image/tmall/TMart/con2-1-2.jpg" alt="">
+                        </div>
+
                     </div>
                     <div class="c2">
                         <img src="./image/tmall/TMart/con2-2.jpg" alt="">
@@ -1402,57 +1613,61 @@
             </div>
 
             <div class="c1">
-                <img src="./image/tmall/Like/91.jpg" alt="">
-                <div class="title"></div>
+                <img src="./image/tmall/Like/1.jpg" alt="">
+                <div class="title">【限量套装每日10:08限量开抢】Huawei/华为P30 Pro曲面屏超感光徕卡四摄变焦双景录像980芯片智能手机p30pro</div>
                 <div class="price">￥5488.0</div>
             </div>
             <div class="c1">
-                <img src="./image/tmall/Like/92.jpg" alt="">
-                <div class="title"></div>
+                <img src="./image/tmall/Like/2.jpg" alt="">
+                <div class="title">AUX/奥克斯 KFR-35GW/BpR3NYA29+2大1.5匹冷暖空调挂机变频2级</div>
                 <div class="price">￥2699.0</div>
             </div>
             <div class="c1">
-                <img src="./image/tmall/Like/93.jpg" alt="">
-                <div class="title"></div>
+                <img src="./image/tmall/Like/3.jpg" alt="">
+                <div class="title">资生堂新红腰子精华傲娇新红妍精华露30ml*2 维稳修护 细腻弹润</div>
                 <div class="price">￥1180.0</div>
             </div>
             <div class="c1">
-                <img src="./image/tmall/Like/94.jpg" alt="">
-                <div class="title"></div>
+                <img src="./image/tmall/Like/4.jpg" alt="">
+                <div class="title">【5.25 0点开抢】OLAY淡斑小白瓶Prox亮洁晳颜祛斑面部精华液美白</div>
                 <div class="price">￥359.0</div>
             </div>
             <div class="c1">
-                <img src="./image/tmall/Like/95.jpg" alt="">
-                <div class="title"></div>
+                <img src="./image/tmall/Like/5.jpg" alt="">
+                <div class="title">科沃斯扫地机器人地宝DJ35智能家用超薄全自动洗擦地拖地扫一体机</div>
                 <div class="price">￥1899.0</div>
             </div>
             <div class="c1">
-                <img src="./image/tmall/Like/96.jpg" alt="">
-                <div class="title"></div>
+                <img src="./image/tmall/Like/6.jpg" alt="">
+                <div class="title">阿迪达斯官方 adidas YEEZY BOOST 350 V2三叶草男女经典鞋CP9366</div>
                 <div class="price">￥1899.0</div>
             </div>
             <div class="c1">
-                <img src="./image/tmall/Like/97.jpg" alt="">
-                <div class="title"></div>
+                <img src="./image/tmall/Like/7.jpg" alt="">
+                <div class="title">Xiaomi/小米 小米电视4A 65英寸4k超清智能网络平板电视机6070</div>
                 <div class="price">￥2999.0</div>
             </div>
             <div class="c1">
-                <img src="./image/tmall/Like/98.jpg" alt="">
-                <div class="title"></div>
+                <img src="./image/tmall/Like/8.jpg" alt="">
+                <div class="title">全棉时代 婴儿棉柔巾纯棉新生儿干湿两用巾 棉柔巾非湿巾小包18包</div>
                 <div class="price">￥243.0</div>
             </div>
             <div class="c1">
-                <img src="./image/tmall/Like/99.jpg" alt="">
-                <div class="title"></div>
+                <img src="./image/tmall/Like/9.jpg" alt="">
+                <div class="title">亿健精灵ELF跑步机家用款电动走步超静音折叠小型室内健身房专用</div>
                 <div class="price">￥1699.0</div>
             </div>
             <div class="c1">
-                <img src="./image/tmall/Like/100.jpg" alt="">
-                <div class="title"></div>
+                <img src="./image/tmall/Like/10.jpg" alt="">
+                <div class="title">【520礼物】雅诗兰黛小棕瓶抗蓝光眼霜 特润修护精华眼霜</div>
                 <div class="price">￥510.0</div>
             </div>
         </div>
     </div>
+
+<div class="end-show">
+
+</div>
 
 <!--结尾部分-->
     <div id="end">
@@ -1580,4 +1795,38 @@
     </div>
 
 </body>
+<script>
+    {
+        var lbt = document.querySelectorAll(".lb");
+        var n = document.querySelectorAll(".btn");
+        var num=0;
+        function move() {
+            for(let i=0;i<lbt.length;i++){
+                lbt[i].style.display="none";
+                n[i].style.background="black";
+            }
+            lbt[num].style.display="block";
+            n[num].style.background="white";
+            num++;
+            if(num===lbt.length){
+                num=0;
+            }
+        }
+        setInterval(move,2000)
+    }
+    //
+    {
+        let li=document.querySelectorAll("#content3>ul>li");
+        let mask=document.querySelectorAll(".mask");
+        for(let i=0;i<li.length;i++){
+            li[i].onmouseenter=function (){
+                mask[i].style.display="block";
+            };
+            li[i].onmouseleave=function () {
+                mask[i].styl.e.display="none";
+            }
+        }
+
+    }
+</script>
 </html>
