@@ -1,0 +1,1699 @@
+body{
+    width: auto;height: auto;
+    margin: 0;padding: 0;
+    background: #f6f6f6;
+}
+
+ul,ol,li{
+    list-style: none;
+    margin: 0;padding: 0;
+}
+
+/*顶部快速导航栏*/
+#site-nva{
+    width: auto;height: 40px;
+    background: #f9919d;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.30);
+}
+#site-nva .container{
+    width: 82%;height: 32px;
+    margin: auto;
+    position: relative;
+}
+#site-nva .container .login-info {
+    margin: 0px 2px;
+    width: 25%; height: 32px;
+    float: left;
+    line-height: 32px;
+    font-size: 12px;
+    display: inline-block;
+}
+#site-nva .container .login-info span{
+    float: left;
+    display: block;
+    color: #ffffff;
+    width: 88px; height: 32px;
+}
+#site-nva .container .login-info a{
+    float: left;
+    display: block;
+    color: #ffffff;
+    text-decoration-line: none;
+    margin-left: 18px;
+}
+#site-nva .container .login-info .login{
+    width: 40px; height: 32px;
+}
+#site-nva .container .login-info .register{
+    width: 52px; height: 32px;
+}
+#site-nva .container .quick-menu{
+    width: 52%;height: 32px;
+    float: right;
+    margin-top: 3px;
+}
+#site-nva .container .quick-menu .menu-item{
+    width:auto;height: 32px;
+    line-height: 32px;
+    float: right;
+    display: inline-block;
+    margin-left: 20px;
+}
+#site-nva .container .quick-menu .menu-item a{
+    color: #ffffff;
+    font-size: 12px;
+    text-decoration-line: none;
+}
+
+/*头部导航栏*/
+#header{
+    min-width: 82%; height: 130px;
+    background: #fff;
+    margin: 0;
+}
+#header{
+    width: 100%; height: 130px;
+    background: #fff;
+    margin: auto;
+    position: relative;
+}
+#header .img{
+    width: 240px;height: 130px;
+    vertical-align: middle;
+    position: absolute;
+    float: left;
+    margin-left: 120px;
+}
+#header .mallSearch{
+    width: 52%;height: 106px;
+    margin: 1px 0px 12px 500px
+}
+
+#header .mallSearch .search{
+    display: inline-block;
+    float: left;
+    width: 530px;height: 38px;
+    border: 2px solid #ff0036;
+    box-sizing: initial;
+    margin-top: 18px;
+}
+#header .mallSearch p{
+    display: block;
+    width: 100%;height: 65px;
+    margin: 0px 0px 3px;
+    padding-top: 10px;
+    font-size: 14px;
+    color: #999999;
+}
+#header .mallSearch p a{
+    text-decoration-line: none;
+    color: #ff0036;
+}
+#header .mallSearch .button{
+    display: inline-block;
+    float: left;
+    width: 113px;height: 44px;
+    border-style: none;
+    background: #ff0036;
+    margin-top: 18px;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+
+.detail-tmall{
+    width: 100%; height:930px;
+    background: url("../image/tmall/background.jpg") no-repeat 100% 100% ;
+}
+/*商品分类*/
+#content1{
+    width: 82%;height: 536px;
+    background: #ffffff;
+    margin: auto;
+}
+#content1 .main {
+    width: 100%;height: 36px;
+    margin: auto;
+}
+#content1 .main .main-left{
+    float: left;
+    width: 200px;height: 36px;
+}
+#content1 .main .main-left li{
+    width: 100px;height: 36px;
+    text-align: center;
+    line-height: 36px;
+    float: left;
+    font-size: 14px;
+    color: #f0f0f0;
+    cursor: pointer;
+}
+#content1 .main .main-left .type1{
+    background: #c60a0a;
+}
+#content1 .main .main-left .type2{
+    background: url("../image/tmall/Lb/tmbj.png") repeat;
+}
+#content1 .main .main-right{
+    float: right;
+    width: 83%;height: 36px;
+    border-bottom: 1.5px solid #ff0036;
+    box-sizing: border-box;
+}
+#content1 .main .main-right .category{
+    width: auto;height: 36px;
+    text-align: center;
+    line-height: 36px;
+    float: left;
+}
+#content1 .main .main-right .img-container{
+    float: left;
+    width: 100px;height: 30px;
+}
+#content1 .main .main-right .img-container img{
+    float: left;
+    width: 100px;height: 30px;
+    margin-top: 3px;
+    vertical-align: middle;
+}
+#content1 .main .main-right li{
+    float: left;
+    margin-left: 15px;
+}
+#content1 .main .main-right a{
+    text-decoration-line: none;
+    font-size: 14px;
+    color: #333333;
+}
+#content1 .main .main-right a:hover{
+    color: #ff0000;
+}
+#content1 .cate-lbt{
+    width: 100%;height: 500px;
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+}
+
+#content1 .cate-lbt .lbt1{
+    width: 100%;height: 500px;
+    background: url("../image/tmall/Lb/lbt1.jpg") no-repeat right;
+    display: block;
+    position: absolute;
+    z-index: 1;
+}
+#content1 .cate-lbt .lbt2{
+    width: 100%;height: 500px;
+    background: url("../image/tmall/Lb/lbt2.jpg") no-repeat right ;
+    position: absolute;
+    z-index: 1;
+}
+#content1 .cate-lbt .lbt3{
+    width: 100%;height: 500px;
+    background: url("../image/tmall/Lb/lbt3.jpg") no-repeat right ;
+    position: absolute;
+    z-index: 1;
+}
+#content1 .cate-lbt .lbt4{
+    width: 100%;height: 500px;
+    background: url("../image/tmall/Lb/lbt4.jpg") no-repeat right ;
+    position: absolute;
+    z-index: 1;
+}
+#content1 .cate-lbt .lbt5{
+    width: 100%;height: 500px;
+    background: url("../image/tmall/Lb/lbt5.jpg") no-repeat right ;
+    position: absolute;
+    z-index: 1;
+}
+#content1 .cate-lbt .lbt6{
+    width: 100%;height: 500px;
+    background: url("../image/tmall/Lb/lbt6.jpg") no-repeat right ;
+    position: absolute;
+    z-index: 1;
+}
+
+#content1 .cate-lbt .n{
+    width:300px;
+    height: 10px;
+    position: absolute;
+    left:550px ;
+    bottom:20px;
+    z-index: 3;
+}
+#content1 .cate-lbt .n .btn{
+    float: left;
+    background: rgba(0,0,0,0.5);
+    width:35px;
+    height: 5px;
+    margin-right: 15px;
+}
+
+#content1 .cate-lbt .cate1{
+    float: left;
+    width: 200px;height: 500px;
+    background: rgba(0,0,0,0.8);
+    position: absolute;
+    z-index: 4;
+}
+#content1 .cate-lbt .cate1 li{
+    width: 152px;height: 31px;
+    color: #ffffff;
+    font-size: 14px;
+    position: relative;
+    margin-left: 24px;
+    margin-top: 16px;
+    border: 1px solid #cb0310;
+    box-sizing: border-box;
+    border-radius: 12px;
+}
+#content1 .cate-lbt .cate1 li .img{
+    display: inline-block;
+    width: 16px;height: 31px;
+    font-size: 16px;
+    line-height: 31px;
+    float: left;
+    margin-left: 30px;
+}
+#content1 .cate-lbt .cate1 li .con{
+    display: inline-block;
+    width: 56px;height: 31px;
+    font-size: 14px;
+    line-height: 31px;
+    color: #ffffff;
+    float: left;
+    margin-left: 15px;
+}
+
+/*第二部分内容*/
+#content2{
+    width: 82%;height: 371px;
+    margin: 20px auto;
+}
+#content2 .left{
+    width: 234px;height: 371px;
+    float: left;
+}
+#content2 .left .left-top{
+    width: 234px;height: 55px;
+    background: #ffffff;
+    box-sizing: initial;
+}
+#content2 .left .left-top .c1{
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 700;
+    color: #333;
+    height: 44px;
+    line-height: 44px;
+    margin:5px 10px;
+    float: left;
+}
+#content2 .left .left-top .c2{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    color: #333;
+    margin: 5px 0px;
+    height: 44px;
+    float: left;
+    line-height: 44px;
+}
+#content2 .left .left-top a{
+    width: 24px;height: 24px;
+    display: inline-block;
+    float: right;
+    margin-top: 15px;
+    background: url("../image/tmall/more.png") no-repeat 0 / 18px 18px;
+}
+#content2 .left a img{
+    width: 234px;height: 316px;
+    vertical-align: middle;
+}
+#content2 .center{
+    width: 485px;height: 371px;
+    float: left;
+    margin-left: 20px;
+}
+#content2 .center .center-top,#content2 .right .right-top{
+    width: 485px;height: 55px;
+    background: #ffffff;
+    box-sizing: initial;
+}
+
+#content2 .center .center-top .c1,#content2 .right .right-top .c1{
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 700;
+    color: #333;
+    height: 44px;
+    line-height: 44px;
+    margin:5px 10px;
+    float: left;
+}
+#content2 .center .center-top .c2,#content2 .right .right-top .c2{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    color: #333;
+    margin: 5px 0px;
+    height: 44px;
+    float: left;
+    line-height: 44px;
+}
+
+#content2 .center .center-top .more,#content2 .right .right-top .more{
+    width:60px;height: 24px;
+    display: inline-block;
+    float: right;
+    margin-top: 15px;
+    font-size: 16px;
+    color: #666666;
+    background: url("../image/tmall/more.png") no-repeat 0 / 18px 18px;
+    background-position: 38px 3px;
+    text-decoration-line: none;
+}
+#content2 .center a img,#content2 .right a img{
+    width: 486px;height: 317px;
+    vertical-align: middle;
+}
+
+#content2 .right{
+    width: 485px;height: 371px;
+    float: left;
+    margin-left: 20px;
+}
+
+#content3{
+    width: 82%; height: 327px;
+    margin:10px auto;
+    border: 1px solid pink;
+}
+#content3 .brand{
+    width: 100%; height: 327px;
+    margin: 0;padding: 0;
+}
+
+#content3 .brand .more{
+    width: 125px; height: 108px;
+    background: #ffffff;
+    float: right;
+}
+#content3 .brand .more span{
+    display: inline-block;
+    width: 50px; height: 30px;
+    margin-top: 39px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+#content3 .brand-item{
+    width: 123.5px; height: 108px;
+    margin-right: 1px; margin-bottom: 1px;
+    float: left;
+    cursor: pointer;
+}
+#content3 .brand-item .brand-img{
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    line-height: 108px;
+    background-color: #fff;
+}
+#content3 .brand-item .brand-img img{
+    width: 82%;height: 50px;
+    vertical-align: middle;
+}
+
+/*第四部分 按类别细分*/
+#content4{
+    width: 82%;height: 5085px;
+    margin: 20px auto;
+}
+#content4 img{
+    cursor: pointer;
+}
+#content4 .T-mart{
+    width: 100%;height: 665px;
+    margin: 0;padding: 0;
+}
+#content4 .T-mart .title{
+    width: 100%;height: 31px;
+    margin: 0;padding: 0;
+}
+#content4 .T-mart .title .t-left{
+    width: 214px;height: 25px;
+    margin-top: 3px;
+    float: left;
+}
+#content4 .T-mart .title .t-left img{
+    width: 214px;height: 25px;
+    vertical-align: middle;
+}
+#content4 .T-mart .title .t-right{
+    width: 800px;height: 31px;
+    float: right;
+}
+#content4 .T-mart .title .t-right a{
+    display: inline-block;
+    float: right;
+    width: 56px;height: 21px;
+    text-decoration-line: none;
+    font-size: 14px;
+    color: #000000;
+    margin: 5px 10px;
+}
+#content4 .T-mart .con{
+    width: 100%;height: 618px;
+    margin:12px auto;
+}
+#content4 .T-mart .con1{
+    width: 235px;height: 618px;
+    position: relative;
+    float: left;
+}
+#content4 .T-mart .con1 .img1{
+    width: 235px;height: 618px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+#content4 .T-mart .con1 .detail{
+    width: 218px;height: 64px;
+    position: absolute;
+    cursor: pointer;
+    bottom: 20%;
+}
+#content4 .T-mart .con1 .detail .left-title{
+    width: 70px;height: 64px;
+    overflow: hidden;
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    background: rgba(0,0,0,0.9);
+    bottom: 20%;
+}
+#content4 .T-mart .con1 .detail .left-title span{
+    display: inline-block;
+    width: 36px;height: 50px;
+    margin-top: 7px;
+    font-size: 18px;
+    line-height: 24px;
+    vertical-align: middle;
+}
+#content4 .T-mart .con1 .img2{
+    width: 32px;height: 32px;
+    vertical-align: middle;
+    position: absolute;
+    bottom: 15px;right: 15px;
+    cursor: pointer;
+}
+
+#content4 .T-mart .con1 .detail .right-title{
+    width: 128px;height: 64px;
+    overflow: hidden;
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    background: rgba(0,0,0,0.6);
+    bottom: 20%;
+}
+#content4 .T-mart .con1 .detail .right-title span{
+    display: block;
+    font-size: 18px;
+    width: 100px;height: 21px;
+    margin: 2px 15px;
+    line-height: 39px;
+    text-align: left;
+}
+
+#content4 .T-mart .con2{
+    width: 1000px;height: 618px;
+    float: right;
+    padding-left: 10px;
+}
+#content4 .T-mart .con2 .c1{
+    width: 484px;height: 302px;
+    float: left;
+    background: #ffffff;
+    position: relative;
+}
+#content4 .T-mart .con2 .c1 .grid{
+     width: 462px;height: 282px;
+     box-shadow: 0 2px 8px 0 rgba(0,0,0,.09);
+     margin: 10px;
+    position: absolute;
+ }
+#content4 .T-mart .con2 .c1 .grid .tab{
+    overflow: hidden;
+    background: #f1f1f1;
+}
+#content4 .T-mart .con2 .c1 .grid .tab li{
+    float: left;
+    color: #000;
+    width: 191px;height: 57px;
+    cursor: pointer;
+    line-height: 50px;
+    padding: 0 20px;
+    text-align: center;
+}
+#content4 .T-mart .con2 .c1 .grid .tab .tab1{
+    color: #ffffff;
+    background: #00b262;
+}
+#content4 .T-mart .con2 .c1 .grid .tab li span{
+    font-size: 18px;
+    margin-top: 16px;
+    line-height: 20px;
+}
+#content4 .T-mart .con2 .c1 .tab-detail{
+    width: 462px;height: 225px;
+    position: absolute;
+    top: 67px;right: 12px;
+}
+#content4 .T-mart .con2 .c1 .tab-detail .detail-info{
+    width: 291px;height: 87px;
+    float: left;
+    margin-left: 14px;
+    background: url("../image/tmall/TMart/kuang.png") no-repeat 0 center;
+    margin-top: 100px;
+    position: absolute;
+    z-index: 2;
+ }
+#content4 .T-mart .con2 .c1 .tab-detail .detail-info .up{
+    width: 265px;height: 36px;
+    float: left;
+    margin: 8px 26px;
+}
+#content4 .T-mart .con2 .c1 .tab-detail .detail-info .up .small{
+    width: 23px;height: 23px;
+    vertical-align: middle;
+    margin-top: 6px;
+    float: left;
+}
+#content4 .T-mart .con2 .c1 .tab-detail .detail-info .up span{
+    display: inline-block;
+    width: 100px;height: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    color: #00b262;
+    font-size: 22px;
+    margin-left: 8px;
+}
+#content4 .T-mart .con2 .c1 .tab-detail .detail-info .down span{
+    display: inline-block;
+    width: 80px;height: 32px;
+    line-height: 32px;
+    color: #000000;
+    font-size: 20px;
+    margin: -8px 26px;
+}
+#content4 .T-mart .con2 .c1 .tab-detail .shop{
+    width: 200px;height: 200px;
+    margin: 10px 230px;
+    vertical-align: middle;
+    position: absolute;
+    z-index: 1;
+}
+
+#content4 .T-mart .con2 .c2{
+    width: 236px;height: 302px;
+    float: left;
+    background: #ffffff;
+}
+#content4 .T-mart .con2 .c2 img{
+    width: 185px;height: 185px;
+    margin: 20px 28px 0px;
+    vertical-align: middle;
+}
+#content4 .T-mart .con2 .c2 .title{
+    width: 135px;height: 40px;
+    line-height: 20px;
+    font-size: 14px;
+    color: #333333;
+    overflow: hidden;
+    margin: 13px auto;
+    border: none;
+}
+#content4 .T-mart .con2 .c2 .price{
+    line-height: 18px;
+    text-align: center;
+    font-size: 18px;
+    color: #ff0036;
+    overflow: hidden;
+    margin: 10px auto;
+}
+#content4 .T-mart .con2 div{
+    margin-left: 14px;
+    margin-bottom: 13px;
+}
+
+/*天猫国际部分*/
+#content4 .HK{
+    width: 100%;height: 665px;
+    margin-top: 20px;
+}
+#content4 .HK .title{
+    width: 100%;height: 31px;
+    margin: 0;padding: 0;
+}
+#content4 .HK .title .t-left{
+    width: 214px;height: 25px;
+    margin-top: 3px;
+    float: left;
+}
+#content4 .HK .title .t-left img{
+    width: 214px;height: 25px;
+    vertical-align: middle;
+}
+#content4 .HK .title .t-right{
+    width: 800px;height: 31px;
+    float: right;
+}
+#content4 .HK .title .t-right a{
+    display: inline-block;
+    float: right;
+    width: 40px;height: 21px;
+    text-decoration-line: none;
+    font-size: 14px;
+    color: #000000;
+    margin: 5px 10px;
+}
+#content4 .HK .con{
+    width: 100%;height: 618px;
+    margin:12px auto;
+}
+#content4 .HK .con1{
+    width: 235px;height: 618px;
+    float: left;
+}
+#content4 .HK .con1 .on{
+    width: 235px;height: 301px;
+    position: relative;
+}
+#content4 .HK .con1 .down{
+    width: 235px;height: 301px;
+    margin-top: 16px;
+    position: relative;
+}
+#content4 .HK .con1 .on .img1,#content4 .HK .con1 .down .img1{
+    width: 235px;height: 301px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+#content4 .HK .con1 .on .detail,#content4 .HK .con1 .down .detail{
+    width: 218px;height: 64px;
+    position: absolute;
+    cursor: pointer;
+    bottom: 20%;
+}
+#content4 .HK .con1 .on .detail .left-title,#content4 .HK .con1 .down .detail .left-title{
+    width: 70px;height: 64px;
+    overflow: hidden;
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    background: rgba(0,0,0,0.9);
+    bottom: 20%;
+}
+#content4 .HK .con1 .on .detail .left-title span,#content4 .HK .con1 .down .detail .left-title span{
+    display: inline-block;
+    width: 36px;height: 50px;
+    margin-top: 7px;
+    font-size: 18px;
+    line-height: 24px;
+    vertical-align: middle;
+}
+#content4 .HK .con1 .on .img2,#content4 .HK .con1 .down .img2{
+    width: 32px;height: 32px;
+    vertical-align: middle;
+    position: absolute;
+    bottom: 15px;right: 15px;
+    cursor: pointer;
+}
+#content4 .HK .con1 .on .detail .right-title,#content4 .HK .con1 .down .detail .right-title{
+    width: 128px;height: 64px;
+    overflow: hidden;
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    background: rgba(0,0,0,0.6);
+    bottom: 20%;
+}
+#content4 .HK .con1 .on .detail .right-title span,#content4 .HK .con1 .down .detail .right-title span{
+    display: block;
+    font-size: 18px;
+    width: 100px;height: 21px;
+    margin: 2px 15px;
+    line-height: 39px;
+    text-align: left;
+}
+
+#content4 .HK .con2{
+    width: 1000px;height: 618px;
+    float: right;
+}
+#content4 .HK .con2 .c1{
+    width: 236px;height: 302px;
+    float: left;
+    background: #ffffff;
+    position: relative;
+}
+#content4 .HK .con2 .c1 .title{
+    width: 220px;height: 24px;
+    line-height: 24px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #000000;
+    overflow: hidden;
+    position: absolute;
+    top: 20px;left: 25px;
+    border: none;
+}
+#content4 .HK .con2 .c1 .title1{
+    width: 220px;height: 20px;
+    line-height: 24px;
+    font-size: 14px;
+    color: #7a45e5;
+    overflow: hidden;
+    position: absolute;
+    top: 49px;left: 25px;
+    border: none;
+}
+#content4 .HK .con2 .c1 img{
+    width: 170px;height: 170px;
+    margin: 90px 33px 42px 32px;
+    vertical-align: middle;
+}
+
+#content4 .HK .con2 .c2{
+    width: 236px;height: 302px;
+    float: left;
+    background: #ffffff;
+}
+#content4 .HK .con2 .c2 img{
+    width: 185px;height: 185px;
+    margin: 20px 28px 0px;
+    vertical-align: middle;
+}
+#content4 .HK .con2 .c2 .title{
+    width: 135px;height: 40px;
+    line-height: 20px;
+    font-size: 14px;
+    color: #333333;
+    overflow: hidden;
+    margin: 13px auto;
+    border: none;
+}
+#content4 .HK .con2 .c2 .price{
+    line-height: 18px;
+    text-align: center;
+    font-size: 18px;
+    color: #ff0036;
+    overflow: hidden;
+    margin: 10px auto;
+}
+#content4 .HK .con2 div {
+    margin-left: 14px;
+    margin-bottom: 13px;
+}
+
+/*美丽人生部分*/
+#content4 .beauty{
+    width: 100%;height: 665px;
+    margin-top: 20px;padding: 0;
+}
+
+#content4 .beauty .title{
+    width: 100%;height: 31px;
+    margin-top: 3px;padding: 0;
+}
+#content4 .beauty .title .color-mark{
+    display: inline-block;
+    width: 5px;height: 18px;
+    background: #333333;
+    vertical-align: middle;
+}
+#content4 .beauty .title .name{
+    display: inline-block;
+    width: 300px;height: 28px;
+    color: #000000;
+    vertical-align: middle;
+    margin-top: 1.5px;
+}
+#content4 .beauty .title .name .name1{
+    display: inline-block;
+    color: #000000;
+    font-size: 18px;
+    vertical-align: middle;
+}
+#content4 .beauty .title .name .name2{
+    display: inline-block;
+    color: #000000;
+    font-size: 14px;
+    vertical-align: middle;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+#content4 .beauty .con{
+    width: 100%;height: 618px;
+    margin:11px auto;
+}
+#content4 .beauty .con1{
+    width: 235px;height: 618px;
+    position: relative;
+    float: left;
+}
+#content4 .beauty .con1 .img1{
+    width: 235px;height: 618px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+#content4 .beauty .con1 .detail{
+    width: 218px;height: 64px;
+    position: absolute;
+    cursor: pointer;
+    bottom: 20%;
+}
+#content4 .beauty .con1 .detail .left-title{
+    width: 70px;height: 64px;
+    overflow: hidden;
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    background: rgba(0,0,0,0.9);
+    bottom: 20%;
+}
+#content4 .beauty .con1 .detail .left-title span{
+    display: inline-block;
+    width: 36px;height: 50px;
+    margin-top: 7px;
+    font-size: 18px;
+    line-height: 24px;
+    vertical-align: middle;
+}
+#content4 .beauty .con1 .img2{
+    width: 32px;height: 32px;
+    vertical-align: middle;
+    position: absolute;
+    bottom: 15px;right: 15px;
+    cursor: pointer;
+}
+
+#content4 .beauty .con1 .detail .right-title{
+    width: 128px;height: 64px;
+    overflow: hidden;
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    background: rgba(0,0,0,0.6);
+    bottom: 20%;
+}
+#content4 .beauty .con1 .detail .right-title span{
+    display: block;
+    font-size: 18px;
+    width: 100px;height: 21px;
+    margin: 2px 15px;
+    line-height: 39px;
+    text-align: left;
+}
+#content4 .beauty .con2{
+    width: 1000px;height: 618px;
+    float: right;
+    padding-left: 8px;
+}
+
+#content4 .beauty .con2 .c1{
+    width: 236px;height: 302px;
+    float: left;
+    background: #ffffff;
+}
+#content4 .beauty .con2 .c1 img{
+    width: 185px;height: 185px;
+    margin: 20px 28px 0px;
+    vertical-align: middle;
+}
+#content4 .beauty .con2 .c1 .title{
+    width: 135px;height: 40px;
+    line-height: 20px;
+    font-size: 14px;
+    color: #333333;
+    overflow: hidden;
+    margin: 13px auto;
+    border: none;
+}
+#content4 .beauty .con2 .c1 .price{
+    line-height: 18px;
+    text-align: center;
+    font-size: 18px;
+    color: #ff0036;
+    overflow: hidden;
+    margin: 10px auto;
+}
+#content4 .beauty .con2 div{
+    margin-left: 14px;
+    margin-bottom: 13px;
+}
+
+
+/*潮电酷玩部分*/
+#content4 .electrical{
+    width: 100%;height: 665px;
+    margin-top: 20px;padding: 0;
+}
+
+#content4 .electrical .title{
+    width: 100%;height: 31px;
+    margin-top: 3px;padding: 0;
+}
+#content4 .electrical .title .color-mark{
+    display: inline-block;
+    width: 5px;height: 18px;
+    background: #333333;
+    vertical-align: middle;
+}
+#content4 .electrical .title .name{
+    display: inline-block;
+    width: 300px;height: 28px;
+    color: #000000;
+    vertical-align: middle;
+    margin-top: 1.5px;
+}
+#content4 .electrical .title .name .name1{
+    display: inline-block;
+    color: #000000;
+    font-size: 18px;
+    vertical-align: middle;
+}
+#content4 .electrical .title .name .name2{
+    display: inline-block;
+    color: #000000;
+    font-size: 14px;
+    vertical-align: middle;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+#content4 .electrical .con{
+    width: 100%;height: 618px;
+    margin:11px auto;
+}
+#content4 .electrical .con1{
+    width: 235px;height: 618px;
+    position: relative;
+    float: left;
+}
+#content4 .electrical .con1 .img1{
+    width: 235px;height: 618px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+#content4 .electrical .con1 .detail{
+    width: 218px;height: 64px;
+    position: absolute;
+    cursor: pointer;
+    bottom: 20%;
+}
+#content4 .electrical .con1 .detail .left-title{
+    width: 70px;height: 64px;
+    overflow: hidden;
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    background: rgba(0,0,0,0.9);
+    bottom: 20%;
+}
+#content4 .electrical .con1 .detail .left-title span{
+    display: inline-block;
+    width: 36px;height: 50px;
+    margin-top: 7px;
+    font-size: 18px;
+    line-height: 24px;
+    vertical-align: middle;
+}
+#content4 .electrical .con1 .img2{
+    width: 32px;height: 32px;
+    vertical-align: middle;
+    position: absolute;
+    bottom: 15px;right: 15px;
+    cursor: pointer;
+}
+
+#content4 .electrical .con1 .detail .right-title{
+    width: 128px;height: 64px;
+    overflow: hidden;
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    background: rgba(0,0,0,0.6);
+    bottom: 20%;
+}
+#content4 .electrical .con1 .detail .right-title span{
+    display: block;
+    font-size: 18px;
+    width: 100px;height: 21px;
+    margin: 2px 15px;
+    line-height: 39px;
+    text-align: left;
+}
+#content4 .electrical .con2{
+    width: 1000px;height: 618px;
+    float: right;
+    padding-left: 8px;
+}
+
+#content4 .electrical .con2 .c1{
+    width: 236px;height: 302px;
+    float: left;
+    background: #ffffff;
+}
+#content4 .electrical .con2 .c1 img{
+    width: 185px;height: 185px;
+    margin: 20px 28px 0px;
+    vertical-align: middle;
+}
+#content4 .electrical .con2 .c1 .title{
+    width: 135px;height: 40px;
+    line-height: 20px;
+    font-size: 14px;
+    color: #333333;
+    overflow: hidden;
+    margin: 13px auto;
+    border: none;
+}
+#content4 .electrical .con2 .c1 .price{
+    line-height: 18px;
+    text-align: center;
+    font-size: 18px;
+    color: #ff0036;
+    overflow: hidden;
+    margin: 10px auto;
+}
+#content4 .electrical .con2 div{
+    margin-left: 14px;
+    margin-bottom: 13px;
+}
+
+/*居家生活部分*/
+#content4 .health{
+    width: 100%;height: 665px;
+    margin-top: 20px;padding: 0;
+}
+
+#content4 .health .title{
+    width: 100%;height: 31px;
+    margin-top: 3px;padding: 0;
+}
+#content4 .health .title .color-mark{
+    display: inline-block;
+    width: 5px;height: 18px;
+    background: #333333;
+    vertical-align: middle;
+}
+#content4 .health .title .name{
+    display: inline-block;
+    width: 300px;height: 28px;
+    color: #000000;
+    vertical-align: middle;
+    margin-top: 1.5px;
+}
+#content4 .health .title .name .name1{
+    display: inline-block;
+    color: #000000;
+    font-size: 18px;
+    vertical-align: middle;
+}
+#content4 .health .title .name .name2{
+    display: inline-block;
+    color: #000000;
+    font-size: 14px;
+    vertical-align: middle;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+#content4 .health .con{
+    width: 100%;height: 618px;
+    margin:11px auto;
+}
+#content4 .health .con1{
+    width: 235px;height: 618px;
+    position: relative;
+    float: left;
+}
+#content4 .health .con1 .img1{
+    width: 235px;height: 618px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+#content4 .health .con1 .detail{
+    width: 218px;height: 64px;
+    position: absolute;
+    cursor: pointer;
+    bottom: 20%;
+}
+#content4 .health .con1 .detail .left-title{
+    width: 70px;height: 64px;
+    overflow: hidden;
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    background: rgba(0,0,0,0.9);
+    bottom: 20%;
+}
+#content4 .health .con1 .detail .left-title span{
+    display: inline-block;
+    width: 36px;height: 50px;
+    margin-top: 7px;
+    font-size: 18px;
+    line-height: 24px;
+    vertical-align: middle;
+}
+#content4 .health .con1 .img2{
+    width: 32px;height: 32px;
+    vertical-align: middle;
+    position: absolute;
+    bottom: 15px;right: 15px;
+    cursor: pointer;
+}
+
+#content4 .health .con1 .detail .right-title{
+    width: 128px;height: 64px;
+    overflow: hidden;
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    background: rgba(0,0,0,0.6);
+    bottom: 20%;
+}
+#content4 .health .con1 .detail .right-title span{
+    display: block;
+    font-size: 18px;
+    width: 100px;height: 21px;
+    margin: 2px 15px;
+    line-height: 39px;
+    text-align: left;
+}
+#content4 .health .con2{
+    width: 1000px;height: 618px;
+    float: right;
+    padding-left: 8px;
+}
+
+#content4 .health .con2 .c1{
+    width: 236px;height: 302px;
+    float: left;
+    background: #ffffff;
+}
+#content4 .health .con2 .c1 img{
+    width: 185px;height: 185px;
+    margin: 20px 28px 0px;
+    vertical-align: middle;
+}
+#content4 .health .con2 .c1 .title{
+    width: 135px;height: 40px;
+    line-height: 20px;
+    font-size: 14px;
+    color: #333333;
+    overflow: hidden;
+    margin: 13px auto;
+    border: none;
+}
+#content4 .health .con2 .c1 .price{
+    line-height: 18px;
+    text-align: center;
+    font-size: 18px;
+    color: #ff0036;
+    overflow: hidden;
+    margin: 10px auto;
+}
+#content4 .health .con2 div{
+    margin-left: 14px;
+    margin-bottom: 13px;
+}
+
+/*打造爱巢部分*/
+#content4 .home{
+    width: 100%;height: 665px;
+    margin-top: 20px;padding: 0;
+}
+
+#content4 .home .title{
+    width: 100%;height: 31px;
+    margin-top: 3px;padding: 0;
+}
+#content4 .home .title .color-mark{
+    display: inline-block;
+    width: 5px;height: 18px;
+    background: #333333;
+    vertical-align: middle;
+}
+#content4 .home .title .name{
+    display: inline-block;
+    width: 300px;height: 28px;
+    color: #000000;
+    vertical-align: middle;
+    margin-top: 1.5px;
+}
+#content4 .home .title .name .name1{
+    display: inline-block;
+    color: #000000;
+    font-size: 18px;
+    vertical-align: middle;
+}
+#content4 .home .title .name .name2{
+    display: inline-block;
+    color: #000000;
+    font-size: 14px;
+    vertical-align: middle;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+#content4 .home .con{
+    width: 100%;height: 618px;
+    margin:11px auto;
+}
+#content4 .home .con1{
+    width: 235px;height: 618px;
+    position: relative;
+    float: left;
+}
+#content4 .home .con1 .img1{
+    width: 235px;height: 618px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+#content4 .home .con1 .detail{
+    width: 218px;height: 64px;
+    position: absolute;
+    cursor: pointer;
+    bottom: 20%;
+}
+#content4 .home .con1 .detail .left-title{
+    width: 70px;height: 64px;
+    overflow: hidden;
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    background: rgba(0,0,0,0.9);
+    bottom: 20%;
+}
+#content4 .home .con1 .detail .left-title span{
+    display: inline-block;
+    width: 36px;height: 50px;
+    margin-top: 7px;
+    font-size: 18px;
+    line-height: 24px;
+    vertical-align: middle;
+}
+#content4 .home .con1 .img2{
+    width: 32px;height: 32px;
+    vertical-align: middle;
+    position: absolute;
+    bottom: 15px;right: 15px;
+    cursor: pointer;
+}
+
+#content4 .home .con1 .detail .right-title{
+    width: 128px;height: 64px;
+    overflow: hidden;
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    background: rgba(0,0,0,0.6);
+    bottom: 20%;
+}
+#content4 .home .con1 .detail .right-title span{
+    display: block;
+    font-size: 18px;
+    width: 100px;height: 21px;
+    margin: 2px 15px;
+    line-height: 39px;
+    text-align: left;
+}
+#content4 .home .con2{
+    width: 1000px;height: 618px;
+    float: right;
+    padding-left: 8px;
+}
+
+#content4 .home .con2 .c1{
+    width: 236px;height: 302px;
+    float: left;
+    background: #ffffff;
+}
+#content4 .home .con2 .c1 img{
+    width: 185px;height: 185px;
+    margin: 20px 28px 0px;
+    vertical-align: middle;
+}
+#content4 .home .con2 .c1 .title{
+    width: 135px;height: 40px;
+    line-height: 20px;
+    font-size: 14px;
+    color: #333333;
+    overflow: hidden;
+    margin: 13px auto;
+    border: none;
+}
+#content4 .home .con2 .c1 .price{
+    line-height: 18px;
+    text-align: center;
+    font-size: 18px;
+    color: #ff0036;
+    overflow: hidden;
+    margin: 10px auto;
+}
+#content4 .home .con2 div{
+    margin-left: 14px;
+    margin-bottom: 13px;
+}
+
+
+/*户外出行部分*/
+#content4 .outdoor{
+    width: 100%;height: 665px;
+    margin-top: 20px;padding: 0;
+}
+
+#content4 .outdoor .title{
+    width: 100%;height: 31px;
+    margin-top: 3px;padding: 0;
+}
+#content4 .outdoor .title .color-mark{
+    display: inline-block;
+    width: 5px;height: 18px;
+    background: #333333;
+    vertical-align: middle;
+}
+#content4 .outdoor .title .name{
+    display: inline-block;
+    width: 300px;height: 28px;
+    color: #000000;
+    vertical-align: middle;
+    margin-top: 1.5px;
+}
+#content4 .outdoor .title .name .name1{
+    display: inline-block;
+    color: #000000;
+    font-size: 18px;
+    vertical-align: middle;
+}
+#content4 .outdoor .title .name .name2{
+    display: inline-block;
+    color: #000000;
+    font-size: 14px;
+    vertical-align: middle;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+#content4 .outdoor .con{
+    width: 100%;height: 618px;
+    margin:11px auto;
+}
+#content4 .outdoor .con1{
+    width: 235px;height: 618px;
+    position: relative;
+    float: left;
+}
+#content4 .outdoor .con1 .img1{
+    width: 235px;height: 618px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+#content4 .outdoor .con1 .detail{
+    width: 218px;height: 64px;
+    position: absolute;
+    cursor: pointer;
+    bottom: 20%;
+}
+#content4 .outdoor .con1 .detail .left-title{
+    width: 70px;height: 64px;
+    overflow: hidden;
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    background: rgba(0,0,0,0.9);
+    bottom: 20%;
+}
+#content4 .outdoor .con1 .detail .left-title span{
+    display: inline-block;
+    width: 36px;height: 50px;
+    margin-top: 7px;
+    font-size: 18px;
+    line-height: 24px;
+    vertical-align: middle;
+}
+#content4 .outdoor .con1 .img2{
+    width: 32px;height: 32px;
+    vertical-align: middle;
+    position: absolute;
+    bottom: 15px;right: 15px;
+    cursor: pointer;
+}
+
+#content4 .outdoor .con1 .detail .right-title{
+    width: 128px;height: 64px;
+    overflow: hidden;
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    background: rgba(0,0,0,0.6);
+    bottom: 20%;
+}
+#content4 .outdoor .con1 .detail .right-title span{
+    display: block;
+    font-size: 18px;
+    width: 100px;height: 21px;
+    margin: 2px 15px;
+    line-height: 39px;
+    text-align: left;
+}
+#content4 .outdoor .con2{
+    width: 1000px;height: 618px;
+    float: right;
+    padding-left: 8px;
+}
+
+#content4 .outdoor .con2 .c1{
+    width: 236px;height: 302px;
+    float: left;
+    background: #ffffff;
+}
+#content4 .outdoor .con2 .c1 img{
+    width: 185px;height: 185px;
+    margin: 20px 28px 0px;
+    vertical-align: middle;
+}
+#content4 .outdoor .con2 .c1 .title{
+    width: 135px;height: 40px;
+    line-height: 20px;
+    font-size: 14px;
+    color: #333333;
+    overflow: hidden;
+    margin: 13px auto;
+    border: none;
+}
+#content4 .outdoor .con2 .c1 .price{
+    line-height: 18px;
+    text-align: center;
+    font-size: 18px;
+    color: #ff0036;
+    overflow: hidden;
+    margin: 10px auto;
+}
+#content4 .outdoor .con2 div{
+    margin-left: 14px;
+    margin-bottom: 13px;
+}
+
+#content4 .banner{
+    width: 100%; height: 90px;
+    overflow: hidden;
+    margin: 15px auto;
+}
+#content4 .banner img{
+    width: 1620px; height: 90px;
+    vertical-align: middle;
+    margin-left: -180px;
+    overflow: hidden;
+}
+
+
+/*第五部分*/
+#content5{
+    width: 82%;height: 6398px;
+    margin: 35px auto;
+}
+#content5 img{
+    cursor: pointer;
+}
+#content5 .title{
+    width: 100%;height: 43px;
+
+}
+#content5 .title .cont{
+    width: 20%;height: 43px;
+    line-height: 43px;
+    margin: auto;
+    font-size: 20px;
+    text-align: center;
+}
+#content5 .title .cont span{
+    color: #ff0036;
+}
+#content5 .con{
+    width: 102%;height: 5980px;
+    margin-top: 10px;
+}
+
+#content5 .con .c1{
+    width: 236px;height: 302px;
+    float: left;
+    background: #ffffff;
+    margin-right: 16px;
+    margin-bottom: 16px;
+}
+#content5 .con .c1 img{
+    width: 185px;height: 185px;
+    margin: 20px 28px 0px;
+    vertical-align: middle;
+}
+#content5 .con .c1 .title{
+    width: 135px;height: 40px;
+    line-height: 20px;
+    font-size: 14px;
+    color: #333333;
+    overflow: hidden;
+    margin: 13px auto;
+    border: none;
+}
+#content5 .con .c1 .price{
+    line-height: 18px;
+    text-align: center;
+    font-size: 18px;
+    color: #ff0036;
+    overflow: hidden;
+    margin: 10px auto;
+}
+
+
+/*结尾部分*/
+#end{
+    width: 100%; height: 590px ;
+    margin: 10px auto;
+    background: url("../image/tmall/end/background.png") no-repeat center bottom;
+    background-size: 1702px 450px;
+    background-color: #ffffff;
+}
+
+#end .tmall-ensure{
+    width: 78%;height: 100px;
+    background: url("../image/tmall/end/ensure.jpg") no-repeat;
+    margin: 25px auto;
+}
+#end .desc{
+    width: 78%;height: 220px;
+    background-color: #ffffff;
+    margin: 25px auto;
+    border-top: 1px solid #ededed;
+}
+#end .desc .logo{
+    width: 70px;height: 30px;
+    vertical-align: middle;
+    margin-top: 8px;
+    margin-left: 45px;
+}
+
+#end .desc ul{
+    width: 15%;height: 164px;
+    margin-left: 50px;
+    margin-top: 18px;
+    float: left;
+}
+#end .desc ul .title{
+    font-size: 16px;
+    color: #646464;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+}
+#end .desc ul li a{
+    font-size: 12px;
+    color: #8b8b8b;
+    line-height: 20px;
+    text-align: left;
+    text-decoration-line: none;
+}
+#end .desc .d5 img{
+    width: 105px;
+    height: 105px;
+    vertical-align: middle;
+}
+
+#end .footer{
+    width: 78%;height: 242px;
+    border-top: 2px solid #ff0036;
+    background: #000;
+    margin: -25px auto;
+}
+#end .footer .p{
+    color: #ffffff;
+    font-size: 12px;
+    margin: 10px auto;
+}
+#end .footer .p a{
+    color: #ffffff;
+    text-decoration-line: none;
+}
+
+#end .footer .f{
+    width: 100%;height: 150px;
+    margin:auto;
+}
+#end .footer .f div{
+    width: 100%; height: 20px;
+}
+
+#end .footer .f .two{
+    margin-top: 8px;
+}
+
+#end .footer .f span{
+    display: inline-block;
+    float: left;
+    font-size: 12px;
+    color: #a4a4a4;
+    margin-right: 50px;
+}
+
+#end .footer .f span a{
+    text-decoration-line: none;
+    color: #a4a4a4;
+}
+#end .footer .f .two img{
+    display: inline-block;
+    float: left;
+    width: 20px;height: 20px;
+    vertical-align: middle;
+}
+#end .footer .f .five span{
+    display: inline-block;
+    float: left;
+    font-size: 12px;
+    color: #686868;
+}
+#end .footer .f .six{
+    margin-top: 10px;
+}
+#end .footer .f .six img{
+    float: left;
+    width: 80px; height: 30px;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
