@@ -1,0 +1,2476 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>天猫</title>
+    <link rel="stylesheet" href="css/tianmao.css">
+    <script>
+        window.onload = function () {
+            var pic = document.querySelectorAll(".tu");
+            var btn = document.querySelectorAll(".btn");
+            var num=0;
+            setInterval(function () {
+                num++;
+                if(num == 5){
+                    num = 0;
+                }
+                for(var i=0;i<pic.length;i++){
+                    pic[i].style.display="none";
+                    btn[i].style.background="#cccccc";
+                }
+                pic[num].style.display="block";
+                btn[num].style.background="#ffffff";
+            },3000)
+
+        }
+    </script>
+</head>
+    <header>
+        <div class="header-hezi">
+            <p>
+                <span>
+                    嗨，欢迎来到天猫
+                </span>
+                <a href="">请登录</a>
+                <a href="">免费注册</a>
+            </p>
+            <ul>
+                <li>
+                    <a href=""  class="bianyi">我的淘宝</a>
+                </li>
+                <li>
+                    <a href="" class="bianer">购物车0件</a>
+                </li>
+                <li>
+                    <a href="" class="bianyi">收藏夹</a>
+                </li>
+                <li>
+                    <a href="" class="bianer">手机版</a>
+                </li>
+                <li>
+                    <a href="" class="bianer">淘宝网</a>
+                </li>
+                <li>
+                    <a href="" class="bianyi">商家支持</a>
+                </li>
+                <li>
+                    <a href="" class="biansan">网站导航</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+<body>
+    <!--图标和搜索-->
+    <div class="logoseach">
+        <div class="logo">
+            <img src="./imgs/logo.png" alt="">
+        </div>
+        <div class="seach">
+            <div class="sousuo">
+                <div class="sousuo-wai">
+                    <input class="sousuo-shuru" placeholder="搜索 天猫 商品/品牌/店铺">
+                    <div class="button">搜 索</div>
+                </div>
+            </div>
+            <ul>
+                <li>
+                    <a href="" style="color: #999999">针织衫 &nbsp;|</a>
+                </li>
+                <li>
+                    <a href="" style="color: red">连衣裙 &nbsp;|</a>
+                </li>
+                <li>
+                    <a href="" style="color: #999999">四件套 &nbsp;|</a>
+                </li>
+                <li>
+                    <a href="" style="color: red">摄像头 &nbsp;|</a>
+                </li>
+                <li>
+                    <a href="" style="color: #999999">客厅灯 &nbsp;|</a>
+                </li>
+                <li>
+                    <a href="" style="color: red">口红 &nbsp;|</a>
+                </li>
+                <li>
+                    <a href="" style="color: #999999">手机 &nbsp;|</a>
+                </li>
+                <li>
+                    <a href="" style="color: #999999">运动鞋 &nbsp;|</a>
+                </li>
+                <li>
+                    <a href="" style="color: red">牛奶 &nbsp;</a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+<!--标题栏-->
+    <div class="biaoti">
+        <div class="biaoti-neirong">
+            <div class="biaoti-left">
+                <a href="javascript:;"><div class="shangpinfenlei">商品分类</div></a>
+                <a href="javascript:;"><div class="tianmaohuodong">天猫520活动</div></a>
+            </div>
+            <div class="biaoti-zhong">
+                <a href=""><img src="./imgs/lvsechaoshi.png" alt=""></a>
+                <a href=""><img src="./imgs/zisechaoshi.png" alt=""></a>
+            </div>
+            <ul>
+                <li><a href="">天猫会员</a></li>
+                <li><a href="">电器城</a></li>
+                <li><a href="">喵鲜生</a></li>
+                <li><a href="">医药馆</a></li>
+                <li><a href="">营业厅</a></li>
+                <li><a href="">魅力惠</a></li>
+                <li><a href="">飞猪旅行</a></li>
+                <li><a href="">苏宁易购</a></li>
+            </ul>
+        </div>
+    </div>
+<!--右导航-->
+    <div class="youdaohang">
+        <div class="youdaohang-top">
+            <img src="./imgs/youdaohang/520liyuji.png" alt="" style="margin-top: 50px">
+            <img src="./imgs/youdaohang/tubiao.png" alt="" class="jiantou">
+            <p>主会场</p>
+        </div>
+        <img src="./imgs/youdaohang/diandian.png" alt="" class="diandian">
+        <div class="youdaohang-down">
+            <img src="./imgs/youdaohang/smalllogo.png" alt="">
+            <div class="youdaohang-down-gouwuche">
+                <p class="gou">购</p>
+                <p>物</p>
+                <p>车</p>
+            </div>
+            <img src="./imgs/youdaohang/renminbi.png" alt="" style="margin-top: 20px">
+            <img src="./imgs/youdaohang/collect.png" alt="">
+            <img src="./imgs/youdaohang/clock.png" alt="">
+            <img src="./imgs/youdaohang/addmoney.png" alt="">
+            <img src="./imgs/youdaohang/rightwrite.png" alt="" style="margin-top: 30px">
+            <img src="./imgs/youdaohang/twocode.png" alt="">
+            <img src="./imgs/youdaohang/top.png" alt="">
+        </div>
+    </div>
+<!--轮播图-->
+    <div class="lunbo">
+        <div class="lunbo-top">
+            <div class="lunbo-top-left">
+                <li><a href="">女装/内衣</a></li>
+                <li><a href="">男装/运动户外</a></li>
+                <li><a href="">女鞋/男鞋/箱包</a></li>
+                <li><a href="">美妆/个人护理</a></li>
+                <li><a href="">腕表/眼镜/珠宝饰品</a></li>
+                <li><a href="">手机/数码/电脑办公</a></li>
+                <li><a href="">母婴玩具</a></li>
+                <li><a href="">零食/茶酒/进口食品</a></li>
+                <li><a href="">生鲜水果</a></li>
+                <li><a href="">大家电/生活电器</a></li>
+                <li><a href="">家具建材</a></li>
+                <li><a href="">汽车/配件/用品</a></li>
+                <li><a href="">家纺/家饰/鲜花</a></li>
+                <li><a href="">医药保健</a></li>
+                <li><a href="">厨具/收纳/宠物</a></li>
+                <li><a href="">图书音像</a></li>
+
+            </div>
+            <div class="lunbo-top-right">
+                <a href=""><div class="tu lunbo-top-right-tu1"></div></a>
+                <a href=""><div class="tu lunbo-top-right-tu2"></div></a>
+                <a href=""><div class="tu lunbo-top-right-tu3"></div></a>
+                <a href=""><div class="tu lunbo-top-right-tu4"></div></a>
+                <a href=""><div class="tu lunbo-top-right-tu5"></div></a>
+                <div class="lunbo-top-right-but">
+                    <div class="but1 btn"></div>
+                    <div class="but2 btn" ></div>
+                    <div class="but3 btn"></div>
+                    <div class="but4 btn" ></div>
+                    <div class="but5 btn"></div>
+                </div>
+            </div>
+        </div>
+        <div class="lunbo-middle">
+        </div>
+        <div class="bottom">
+
+        </div>
+    </div>
+<!--万券会场-->
+<!--    <div class="wanquanhuichang">
+
+        <li>
+            <div class="wanquanhuichang-left">
+                <p class="wanquanhuichang-left-zi1">万券会场</p>
+                <p class="wanquanhuichang-left-zi2">抢大额百元券</p>
+                <div class="wanquanhuichang-left-yifu"></div>
+
+            </div>
+            <div class="wanquanhuichang-right">
+                <div class="div1"><img src="./imgs/wanquanhuichang/tu3.png"></div>
+                <div class="div2"><img src="./imgs/wanquanhuichang/tu4.png"></div>
+            </div>
+        </li>
+
+
+
+    </div>-->
+<!--品牌闪购-->
+    <div class="pinpai">
+        <div class="pinpai-left">
+            <div class="pinpai-left-top">
+                <div class="pinpai-left-top-left">
+                    <p class="pinpai-left-top-left-dazi">品牌闪购</p>
+                    <p class="pinpai-left-top-left-xiaozi">BRAND SALE</p>
+                </div>
+                <a href=""><div class="pinpai-left-top-right"></div></a>
+            </div>
+            <a href=""><div class="pinpai-left-bottom"></div></a>
+        </div>
+        <div class="pinpai-right">
+            <li >
+                <div class="pinpai-right-top">
+                    <div class="pinpai-right-top-left">
+                        <p class="pinpai-right-top-left-dazi">聚名品</p>
+                        <p class="pinpai-right-top-left-xiaozi">LUXURY CHANNEL</p>
+                    </div>
+                    <a href="">更多</a>
+                    <a href=""><div class="pinpai-right-top-right">
+
+                    </div></a>
+                </div>
+                <a href=""><div class="pinpai-right-bottom"></div></a>
+            </li>
+            <li>
+                <div class="pinpai-right-top">
+                    <div class="pinpai-right-top-left">
+                        <p class="pinpai-right-top-left-dazi">品牌活动</p>
+                        <p class="pinpai-right-top-left-xiaozi">BRAND ACTIVITY</p>
+                    </div>
+                    <a href="">更多</a>
+                    <a href=""><div class="pinpai-right-top-right"></div></a>
+                </div>
+                    <a href=""><div class="pinpai-right-bottom2"></div></a>
+            </li>
+        </div>
+    </div>
+<!--背景灰色-->
+    <div class="backcolor">
+<!--品牌-->
+    <div class="pinpaihenduo">
+        <li><a href=""><img src="./imgs/pinpai/brand1.png" alt=""></a></li>
+        <li><a href=" "><img src="./imgs/pinpai/brand2.png" alt=""></a></li>
+        <li><a href=" "><img src="./imgs/pinpai/brand3.png" alt=""></a></li>
+        <li><a href=" "><img src="./imgs/pinpai/brand4.png" alt=""></a></li>
+        <li><a href=" "><img src="./imgs/pinpai/brand5.png" alt=""></a></li>
+        <li><a href=" "><img src="./imgs/pinpai/brand6.png" alt=""></a></li>
+        <li><a href=" "><img src="./imgs/pinpai/brand7.png" alt=""></a></li>
+        <li><a href=" "><img src="./imgs/pinpai/brand8.png" alt=""></a></li>
+        <li><a href=" "><img src="./imgs/pinpai/brand9.png" alt=""></a></li>
+        <li><a href=" "><img src="./imgs/pinpai/brand10.png" alt=""></a></li>
+        <li><a href=" "><img src="./imgs/pinpai/brand11.png" alt=""></a></li>
+        <li><a href=" "><img src="./imgs/pinpai/brand12.png" alt=""></a></li>
+        <li><a href=" "><img src="./imgs/pinpai/brand13.png" alt=""></a></li>
+        <li><a href=" "><img src="./imgs/pinpai/brand14.png" alt=""></a></li>
+        <li><a href=" "><img src="./imgs/pinpai/brand15.png" alt=""></a></li>
+        <li><a href=" "><img src="./imgs/pinpai/brand16.png" alt=""></a></li>
+        <li><a href=" "><img src="./imgs/pinpai/brand17.png" alt=""></a></li>
+        <li><a href=" "><img src="./imgs/pinpai/brand18.png" alt=""></a></li>
+        <li><a href=" "><img src="./imgs/pinpai/brand19.png" alt=""></a></li>
+        <li><a href=" "><img src="./imgs/pinpai/brand20.png" alt=""></a></li>
+        <li><a href=" "><img src="./imgs/pinpai/brand21.png" alt=""></a></li>
+        <li><a href=" "><img src="./imgs/pinpai/brand22.png" alt=""></a></li>
+        <li><a href=" "><img src="./imgs/pinpai/brand23.png" alt=""></a></li>
+        <li><a href=" "><img src="./imgs/pinpai/tu24.png" alt=""></a></li>
+        <li><a href=" "><img src="./imgs/pinpai/brand25.png" alt=""></a></li>
+        <li><a href=" "><img src="./imgs/pinpai/brand26.png" alt=""></a></li>
+        <li><a href=" "><img src="./imgs/pinpai/brand27.png" alt=""></a></li>
+        <li><a href=" "><img src="./imgs/pinpai/brand28.png" alt=""></a></li>
+        <li><a href=" "><img src="./imgs/pinpai/brand29.png" alt=""></a></li>
+        <li><a href=" "><img src="./imgs/pinpai/brand30.png" alt=""></a></li>
+
+
+    </div>
+<!--天猫超市-->
+    <div class="sup">
+        <li>
+            <div class="sup-top">
+                <div class="sup-top-left"></div>
+                <div class="sup-top-right">
+                    <a href="">进口食品</a>
+                    <a href="">食品饮料</a>
+                    <a href="">粮油副食</a>
+                    <a href="">美容洗护</a>
+                    <a href="">家居家电</a>
+                    <a href="">家庭清洁</a>
+                    <a href="">母婴用品</a>
+                    <a href="">生鲜水果</a>
+                </div>
+            </div>
+            <div class="sup-bottom">
+                <a href="">
+                    <div class="sup-bottom-left">
+                        <div class="sup-bottom-left-zi">
+                            <div class="sup-bottom-left-zi-left">
+                                <span class="sup-bottom-left-zi-left-zi">天猫超市</span>
+                            </div>
+                            <div class="sup-bottom-left-zi-right">
+                                <div class="sup-bottom-left-zi-right-shang">零食欢乐购</div>
+                                <div class="sup-bottom-left-zi-right-xia">爆款直降</div>
+                            </div>
+                        </div>
+                        <div class="sup-bottom-left-jiantou">
+                        </div>
+                    </div>
+                </a>
+                <div class="sup-bottom-middle">
+                    <a href="">
+                        <div class="sup-bottom-middle-top-dakuang">
+                            <div class="sup-bottom-middle-top">
+                                <div class="sup-bottom-middle-top-top">
+                                    <div class="sup-bottom-middle-top-top-left">
+                                        今日疯抢
+                                    </div>
+                                    <div class="sup-bottom-middle-top-top-right">
+                                        量版装
+                                    </div>
+                                </div>
+                                <div class="sup-bottom-middle-top-bottom">
+                                    <div class="sup-bottom-middle-top-bottom-left">
+                                        <div class="sup-bottom-middle-top-bottom-left-tu"></div>
+                                        <div class="sup-bottom-middle-top-bottom-left-right">ABC卫生巾</div>
+                                        <div class="sup-bottom-middle-top-bottom-left-bottomm">2减15</div>
+                                    </div>
+                                    <div class="sup-bottom-middle-top-bottom-right"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <ul>
+                    <a href="">
+                    <li>
+                    <img src="./imgs/chaoshi/6.jpg" alt="">
+                    <div class="shangpin">
+                        屈臣氏苏打汽水330ml*24 整箱原味
+                    </div>
+                    <div class="jiage">
+                        ￥ 88
+                    </div>
+                </li>
+                    </a>
+                    <a href="">
+                    <li>
+                        <img src="./imgs/chaoshi/8.gif" alt="">
+                        <div class="shangpin">
+                            枪手 电热蚊香片套装无导线无味 72片+1
+                        </div>
+                        <div class="jiage">
+                            ￥ 23.1
+                        </div>
+                    </li>
+                    </a>
+                    <a href="">
+                    <li>
+                        <img src="./imgs/chaoshi/9.gif" alt="">
+                        <div class="shangpin">
+                            原装进口尚牌避孕套大颗粒超薄润滑安全
+                        </div>
+                        <div class="jiage">
+                            ￥ 9.9
+                        </div>
+                    </li>
+                    </a>
+                    <a href=""></a>
+                    <li>
+                        <img src="./imgs/chaoshi/10.gif" alt="">
+                        <div class="shangpin">
+                            3M思高百洁布超洁净去污耐用家用厨房清
+                        </div>
+                        <div class="jiage">
+                            ￥ 7
+                        </div>
+                    </li>
+                    </a>
+                    <a href="">
+                    <li class="jiece">
+                        <img src="./imgs/chaoshi/4.gif" alt="">
+                        <div class="shangpin">
+                            绿伞洁厕剂洁厕液800g  厕所除臭马桶
+                        </div>
+                        <div class="jiage">
+                            ￥ 13.9
+                        </div>
+                    </li>
+                    </a>
+                    <a href="">
+                    <li class="wenbiquan">
+                        <img src="./imgs/chaoshi/4.jpg" alt="">
+                        <div class="shangpin">
+                            温碧泉去角质面部全身磨砂去死皮去鸡皮
+                        </div>
+                        <div class="jiage">
+                            ￥ 29
+                        </div>
+                    </li>
+                    </a>
+                </ul>
+            </div>
+        </li>
+    </div>
+<!--天猫国际-->
+    <div class="sup">
+        <div class="sup-top">
+            <div class="sup-top-left1"></div>
+            <div class="sup-top-right1">
+                <a href="">口红</a>
+                <a href="">YSL</a>
+                <a href="">面膜</a>
+                <a href="">迪奥</a>
+            </div>
+        </div>
+        <a href="">
+            <div class="sup-bottom-left1">
+                <div class="sup-bottom-left-zi">
+                    <div class="sup-bottom-left-zi-left">
+                        <span class="sup-bottom-left-zi-left-zi">进口精选</span>
+                    </div>
+                    <div class="sup-bottom-left-zi-right">
+                        <div class="sup-bottom-left-zi-right-shang">大牌好货</div>
+                        <div class="sup-bottom-left-zi-right-xia">轻松购入</div>
+                    </div>
+                </div>
+                <div class="sup-bottom-left-jiantou">
+                </div>
+            </div>
+        </a>
+        <div class="sup-bottom1">
+            <li>
+                <img src="./imgs/tianmaoguoji/3.jpg" alt="">
+                    <div class="guanfang">官方直营优选</div>
+                    <div class="jizhi">极致购物感受</div>
+
+            </li>
+        </div>
+        <div class="sup-bottom2">
+            <a href="">
+            <li>
+                <img src="./imgs/tianmaoguoji/4.gif" alt="">
+                <div class="shangpin">
+                    澳洲bioisland进口孕妇专用海藻油DHA胶
+                </div>
+                <div class="jiage">
+                    ￥ 139
+                </div>
+            </li>
+            </a>
+            <a href="">
+            <li>
+                <img src="./imgs/tianmaoguoji/5.gif" alt="">
+                <div class="shangpin">
+                    Diesel迪赛 叁仟良品 潮男 虎头夏季圆领短袖
+                </div>
+                <div class="jiage">
+                    ￥ 270
+                </div>
+            </li>
+            </a>
+            <a href="">
+            <li>
+                <img src="./imgs/tianmaoguoji/6.png" alt="">
+                <div class="shangpin">
+                    AVI8真皮原装表带牛皮时尚个性潮流精品
+                </div>
+                <div class="jiage">
+                    ￥ 259
+                </div>
+            </li>
+            </a>
+        </div>
+        <a href="">
+        <div class="sup-bottom-left2">
+            <div class="sup-bottom-left-zi">
+                <div class="sup-bottom-left-zi-left">
+                    <span class="sup-bottom-left-zi-left-zi">直营品质</span>
+                </div>
+                <div class="sup-bottom-left-zi-right">
+                    <div class="sup-bottom-left-zi-right-shang">放心体验</div>
+                    <div class="sup-bottom-left-zi-right-xia">畅享全球</div>
+                </div>
+            </div>
+            <div class="sup-bottom-left-jiantou">
+            </div>
+        </div>
+        </a>
+        <div class="sup-bottom3">
+            <a href="">
+            <li>
+                <img src="./imgs/tianmaoguoji/8.jpg" alt="">
+                <div class="shangpin">
+                    波兰ZIAJA山羊奶面膜补水保湿涂抹式嫩
+                </div>
+                <div class="jiage">
+                    ￥ 99
+                </div>
+            </li>
+            </a>
+        </div>
+        <div class="sup-bottom2">
+            <a href="">
+            <li>
+                <img src="./imgs/tianmaoguoji/9.png" alt="">
+                <div class="shangpin">
+                    保税日本资生堂AQUALABEL水之印
+                </div>
+                <div class="jiage">
+                    ￥ 85
+                </div>
+            </li>
+            </a>
+            <a href="">
+            <li>
+                <img src="./imgs/tianmaoguoji/10.gif" alt="">
+                <div class="shangpin">
+                    李维斯牛仔裤男美版levis505系列宽松直
+                </div>
+                <div class="jiage">
+                    ￥ 428
+                </div>
+            </li>
+            </a>
+            <a href="">
+            <li>
+                <img src="./imgs/tianmaoguoji/11.jpg" alt="">
+                <div class="shangpin">
+                    韩国2018新款爱敬age20s水光精华气垫
+                </div>
+                <div class="jiage">
+                    ￥ 178
+                </div>
+            </li>
+            </a>
+        </div>
+    </div>
+<!--过度图片-->
+    <div class="guodu1">
+    </div>
+<!--美丽人生-->
+    <div class="meili">
+        <div class="sup">
+            <div class="sup-top">
+                <div class="meili-top">
+                </div>
+                <div class="meili-meilirensheng">美丽人生
+                    <div class="meili-zimu">FASHION & BEAUTY</div>
+                </div>
+            </div>
+            <a href="">
+            <div class="sup-bottom-left3">
+                <div class="sup-bottom-left-zi">
+                    <div class="sup-bottom-left-zi-left">
+                        <span class="sup-bottom-left-zi-left-zi">大牌直降</span>
+                    </div>
+                    <div class="sup-bottom-left-zi-right">
+                        <div class="sup-bottom-left-zi-right-shang">海量新款</div>
+                        <div class="sup-bottom-left-zi-right-xia">大牌男女鞋</div>
+                    </div>
+                </div>
+                <div class="sup-bottom-left-jiantou">
+                </div>
+            </div>
+            </a>
+            <div class="sup-bottom3">
+                <a href="">
+                <li>
+                    <img src="./imgs/meilirensheng/3.jpg" alt="">
+                    <div class="shangpin">
+                        adidas阿迪达斯2019年新款男子EEZAY
+                    </div>
+                    <div class="jiage">
+                        ￥ 131
+                    </div>
+                </li>
+                </a>
+            </div>
+            <div class="sup-bottom2">
+                <a href="">
+                <li>
+                    <img src="./imgs/meilirensheng/4.gif" alt="">
+                    <div class="shangpin">
+                        花花公子短袖衬衫男中老年格子衬衣夏季
+                    </div>
+                    <div class="jiage">
+                        ￥ 139
+                    </div>
+                </li>
+                </a>
+                <a href="">
+                <li>
+                    <img src="./imgs/meilirensheng/5.jpg" alt="">
+                    <div class="shangpin">
+                        壹 项链女纯银锁骨链吊坠小众设计银饰首
+                    </div>
+                    <div class="jiage">
+                        ￥ 59
+                    </div>
+                </li>
+                </a>
+                <a href="">
+                <li>
+                    <img src="./imgs/meilirensheng/6.jpg" alt="">
+                    <div class="shangpin">
+                        Dickies男鞋迪克斯男士休闲鞋韩版百搭情
+                    </div>
+                    <div class="jiage">
+                        ￥ 329
+                    </div>
+                </li>
+                </a>
+            </div>
+            <div class="sup-bottom3">
+                <a href="">
+                <li>
+                    <img src="./imgs/meilirensheng/7.png" alt="">
+                    <div class="shangpin">
+                        美丽加芬美丽加芬透明质酸化妆水200ml
+                    </div>
+                    <div class="jiage">
+                        ￥ 49
+                    </div>
+                </li>
+                </a>
+            </div>
+            <div class="sup-bottom2">
+                <a href="">
+                <li>
+                    <img src="./imgs/meilirensheng/8.jpg" alt="">
+                    <div class="shangpin">
+                        Daphne/达芙妮夏季新款潮流魔术贴男鞋
+                    </div>
+                    <div class="jiage">
+                        ￥ 59
+                    </div>
+                </li>
+                </a>
+                <a href="">
+                <li>
+                    <img src="./imgs/meilirensheng/9.gif" alt="">
+                    <div class="shangpin">
+                        手表带真皮硅胶防水橡胶男代用万国 天梭
+                    </div>
+                    <div class="jiage">
+                        ￥ 138
+                    </div>
+                </li>
+                </a>
+                <a href="">
+                <li>
+                    <img src="./imgs/tianmaoguoji/11.jpg" alt="">
+                    <div class="shangpin">
+                        包包女2019新款法国小众洋气高端百搭手
+                    </div>
+                    <div class="jiage">
+                        ￥ 139
+                    </div>
+                </li>
+                </a>
+            </div>
+        </div>
+
+    </div>
+<!--潮玩酷店-->
+    <div class="meili">
+        <div class="sup">
+            <div class="sup-top">
+                <div class="meili-top">
+                </div>
+                <div class="meili-meilirensheng">潮玩酷店
+                    <div class="meili-zimu">ELECTRONICS</div>
+                </div>
+            </div>
+            <a href="">
+            <div class="sup-bottom-left3">
+                <div class="sup-bottom-left-zi">
+                    <div class="sup-bottom-left-zi-left">
+                        <span class="sup-bottom-left-zi-left-zi">心动之选</span>
+                    </div>
+                    <div class="sup-bottom-left-zi-right">
+                        <div class="sup-bottom-left-zi-right-shang">文具乐器</div>
+                        <div class="sup-bottom-left-zi-right-xia">大额优惠</div>
+                    </div>
+                </div>
+                <div class="sup-bottom-left-jiantou">
+                </div>
+            </div>
+            </a>
+            <div class="sup-bottom3">
+                <a href="">
+                <li>
+                    <img src="./imgs/chao/2.jpg" alt="">
+                    <div class="shangpin">
+                        先科 6A广场舞音箱带显示屏幕视频播放器
+                    </div>
+                    <div class="jiage">
+                        ￥ 378
+                    </div>
+                </li>
+                </a>
+            </div>
+            <div class="sup-bottom2">
+                <a href="">
+                <li>
+                    <img src="./imgs/chao/3.gif" alt="">
+                    <div class="shangpin">
+                        飞利浦蒸汽电熨斗GC1426家用迷你蒸
+                    </div>
+                    <div class="jiage">
+                        ￥ 119
+                    </div>
+                </li>
+                </a>
+                <a href="">
+                <li>
+                    <img src="./imgs/chao/4.jpg" alt="">
+                    <div class="shangpin">
+                        万利达小孩k歌唱歌宝宝话筒儿童麦克风3-6
+                    </div>
+                    <div class="jiage">
+                        ￥ 78
+                    </div>
+                </li>
+                </a>
+                <a href="">
+                <li>
+                    <img src="./imgs/chao/5.jpg" alt="">
+                    <div class="shangpin">
+                        【自营】Bear/小熊 JSQ-C50X5家用香薰
+                    </div>
+                    <div class="jiage">
+                        ￥ 139
+                    </div>
+                </li>
+                </a>
+            </div>
+            <div class="sup-bottom3">
+                <a href=""></a>
+                <li>
+                    <img src="./imgs/chao/6.jpg" alt="">
+                    <div class="shangpin">
+                        【大派送】海尔无线吸尘器ZB1208B原装
+                    </div>
+                    <div class="jiage">
+                        ￥ 199
+                    </div>
+                </li>
+                </a>
+            </div>
+            <div class="sup-bottom2">
+                <a href="">
+                <li>
+                    <img src="./imgs/chao/7.jpg" alt="">
+                    <div class="shangpin">
+                        纽曼EX28智能运动手表手环 时尚游泳防水
+                    </div>
+                    <div class="jiage">
+                        ￥ 179
+                    </div>
+                </li>
+                </a>
+                <a href="">
+                <li>
+                    <img src="./imgs/chao/8.gif" alt="">
+                    <div class="shangpin">
+                        广场舞音响专用通用金属支架拉杆音响户
+                    </div>
+                    <div class="jiage">
+                        ￥ 80
+                    </div>
+                </li>
+                </a>
+                <a href="">
+                <li>
+                    <img src="./imgs/chao/9.jpg" alt="">
+                    <div class="shangpin">
+                        APTX铁三角a2dc线AKG索尼达音科威士
+                    </div>
+                    <div class="jiage">
+                        ￥ 189
+                    </div>
+                </li>
+                </a>
+            </div>
+        </div>
+
+    </div>
+<!--过度图片-->
+    <div class="guodu2"></div>
+<!--居家生活-->
+    <div class="meili">
+        <div class="sup">
+            <div class="sup-top">
+                <div class="meili-top">
+                </div>
+                <div class="meili-meilirensheng">居家生活
+                    <div class="meili-zimu">GROCERY & HEALTH</div>
+                </div>
+            </div>
+            <a href="">
+            <div class="sup-bottom-left5">
+                <div class="sup-bottom-left-zi">
+                    <div class="sup-bottom-left-zi-left">
+                        <span class="sup-bottom-left-zi-left-zi">美家</span>
+                    </div>
+                    <div class="sup-bottom-left-zi-right">
+                        <div class="sup-bottom-left-zi-right-shang">家饰尚品</div>
+                        <div class="sup-bottom-left-zi-right-xia">清新居家</div>
+                    </div>
+                </div>
+                <div class="sup-bottom-left-jiantou">
+                </div>
+            </div>
+            </a>
+            <div class="sup-bottom3">
+                <a href="">
+                    <li>
+                        <img src="./imgs/chao/2.jpg" alt="">
+                        <div class="shangpin">
+                            先科 6A广场舞音箱带显示屏幕视频播放器
+                        </div>
+                        <div class="jiage">
+                            ￥ 378
+                        </div>
+                    </li>
+                </a>
+            </div>
+            <div class="sup-bottom2">
+                <a href="">
+                    <li>
+                        <img src="./imgs/chao/3.gif" alt="">
+                        <div class="shangpin">
+                            飞利浦蒸汽电熨斗GC1426家用迷你蒸
+                        </div>
+                        <div class="jiage">
+                            ￥ 119
+                        </div>
+                    </li>
+                </a>
+                <a href="">
+                    <li>
+                        <img src="./imgs/chao/4.jpg" alt="">
+                        <div class="shangpin">
+                            万利达小孩k歌唱歌宝宝话筒儿童麦克风3-6
+                        </div>
+                        <div class="jiage">
+                            ￥ 78
+                        </div>
+                    </li>
+                </a>
+                <a href="">
+                    <li>
+                        <img src="./imgs/chao/5.jpg" alt="">
+                        <div class="shangpin">
+                            【自营】Bear/小熊 JSQ-C50X5家用香薰
+                        </div>
+                        <div class="jiage">
+                            ￥ 139
+                        </div>
+                    </li>
+                </a>
+            </div>
+            <div class="sup-bottom3">
+                <a href=""></a>
+                <li>
+                    <img src="./imgs/chao/6.jpg" alt="">
+                    <div class="shangpin">
+                        【大派送】海尔无线吸尘器ZB1208B原装
+                    </div>
+                    <div class="jiage">
+                        ￥ 199
+                    </div>
+                </li>
+                </a>
+            </div>
+            <div class="sup-bottom2">
+                <a href="">
+                    <li>
+                        <img src="./imgs/chao/7.jpg" alt="">
+                        <div class="shangpin">
+                            纽曼EX28智能运动手表手环 时尚游泳防水
+                        </div>
+                        <div class="jiage">
+                            ￥ 179
+                        </div>
+                    </li>
+                </a>
+                <a href="">
+                    <li>
+                        <img src="./imgs/chao/8.gif" alt="">
+                        <div class="shangpin">
+                            广场舞音响专用通用金属支架拉杆音响户
+                        </div>
+                        <div class="jiage">
+                            ￥ 80
+                        </div>
+                    </li>
+                </a>
+                <a href="">
+                    <li>
+                        <img src="./imgs/chao/9.jpg" alt="">
+                        <div class="shangpin">
+                            APTX铁三角a2dc线AKG索尼达音科威士
+                        </div>
+                        <div class="jiage">
+                            ￥ 189
+                        </div>
+                    </li>
+                </a>
+            </div>
+        </div>
+
+    </div>
+<!--打造爱巢-->
+    <div class="meili">
+        <div class="sup">
+            <div class="sup-top">
+                <div class="meili-top">
+                </div>
+                <div class="meili-meilirensheng">打造爱巢
+                    <div class="meili-zimu">HOME</div>
+                </div>
+            </div>
+            <a href="">
+            <div class="sup-bottom-left6">
+                <div class="sup-bottom-left-zi">
+                    <div class="sup-bottom-left-zi-left">
+                        <span class="sup-bottom-left-zi-left-zi">干衣抽洗</span>
+                    </div>
+                    <div class="sup-bottom-left-zi-right">
+                        <div class="sup-bottom-left-zi-right-shang">衣物护理季</div>
+                        <div class="sup-bottom-left-zi-right-xia">除菌除湿</div>
+                    </div>
+                </div>
+                <div class="sup-bottom-left-jiantou">
+                </div>
+            </div>
+            </a>
+            <div class="sup-bottom3">
+                <a href="">
+                    <li>
+                        <img src="./imgs/chao/2.jpg" alt="">
+                        <div class="shangpin">
+                            先科 6A广场舞音箱带显示屏幕视频播放器
+                        </div>
+                        <div class="jiage">
+                            ￥ 378
+                        </div>
+                    </li>
+                </a>
+            </div>
+            <div class="sup-bottom2">
+                <a href="">
+                    <li>
+                        <img src="./imgs/chao/3.gif" alt="">
+                        <div class="shangpin">
+                            飞利浦蒸汽电熨斗GC1426家用迷你蒸
+                        </div>
+                        <div class="jiage">
+                            ￥ 119
+                        </div>
+                    </li>
+                </a>
+                <a href="">
+                    <li>
+                        <img src="./imgs/chao/4.jpg" alt="">
+                        <div class="shangpin">
+                            万利达小孩k歌唱歌宝宝话筒儿童麦克风3-6
+                        </div>
+                        <div class="jiage">
+                            ￥ 78
+                        </div>
+                    </li>
+                </a>
+                <a href="">
+                    <li>
+                        <img src="./imgs/chao/5.jpg" alt="">
+                        <div class="shangpin">
+                            【自营】Bear/小熊 JSQ-C50X5家用香薰
+                        </div>
+                        <div class="jiage">
+                            ￥ 139
+                        </div>
+                    </li>
+                </a>
+            </div>
+            <div class="sup-bottom3">
+                <a href=""></a>
+                <li>
+                    <img src="./imgs/chao/6.jpg" alt="">
+                    <div class="shangpin">
+                        【大派送】海尔无线吸尘器ZB1208B原装
+                    </div>
+                    <div class="jiage">
+                        ￥ 199
+                    </div>
+                </li>
+                </a>
+            </div>
+            <div class="sup-bottom2">
+                <a href="">
+                    <li>
+                        <img src="./imgs/chao/7.jpg" alt="">
+                        <div class="shangpin">
+                            纽曼EX28智能运动手表手环 时尚游泳防水
+                        </div>
+                        <div class="jiage">
+                            ￥ 179
+                        </div>
+                    </li>
+                </a>
+                <a href="">
+                    <li>
+                        <img src="./imgs/chao/8.gif" alt="">
+                        <div class="shangpin">
+                            广场舞音响专用通用金属支架拉杆音响户
+                        </div>
+                        <div class="jiage">
+                            ￥ 80
+                        </div>
+                    </li>
+                </a>
+                <a href="">
+                    <li>
+                        <img src="./imgs/chao/9.jpg" alt="">
+                        <div class="shangpin">
+                            APTX铁三角a2dc线AKG索尼达音科威士
+                        </div>
+                        <div class="jiage">
+                            ￥ 189
+                        </div>
+                    </li>
+                </a>
+            </div>
+        </div>
+
+    </div>
+<!--过度图片-->
+    <div class="guodu3"></div>
+<!--户外出行-->
+    <div class="meili">
+        <div class="sup">
+            <div class="sup-top">
+                <div class="meili-top">
+                </div>
+                <div class="meili-meilirensheng">户外出行
+                    <div class="meili-zimu">OUTDOORS & AUTOMOTIVE</div>
+                </div>
+            </div>
+            <a href="">
+            <div class="sup-bottom-left7">
+                <div class="sup-bottom-left-zi">
+                    <div class="sup-bottom-left-zi-left">
+                        <span class="sup-bottom-left-zi-left-zi">520</span>
+                    </div>
+                    <div class="sup-bottom-left-zi-right">
+                        <div class="sup-bottom-left-zi-right-shang">运动户外</div>
+                        <div class="sup-bottom-left-zi-right-xia">抢到赚到</div>
+                    </div>
+                </div>
+                <div class="sup-bottom-left-jiantou">
+                </div>
+            </div>
+            </a>
+            <div class="sup-bottom3">
+                <a href="">
+                    <li>
+                        <img src="./imgs/chao/2.jpg" alt="">
+                        <div class="shangpin">
+                            先科 6A广场舞音箱带显示屏幕视频播放器
+                        </div>
+                        <div class="jiage">
+                            ￥ 378
+                        </div>
+                    </li>
+                </a>
+            </div>
+            <div class="sup-bottom2">
+                <a href="">
+                    <li>
+                        <img src="./imgs/chao/3.gif" alt="">
+                        <div class="shangpin">
+                            飞利浦蒸汽电熨斗GC1426家用迷你蒸
+                        </div>
+                        <div class="jiage">
+                            ￥ 119
+                        </div>
+                    </li>
+                </a>
+                <a href="">
+                    <li>
+                        <img src="./imgs/chao/4.jpg" alt="">
+                        <div class="shangpin">
+                            万利达小孩k歌唱歌宝宝话筒儿童麦克风3-6
+                        </div>
+                        <div class="jiage">
+                            ￥ 78
+                        </div>
+                    </li>
+                </a>
+                <a href="">
+                    <li>
+                        <img src="./imgs/chao/5.jpg" alt="">
+                        <div class="shangpin">
+                            【自营】Bear/小熊 JSQ-C50X5家用香薰
+                        </div>
+                        <div class="jiage">
+                            ￥ 139
+                        </div>
+                    </li>
+                </a>
+            </div>
+            <div class="sup-bottom3">
+                <a href=""></a>
+                <li>
+                    <img src="./imgs/chao/6.jpg" alt="">
+                    <div class="shangpin">
+                        【大派送】海尔无线吸尘器ZB1208B原装
+                    </div>
+                    <div class="jiage">
+                        ￥ 199
+                    </div>
+                </li>
+                </a>
+            </div>
+            <div class="sup-bottom2">
+                <a href="">
+                    <li>
+                        <img src="./imgs/chao/7.jpg" alt="">
+                        <div class="shangpin">
+                            纽曼EX28智能运动手表手环 时尚游泳防水
+                        </div>
+                        <div class="jiage">
+                            ￥ 179
+                        </div>
+                    </li>
+                </a>
+                <a href="">
+                    <li>
+                        <img src="./imgs/chao/8.gif" alt="">
+                        <div class="shangpin">
+                            广场舞音响专用通用金属支架拉杆音响户
+                        </div>
+                        <div class="jiage">
+                            ￥ 80
+                        </div>
+                    </li>
+                </a>
+                <a href="">
+                    <li>
+                        <img src="./imgs/chao/9.jpg" alt="">
+                        <div class="shangpin">
+                            APTX铁三角a2dc线AKG索尼达音科威士
+                        </div>
+                        <div class="jiage">
+                            ￥ 189
+                        </div>
+                    </li>
+                </a>
+            </div>
+        </div>
+
+    </div>
+<!--猜你喜欢文字-->
+    <div class="cainixihuanwenzi">
+        —— 猜你喜欢 ——
+    </div>
+<!--猜你喜欢-->
+    <div class="cainixihuan">
+        <div class="sup-bottom4">
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/1.jpg" alt="">
+                    <div class="shangpin">
+                        限量套装每日10:08限量开抢】Huawei/
+                    </div>
+                    <div class="jiage">
+                        ￥ 5488.0
+                    </div>
+                </a>
+            </li>
+        </div>
+        <div class="sup-bottom2">
+            <li>
+                <a href="">
+                <img src="./imgs/xihuan/2.jpg" alt="">
+                <div class="shangpin">
+                    Gree/格力KFR-35GW/NhBaD3大
+                </div>
+                <div class="jiage">
+                    ￥ 2849.0
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                <img src="./imgs/xihuan/3.png" alt="">
+                <div class="shangpin">
+                    科沃斯扫地机器人地宝DJ35智能家用超薄
+                </div>
+                <div class="jiage">
+                    ￥ 1899.0
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                <img src="./imgs/xihuan/4.png" alt="">
+                <div class="shangpin">
+                    【5.25 0点开抢】OLAY淡斑小白瓶
+                </div>
+                <div class="jiage">
+                    ￥ 359.0
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                <img src="./imgs/xihuan/5.png" alt="">
+                <div class="shangpin">
+                    资生堂新红腰子精华傲娇新红妍精华露
+                </div>
+                <div class="jiage">
+                    ￥ 1180.0
+                </div>
+                </a>
+            </li>
+        </div>
+        <div class="sup-bottom4">
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/6.png" alt="">
+                    <div class="shangpin">
+                        阿迪达斯官方 adidas YEEZY BOOST 350
+                    </div>
+                    <div class="jiage">
+                        ￥ 1899.0
+                    </div>
+                </a>
+            </li>
+        </div>
+        <div class="sup-bottom2">
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/7.jpg" alt="">
+                    <div class="shangpin">
+                        Xiaomi/小米 小米电视4A 65英寸4k超清
+                    </div>
+                    <div class="jiage">
+                        ￥ 2999.0
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/8.jpg" alt="">
+                    <div class="shangpin">
+                        全棉时代 婴儿棉柔巾纯棉新生儿干湿两用
+                    </div>
+                    <div class="jiage">
+                        ￥ 243.0
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/9.png" alt="">
+                    <div class="shangpin">
+                        亿健精灵ELF跑步机家用款电动走步超静
+                    </div>
+                    <div class="jiage">
+                        ￥ 1699.0
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/10.png" alt="">
+                    <div class="shangpin">
+                        【520礼物】雅诗兰黛小棕瓶抗蓝光眼霜
+                    </div>
+                    <div class="jiage">
+                        ￥ 1180.0
+                    </div>
+                </a>
+            </li>
+        </div>
+        <div class="sup-bottom4">
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/11.jpg" alt="">
+                    <div class="shangpin">
+                        Haier/海尔 EG10014B39GU1 10
+                    </div>
+                    <div class="jiage">
+                        ￥ 2699.0
+                    </div>
+                </a>
+            </li>
+        </div>
+        <div class="sup-bottom2">
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/12.png" alt="">
+                    <div class="shangpin">
+                        【618预售】兰蔻粉水清滢柔肤水400ml
+                    </div>
+                    <div class="jiage">
+                        ￥ 420.0
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/13.png" alt="">
+                    <div class="shangpin">
+                        【520礼物】YSL圣罗兰莹亮纯魅唇膏圆
+                    </div>
+                    <div class="jiage">
+                        ￥ 320.0
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/14.png" alt="">
+                    <div class="shangpin">
+                        【设计师合作款】女装 高腰宽腿直筒牛仔
+                    </div>
+                    <div class="jiage">
+                        ￥ 299.0
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/15.png" alt="">
+                    <div class="shangpin">
+                        【520臻选】LA MER海蓝之谜鎏光焕变气
+                    </div>
+                    <div class="jiage">
+                        ￥ 1000.0
+                    </div>
+                </a>
+            </li>
+        </div>
+        <div class="sup-bottom4">
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/16.png" alt="">
+                    <div class="shangpin">
+                        【设计师合作款】女装 圆领T恤(短袖)
+                    </div>
+                    <div class="jiage">
+                        ￥ 79.0
+                    </div>
+                </a>
+            </li>
+        </div>
+        <div class="sup-bottom2">
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/17.png" alt="">
+                    <div class="shangpin">
+                        【618预售】兰蔻全新3D大眼精华20ml
+                    </div>
+                    <div class="jiage">
+                        ￥ 680.0
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/18.jpg" alt="">
+                    <div class="shangpin">
+                        Haier/海尔 BCD-470WDPG 十字对开
+                    </div>
+                    <div class="jiage">
+                        ￥ 4799.0
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/19.png" alt="">
+                    <div class="shangpin">
+                        女装 AIRism防紫外线网眼连帽运动开衫(长
+                    </div>
+                    <div class="jiage">
+                        ￥ 199.0
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/20.jpg" alt="">
+                    <div class="shangpin">
+                        【延保一年 抢券减220】Apple/苹果 7.9
+                    </div>
+                    <div class="jiage">
+                        ￥ 2588.0
+                    </div>
+                </a>
+            </li>
+        </div>
+        <div class="sup-bottom4">
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/1.jpg" alt="">
+                    <div class="shangpin">
+                        限量套装每日10:08限量开抢】Huawei/
+                    </div>
+                    <div class="jiage">
+                        ￥ 5488.0
+                    </div>
+                </a>
+            </li>
+        </div>
+        <div class="sup-bottom2">
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/2.jpg" alt="">
+                    <div class="shangpin">
+                        Gree/格力KFR-35GW/NhBaD3大
+                    </div>
+                    <div class="jiage">
+                        ￥ 2849.0
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/3.png" alt="">
+                    <div class="shangpin">
+                        科沃斯扫地机器人地宝DJ35智能家用超薄
+                    </div>
+                    <div class="jiage">
+                        ￥ 1899.0
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/4.png" alt="">
+                    <div class="shangpin">
+                        【5.25 0点开抢】OLAY淡斑小白瓶
+                    </div>
+                    <div class="jiage">
+                        ￥ 359.0
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/5.png" alt="">
+                    <div class="shangpin">
+                        资生堂新红腰子精华傲娇新红妍精华露
+                    </div>
+                    <div class="jiage">
+                        ￥ 1180.0
+                    </div>
+                </a>
+            </li>
+        </div>
+        <div class="sup-bottom4">
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/6.png" alt="">
+                    <div class="shangpin">
+                        阿迪达斯官方 adidas YEEZY BOOST 350
+                    </div>
+                    <div class="jiage">
+                        ￥ 1899.0
+                    </div>
+                </a>
+            </li>
+        </div>
+        <div class="sup-bottom2">
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/7.jpg" alt="">
+                    <div class="shangpin">
+                        Xiaomi/小米 小米电视4A 65英寸4k超清
+                    </div>
+                    <div class="jiage">
+                        ￥ 2999.0
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/8.jpg" alt="">
+                    <div class="shangpin">
+                        全棉时代 婴儿棉柔巾纯棉新生儿干湿两用
+                    </div>
+                    <div class="jiage">
+                        ￥ 243.0
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/9.png" alt="">
+                    <div class="shangpin">
+                        亿健精灵ELF跑步机家用款电动走步超静
+                    </div>
+                    <div class="jiage">
+                        ￥ 1699.0
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/10.png" alt="">
+                    <div class="shangpin">
+                        【520礼物】雅诗兰黛小棕瓶抗蓝光眼霜
+                    </div>
+                    <div class="jiage">
+                        ￥ 1180.0
+                    </div>
+                </a>
+            </li>
+        </div>
+        <div class="sup-bottom4">
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/11.jpg" alt="">
+                    <div class="shangpin">
+                        Haier/海尔 EG10014B39GU1 10
+                    </div>
+                    <div class="jiage">
+                        ￥ 2699.0
+                    </div>
+                </a>
+            </li>
+        </div>
+        <div class="sup-bottom2">
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/12.png" alt="">
+                    <div class="shangpin">
+                        【618预售】兰蔻粉水清滢柔肤水400ml
+                    </div>
+                    <div class="jiage">
+                        ￥ 420.0
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/13.png" alt="">
+                    <div class="shangpin">
+                        【520礼物】YSL圣罗兰莹亮纯魅唇膏圆
+                    </div>
+                    <div class="jiage">
+                        ￥ 320.0
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/14.png" alt="">
+                    <div class="shangpin">
+                        【设计师合作款】女装 高腰宽腿直筒牛仔
+                    </div>
+                    <div class="jiage">
+                        ￥ 299.0
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/15.png" alt="">
+                    <div class="shangpin">
+                        【520臻选】LA MER海蓝之谜鎏光焕变气
+                    </div>
+                    <div class="jiage">
+                        ￥ 1000.0
+                    </div>
+                </a>
+            </li>
+        </div>
+        <div class="sup-bottom4">
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/16.png" alt="">
+                    <div class="shangpin">
+                        【设计师合作款】女装 圆领T恤(短袖)
+                    </div>
+                    <div class="jiage">
+                        ￥ 79.0
+                    </div>
+                </a>
+            </li>
+        </div>
+        <div class="sup-bottom2">
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/17.png" alt="">
+                    <div class="shangpin">
+                        【618预售】兰蔻全新3D大眼精华20ml
+                    </div>
+                    <div class="jiage">
+                        ￥ 680.0
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/18.jpg" alt="">
+                    <div class="shangpin">
+                        Haier/海尔 BCD-470WDPG 十字对开
+                    </div>
+                    <div class="jiage">
+                        ￥ 4799.0
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/19.png" alt="">
+                    <div class="shangpin">
+                        女装 AIRism防紫外线网眼连帽运动开衫(长
+                    </div>
+                    <div class="jiage">
+                        ￥ 199.0
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/20.jpg" alt="">
+                    <div class="shangpin">
+                        【延保一年 抢券减220】Apple/苹果 7.9
+                    </div>
+                    <div class="jiage">
+                        ￥ 2588.0
+                    </div>
+                </a>
+            </li>
+        </div>
+        <div class="sup-bottom4">
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/1.jpg" alt="">
+                    <div class="shangpin">
+                        限量套装每日10:08限量开抢】Huawei/
+                    </div>
+                    <div class="jiage">
+                        ￥ 5488.0
+                    </div>
+                </a>
+            </li>
+        </div>
+        <div class="sup-bottom2">
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/2.jpg" alt="">
+                    <div class="shangpin">
+                        Gree/格力KFR-35GW/NhBaD3大
+                    </div>
+                    <div class="jiage">
+                        ￥ 2849.0
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/3.png" alt="">
+                    <div class="shangpin">
+                        科沃斯扫地机器人地宝DJ35智能家用超薄
+                    </div>
+                    <div class="jiage">
+                        ￥ 1899.0
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/4.png" alt="">
+                    <div class="shangpin">
+                        【5.25 0点开抢】OLAY淡斑小白瓶
+                    </div>
+                    <div class="jiage">
+                        ￥ 359.0
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/5.png" alt="">
+                    <div class="shangpin">
+                        资生堂新红腰子精华傲娇新红妍精华露
+                    </div>
+                    <div class="jiage">
+                        ￥ 1180.0
+                    </div>
+                </a>
+            </li>
+        </div>
+        <div class="sup-bottom4">
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/6.png" alt="">
+                    <div class="shangpin">
+                        阿迪达斯官方 adidas YEEZY BOOST 350
+                    </div>
+                    <div class="jiage">
+                        ￥ 1899.0
+                    </div>
+                </a>
+            </li>
+        </div>
+        <div class="sup-bottom2">
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/7.jpg" alt="">
+                    <div class="shangpin">
+                        Xiaomi/小米 小米电视4A 65英寸4k超清
+                    </div>
+                    <div class="jiage">
+                        ￥ 2999.0
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/8.jpg" alt="">
+                    <div class="shangpin">
+                        全棉时代 婴儿棉柔巾纯棉新生儿干湿两用
+                    </div>
+                    <div class="jiage">
+                        ￥ 243.0
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/9.png" alt="">
+                    <div class="shangpin">
+                        亿健精灵ELF跑步机家用款电动走步超静
+                    </div>
+                    <div class="jiage">
+                        ￥ 1699.0
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/10.png" alt="">
+                    <div class="shangpin">
+                        【520礼物】雅诗兰黛小棕瓶抗蓝光眼霜
+                    </div>
+                    <div class="jiage">
+                        ￥ 1180.0
+                    </div>
+                </a>
+            </li>
+        </div>
+        <div class="sup-bottom4">
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/11.jpg" alt="">
+                    <div class="shangpin">
+                        Haier/海尔 EG10014B39GU1 10
+                    </div>
+                    <div class="jiage">
+                        ￥ 2699.0
+                    </div>
+                </a>
+            </li>
+        </div>
+        <div class="sup-bottom2">
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/12.png" alt="">
+                    <div class="shangpin">
+                        【618预售】兰蔻粉水清滢柔肤水400ml
+                    </div>
+                    <div class="jiage">
+                        ￥ 420.0
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/13.png" alt="">
+                    <div class="shangpin">
+                        【520礼物】YSL圣罗兰莹亮纯魅唇膏圆
+                    </div>
+                    <div class="jiage">
+                        ￥ 320.0
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/14.png" alt="">
+                    <div class="shangpin">
+                        【设计师合作款】女装 高腰宽腿直筒牛仔
+                    </div>
+                    <div class="jiage">
+                        ￥ 299.0
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/15.png" alt="">
+                    <div class="shangpin">
+                        【520臻选】LA MER海蓝之谜鎏光焕变气
+                    </div>
+                    <div class="jiage">
+                        ￥ 1000.0
+                    </div>
+                </a>
+            </li>
+        </div>
+        <div class="sup-bottom4">
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/16.png" alt="">
+                    <div class="shangpin">
+                        【设计师合作款】女装 圆领T恤(短袖)
+                    </div>
+                    <div class="jiage">
+                        ￥ 79.0
+                    </div>
+                </a>
+            </li>
+        </div>
+        <div class="sup-bottom2">
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/17.png" alt="">
+                    <div class="shangpin">
+                        【618预售】兰蔻全新3D大眼精华20ml
+                    </div>
+                    <div class="jiage">
+                        ￥ 680.0
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/18.jpg" alt="">
+                    <div class="shangpin">
+                        Haier/海尔 BCD-470WDPG 十字对开
+                    </div>
+                    <div class="jiage">
+                        ￥ 4799.0
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/19.png" alt="">
+                    <div class="shangpin">
+                        女装 AIRism防紫外线网眼连帽运动开衫(长
+                    </div>
+                    <div class="jiage">
+                        ￥ 199.0
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/20.jpg" alt="">
+                    <div class="shangpin">
+                        【延保一年 抢券减220】Apple/苹果 7.9
+                    </div>
+                    <div class="jiage">
+                        ￥ 2588.0
+                    </div>
+                </a>
+            </li>
+        </div>
+        <div class="sup-bottom4">
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/1.jpg" alt="">
+                    <div class="shangpin">
+                        限量套装每日10:08限量开抢】Huawei/
+                    </div>
+                    <div class="jiage">
+                        ￥ 5488.0
+                    </div>
+                </a>
+            </li>
+        </div>
+        <div class="sup-bottom2">
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/2.jpg" alt="">
+                    <div class="shangpin">
+                        Gree/格力KFR-35GW/NhBaD3大
+                    </div>
+                    <div class="jiage">
+                        ￥ 2849.0
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/3.png" alt="">
+                    <div class="shangpin">
+                        科沃斯扫地机器人地宝DJ35智能家用超薄
+                    </div>
+                    <div class="jiage">
+                        ￥ 1899.0
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/4.png" alt="">
+                    <div class="shangpin">
+                        【5.25 0点开抢】OLAY淡斑小白瓶
+                    </div>
+                    <div class="jiage">
+                        ￥ 359.0
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/5.png" alt="">
+                    <div class="shangpin">
+                        资生堂新红腰子精华傲娇新红妍精华露
+                    </div>
+                    <div class="jiage">
+                        ￥ 1180.0
+                    </div>
+                </a>
+            </li>
+        </div>
+        <div class="sup-bottom4">
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/6.png" alt="">
+                    <div class="shangpin">
+                        阿迪达斯官方 adidas YEEZY BOOST 350
+                    </div>
+                    <div class="jiage">
+                        ￥ 1899.0
+                    </div>
+                </a>
+            </li>
+        </div>
+        <div class="sup-bottom2">
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/7.jpg" alt="">
+                    <div class="shangpin">
+                        Xiaomi/小米 小米电视4A 65英寸4k超清
+                    </div>
+                    <div class="jiage">
+                        ￥ 2999.0
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/8.jpg" alt="">
+                    <div class="shangpin">
+                        全棉时代 婴儿棉柔巾纯棉新生儿干湿两用
+                    </div>
+                    <div class="jiage">
+                        ￥ 243.0
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/9.png" alt="">
+                    <div class="shangpin">
+                        亿健精灵ELF跑步机家用款电动走步超静
+                    </div>
+                    <div class="jiage">
+                        ￥ 1699.0
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/10.png" alt="">
+                    <div class="shangpin">
+                        【520礼物】雅诗兰黛小棕瓶抗蓝光眼霜
+                    </div>
+                    <div class="jiage">
+                        ￥ 1180.0
+                    </div>
+                </a>
+            </li>
+        </div>
+        <div class="sup-bottom4">
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/11.jpg" alt="">
+                    <div class="shangpin">
+                        Haier/海尔 EG10014B39GU1 10
+                    </div>
+                    <div class="jiage">
+                        ￥ 2699.0
+                    </div>
+                </a>
+            </li>
+        </div>
+        <div class="sup-bottom2">
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/12.png" alt="">
+                    <div class="shangpin">
+                        【618预售】兰蔻粉水清滢柔肤水400ml
+                    </div>
+                    <div class="jiage">
+                        ￥ 420.0
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/13.png" alt="">
+                    <div class="shangpin">
+                        【520礼物】YSL圣罗兰莹亮纯魅唇膏圆
+                    </div>
+                    <div class="jiage">
+                        ￥ 320.0
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/14.png" alt="">
+                    <div class="shangpin">
+                        【设计师合作款】女装 高腰宽腿直筒牛仔
+                    </div>
+                    <div class="jiage">
+                        ￥ 299.0
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/15.png" alt="">
+                    <div class="shangpin">
+                        【520臻选】LA MER海蓝之谜鎏光焕变气
+                    </div>
+                    <div class="jiage">
+                        ￥ 1000.0
+                    </div>
+                </a>
+            </li>
+        </div>
+        <div class="sup-bottom4">
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/16.png" alt="">
+                    <div class="shangpin">
+                        【设计师合作款】女装 圆领T恤(短袖)
+                    </div>
+                    <div class="jiage">
+                        ￥ 79.0
+                    </div>
+                </a>
+            </li>
+        </div>
+        <div class="sup-bottom2">
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/17.png" alt="">
+                    <div class="shangpin">
+                        【618预售】兰蔻全新3D大眼精华20ml
+                    </div>
+                    <div class="jiage">
+                        ￥ 680.0
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/18.jpg" alt="">
+                    <div class="shangpin">
+                        Haier/海尔 BCD-470WDPG 十字对开
+                    </div>
+                    <div class="jiage">
+                        ￥ 4799.0
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/19.png" alt="">
+                    <div class="shangpin">
+                        女装 AIRism防紫外线网眼连帽运动开衫(长
+                    </div>
+                    <div class="jiage">
+                        ￥ 199.0
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/20.jpg" alt="">
+                    <div class="shangpin">
+                        【延保一年 抢券减220】Apple/苹果 7.9
+                    </div>
+                    <div class="jiage">
+                        ￥ 2588.0
+                    </div>
+                </a>
+            </li>
+        </div>
+        <div class="sup-bottom4">
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/1.jpg" alt="">
+                    <div class="shangpin">
+                        限量套装每日10:08限量开抢】Huawei/
+                    </div>
+                    <div class="jiage">
+                        ￥ 5488.0
+                    </div>
+                </a>
+            </li>
+        </div>
+        <div class="sup-bottom2">
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/2.jpg" alt="">
+                    <div class="shangpin">
+                        Gree/格力KFR-35GW/NhBaD3大
+                    </div>
+                    <div class="jiage">
+                        ￥ 2849.0
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/3.png" alt="">
+                    <div class="shangpin">
+                        科沃斯扫地机器人地宝DJ35智能家用超薄
+                    </div>
+                    <div class="jiage">
+                        ￥ 1899.0
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/4.png" alt="">
+                    <div class="shangpin">
+                        【5.25 0点开抢】OLAY淡斑小白瓶
+                    </div>
+                    <div class="jiage">
+                        ￥ 359.0
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/5.png" alt="">
+                    <div class="shangpin">
+                        资生堂新红腰子精华傲娇新红妍精华露
+                    </div>
+                    <div class="jiage">
+                        ￥ 1180.0
+                    </div>
+                </a>
+            </li>
+        </div>
+        <div class="sup-bottom4">
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/6.png" alt="">
+                    <div class="shangpin">
+                        阿迪达斯官方 adidas YEEZY BOOST 350
+                    </div>
+                    <div class="jiage">
+                        ￥ 1899.0
+                    </div>
+                </a>
+            </li>
+        </div>
+        <div class="sup-bottom2">
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/7.jpg" alt="">
+                    <div class="shangpin">
+                        Xiaomi/小米 小米电视4A 65英寸4k超清
+                    </div>
+                    <div class="jiage">
+                        ￥ 2999.0
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/8.jpg" alt="">
+                    <div class="shangpin">
+                        全棉时代 婴儿棉柔巾纯棉新生儿干湿两用
+                    </div>
+                    <div class="jiage">
+                        ￥ 243.0
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/9.png" alt="">
+                    <div class="shangpin">
+                        亿健精灵ELF跑步机家用款电动走步超静
+                    </div>
+                    <div class="jiage">
+                        ￥ 1699.0
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/10.png" alt="">
+                    <div class="shangpin">
+                        【520礼物】雅诗兰黛小棕瓶抗蓝光眼霜
+                    </div>
+                    <div class="jiage">
+                        ￥ 1180.0
+                    </div>
+                </a>
+            </li>
+        </div>
+        <div class="sup-bottom4">
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/11.jpg" alt="">
+                    <div class="shangpin">
+                        Haier/海尔 EG10014B39GU1 10
+                    </div>
+                    <div class="jiage">
+                        ￥ 2699.0
+                    </div>
+                </a>
+            </li>
+        </div>
+        <div class="sup-bottom2">
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/12.png" alt="">
+                    <div class="shangpin">
+                        【618预售】兰蔻粉水清滢柔肤水400ml
+                    </div>
+                    <div class="jiage">
+                        ￥ 420.0
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/13.png" alt="">
+                    <div class="shangpin">
+                        【520礼物】YSL圣罗兰莹亮纯魅唇膏圆
+                    </div>
+                    <div class="jiage">
+                        ￥ 320.0
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/14.png" alt="">
+                    <div class="shangpin">
+                        【设计师合作款】女装 高腰宽腿直筒牛仔
+                    </div>
+                    <div class="jiage">
+                        ￥ 299.0
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/15.png" alt="">
+                    <div class="shangpin">
+                        【520臻选】LA MER海蓝之谜鎏光焕变气
+                    </div>
+                    <div class="jiage">
+                        ￥ 1000.0
+                    </div>
+                </a>
+            </li>
+        </div>
+        <div class="sup-bottom4">
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/16.png" alt="">
+                    <div class="shangpin">
+                        【设计师合作款】女装 圆领T恤(短袖)
+                    </div>
+                    <div class="jiage">
+                        ￥ 79.0
+                    </div>
+                </a>
+            </li>
+        </div>
+        <div class="sup-bottom2">
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/17.png" alt="">
+                    <div class="shangpin">
+                        【618预售】兰蔻全新3D大眼精华20ml
+                    </div>
+                    <div class="jiage">
+                        ￥ 680.0
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/18.jpg" alt="">
+                    <div class="shangpin">
+                        Haier/海尔 BCD-470WDPG 十字对开
+                    </div>
+                    <div class="jiage">
+                        ￥ 4799.0
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/19.png" alt="">
+                    <div class="shangpin">
+                        女装 AIRism防紫外线网眼连帽运动开衫(长
+                    </div>
+                    <div class="jiage">
+                        ￥ 199.0
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="./imgs/xihuan/20.jpg" alt="">
+                    <div class="shangpin">
+                        【延保一年 抢券减220】Apple/苹果 7.9
+                    </div>
+                    <div class="jiage">
+                        ￥ 2588.0
+                    </div>
+                </a>
+            </li>
+        </div>
+
+
+    </div>
+    </div>
+<!--结束-->
+    <div class="end"></div>
+<!--底部-->
+    <div class="dibu">
+<!--七天无理由退货-->
+        <div class="tuihuo">
+        <div class="tuihuosi">
+            <a href=""><div class="tuihuo-1"></div></a>
+            <a href=""><div class="tuihuo-2"></div></a>
+            <a href=""><div class="tuihuo-3"></div></a>
+            <a href=""><div class="tuihuo-4"></div></a>
+        </div>
+    </div>
+<!--购物指南-->
+        <div class="gouwu">
+            <li>
+                <div class="zhinan">购物指南</div>
+                <a href="">免费注册</a>
+                <a href="">开通支付宝</a>
+                <a href="">支付宝充值</a>
+            </li>
+            <li><div class="zhinan">天猫保障</div>
+                <a href="">发票保障</a>
+                <a href="">售后规则</a>
+                <a href="">缺货赔付</a></li>
+            <li><div class="zhinan">支付方式</div>
+                <a href="">快捷支付</a>
+                <a href="">信用卡</a>
+                <a href="">余额宝</a>
+                <a href="">蚂蚁花呗</a>
+                <a href="">货到付款</a></li>
+            <li><div class="zhinan">商家服务</div>
+                <a href="">天猫规则</a>
+                <a href="">商家入驻</a>
+                <a href="">商家中心</a>
+                <a href="">天猫智库</a>
+                <a href="">物流服务</a>
+                <a href="">喵言喵语</a>
+                <a href="">运营服务</a></li>
+            <li><div class="zhinan">商家服务</div>
+                <a href=""><div class="erweima"></div></a>
+                </li>
+            <div class="gouwu-logo"></div>
+        </div>
+<!--关于天猫-->
+        <div class="about">
+            <div class="about-top">
+                <a href="">关于天猫</a>
+                <a href="">帮助中心</a>
+                <a href="">开放平台</a>
+                <a href="">诚聘英才</a>
+                <a href="">联系我们</a>
+                <a href="">网站合作</a>
+                <a href="">法律声明</a>
+                <a href="">隐私权政策</a>
+                <a href="">知识产权</a>
+                <a href="">廉正举报</a>
+                <a href="">规则意见集</a>
+            </div>
+            <div class="about-lianjie">
+                <a href="">阿里巴巴集团</a><span>|</span>
+                <a href="">淘宝网</a><span>|</span>
+                <a href="">天猫</a><span>|</span>
+                <a href="">聚划算</a><span>|</span>
+                <a href="">全球速卖通</a><span>|</span>
+                <a href="">阿里巴巴国际国际交易市场</a><span>|</span>
+                <a href="">1688</a><span>|</span>
+                <a href="">阿里妈妈</a><span>|</span>
+                <a href="">飞猪</a><span>|</span>
+                <a href="">阿里云计算</a><span>|</span>
+                <a href="">Alios</a><span>|</span>
+                <a href="">阿里通信</a><span>|</span>
+                <a href="">万网</a><span>|</span>
+                <a href="">高德</a><span>|</span>
+                <a href="">UC</a><span>|</span>
+                <a href="">友盟</a><span>|</span>
+                <a href="">虾米</a><span>|</span>
+                <a href="">钉钉</a><span>|</span>
+                <a href="">支付宝</a>
+
+            </div>
+            <div class="zengzhidianxin">
+                增值电信业务经营许可证：
+                <a href="">浙B2-20110446</a>
+                市场名称登记证：工商网市字3301004119号
+                <span class="chuban">出版物网络交易平台服务经营备案证： 新出发浙备字第001号</span>
+                <span class="hulianwang" >互联网违法和不良信息举报电话：0571-81683755 blxxjb@alibaba-inc.com</span>
+                <span class="yaopin">互联网药品信息服务资质证书编号：</span>
+                <a href="" class="zhe">浙-（经营性）-2017-0005</a>
+                <a href="" class="hui"><img src="./imgs/hui.png" alt=""> 浙公网安备 33010002000120号</a>
+                <span class="yiliao" style="float: left">医疗器械网络交易服务第三方平台备案：（浙）网械平台备字[2018]第00002号
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;互联网药品交易服务资格证书：国A20150001</span>
+                <span class="zhejiangsheng">浙江省网络食品销售第三方平台提供者备案：浙网食A33010002</span>
+                <a href="" class="jubao">12318举报</a>
+                <span class="banquansuoyou">© 2003-2019 TMALL.COM 版权所有</span>
+                <div class="zuoxia">
+                    <img src="./imgs/zuoxia1.jpg" alt="">
+                    <img src="./imgs/zuoxia2.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
