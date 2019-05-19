@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>天猫</title>
+    <link rel="stylesheet" href="CSS/TMALL.css">
+    <script>
+        window.onload=function(ev){
+            var box = document.querySelectorAll(".box")
+            var btns = document.querySelectorAll(".btn")
+            var num=0
+            setInterval(function () {
+                if (num == 5) {
+                    num = 0;
+                }
+                for (var i = 0; i < box.length; i++) {
+                    box[i].style.display = "none"
+                    btns[i].style.background="#ffffff"
+                }
+                box[num].style.display = "block";
+                btns[num].style.background="#ccc"
+                num++
+            },3000)
+        }
+    </script>
+</head>
+<body>
+
+<!--背景图-->
+<div class="beijing">
+    <!--右导航栏-->
+        <div class="you">
+            <div class="you-up">
+                <div class="you-up-1"></div>
+                <div class="you-up-2">主会场</div>
+            </div>
+            <div class="you-down">
+                <div class="you-down-1 box1"></div>
+                <div class="you-down-2 box2"><br><br>购<br>物<br>车</div>
+                <div class="you-down-3 box1"></div>
+                <div class="you-down-4 box1"></div>
+                <div class="you-down-5 box1"></div>
+                <div class="you-down-6 box1"></div>
+                <div class="you-down-7 box1"></div>
+                <div class="you-down-8 box1"></div>
+                <div class="you-down-9 box1"></div>
+            </div>
+        </div>
+        <div class="zuo">
+            <div class="zuo-part zuo-active">导航</div>
+            <div class="zuo-part">天猫<br>超市</div>
+            <div class="zuo-part zuo-active">天猫<br>国际</div>
+            <div class="zuo-part">美丽<br>人生</div>
+            <div class="zuo-part">潮电<br>酷玩</div>
+            <div class="zuo-part">居家<br>生活</div>
+            <div class="zuo-part">打造<br>爱巢</div>
+            <div class="zuo-part">户外<br>出行</div>
+            <div class="zuo-part">猜你<br>喜欢</div>
+            <div class="zuo-part zuo-active"><br>顶部</div>
+        </div>
+    <!--导航栏-->
+        <div class="daohang">
+            <div class="daohang-con">
+                <div class="daohang-con-left">
+                    <span>喵，欢迎来天猫</span>
+                    <a href="">请登录</a>
+                    <a href="">免费注册</a>
+                </div>
+                <div class="daohang-con-right">
+                    <a href="" class="a1">我的淘宝</a>
+                    <a href="">购物车0件</a>
+                    <a href="" class="a1">收藏夹</a>
+                    <a href="">手机版</a>
+                    <a href="">淘宝网</a>
+                    <a href="" class="a1">商家支持</a>
+                    <a href="" class="a1">网站导航</a>
+                </div>
+            </div>
+        </div>
+    <!--头部-->
+        <div class="head">
+            <div class="head-con">
+                <div class="head-con-up">
+                    <div class="head-con-up-left"></div>
+                    <div class="head-con-up-right">
+                        <div class="head-con-up-right-search">
+                            <input type="search" value="搜索&nbsp;天猫&nbsp;商品/品牌/店铺">
+                            <button type="submit">搜索</button>
+                        </div>
+                        <div class="head-con-up-right-text">
+                            <a href="">针织衫</a>
+                            <a href="" class="t">连衣裙</a>
+                            <a href="">四件套</a>
+                            <a href="" class="t">摄像头</a>
+                            <a href="">客厅灯</a>
+                            <a href="" class="t">口红</a>
+                            <a href="">手机</a>
+                            <a href="" class="t">运动鞋</a>
+                            <a href="">牛奶</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="head-con-down">
+                    <div class="head-con-down-left">
+                        <div class="head-con-down-left-s">商品分类</div>
+                        <div class="head-con-down-left-t">天猫520活动</div>
+                    </div>
+                    <div class="head-con-down-middle">
+                        <a href="" class="cs"></a>
+                        <a href="" class="gj"></a>
+                    </div>
+                    <div class="head-con-down-right">
+                        <a href="">天猫会员</a>
+                        <a href="">电器城</a>
+                        <a href="">喵鲜生</a>
+                        <a href="">天猫会员</a>
+                        <a href="">医药馆</a>
+                        <a href="">营业厅</a>
+                        <a href="">魅力惠</a>
+                        <a href="">飞猪旅行</a>
+                        <a href="">苏宁易购</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!--轮播-->
+        <div class="wheel">
+            <div class="wheel--left">
+                <div class="wheel--left-con">
+                    <div class="wheel--left-con-s">
+                        <div class="wheel--left-con-s-tu tu1"><i class="iconfont">&#xeb66;</i></div>
+                        <div class="wheel--left-con-s-text">大牌女装</div>
+                    </div>
+                    <div class="wheel--left-con-s">
+                        <div class="wheel--left-con-s-tu tu2"><i class="iconfont">&#xeb66;</i></div>
+                        <div class="wheel--left-con-s-text">家纺家饰</div>
+                    </div>
+                    <div class="wheel--left-con-s">
+                        <div class="wheel--left-con-s-tu tu3"><i class="iconfont">&#xeb66;</i></div>
+                        <div class="wheel--left-con-s-text">户外运动</div>
+                    </div>
+                    <div class="wheel--left-con-s">
+                        <div class="wheel--left-con-s-tu tu4"><i class="iconfont">&#xeb66;</i></div>
+                        <a class="wheel--left-con-s-text">型格男装</a>
+                    </div>
+                    <div class="wheel--left-con-s">
+                        <div class="wheel--left-con-s-tu tu5"><i class="iconfont">&#xeb66;</i></div>
+                        <div class="wheel--left-con-s-text">大牌美妆</div>
+                    </div>
+                    <div class="wheel--left-con-s">
+                        <div class="wheel--left-con-s-tu tu6"><i class="iconfont">&#xeb66;</i></div>
+                        <div class="wheel--left-con-s-text">纸品家清</div>
+                    </div>
+                    <div class="wheel--left-con-s">
+                        <div class="wheel--left-con-s-tu tu7"><i class="iconfont">&#xeb66;</i></div>
+                        <div class="wheel--left-con-s-text">潮流个性</div>
+                    </div>
+                    <div class="wheel--left-con-s">
+                        <div class="wheel--left-con-s-tu tu8"><i class="iconfont">&#xeb66;</i></div>
+                        <div class="wheel--left-con-s-text">大家电</div>
+                    </div>
+                    <div class="wheel--left-con-s">
+                        <div class="wheel--left-con-s-tu tu9"><i class="iconfont">&#xeb66;</i></div>
+                        <div class="wheel--left-con-s-text">手机会场</div>
+                    </div>
+                    <div class="wheel--left-con-s">
+                        <div class="wheel--left-con-s-tu tu10"><i class="iconfont">&#xeb66;</i></div>
+                        <div class="wheel--left-con-s-text">精品家具</div>
+                    </div>
+                </div>
+            </div>
+            <div class="box box1"></div>
+            <div class="box box2"></div>
+            <div class="box box3"></div>
+            <div class="box box4"></div>
+            <div class="box box5"></div>
+            <div class="bots">
+                <div class="btn btn1 select"></div>
+                <div class="btn btn2"></div>
+                <div class="btn btn3"></div>
+                <div class="btn btn4"></div>
+                <div class="btn btn5"></div>
+            </div>
+        </div>
+    <!--活动-->
+        <div class="active">
+            <div class="active-sale">
+                <div class="active-name">
+                    <span class="active-name-1 b">品牌闪购</span>
+                    <span class="active-name-1 c">&nbsp;&nbsp;BRAND&nbsp;SALE</span>
+                    <span class="active-name-1 d">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                </div>
+                <div class="active-sale-tu"></div>
+            </div>
+            <div class="active-luxury">
+                <div class="active-name">
+                    <span class="active-name-1 b">聚名品</span>
+                    <span class="active-name-1 c">&nbsp;&nbsp;LUXURY&nbsp;CHANNEL</span>
+                    <span class="active-name-1 d">更多&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                </div>
+                <div class="active-luxury-tu"></div>
+            </div>
+            <div class="active-activity">
+                <div class="active-name">
+                    <span class="active-name-1 b">品牌活动</span>
+                    <span class="active-name-1 c">&nbsp;&nbsp;BRAND&nbsp;ACTIVITY</span>
+                    <span class="active-name-1 d">更多&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                </div>
+                <div class="active-activity-tu"></div>
+            </div>
+        </div>
+    <!--品牌墙-->
+        <div class="brand">
+            <div class="brand-tu tu1"><div class="brand-tu1">点击进入</div></div>
+            <div class="brand-tu tu2"><div class="brand-tu1">点击进入</div></div>
+            <div class="brand-tu tu3"><div class="brand-tu1">点击进入</div></div>
+            <div class="brand-tu tu4"><div class="brand-tu1">点击进入</div></div>
+            <div class="brand-tu tu5"><div class="brand-tu1">点击进入</div></div>
+            <div class="brand-tu tu6"><div class="brand-tu1">点击进入</div></div>
+            <div class="brand-tu tu7"><div class="brand-tu1">点击进入</div></div>
+            <div class="brand-tu tu8"><div class="brand-tu1">点击进入</div></div>
+            <div class="brand-tu tu9"><div class="brand-tu1">点击进入</div></div>
+            <div class="brand-tu tu10"><div class="brand-tu1">点击进入</div></div>
+            <div class="brand-tu tu11"><div class="brand-tu1">点击进入</div></div>
+            <div class="brand-tu tu12"><div class="brand-tu1">点击进入</div></div>
+            <div class="brand-tu tu13"><div class="brand-tu1">点击进入</div></div>
+            <div class="brand-tu tu14"><div class="brand-tu1">点击进入</div></div>
+            <div class="brand-tu tu15"><div class="brand-tu1">点击进入</div></div>
+            <div class="brand-tu tu16"><div class="brand-tu1">点击进入</div></div>
+            <div class="brand-tu tu17"><div class="brand-tu1">点击进入</div></div>
+            <div class="brand-tu tu18"><div class="brand-tu1">点击进入</div></div>
+            <div class="brand-tu tu19"><div class="brand-tu1">点击进入</div></div>
+            <div class="brand-tu tu20"><div class="brand-tu1">点击进入</div></div>
+            <div class="brand-tu tu21"><div class="brand-tu1">点击进入</div></div>
+            <div class="brand-tu tu22"><div class="brand-tu1">点击进入</div></div>
+            <div class="brand-tu tu23"><div class="brand-tu1">点击进入</div></div>
+            <div class="brand-tu tu24"><div class="brand-tu1">点击进入</div></div>
+            <div class="brand-tu tu25"><div class="brand-tu1">点击进入</div></div>
+            <div class="brand-tu tu26"><div class="brand-tu1">点击进入</div></div>
+            <div class="brand-tu tu27"><div class="brand-tu1">点击进入</div></div>
+            <div class="brand-tu tu28"><div class="brand-tu1">点击进入</div></div>
+            <div class="brand-tu tu29"><div class="brand-tu1">点击进入</div></div>
+            <div class="brand-tu tu30"><div class="brand-tu1">点击进入</div></div>
+        </div>
+    <!--天猫超市-->
+        <div class="mart">
+            <div class="mart-top">
+                <div class="mart-top-logo"></div>
+                <div class="mart-top-list">
+                    <a href="">进口食品</a>
+                    <a href="">食品饮料</a>
+                    <a href="">粮油副食</a>
+                    <a href="">美容洗护</a>
+                    <a href="">家具家电</a>
+                    <a href="">家庭清洁</a>
+                    <a href="">母婴用品</a>
+                    <a href="">生鲜水果</a>
+                </div>
+            </div>
+            <div class="mart-left"></div>
+            <div class="mart-main">
+                <div class="mart-main-1">
+                    <div class="mart-main-1-up">
+                        <div class="mart-main-1-up-left">今日疯抢</div>
+                        <div class="mart-main-1-up-right">限量装</div>
+                    </div>
+                    <div class="mart-main-1-down">
+                        <div class="mart-main-1-down-left">
+                            <span>粮油调味</span>
+                            <br>爆款直降
+
+                        </div>
+                        <div class="mart-main-1-down-right"></div>
+                    </div>
+                </div>
+                <div class="mart-main-2 mart-main-0">
+                    <div class="mart-main-tu mart-main-tu2"></div>
+                    <div class="mart-main-text">屈臣氏苏打汽水330ml*24&nbsp;整箱原味</div>
+                    <div class="mart-main-money">￥88</div>
+                </div>
+                <div class="mart-main-3 mart-main-0">
+                    <div class="mart-main-tu mart-main-tu3"></div>
+                    <div class="mart-main-text">枪手&nbsp;电热蚊香片套装无导线无味&nbsp;72片+1</div>
+                    <div class="mart-main-money">￥23.1</div>
+                </div>
+                <div class="mart-main-4 mart-main-0">
+                    <div class="mart-main-tu mart-main-tu4"></div>
+                    <div class="mart-main-text">绿伞洁厕剂洁厕液800g&nbsp;厕所除臭马桶</div>
+                    <div class="mart-main-money">￥13.9</div>
+                </div>
+                <div class="mart-main-5 mart-main-0">
+                    <div class="mart-main-tu mart-main-tu5"></div>
+                    <div class="mart-main-text">温碧泉去角质面部全身磨砂去死皮去鸡皮</div>
+                    <div class="mart-main-money">￥29</div>
+                </div>
+                <div class="mart-main-6 mart-main-0">
+                    <div class="mart-main-tu mart-main-tu6"></div>
+                    <div class="mart-main-text">原装进口尚牌避孕套大颗粒超薄润滑安全</div>
+                    <div class="mart-main-money">￥9.9</div>
+                </div>
+                <div class="mart-main-7 mart-main-0">
+                    <div class="mart-main-tu mart-main-tu7"></div>
+                    <div class="mart-main-text">3M思高百洁布超洁净去污耐用家用厨房清</div>
+                    <div class="mart-main-money">￥7</div>
+                </div>
+            </div>
+        </div>
+    <!--天猫国际-->
+        <div class="hk">
+            <div class="hk-top">
+                <div class="hk-top-logo"></div>
+                <div class="hk-top-list">
+                    <a href="">口红</a>
+                    <a href="">YSL</a>
+                    <a href="">面膜</a>
+                    <a href="">防晒</a>
+                    <a href="">迪奥</a>
+                </div>
+            </div>
+            <div class="hk-left">
+                <div class="hk-left-up">
+                    <div class="hk-left-up-show hk-left-show">
+                        <div class="hk-left-up-show-1 hk-left-show-1">进口<br>精选</div>
+                        <div class="hk-left-up-show-2 hk-left-show-2">大牌好货<br>轻松购入</div>
+                    </div>
+                    <div class="hk-left-up-tubiao hk-left-tubiao"></div>
+                </div>
+                <div class="hk-left-down">
+                    <div class="hk-left-down-show hk-left-show">
+                        <div class="hk-left-down-show-1 hk-left-show-1">直营<br>品质</div>
+                        <div class="hk-left-down-show-2 hk-left-show-2">放心体验<br>畅享全球</div>
+                    </div>
+                    <div class="hk-left-up-tubiao hk-left-tubiao"></div>
+                </div>
+            </div>
+            <div class="hk-main">
+                <div class="hk-main-1">
+                    <div class="hk-main-1-1">官方直营优选</div>
+                    <div class="hk-main-1-2">极致购物感受</div>
+                    <div class="hk-main-1-tu"></div>
+                </div>
+                <div class="hk-main-2 hk-main-0">
+                    <div class="hk-main-tu hk-main-tu2"></div>
+                    <div class="hk-main-text">澳洲bioisland进口孕妇专用海藻油DHA胶</div>
+                    <div class="hk-main-money">￥139</div>
+                </div>
+                <div class="hk-main-3 hk-main-0">
+                    <div class="hk-main-tu hk-main-tu3"></div>
+                    <div class="hk-main-text">Diesel迪赛 &nbsp;叁仟良品 &nbsp;潮男&nbsp; 虎头夏季圆领短</div>
+                    <div class="hk-main-money">￥270</div>
+                </div>
+                <div class="hk-main-4 hk-main-0">
+                    <div class="hk-main-tu hk-main-tu4"></div>
+                    <div class="hk-main-text">AVI8真皮原装表带牛皮时尚个性潮流精品</div>
+                    <div class="hk-main-money">￥259</div>
+                </div>
+                <div class="hk-main-5 hk-main-0">
+                    <div class="hk-main-tu hk-main-tu5"></div>
+                    <div class="hk-main-text">波兰ZIAJA山羊奶面膜补水保湿涂抹式嫩</div>
+                    <div class="hk-main-money">￥99</div>
+                </div>
+                <div class="hk-main-6 hk-main-0">
+                    <div class="hk-main-tu hk-main-tu6"></div>
+                    <div class="hk-main-text">保税日本资生堂AQUALABEL水之印</div>
+                    <div class="hk-main-money">￥85</div>
+                </div>
+                <div class="hk-main-7 hk-main-0">
+                    <div class="hk-main-tu hk-main-tu7"></div>
+                    <div class="hk-main-text">李维斯牛仔裤男美版levis505系列宽松直</div>
+                    <div class="hk-main-money">￥428</div>
+                </div>
+                <div class="hk-main-8 hk-main-0">
+                    <div class="hk-main-tu hk-main-tu8"></div>
+                    <div class="hk-main-text">韩国2018新款爱敬age20s水光精华气垫</div>
+                    <div class="hk-main-money">￥178</div>
+                </div>
+            </div>
+        </div>
+    <!--横图1-->
+        <div class="hengtu1"></div>
+    <!--美丽人生-->
+        <div class="beauty">
+            <div class="beauty-top">
+                <div class="beauty-top-logo">美丽人生&nbsp;&nbsp;FASHION&nbsp;&&nbsp;BEAUTY</div>
+            </div>
+            <div class="beauty-left">
+                    <div class="beauty-left-show">
+                        <div class="beauty-left-show-1">进口<br>精选</div>
+                        <div class="beauty-left-show-2">大牌好货<br>轻松购入</div>
+                    </div>
+                    <div class="beauty-left-tubiao"></div>
+            </div>
+            <div class="beauty-main">
+                <div class="beauty-main-1 beauty-main-0">
+                <div class="beauty-main-tu beauty-main-tu1"></div>
+                <div class="beauty-main-text">澳洲bioisland进口孕妇专用海藻油DHA胶</div>
+                <div class="beauty-main-money">￥139</div>
+            </div>
+                <div class="beauty-main-2 beauty-main-0">
+                <div class="beauty-main-tu hk-main-tu2"></div>
+                <div class="beauty-main-text">澳洲bioisland进口孕妇专用海藻油DHA胶</div>
+                <div class="beauty-main-money">￥139</div>
+            </div>
+                <div class="beauty-main-3 beauty-main-0">
+                <div class="beauty-main-tu beauty-main-tu3"></div>
+                <div class="beauty-main-text">Diesel迪赛 &nbsp;叁仟良品 &nbsp;潮男&nbsp; 虎头夏季圆领短</div>
+                <div class="beauty-main-money">￥270</div>
+            </div>
+                <div class="beauty-main-4 beauty-main-0">
+                <div class="beauty-main-tu beauty-main-tu4"></div>
+                <div class="beauty-main-text">AVI8真皮原装表带牛皮时尚个性潮流精品</div>
+                <div class="beauty-main-money">￥259</div>
+            </div>
+                <div class="beauty-main-5 beauty-main-0">
+                <div class="beauty-main-tu beauty-main-tu5"></div>
+                <div class="beauty-main-text">澳洲bioisland进口孕妇专用海藻油DHA胶</div>
+                <div class="beauty-main-money">￥139</div>
+            </div>
+                <div class="beauty-main-6 beauty-main-0">
+                <div class="beauty-main-tu hk-main-tu6"></div>
+                <div class="beauty-main-text">澳洲bioisland进口孕妇专用海藻油DHA胶</div>
+                <div class="beauty-main-money">￥139</div>
+            </div>
+                <div class="beauty-main-7 beauty-main-0">
+                <div class="beauty-main-tu beauty-main-tu7"></div>
+                <div class="beauty-main-text">Diesel迪赛 &nbsp;叁仟良品 &nbsp;潮男&nbsp; 虎头夏季圆领短</div>
+                <div class="beauty-main-money">￥270</div>
+            </div>
+                <div class="beauty-main-8 beauty-main-0">
+                <div class="beauty-main-tu beauty-main-tu8"></div>
+                <div class="beauty-main-text">AVI8真皮原装表带牛皮时尚个性潮流精品</div>
+                <div class="beauty-main-money">￥259</div>
+            </div>
+            </div>
+        </div>
+    <!--横图2-->
+        <div class="hengtu2"></div>
+    <!--户外出行-->
+        <div class="beauty1">
+        <div class="beauty1-top">
+            <div class="beauty1-top-logo">户外出行&nbsp;&nbsp;OUTDOORS&nbsp;&&nbsp;AUTOMOTIVE</div>
+        </div>
+        <div class="beauty1-left">
+            <div class="beauty1-left-show">
+                <div class="beauty1-left-show-1">进口<br>精选</div>
+                <div class="beauty1-left-show-2">大牌好货<br>轻松购入</div>
+            </div>
+            <div class="beauty-left-tubiao"></div>
+        </div>
+        <div class="beauty1-main">
+            <div class="beauty-main-1 beauty-main-0">
+                <div class="beauty-main-tu beauty-main-tu1"></div>
+                <div class="beauty-main-text">澳洲bioisland进口孕妇专用海藻油DHA胶</div>
+                <div class="beauty-main-money">￥139</div>
+            </div>
+            <div class="beauty-main-2 beauty-main-0">
+                <div class="beauty-main-tu hk-main-tu2"></div>
+                <div class="beauty-main-text">澳洲bioisland进口孕妇专用海藻油DHA胶</div>
+                <div class="beauty-main-money">￥139</div>
+            </div>
+            <div class="beauty-main-3 beauty-main-0">
+                <div class="beauty-main-tu beauty-main-tu3"></div>
+                <div class="beauty-main-text">Diesel迪赛 &nbsp;叁仟良品 &nbsp;潮男&nbsp; 虎头夏季圆领短</div>
+                <div class="beauty-main-money">￥270</div>
+            </div>
+            <div class="beauty-main-4 beauty-main-0">
+                <div class="beauty-main-tu beauty-main-tu4"></div>
+                <div class="beauty-main-text">AVI8真皮原装表带牛皮时尚个性潮流精品</div>
+                <div class="beauty-main-money">￥259</div>
+            </div>
+            <div class="beauty-main-5 beauty-main-0">
+                <div class="beauty-main-tu beauty-main-tu5"></div>
+                <div class="beauty-main-text">澳洲bioisland进口孕妇专用海藻油DHA胶</div>
+                <div class="beauty-main-money">￥139</div>
+            </div>
+            <div class="beauty-main-6 beauty-main-0">
+                <div class="beauty-main-tu hk-main-tu6"></div>
+                <div class="beauty-main-text">澳洲bioisland进口孕妇专用海藻油DHA胶</div>
+                <div class="beauty-main-money">￥139</div>
+            </div>
+            <div class="beauty-main-7 beauty-main-0">
+                <div class="beauty-main-tu beauty-main-tu7"></div>
+                <div class="beauty-main-text">Diesel迪赛 &nbsp;叁仟良品 &nbsp;潮男&nbsp; 虎头夏季圆领短</div>
+                <div class="beauty-main-money">￥270</div>
+            </div>
+            <div class="beauty-main-8 beauty-main-0">
+                <div class="beauty-main-tu beauty-main-tu8"></div>
+                <div class="beauty-main-text">AVI8真皮原装表带牛皮时尚个性潮流精品</div>
+                <div class="beauty-main-money">￥259</div>
+            </div>
+        </div>
+    </div>
+    <!--横图3-->
+        <div class="hengtu3"></div>
+    <!--猜你喜欢-->
+        <div class="like">
+            <div class="like-top">
+                —&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;猜你喜欢—
+            </div>
+            <div class="like-body">
+                    <div class="beauty-main-1 beauty-main-0">
+                        <div class="beauty-main-tu beauty-main-tu1"></div>
+                        <div class="beauty-main-text">澳洲bioisland进口孕妇专用海藻油DHA胶</div>
+                        <div class="beauty-main-money">￥139</div>
+                    </div>
+                    <div class="beauty-main-2 beauty-main-0">
+                        <div class="beauty-main-tu hk-main-tu2"></div>
+                        <div class="beauty-main-text">澳洲bioisland进口孕妇专用海藻油DHA胶</div>
+                        <div class="beauty-main-money">￥139</div>
+                    </div>
+                    <div class="beauty-main-3 beauty-main-0">
+                        <div class="beauty-main-tu beauty-main-tu3"></div>
+                        <div class="beauty-main-text">Diesel迪赛 &nbsp;叁仟良品 &nbsp;潮男&nbsp; 虎头夏季圆领短</div>
+                        <div class="beauty-main-money">￥270</div>
+                    </div>
+                    <div class="beauty-main-4 beauty-main-0">
+                        <div class="beauty-main-tu beauty-main-tu4"></div>
+                        <div class="beauty-main-text">AVI8真皮原装表带牛皮时尚个性潮流精品</div>
+                        <div class="beauty-main-money">￥259</div>
+                    </div>
+                    <div class="beauty-main-5 beauty-main-0">
+                        <div class="beauty-main-tu beauty-main-tu5"></div>
+                        <div class="beauty-main-text">澳洲bioisland进口孕妇专用海藻油DHA胶</div>
+                        <div class="beauty-main-money">￥139</div>
+                    </div>
+            </div>
+        </div>
+    <!--end-->
+        <div class="end"></div>
+        <div class="endd">
+            <div class="endd-up">
+                <div class="endd-up-part">
+                    <div class="tu tu1" ></div>
+                    <div class="text">
+                        <h3>品质保证</h3><br>
+                        <h5>品质护航&nbsp;购物无忧</h5>
+                    </div>
+                </div>
+                <div class="endd-up-part">
+                    <div class="tu tu2"></div>
+                    <h3>七天无理由退换</h3><br>
+                    <h5>品质护航&nbsp;购物无忧</h5>
+                </div>
+                <div class="endd-up-part">
+                    <div class="tu tu3"></div>
+                    <h3>特色服务体验</h3><br>
+                    <h5>品质护航&nbsp;购物无忧</h5>
+                </div>
+                <div class="endd-up-part">
+                    <div class="tu tu4"></div>
+                    <h3>帮助中心</h3><br>
+                    <h5>品质护航&nbsp;购物无忧</h5>
+                </div>
+            </div>
+            <div class="endd-down">
+                <div class="endd-down-part">
+                    <h3>购物指南</h3><br>
+                    <a href="">免费注册</a><br>
+                    <a href="">开通支付宝</a><br>
+                    <a href="">支付宝充值</a>
+                </div>
+                <div class="endd-down-part">
+                    <h3>天猫保障</h3><br>
+                    <a href="">发票报账</a><br>
+                    <a href="">周后规则</a><br>
+                    <a href="">缺货赔付</a>
+                </div>
+                <div class="endd-down-part">
+                    <h3>支付方式</h3><br>
+                    <a href="">快捷支付</a><br>
+                    <a href="">信用卡支付</a><br>
+                    <a href="">余额</a><br>
+                    <a href="">花呗</a><br>
+                    <a href="">货到付款</a>
+                </div>
+                <div class="endd-down-part">
+                    <h3>商家服务</h3><br>
+                    <a href="">天猫规则</a><br>
+                    <a href="">商家入驻</a><br>
+                    <a href="">商家中心</a>
+                </div>
+                <div class="endd-down-part endd-down-part0">
+                    <h3>手机天猫</h3><br>
+                    <div class="endd-down-part0-tu"></div>
+                </div>
+            </div>
+        </div>
+    <!--foot-->
+        <div class="foot">
+            <div class="foot-1">
+                <a href="">关于天猫</a>&nbsp;
+                <a href="">帮助中心</a>&nbsp;
+                <a href="">开放平台</a>&nbsp;
+                <a href="">诚聘英才</a>&nbsp;
+                <a href="">联系我们</a>&nbsp;
+                <a href="">网站合作</a>&nbsp;
+                <a href="">法律声明</a>&nbsp;
+                <a href="">隐私权政策</a>&nbsp;
+                <a href="">知识产权</a>&nbsp;
+                <a href="">廉政举报</a>&nbsp;
+                <a href="">规则意见征集</a>
+            </div>
+            <div class="foot-2">
+                <a href="">阿里巴巴集团</a>&nbsp;&nbsp;|
+                <a href="">淘宝网</a>&nbsp;&nbsp;|
+                <a href="">天猫</a>&nbsp;&nbsp;|
+                <a href="">聚划算</a>&nbsp;&nbsp;|
+                <a href="">全球速卖通</a>&nbsp;&nbsp;|
+                <a href="">阿里巴巴国际交易市场</a>&nbsp;&nbsp;|
+                <a href="">1688</a>&nbsp;&nbsp;|
+                <a href="">阿里妈妈</a>&nbsp;&nbsp;|
+                <a href="">飞猪</a>&nbsp;&nbsp;|
+                <a href="">阿里云计算</a>&nbsp;&nbsp;|
+                <a href="">AliOS</a>&nbsp;&nbsp;|
+                <a href="">阿里通信</a>&nbsp;&nbsp;|
+                <a href="">万网</a>&nbsp;&nbsp;|
+                <a href="">高德</a>&nbsp;&nbsp;|
+                <a href="">UC</a>&nbsp;&nbsp;|
+                <a href="">友盟</a>&nbsp;&nbsp;|
+                <a href="">虾米</a>&nbsp;&nbsp;|
+                <a href="">钉钉</a>&nbsp;&nbsp;|
+                <a href="">支付宝</a><br><br>
+            </div>
+            <div class="foot-3">
+                <span>出版物网络交易平台服务经营备案证： 新出发浙备字第001号<br><br>
+                互联网违法和不良信息举报电话：0571-81683755 blxxjb@alibaba-inc.com</span>
+            </div>
+        </div>
+</div>
+
