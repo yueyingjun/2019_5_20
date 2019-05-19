@@ -1,0 +1,627 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>首页</title>
+    <link rel="stylesheet" href="./index.css">
+    <script>
+        window.onload=function(ev){
+            var lun = document.querySelectorAll(".lun");
+            var btn=document.querySelectorAll(".btn");
+            var num=0
+            setInterval(function () {
+
+                if (num == 2) {
+                    num = 0;
+                }
+
+                for (var i = 0; i < lun.length; i++) {
+                    lun[i].style.display = "none"
+                    btn[i].style.background="#000"
+                }
+                lun[num].style.display = "block";
+                btn[num].style.background="orange"
+                num++
+            },3000)
+        }
+    </script>
+</head>
+<body>
+<!--顶部-->
+<div class="top">
+    <div class="top-left">
+    <span class="top-left-left">喵，欢迎来天猫</span>
+    <span class="top-left-right">
+        <a href="">请登录</a>
+        <a href="">免费注册</a>
+    </span>
+    </div>
+    <div class="top-right">
+        <div class="top-right-one">
+            <a href="" id="top-right-one">我的淘宝
+              <!--  <div class="top-right-one-lists">-->
+          <!--  <span class="top-right-one-list">
+                已买到的宝贝
+            </span>-->
+                   <!-- <span class="top-right-one-list">
+                        已卖出的宝贝
+                    </span>-->
+               <!-- </div>-->
+            </a>
+        </div>
+        <div class="top-right-one">
+            <a href="">购物件零件</a>
+        </div>
+        <div class="top-right-one">
+            <a href="">收藏夹</a>
+        </div>
+        <div class="top-right-one">
+            <a href="">淘宝网</a>
+        </div>
+        <div class="top-right-one">
+            <a href="">商家支持</a>
+        </div>
+        <div class="top-right-one">
+            <a href="">网站导航</a>
+        </div>
+    </div>
+</div>
+<!--茶询部分-->
+<div class="search">
+    <div class="search-left">
+    </div>
+    <div class="search-right">
+        <input type="text" name="q" accesskey="s" autocomplete="off" x-webkit-speech="" x-webkit-grammar="builtin:translate" value="" id="mq" class="s-combobox-input" role="combobox" aria-haspopup="true" title="请输入搜索文字" aria-label="请输入搜索文字" data-spm-anchor-id="875.7931836/B.a2226n0.i0.66144265AC0ZUx">
+        <label for="mq" class="s-combobox-placeholder" style="color: rgb(102, 102, 102); visibility: visible;">搜索 天猫 商品/品牌/店铺</label>
+        <button type="submit">搜索<s></s></button>
+        <ul class="search-right-down">
+            <li>针织衫     |</li>
+            <li>连衣裙     |</li>
+            <li>四件套     |</li>
+            <li>摄像头     |</li>
+            <li>客厅灯     |</li>
+            <li>口红     |</li>
+            <li>手机     |</li>
+            <li>运动鞋     |</li>
+            <li>牛奶     |</li>
+        </ul>
+    </div>
+</div>
+<!--主页部分-->
+<div class="main-main">
+    <div class="main-main-one">
+        <img src="imgs/6.png">
+        <img src="imgs/5.png">
+        <a href="">天猫会员</a>
+        <a href="">电器城</a>
+        <a href="">喵鲜生</a>
+        <a href="">医药馆</a>
+        <a href="">营业厅</a>
+        <a href="">魅力惠</a>
+        <a href="">飞猪旅行</a>
+        <a href="">苏宁易购</a>
+    </div>
+</div>
+<div class="main">
+<!--主页上部-->
+<div  class="main-top">
+      <!--  <div id="list" class="main-top-list">
+         <img src="./imgs/2.jpg" width="100%" height="100%" class="main-top-li">
+            <img src="./imgs/3.jpg" width="100%" height="100%" class="main-top-li">
+           <img src="./imgs/4.jpg" width="100%" height="100%" class="main-top-li">
+        </div>
+    <div id="nacigation-header-bottom-indexs">
+        <div class="nacigation-header-bottom-index"></div>
+        <div class="nacigation-header-bottom-index"></div>
+        <div class="nacigation-header-bottom-index"></div>
+        <div class="nacigation-header-bottom-index"></div>
+        <div class="nacigation-header-bottom-index"></div>
+        <div class="nacigation-header-bottom-index" style="background-color: #ddd"></div>
+    </div>-->
+    <!--轮播-->
+    <div class="lun lun1">
+     <img src="imgs/2.jpg" height="100%" width="100%">
+    </div>
+    <div class="lun lun2">
+        <img src="imgs/3.jpg" height="100%" width="100%">
+    </div>
+    <div class="btns">
+        <div class="btn active"></div>
+        <div class="btn"></div>
+    </div>
+    <div id="nacigation-header-bottom-indexs">
+        <div class="nacigation-header-bottom-index"></div>
+        <div class="nacigation-header-bottom-index"></div>
+        <div class="nacigation-header-bottom-index"></div>
+        <div class="nacigation-header-bottom-index"></div>
+        <div class="nacigation-header-bottom-index"></div>
+        <div class="nacigation-header-bottom-index" style="background-color: #ddd"></div>
+    </div>-->
+</div>
+    <!--主页中部-->
+    <div class="main-middle">
+        <div class="main-middle-left">
+            <div class="main-middle-left-top">
+                <strong>品牌闪购 BRAND SALE</strong>
+            </div>
+            <div class="main-middle-left-down">
+                <a href="">   <img src="imgs/7.jpg" width="100%" height="100%"></a>
+            </div>
+        </div>
+        <div class="main-middle-left">
+            <div class="main-middle-left-top">
+                <strong>聚名品 LUXURY CHANNEL</strong>
+            </div>
+            <div class="main-middle-left-down">
+                <a href=""><img src="imgs/8.jpg" width="100%" height="100%"></a>
+            </div>
+        </div>
+        <div class="main-middle-left">
+            <div class="main-middle-left-top">
+                <strong>品牌活动BRAND ACTIVITY</strong>
+            </div>
+            <div class="main-middle-left-down">
+                <a href=""><img src="imgs/9.jpg" width="100%" height="100%"></a>
+            </div>
+        </div>
+    </div>
+    <!--主页下部-->
+    <div class="main-down">
+        <div class="main-down-demo">
+            <div class="main-down-demo-top">
+                <a href="">     <img src="imgs/88.JPG" height="100%" width="100%"></a>
+            </div>
+            <div class="main-down-demo-middle">
+                <a href="">  <img src="imgs/444.JPG" height="100%" width="100%"></a>
+            </div>
+            <div class="main-down-demo-down">
+                <a href=""> <img src="imgs/hh.JPG" height="100%" width="100%"></a>
+            </div>
+
+        </div>
+        <div class="main-down-demo">
+            <div class="main-down-demo-top">
+                <a href="">     <img src="imgs/9.JPG" height="100%" width="100%"></a>
+            </div>
+            <div class="main-down-demo-middle">
+                <a href="">  <img src="imgs/44.JPG" height="100%" width="100%"></a>
+            </div>
+            <div class="main-down-demo-down">
+                <a href=""> <img src="imgs/116.JPG" height="100%" width="100%"></a>
+            </div>
+
+        </div>
+        <div class="main-down-demo">
+            <div class="main-down-demo-top">
+                <a href="">     <img src="imgs/444.JPG" height="100%" width="100%"></a>
+            </div>
+            <div class="main-down-demo-middle">
+                <a href="">  <img src="imgs/ii.JPG" height="100%" width="100%"></a>
+            </div>
+            <div class="main-down-demo-down">
+                <a href=""> <img src="imgs/nn.JPG" height="100%" width="100%"></a>
+            </div>
+
+        </div>
+        <div class="main-down-demo">
+            <div class="main-down-demo-top">
+                <a href="">     <img src="imgs/77.JPG" height="100%" width="100%"></a>
+            </div>
+            <div class="main-down-demo-middle">
+                <a href="">  <img src="imgs/11.JPG" height="100%" width="100%"></a>
+            </div>
+            <div class="main-down-demo-down">
+                <a href=""> <img src="imgs/pp.JPG" height="100%" width="100%"></a>
+            </div>
+
+        </div>
+        <div class="main-down-demo">
+            <div class="main-down-demo-top">
+                <a href="">     <img src="imgs/5.JPG" height="100%" width="100%"></a>
+            </div>
+            <div class="main-down-demo-middle">
+                <a href="">  <img src="imgs/12.JPG" height="100%" width="100%"></a>
+            </div>
+            <div class="main-down-demo-down">
+                <a href=""> <img src="imgs/55.JPG" height="100%" width="100%"></a>
+            </div>
+
+        </div>
+        <div class="main-down-demo">
+            <div class="main-down-demo-top">
+                <a href="">     <img src="imgs/uu.JPG" height="100%" width="100%"></a>
+            </div>
+            <div class="main-down-demo-middle">
+                <a href="">  <img src="imgs/yy.JPG" height="100%" width="100%"></a>
+            </div>
+            <div class="main-down-demo-down">
+                <a href=""> <img src="imgs/8.JPG" height="100%" width="100%"></a>
+            </div>
+
+        </div>
+        <div class="main-down-demo">
+            <div class="main-down-demo-top">
+                <a href="">     <img src="imgs/7.JPG" height="100%" width="100%"></a>
+            </div>
+            <div class="main-down-demo-middle">
+                <a href="">  <img src="imgs/nn.JPG" height="100%" width="100%"></a>
+            </div>
+            <div class="main-down-demo-down">
+                <a href=""> <img src="imgs/hh.JPG" height="100%" width="100%"></a>
+            </div>
+
+        </div>
+        <div class="main-down-demo">
+            <div class="main-down-demo-top">
+                <a href="">     <img src="imgs/12.JPG" height="100%" width="100%"></a>
+            </div>
+            <div class="main-down-demo-middle">
+                <a href="">  <img src="imgs/55.JPG" height="100%" width="100%"></a>
+            </div>
+            <div class="main-down-demo-down">
+                <a href=""> <img src="imgs/666.JPG" height="100%" width="100%"></a>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<!--主要商品-->
+<div class="kinds">
+    <div class="kinds-top">
+        <div class="kinds-top-left">
+         <img src="imgs/qqqq.png">
+        </div>
+        <div class="kinds-top-right">
+            <a href="">进口食品</a>
+            <a href="">食品饮料</a>
+            <a href="">粮油副食</a>
+            <a href="">美容洗护</a>
+            <a href="">家居家电</a>
+            <a href="">家庭清洁</a>
+            <a href="">母婴用品</a>
+
+        </div>
+    </div>
+    <div class="kinds-down">
+    <div class="kinds-down-left">
+        <a href="">    <img src="imgs/12345.jpg" width="100%" height="100%"></a>
+    </div>
+        <div class="kinds-down-right">
+            <div class="kinds-down-right-demo">
+             <div class="kinds-down-right-demo-top">
+                 <a href="">  <img src="imgs/12346.jpg" height="100%" width="100%"></a>
+                </div>
+                <div class="kinds-down-right-demo-down">
+                    <a href="">   <img src="imgs/12347.jpg" height="100%" width="100%"></a>
+                </div>
+            </div>
+            <div class="kinds-down-right-demo">
+                <div class="kinds-down-right-demo-top">
+                    <a href="">   <img src="imgs/12348.jpg" height="100%" width="100%"></a>
+                </div>
+                <div class="kinds-down-right-demo-down">
+                    <a href="">    <img src="imgs/12349.jpg" height="100%" width="100%"></a>
+                </div>
+            </div>
+            <div class="kinds-down-right-demo">
+                <div class="kinds-down-right-demo-top">
+                    <a href="">    <img src="imgs/23456.jpg" height="100%" width="100%"></a>
+                </div>
+                <div class="kinds-down-right-demo-down">
+                    <a href="">    <img src="imgs/23457.jpg" height="100%" width="100%"></a>
+                </div>
+            </div>
+            <div class="kinds-down-right-demo">
+                <div class="kinds-down-right-demo-top">
+                    <a href="">   <img src="imgs/23458.jpg" height="100%" width="100%"> </a>
+                </div>
+                <div class="kinds-down-right-demo-down">
+                    <a href="">  <img src="imgs/23459.jpg" height="100%" width="100%">  </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="kinds">
+    <div class="kinds-top">
+        <div class="kinds-top-left">
+            <img src="imgs/qqqq.png">
+        </div>
+        <div class="kinds-top-right">
+            <a href="">进口食品</a>
+            <a href="">食品饮料</a>
+            <a href="">粮油副食</a>
+            <a href="">美容洗护</a>
+            <a href="">家居家电</a>
+            <a href="">家庭清洁</a>
+            <a href="">母婴用品</a>
+
+        </div>
+    </div>
+    <div class="kinds-down">
+        <div class="kinds-down-left">
+            <a href="">    <img src="imgs/12345.jpg" width="100%" height="100%"></a>
+        </div>
+        <div class="kinds-down-right">
+            <div class="kinds-down-right-demo">
+                <div class="kinds-down-right-demo-top">
+                    <a href="">  <img src="imgs/12346.jpg" height="100%" width="100%"></a>
+                </div>
+                <div class="kinds-down-right-demo-down">
+                    <a href="">   <img src="imgs/12347.jpg" height="100%" width="100%"></a>
+                </div>
+            </div>
+            <div class="kinds-down-right-demo">
+                <div class="kinds-down-right-demo-top">
+                    <a href="">   <img src="imgs/12348.jpg" height="100%" width="100%"></a>
+                </div>
+                <div class="kinds-down-right-demo-down">
+                    <a href="">    <img src="imgs/12349.jpg" height="100%" width="100%"></a>
+                </div>
+            </div>
+            <div class="kinds-down-right-demo">
+                <div class="kinds-down-right-demo-top">
+                    <a href="">    <img src="imgs/23456.jpg" height="100%" width="100%"></a>
+                </div>
+                <div class="kinds-down-right-demo-down">
+                    <a href="">    <img src="imgs/23457.jpg" height="100%" width="100%"></a>
+                </div>
+            </div>
+            <div class="kinds-down-right-demo">
+                <div class="kinds-down-right-demo-top">
+                    <a href="">   <img src="imgs/23458.jpg" height="100%" width="100%"> </a>
+                </div>
+                <div class="kinds-down-right-demo-down">
+                    <a href="">  <img src="imgs/23459.jpg" height="100%" width="100%">  </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="kinds">
+    <div class="kinds-top">
+        <div class="kinds-top-left">
+            <img src="imgs/qqqq.png">
+        </div>
+        <div class="kinds-top-right">
+            <a href="">进口食品</a>
+            <a href="">食品饮料</a>
+            <a href="">粮油副食</a>
+            <a href="">美容洗护</a>
+            <a href="">家居家电</a>
+            <a href="">家庭清洁</a>
+            <a href="">母婴用品</a>
+
+        </div>
+    </div>
+    <div class="kinds-down">
+        <div class="kinds-down-left">
+            <a href="">    <img src="imgs/12345.jpg" width="100%" height="100%"></a>
+        </div>
+        <div class="kinds-down-right">
+            <div class="kinds-down-right-demo">
+                <div class="kinds-down-right-demo-top">
+                    <a href="">  <img src="imgs/12346.jpg" height="100%" width="100%"></a>
+                </div>
+                <div class="kinds-down-right-demo-down">
+                    <a href="">   <img src="imgs/12347.jpg" height="100%" width="100%"></a>
+                </div>
+            </div>
+            <div class="kinds-down-right-demo">
+                <div class="kinds-down-right-demo-top">
+                    <a href="">   <img src="imgs/12348.jpg" height="100%" width="100%"></a>
+                </div>
+                <div class="kinds-down-right-demo-down">
+                    <a href="">    <img src="imgs/12349.jpg" height="100%" width="100%"></a>
+                </div>
+            </div>
+            <div class="kinds-down-right-demo">
+                <div class="kinds-down-right-demo-top">
+                    <a href="">    <img src="imgs/23456.jpg" height="100%" width="100%"></a>
+                </div>
+                <div class="kinds-down-right-demo-down">
+                    <a href="">    <img src="imgs/23457.jpg" height="100%" width="100%"></a>
+                </div>
+            </div>
+            <div class="kinds-down-right-demo">
+                <div class="kinds-down-right-demo-top">
+                    <a href="">   <img src="imgs/23458.jpg" height="100%" width="100%"> </a>
+                </div>
+                <div class="kinds-down-right-demo-down">
+                    <a href="">  <img src="imgs/23459.jpg" height="100%" width="100%">  </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--商品列表-->
+<div class="klist">
+<div class="klist-demo">
+    <div class="klist-demo-front">
+        <a href=""><img src="imgs/l1.jpg" width="100%" height="100%"></a>
+    </div>
+    <div class="klist-demo-midle">
+        <a href=""><img src="imgs/l2.jpg" height="100%" width="100%"></a>
+    </div>
+    <div class="klist-demo-last">
+        <a href=""><img src="imgs/l4.jpg" width="100%" height="100%"></a>
+    </div>
+</div>
+    <div class="klist-demo">
+        <div class="klist-demo-front">
+            <a href=""><img src="imgs/l5.jpg" width="100%" height="100%"></a>
+        </div>
+        <div class="klist-demo-midle">
+            <a href=""><img src="imgs/l6.jpg" height="100%" width="100%"></a>
+        </div>
+        <div class="klist-demo-last">
+            <a href=""><img src="imgs/l7.jpg" width="100%" height="100%"></a>
+        </div>
+    </div>
+</div>
+<!--<网页底部>-->
+<div id="footer" data-spm="a2226n1" style="display: block;">
+<div class="footer-top">
+    <div class="footer-top-top">
+        <div class="footer-top-top-demo">
+    <div class="footer-top-top-left">
+        <img src="imgs/a1.JPG">
+    </div>
+        <div class="footer-top-top-right">
+            <strong>品质保障</strong>
+            <div>  <span>品质护航 购物无忧</span></div>
+        </div>
+        </div>
+        <div class="footer-top-top-demo">
+            <div class="footer-top-top-left">
+                <img src="imgs/a2.JPG">
+            </div>
+            <div class="footer-top-top-right">
+                <strong>七天无理由退换货</strong>
+                <div><span>为您提供售后无忧保障</span></div>
+            </div>
+        </div>
+        <div class="footer-top-top-demo">
+            <div class="footer-top-top-left">
+                <img src="imgs/a3.JPG">
+            </div>
+            <div class="footer-top-top-right">
+                <strong>特色服务体验</strong>
+                <div> <span>为您呈现不一样的服务</span></div>
+            </div>
+        </div>
+        <div class="footer-top-top-demo">
+            <div class="footer-top-top-left">
+                <img src="imgs/a4.JPG">
+            </div>
+            <div class="footer-top-top-right">
+                <strong>帮助中心</strong>
+                <div><span>您的购物指南</span></div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="footer-top-down">
+    <div class="footer-top-down-demo">
+        <span>购物指南<span/>
+        <p>免费注册</p>
+          <p> 开通支付宝</p>
+        <p> 支付宝充值</p>
+        </span>
+    </div>
+        <div class="footer-top-down-demo">
+        <span>天猫保障<span/>
+        <p>发票保障</p>
+          <p> 售后规则</p>
+        <p> 缺货赔付</p>
+        </span>
+        </div>
+        <div class="footer-top-down-demo">
+        <span>支付方式<span/>
+        <p>快捷支付</p>
+          <p> 信用卡</p>
+        <p> 蚂蚁花呗</p>
+            <p> 余额宝</p>
+            <p> 货到付款</p>
+        </span>
+        </div>
+        <div class="footer-top-down-demo">
+        <span>商家服务<span/>
+        <p>天猫规则</p>
+          <p> 商家入驻</p>
+        <p> 商家中心</p>
+            <p> 天猫智库</p>
+            <p> 物流服务</p>
+           <!-- <p> 喵言喵语</p>
+            <p> 运营服务</p>-->
+        </span>
+        </div>
+</div>
+    <div id="tmall-copyright">
+        <div class="mui-global-fragment-load" data-fragment="tmbase/mui_footer_link" style=""><p class="footer-tmallinfo" data-spm-anchor-id="875.7931836/B.a2226n1.i0.66144265XSGUFj">
+            <a href="//pages.tmall.com/wow/seller/act/zhaoshangproduce" target="_blank">关于天猫</a>
+            <a href="//service.tmall.com/support/tmall/tmallHelp.htm" target="_blank">帮助中心</a>
+            <a href="//open.taobao.com" target="_blank">开放平台</a>
+            <a href="//job.alibaba.com/zhaopin/index.htm" target="_blank">诚聘英才</a>
+            <a href="//consumerservice.taobao.com/contact-us" target="_blank">联系我们</a>
+            <a href="//xtao.tmall.com?tracelog=tmallfoot" target="_blank">网站合作</a>
+            <a href="//terms.alicdn.com/legal-agreement/terms/suit_bu1_tmall/suit_bu1_tmall201801121425_43176.html" target="_blank">法律声明</a>
+            <a href="//terms.alicdn.com/legal-agreement/terms/suit_bu1_tmall/suit_bu1_tmall201801031144_60809.html" target="_blank">隐私权政策</a>
+            <a href="http://ipp.alibabagroup.com/" target="_blank">知识产权</a>
+            <a href="//jubao.alibaba.com/index.html?site=TMALL" target="_blank">廉正举报</a>
+            <a class="footer-fp-rule" style="display:none;" href="//rule.tmall.com/trulecycle.htm" target="_blank">规则意见征集</a>
+        </p>
+            <p class="footer-otherlink">
+                <a href="http://www.alibabagroup.com/cn/global/home" target="_blank">阿里巴巴集团</a>|
+                <a href="//www.taobao.com" target="_blank">淘宝网</a> |
+                <a href="//www.tmall.com/" target="_blank">天猫</a> |
+                <a href="//ju.taobao.com/" target="_blank">聚划算</a> |
+                <a href="http://www.aliexpress.com/" target="_blank">全球速卖通</a> |
+                <a href="http://www.alibaba.com/" target="_blank">阿里巴巴国际交易市场</a>|
+                <a href="//www.1688.com/" target="_blank">1688</a> |
+                <a href="//www.alimama.com/" target="_blank">阿里妈妈</a> |
+                <a href="//www.fliggy.com/" target="_blank">飞猪</a> |
+                <a href="http://www.aliyun.com/" target="_blank">阿里云计算</a> |
+                <a href="http://www.alios.cn/" target="_blank">AliOS</a> |
+                <a href="http://aliqin.cn/" target="_blank">阿里通信</a> |
+                <a href="http://www.net.cn/" target="_blank">万网</a> |
+                <a href="http://www.autonavi.com/" target="_blank">高德</a> |
+                <a href="http://www.uc.cn/" target="_blank">UC</a> |
+                <a href="http://www.umeng.com/" target="_blank">友盟</a> |
+                <a href="http://www.xiami.com/" target="_blank">虾米</a> |
+                <a href="http://www.dingtalk.com/?lwfrom=20150205115110773" target="_blank">钉钉</a> |
+                <a href="https://www.alipay.com" target="_blank">支付宝</a>
+            </p>
+            <div class="footer-copyright">增值电信业务经营许可证：
+                <a data-spm-protocol="i" href="http://www.miibeian.gov.cn/state/outPortal/loginPortal.action">浙B2-20110446</a>
+                <span style="margin-right:65px;">市场名称登记证：工商网市字3301004119号</span>
+                <span>出版物网络交易平台服务经营备案证： 新出发浙备字第001号</span>
+                <br>
+                <span style="margin-right:65px;">互联网违法和不良信息举报电话：0571-81683755 blxxjb@alibaba-inc.com</span>
+                <span class="footer-liangxinyao-cert" style="display:none;">
+        <br>
+        互联网药品交易服务资格证：<a href="//img.alicdn.com/tps/TB1c4YwOpXXXXcHXXXXXXXXXXXX-3306-2338.jpg" target="_blank">粤c20150002</a>
+        <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44010602001483" target="_blank">
+            <img src="https://img.alicdn.com/tps/TB1_qAKKVXXXXXjapXXXXXXXXXX-20-20.png">粤公网安备 44010602001483号
+        </a>
+        <a style="margin-right:30px" href="http://www.miitbeian.gov.cn/" target="_blank">粤ICP备14088652号-2</a>
+        医疗器械经营许可证：<a style="margin-right:30px" href="https://pages.tmall.com/wow/yao/act/medical-cert?spm=a312d.7832054.0.0.7c6dc3095FoAP2" target="_blank">粤穗食药监械经营许20171161号</a>
+        <a style="margin-right:50px" href="https://gw.alicdn.com/tfs/TB1mEJFkYvpK1RjSZPiXXbmwXXa-2479-1752.jpg" target="_blank">食品经营许可证</a>
+        互联网药品信息服务资格证：<a href="https://img.alicdn.com/tfs/TB11W3xrpOWBuNjy0FiXXXFxVXa-2479-1752.jpg" target="_blank">（粤）—经营性—2018—0092</a>
+        <a style="margin-right:30px" href="http://air.gzaic.gov.cn:88/outsys/commonquery/viewBusinessLicence?uniscid=91440101681325547Y&amp;regno=440106000067508" target="_blank">阿里健康大药房营业执照</a>
+        <a href="https://img.alicdn.com/tfs/TB1xzdfAFYqK1RjSZLeXXbXppXa-1310-930.jpg" target="_blank">药品经营许可证</a>
+        <a href="https://img.alicdn.com/tfs/TB1OMpnAQvoK1RjSZFwXXciCFXa-642-915.jpg" target="_blank">第二类医疗器械备案凭证</a>
+        <a href="http://www.nmpa.gov.cn/WS04/CL2042/" target="_blank">国家药品监督管理局</a>
+        <a href="http://www.12315.cn/" target="_blank">全国12315互联网平台</a>
+        <a href="http://www.gdnet110.gov.cn/?top_keyword" target="_blank">广东省公安厅</a>
+        <a href="https://img.alicdn.com/tfs/TB1Ri7_AzDpK1RjSZFrXXa78VXa-1308-928.jpg" target="_blank">GSP</a>
+        <a href="https://img.alicdn.com/tfs/TB1gIinAMHqK1RjSZFPXXcwapXa-1007-734.png" target="_blank">二类医疗器械网络销售备案</a>
+        <a href="https://img.alicdn.com/tfs/TB1guunAQPoK1RjSZKbXXX1IXXa-1018-699.png" target="_blank">三类医疗器械网络销售备案</a>
+        <a href="https://img.alicdn.com/tfs/TB1or0iAFzqK1RjSZSgXXcpAVXa-650-924.jpg" target="_blank">食品经营备案</a>
+        <br>
+    </span>
+                互联网药品信息服务资质证书编号：<a href="//img.alicdn.com/tps/TB1vi6vPVXXXXbVXVXXXXXXXXXX-927-653.png">浙-（经营性）-2017-0005</a>
+                <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33010002000120"><img src="//img.alicdn.com/tps/TB1yEqRPXXXXXXPXpXXXXXXXXXX-20-20.png" style="position:relative;top:5px;vertical-align:baseline;">
+                    浙公网安备 33010002000120号</a>
+                <br>
+                <span style="margin-right:65px;">医疗器械网络交易服务第三方平台备案：（浙）网械平台备字[2018]第00002号</span>
+                <span style="margin-right:65px;">互联网药品交易服务资格证书：国A20150001</span>
+                <br>
+                <span style="margin-right:65px;">浙江省网络食品销售第三方平台提供者备案：浙网食A33010002</span>
+
+                <a href="http://jb.ccm.gov.cn/">12318举报</a>
+                <b>© 2003-2019 TMALL.COM 版权所有</b>
+                <p style="padding-top:10px; display:none;" class="footer-fp-img">
+                    <a style="margin-right:10px" target="_blank" href="http://idinfo.zjaic.gov.cn/bscx.do?method=lzxx&amp;id=3301843301840000201049"><img src="//img.alicdn.com/tps/i4/TB1j5gtHXXXXXXjaXXXydRxIFXX-73-30.jpg"></a>
+                    <a target="_blank" href="http://sq.ccm.gov.cn/ccnt/sczr/service/business/emark/toDetail/CB964ABC7B904B7BA3472DDF700A2D6D"><img src="//img.alicdn.com/tps/i1/TB13mgzHXXXXXbjXVXXzby4IVXX-80-30.jpg"></a>
+                </p>
+            </div></div>
+    </div>
+</div>
+</div>
+</body>
+</html>

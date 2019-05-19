@@ -1,0 +1,492 @@
+/*顶部*/
+body{
+    margin: 0;
+}
+.top{
+    background: #e982a5;
+ /*   border: 1px solid red;*/
+    width: 100%;
+    height: 60px;
+    margin: auto;
+}
+.top-left{
+    float: left;
+   /* border: 1px red solid;*/
+    margin-top: 13px;
+    margin-left: 43px;
+}
+.top span{
+    color: aliceblue ;
+    font-size: larger;
+    margin: auto;
+    font-family: 幼圆;
+}
+.top-left-right{
+  /*  border: 1px red solid;*/
+   position: relative;
+    right: -21px;
+}
+.top-left-right a{
+    color: aliceblue ;
+    font-size: larger;
+    margin: auto;
+    font-family: 幼圆;
+    text-decoration: none;
+}
+.top-left-right a:hover{
+    background: #888888;
+    background-size: cover;
+}
+
+/*顶部右边*/
+.top-right{
+   /* border: 1px red solid;*/
+    float: left;
+    width: 850px;
+    height: 60px;
+    margin-left: 600px;
+    position: relative;
+    top:-39px;
+    right: -321px;
+}
+.top-right-one{
+    float: left;
+    margin: 21px;
+}
+.top-right a{
+    color: aliceblue ;
+    font-size: larger;
+    margin: auto;
+    font-family: 幼圆;
+    text-decoration: none;
+}
+.top-right-one a:hover{
+    background: #808880;
+}
+/*查询部分*/
+.search{
+   /* border: 1px solid red;*/
+    width: 100%;
+    height: 280px;
+}
+.search-left{
+   /*border: red 1px solid;*/
+    width:30%;
+    height: 100%;
+    background-image: url("imgs/1.png");
+    margin-left:15px;
+    float: left;
+}
+.search-right{
+    width: 69%;
+    height: 100%;
+   /*border: 1px black solid;*/
+    float: left;
+}
+.search-right input{
+  height: 50px;
+    width: 700px;
+   margin-left: 13%;
+    margin-top:110px
+
+}
+.search-right label{
+    font-size: 31px;
+   position: relative;
+    left: -700px;
+}
+.search-right button{
+    font-size: 44px;
+    font-family: 幼圆;
+    position: relative;
+    top: -56px;
+    right: -770px;
+    color: #f4fff8;
+    background-color: red;
+}
+.search-right-down li{
+    width: 80px;
+    float: left;
+   /* border: 1px red solid;*/
+    font-size: small;
+    color: darkgray;
+    position: relative;
+    top: -60px;
+    right: -145px;
+}
+/*主页部分*/
+.main-main{
+   /* border: 1px black solid;*/
+    width: 70%;
+    height: 60px;
+    margin: auto;
+    position: relative;
+    bottom: -20px;
+    position: relative;
+    right: -80px;
+}
+.main-main img{
+    margin-top: -38px;
+}
+.main-main a{
+    padding: 5px;
+    color: cadetblue;
+    font-size: x-large;
+    text-decoration: none;
+     position: relative;
+    top: -17px;
+    right:-10px;
+}
+.main-main-one a:hover{
+       background: #f4fff8;
+}
+.main{
+    background: darksalmon;
+    /*border: 1px solid red;*/
+    width: 100%;
+    height: 1800px;
+    margin-top: 20px;
+}
+
+.main-top{
+    border: 1px black solid;
+    margin-top: 10px;
+
+    /*border: 1px red solid;*/
+    width: 90%;
+    height: 580px;
+    position: relative;
+    margin: auto;
+
+}
+/*
+.main-top-list{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+   !* border: 1px red solid;*!
+}
+.main-top-li{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+   left: 0px;
+   !* border: 1px red solid;*!
+}
+
+
+*/
+/*轮播*/
+.lun1{
+    width: 100%;
+    height: 100%;
+/*    background: url("./imgs/2.jpg") no-repeat;*/
+    background-size: 100%;
+    position: absolute;
+    left:0;
+    top: 0;
+    z-index: 2;
+}
+.lun2{
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+    position: absolute;
+    left:0;
+    top: 0;
+    z-index: 1;
+}
+.btns{
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    left: 1280px;
+    top: 330px;
+    z-index: 3;
+}
+.btn active{
+    width: 10px;
+    height: 2px;
+    position: absolute;
+    left: 20px;
+    top: 14px;
+    background: orange;
+    float: left;margin: 0 10px;
+}
+
+.btn{
+    width: 10px;
+    height: 2px;
+    position: absolute;
+    right: 20px;
+    top: 14px;
+    background: black;
+    float: left;margin: 0 10px;
+
+}
+.nacigation-header-bottom {
+    width: 1030px;
+    height: 500px;
+    float: left;
+    /*background-color: yellow;*/
+    position: relative;
+    left: 0;
+    top: 0;
+}
+.nacigation-header-bottom-img {
+    /*display: none;*/
+    width: 1300px;
+    height: 750px;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}
+#nacigation-header-bottom-indexs {
+    width: 685px;
+    height: 10px;
+    position: absolute;
+    right: 65px;
+    bottom: 20px;
+    /*background-color: yellow;*/
+    z-index: 3;
+}
+.nacigation-header-bottom-index {
+    width: 30px;
+    height: 8px;
+    float: left;
+    background-color: #888;
+    margin-right: 15px;
+    z-index: 3;
+}
+/*主页中部*/
+.main-middle{
+    /*border: 1px red solid;*/
+    width: 90%;
+    height: 30%;
+    margin: auto;
+}
+.main-middle-left{
+  /*  border: 1px red solid;*/
+    height: 100%;
+    width: 30%;
+    float:left;
+    margin: 21px;
+
+}
+.main-middle-left-top{
+    float: left;
+    width: 100%;
+    height: 10%;
+    font-size: xx-large;
+    font-family: 幼圆;
+    text-align: center;
+    margin-top: 80px;
+    background-color: #ffffff;
+}
+.main-middle-left-down{
+ /*   border: 1px red solid;*/
+    height: 450px;
+    float: left;
+}
+/*主页底部*/
+.main-down{
+   /* border: 1px red solid;*/
+    height: 30%;
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+}
+.main-down-demo{
+    height: 100%;
+    width: 12%;
+    /*border: 1px red solid;*/
+    float: left;
+}
+.main-down-demo-top{
+    width: 100%;
+    height: 33%;
+  /*  border: 1px red solid;*/
+}
+.main-down-demo-middle{
+    width: 100%;
+    height: 33%;
+   /* border: 1px red solid;*/
+}
+.main-down-demo-down{
+    width: 100%;
+    height: 33%;
+   /* border: 1px red solid;*/
+}
+/*主要商品*/
+.kinds{
+    width: 90%;
+    height: 777px;
+   /* border: 1px red solid;*/
+    margin: auto;
+    margin-top: 130px;
+}
+.kinds-top{
+    /*border: 1px red solid;*/
+    width: 100%;
+    height: 10%;
+}
+.kinds-top-left{
+    /*border: 1px red solid;*/
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+.kinds-top-left img{
+    position: relative;
+    bottom: -30px;
+}
+.kinds-top-right{
+   /* border: 1px blue solid;*/
+    height: 100%;
+    width: 49%;
+    float: left;
+}
+.kinds-top-right a{
+    color: black;
+    font-family: 幼圆;
+    font-size: large;
+    position: relative;
+    bottom: -60px;
+    padding: 10px;
+
+}
+.kinds-down{
+    /*border: 1px red solid;*/
+    width: 100%;
+    height: 90%;
+   /* float: left;*/
+}
+.kinds-down-left{
+  /*  border: 1px red solid;*/
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+.kinds-down-right{
+    float: left;
+   /* border: 1px red solid;*/
+    width: 79%;
+    height: 100%;
+}
+.kinds-down-right-demo{
+  /*  border: 1px red solid;*/
+    width: 24.5%;
+    height: 100%;
+    float: left;
+}
+.kinds-down-right-demo-top{
+  /*  border: 1px solid red;*/
+    height: 50%;
+    width: 100%;
+}
+.kinds-down-right-demo-down{
+  /*  border: 1px solid red;*/
+    height: 50%;
+    width: 100%;
+}
+/*主要商品列表*/
+.klist{
+   /* border: 1px red solid;*/
+    width: 90%;
+    height: 700px;
+    margin: auto;
+    margin-top: 20px;
+}
+.klist-demo{
+    height: 50%;
+    width: 100%;
+    border: 1px red solid;
+}
+.klist-demo-front{
+    float: left;
+    height: 100%;
+    width: 33%;
+   /* border: 1px red solid;*/
+}
+.klist-demo-midle{
+    float: left;
+    height: 100%;
+    width: 33%;
+  /*  border: 1px red solid;*/
+}
+.klist-demo-last{
+    float: left;
+    height: 100%;
+    width: 33%;
+   /* border: 1px red solid;*/
+}
+/*网页底部*/
+a{
+    text-decoration: none;
+    color: #888888;
+}
+#footer{
+    margin: auto;
+   /* border: 1px red solid;*/
+    text-align: center;
+}
+#tmall-copyright{
+ /*   border: 1px black solid;*/
+    text-align: center;
+}
+.footer-top{
+  /*  border: 1px black solid;*/
+    width: 100%;
+    height: 500px;
+}
+.footer-top-top{
+ /*   border: 1px black solid;*/
+    width: 100%;
+    height: 50%;
+}
+.footer-top-down{
+ /*   border: 1px black solid;*/
+    width: 100%;
+    height: 50%;
+}
+.footer-top-top-demo{
+    float: left;
+ /* border: 1px red solid;*/
+    width: 24.5%;
+height: 100%;
+}
+.footer-top-top-left{
+    float: left;
+   /* border: 1px red solid;*/
+    width:30%;
+    height: 100%;
+}
+.footer-top-top-left img{
+    position: relative;
+    bottom: -70px;
+    right: -20px;
+}
+.footer-top-top-right{
+    float: left;
+  /*  border: 1px red solid;*/
+    font-family: 幼圆;
+    width:69%;
+    height: 100%;
+    margin-left: -50px;
+    margin-top: 90px;
+}
+.footer-top-down-demo {
+    margin-top: 50px;
+    margin-left:260px;
+    text-align: center;
+    color: #888888;
+    font-size: small;
+    float: left;
+}
+.footer-top-down-demo span{
+    text-align: left;
+    font-family: 幼圆;
+}
