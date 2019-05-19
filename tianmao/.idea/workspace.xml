@@ -16,7 +16,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tianmao.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
+            <state relative-caret-position="846">
               <caret line="258" column="26" selection-start-line="258" selection-start-column="26" selection-end-line="258" selection-end-column="26" />
               <folding>
                 <element signature="n#div#0;n#header#0;n#html#0;n#!!top" />
@@ -93,16 +93,16 @@
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/imgs/logo.jpg">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/tianmao.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="770" column="1" selection-start-line="770" selection-start-column="1" selection-end-line="770" selection-end-column="1" />
+            <state relative-caret-position="319">
+              <caret line="1173" column="33" lean-forward="true" selection-start-line="1173" selection-start-column="33" selection-end-line="1173" selection-end-column="33" />
               <folding>
                 <element signature="e#7101#8456#0" />
               </folding>
@@ -122,7 +122,6 @@
       <find>sup-top-left1</find>
       <find>sup-top</find>
       <find>sup-bottom-left</find>
-      <find>guodu</find>
       <find>sup-bottom-left6</find>
       <find>meili-zimu</find>
       <find>background-color: rgb(245,245,245);</find>
@@ -132,6 +131,7 @@
       <find>sup-bottom2</find>
       <find>sup-bottom-left1:</find>
       <find>erwei</find>
+      <find>guodu</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -142,9 +142,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="800" />
-    <option name="y" value="36" />
+    <option name="y" value="35" />
     <option name="width" value="1120" />
     <option name="height" value="995" />
   </component>
@@ -153,6 +153,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -160,21 +161,15 @@
               <item name="tianmao" type="b2602c69:ProjectViewProjectNode" />
               <item name="tianmao" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="tianmao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tianmao" type="462c0819:PsiDirectoryNode" />
-              <item name="imgs" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../2019_5_20" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -218,11 +213,12 @@
       <workItem from="1558161749271" duration="64091000" />
       <workItem from="1558249536357" duration="10264000" />
       <workItem from="1558269830674" duration="440000" />
+      <workItem from="1558280474839" duration="1203000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74795000" />
+    <option name="totallyTimeSpent" value="75998000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="846" extended-state="6" />
@@ -389,19 +385,15 @@
     <entry file="file://$PROJECT_DIR$/imgs/xihuan/20.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/tianmao.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="770" column="1" selection-start-line="770" selection-start-column="1" selection-end-line="770" selection-end-column="1" />
-          <folding>
-            <element signature="e#7101#8456#0" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/imgs/logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imgs/logo.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/tianmao.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
+        <state relative-caret-position="846">
           <caret line="258" column="26" selection-start-line="258" selection-start-column="26" selection-end-line="258" selection-end-column="26" />
           <folding>
             <element signature="n#div#0;n#header#0;n#html#0;n#!!top" />
@@ -472,11 +464,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imgs/logo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imgs/logo.jpg">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/css/tianmao.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="1173" column="33" lean-forward="true" selection-start-line="1173" selection-start-column="33" selection-end-line="1173" selection-end-column="33" />
+          <folding>
+            <element signature="e#7101#8456#0" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
