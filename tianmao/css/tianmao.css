@@ -1154,25 +1154,39 @@ header{
     text-decoration: none;
 }
 .guodu1{
-    width: 1620px;
+    width: 1230px;
     height: 90px;
+    margin: auto;
     margin-top: 30px;
     display: block;
-    background: url("../imgs/guodu/1.jpg") ;
+    background-image: url("../imgs/guodu/1.jpg")  ;
+    background-size: 1230px 90px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
 }
 .guodu2{
-    width: 1620px;
+    width: 1230px;
     height: 90px;
+    margin: auto;
     margin-top: 30px;
     display: block;
-    background: url("../imgs/guodu/2.jpg");
+    background-image: url("../imgs/guodu/2.jpg");
+    background-size: 1230px 90px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .guodu3{
-    width: 1620px;
+    width: 1230px;
     height: 90px;
+    margin: auto;
     margin-top: 30px;
     display: block;
-    background: url("../imgs/guodu/2.jpg");
+    background-image: url("../imgs/guodu/2.jpg");
+    background-size: 1230px 90px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .meili-top{
     width: 5px;
@@ -1360,7 +1374,6 @@ header{
 }
 .zengzhidianxin{
     width: 1230px;
-    height: 185px;
     font-size: 12px;
     color: #a4a4a4;
 }
