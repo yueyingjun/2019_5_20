@@ -1,0 +1,83 @@
+.cxh-box{
+    width: 1230px;
+    height: 86px;
+    border: 1px solid red;
+    margin: auto;
+    text-align: center;
+    line-height: 86px;
+}
+.cxh100-box{
+    width: 1230px;
+    height: 6573px;
+    border: 1px solid red;
+    box-sizing: border-box;
+    margin: auto;
+}
+.item1{
+    width: 239px;
+    height: 319px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    margin-right: 8px;
+    float: left;
+}
+.item2{
+    width: 239px;
+    height: 319px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    float: right;
+}
+.item3{
+    width: 239px;
+    height: 319px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-right: 8px;
+    float: left;
+}
+
+.item4{
+    width: 239px;
+    height: 319px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    margin-top: 10px;
+    float: right;
+}
+.imgbox{
+    width: 185px;
+    height: 185px;
+    border: 1px solid green;
+    box-sizing: border-box;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.imgbox img{
+    width: 185px;
+    height: 185px;
+    background-size: cover;
+}
+
+.bottom-logobox{
+    width: 1230px;
+    height: 150px;
+/*    border: 1px solid blue;*/
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.imglogo{
+    width: 1190px;
+    height: 100px;
+    border: 1px solid green;
+    float: right;
+    margin-top: 25px;
+    margin-left: 2px;
+}
+.imglogo img{
+    width: 1190px;
+    height: 100px;
+    background-size: cover;
+}
