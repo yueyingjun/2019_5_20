@@ -185,19 +185,19 @@ a:hover{
 }
 .daohang-con-rightup1{
     display: inline-block;
-    position:absolute;right:-5px;top:7px;
+    position:absolute;left:55px;top:7px;
 }
 .daohang-con-rightup2{
     display: inline-block;
-    position:absolute;right:-10px;top:7px;
+    position:absolute;left:45px;;top:7px;
 }
 .daohang-con-rightup3{
     display: inline-block;
-    position:absolute;right:-10px;top:7px;
+    position:absolute;left:55px;top:7px;
 }
 .daohang-con-rightup4{
     display: inline-block;
-    position:absolute;right:-10px;top:7px;
+    position:absolute;left:55px;top:7px;
 }
 .daohang-con-right .a1:hover{
     text-decoration:underline red;
