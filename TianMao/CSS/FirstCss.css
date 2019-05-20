@@ -1,4 +1,6 @@
-
+html{
+    overflow-x: hidden;
+}
 body{
     margin: 0;
     padding: 0;
@@ -32,6 +34,7 @@ h1,h2,h3,h4,h5,h6,ul,li,strong,p,em,a,span,b{
     width: 100%;
     height: 41px;
     background: #FF729D;
+
 }
 .box1 .center{
     width: 1230px;
@@ -113,6 +116,46 @@ h1,h2,h3,h4,h5,h6,ul,li,strong,p,em,a,span,b{
 }
 
 /*首页开头*/
+.zuoce{
+    width: 36px;
+    height: 324px;
+    position: fixed;
+    left:44px ;
+    top: 147px;
+    border: 2px solid black;
+}
+.zuoce-1{
+    float: left;
+    width: 36px;
+    height: 36px;
+    background: black;
+    margin: auto auto;
+}
+.zuoce-0{
+    float: left;
+    width: 36px;
+    height: 36px;
+    background: red;
+    margin: auto auto;
+}
+.zuoce-0 span{
+    display: inline-block;
+    width: 24px;
+    height: 20px;
+    font-size: 12px;
+    margin-left:6px ;
+    margin-top: 8px;
+    color: white;
+}
+.zuoce-1 span{
+    display: inline-block;
+    width: 24px;
+    height: 20px;
+    font-size: 12px;
+    margin-left:6px ;
+    margin-top: 5px;
+    color: white;
+}
 /*右侧的*/
 .youce{
     width: 85px;
@@ -248,6 +291,7 @@ h1,h2,h3,h4,h5,h6,ul,li,strong,p,em,a,span,b{
     background: url("../Imgs/tianmaologo.png");
     background-size: cover;
     margin-top:-5px;
+    margin-left: 80px;
 }
 .box2-left_center{
     float: left;
@@ -259,7 +303,7 @@ h1,h2,h3,h4,h5,h6,ul,li,strong,p,em,a,span,b{
     float:left;
     width: 625px;
     height: 106px;
-
+    margin-left:-100px;
     margin-top:15px;
 }
 .box2-center_1 {
@@ -268,6 +312,7 @@ h1,h2,h3,h4,h5,h6,ul,li,strong,p,em,a,span,b{
     margin-top: 30px;
     font-family: 'Microsoft YaHei';
     font-size: 14px;
+
 }
 .box2-center_1 input{
     width: 500px;
@@ -315,11 +360,15 @@ h1,h2,h3,h4,h5,h6,ul,li,strong,p,em,a,span,b{
 }
 /*首页开头-2*/
 /*首页开头-3*/
+.box_3{
+    width: 1519.2px;
+    height: 36px;
+    margin: auto;
+}
 .box3{
     width: 1519.2px;
     height: 36px;
-
-    margin: auto;
+    margin-left: 80px;
 }
 .box3 ul{
     width: 200px;
@@ -359,24 +408,33 @@ h1,h2,h3,h4,h5,h6,ul,li,strong,p,em,a,span,b{
 
     margin-top: -5px;
 }
-.box3 .box3_2 a{
+.box3 .box3_2 .a1{
     float: left;
-    width: 116px;
+    width: 80px;
     height: 35px;
-
+    margin:2px auto;
+}
+.box3 .box3_2 .a2{
+    float: left;
+    width: 64px;
+    height: 35px;
+    margin:2px auto;
 }
 .box3_img1{
+    display: block;
+    float: left;
     width: 100px;
     height: 30px;
-
     background: url("../Imgs/tianmaochaoshi.png") center;
     background-size: cover;
-    margin: auto;
+    margin:5px auto;
 }
 .box3_img2{
+    display: block;
+    float: left;
     width: 100px;
     height: 30px;
-    margin: auto;
+    margin: 5px auto;
     background: url("../Imgs/tianmaoguoji.png") center;
     background-size: cover;
 }
@@ -390,10 +448,11 @@ h1,h2,h3,h4,h5,h6,ul,li,strong,p,em,a,span,b{
 /*首页开头-3*/
 /*轮播*/
 .box4_5{
-    width:100%;
+    width:1550px;
     height:900px;
     background: url("../Imgs/lunbodicengshang_5.jpg") no-repeat;
     background-size: cover;
+    margin: auto;
 }
 .box4{
     width:100%;
@@ -401,6 +460,7 @@ h1,h2,h3,h4,h5,h6,ul,li,strong,p,em,a,span,b{
     background-size: cover;
     margin-top: -5px;
     position: relative;
+
 }
 .box4-center-left{
     float: left;
@@ -442,7 +502,7 @@ h1,h2,h3,h4,h5,h6,ul,li,strong,p,em,a,span,b{
     height:499.2px;
     margin: auto;
     position: absolute;
-    left: 120px;
+    left: 100px;
     top: 0px;
     z-index: 2;
 }
@@ -537,13 +597,14 @@ h1,h2,h3,h4,h5,h6,ul,li,strong,p,em,a,span,b{
     height:380px;
     margin-left:100px;
     margin-top: 50px;
+
 }
 .box5_1{
     float: left;
     width: 234px;
     height: 371px;
     margin-right:55px;
-
+    background: white;
 }
 .box5_1_1{
     width: 234px;
@@ -555,7 +616,12 @@ h1,h2,h3,h4,h5,h6,ul,li,strong,p,em,a,span,b{
     height: 316px;
     background: url("../Imgs/pinpaishangou.jpg");
     background-size: cover;
+
 }
+.box5_1_2:hover{
+    opacity: 0.4;
+}
+
 .box5_1_1 span{
     font-size: 19px;
     line-height: 50px;
@@ -572,7 +638,7 @@ h1,h2,h3,h4,h5,h6,ul,li,strong,p,em,a,span,b{
     width: 500px;
     height: 371px;
     margin-right: 55px;
-
+    background: white;
 }
 .box5_2_1{
     width: 485px;
@@ -594,16 +660,19 @@ h1,h2,h3,h4,h5,h6,ul,li,strong,p,em,a,span,b{
     margin-top: 12px;
 }
 .box5_2_2{
-    width: 485px;
+    width: 500px;
     height: 316px;
     background: url("../Imgs/jumingpin.jpg");
     background-size: cover;
+}
+.box5_2_2:hover{
+    opacity: 0.4;
 }
 .box5_3{
     float: left;
     width: 485px;
     height: 371px;
-
+    background: white;
 }
 .box5_3_1{
     width: 485px;
@@ -631,18 +700,22 @@ h1,h2,h3,h4,h5,h6,ul,li,strong,p,em,a,span,b{
     background: url("../Imgs/pinpaihuodong.jpg");
     background-size: cover;
 }
+.box5_3_2:hover{
+    opacity: 0.4;
+}
 /*品牌闪购*/
 /*品牌logo展示*/
 .box_6{
-    width: 100%;
-    height: 366px;
+    width: 1550px;
+    height: 385px;
     background: rgba(213, 213, 213, 0.28);
+    margin: auto;
 }
 .box6{
     width: 1330px;
     height: 366px;
     margin-left:100px;
-    margin-top: 30px;
+    padding-top:40px;
 }
 .box6_1{
     float: left;
@@ -656,13 +729,13 @@ h1,h2,h3,h4,h5,h6,ul,li,strong,p,em,a,span,b{
 .box6_1-1{
     width: 100px;
     height: 100px;
-    margin: 15px auto;
+    margin: 40px auto;
 }
 .box6_1-1  img{
     display: inline-block;
     width: 100px;
-    height: 80px;
-    margin: 0 auto;
+    height:50px;
+    margin: auto auto;
 
 }
 .box6_2{
@@ -708,17 +781,17 @@ h1,h2,h3,h4,h5,h6,ul,li,strong,p,em,a,span,b{
 /*品牌logo展示*/
 /*天猫超市*/
 .box_7{
-    width: 100%;
+    width: 1550px;
     height: 665px;
-
     background: rgba(213, 213, 213, 0.28);
+    margin: auto;
 }
 .box7{
     width: 1330px;
     height: 665px;
 
     margin-left:100px;
-    margin-top: 30px;
+    padding-top: 30px;
 }
 .box7_1{
     width: 1330px;
@@ -847,6 +920,9 @@ h1,h2,h3,h4,h5,h6,ul,li,strong,p,em,a,span,b{
     margin-left:40px;
     margin-top: 16px;
 
+}
+.box7_2-right-1 img:hover{
+    opacity: 0.4;
 }
 .box7_2-right-1-1 img{
     display: block;
@@ -1066,7 +1142,7 @@ h1,h2,h3,h4,h5,h6,ul,li,strong,p,em,a,span,b{
     float: right;
 }
 .box7_2-right a:hover .box7_2-right-1{
-    border: 1px solid red;
+    border: 0.3px solid red;
     box-sizing: border-box;
 }
 .box7_2-right-2_1-top-1:hover{
@@ -1171,10 +1247,11 @@ h1,h2,h3,h4,h5,h6,ul,li,strong,p,em,a,span,b{
 /*天猫国际*/
 /*给老公*/
 .box8{
-    width: 100%;
+    width:1550px;
     height: 90px;
     margin: auto;
     background: rgba(213, 213, 213, 0.28);
+    margin: auto;
 }
 .box8 img{
     width: 100%;
@@ -1210,8 +1287,10 @@ h1,h2,h3,h4,h5,h6,ul,li,strong,p,em,a,span,b{
 /*美丽人生*/
 /*潮流酷玩广告*/
 .box8{
-    width: 100%;
+    width:1550px;
     height: 90px;
+    margin: auto;
+    padding-top:30px;
     margin: auto;
 }
 .box8 img{
@@ -1220,24 +1299,29 @@ h1,h2,h3,h4,h5,h6,ul,li,strong,p,em,a,span,b{
     height: 90px;
     margin-left:100px;
 
+
 }
 /*潮流酷玩广告*/
 /*猜你喜欢*/
 .box9{
-    width: 100%;
+    width: 1550px;
     height:3970px;
     background: rgba(213, 213, 213, 0.28);
+    margin: auto;
 }
 .box9-tip{
     width: 1330px;
     height: 43px;
-
+    padding-top: 30px;
+    padding-bottom: -60px;
     margin-left: 100px;
 }
 .box9-tip_1{
     width: 130px;
     height: 43px;
     margin: auto;
+
+
 }
 .box9-tip span{
     text-align: center;
@@ -1287,6 +1371,9 @@ h1,h2,h3,h4,h5,h6,ul,li,strong,p,em,a,span,b{
     margin-left: 10px;
 
 }
+.box9-content-1:hover img{
+    opacity: 0.4;
+}
 .box9-content-1 img{/*这个是总的框体大小对应的照片*/
     display: block;
     width: 185px;
@@ -1316,9 +1403,10 @@ h1,h2,h3,h4,h5,h6,ul,li,strong,p,em,a,span,b{
 /*猜你喜欢*/
 /*结束logo*/
 .box_10{
-    width: 100%;
+    width: 1550px;
     height: 70px;
     background: rgba(213, 213, 213, 0.28);
+    margin: auto;
 }
 .box10{
     width: 1330px;
@@ -1336,10 +1424,11 @@ h1,h2,h3,h4,h5,h6,ul,li,strong,p,em,a,span,b{
 /*结束logo*/
 /*结束*/
 .box11{
-width: 100%;
+width: 1550px;
 height: 602.2px;
     background: url("../Imgs/dicengbejing-3.jpg") no-repeat center;
     background-size: cover;
+    margin: auto;
 }
 .box11-1{
     float: left;
@@ -1390,7 +1479,7 @@ height: 602.2px;
     height: 20px;
     font-size: 14px;
     margin:5px 10px;
-    color: darkgray;
+    color: #8b8b8b;
 
 }
 .bxo11-2-1{
@@ -1452,10 +1541,13 @@ height: 602.2px;
     height: 150.6px;
 }
 .box11-4_3 span{
-    color: darkgray;
+    color: #8b8b8b;
+    font-size: 12px;
 }
 .box11-4_3 a{
     color: darkgray;
+    color: #8b8b8b;
+    font-size: 12px;
 }.box11-4_4 span{
     color: darkgray;
 }

@@ -22,6 +22,15 @@
                 num++
             },3000)
         }
+        window.onscroll = function () {
+            var top = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
+            var node = document.getElementById("zuoce");
+            if (top > 1300) {//500就是滚动条滚动到的位置，大于500(500指500px)才显示
+                node.style.display = 'block';
+            } else {
+                node.style.display = 'none';
+            }
+        }
     </script>
 </head>
 <body>
@@ -112,6 +121,17 @@
     </div>
     <div class="box2-right"></div>
 </div>
+<div class="zuoce" id="zuoce">
+    <div class="zuoce-0"><span>导航</span></div>
+    <div class="zuoce-1"><span>天猫超市</span></div>
+    <div class="zuoce-1"><span>天猫国际</span></div>
+    <div class="zuoce-1"><span>美丽人生</span></div>
+    <div class="zuoce-1"><span>潮店酷玩</span></div>
+    <div class="zuoce-1"><span>居家生活</span></div>
+    <div class="zuoce-1"><span>打造爱巢</span></div>
+    <div class="zuoce-1"><span>户外出行</span></div>
+    <div class="zuoce-1"><span>回到顶部</span></div>
+</div>
 <div class="youce">
     <div class="youce-top"></div>
     <div class="youce-center">
@@ -138,6 +158,7 @@
 </div>
 <!--  首页开头2-->
 <!--  首页开头3-->
+<div class="box_3">
 <div class="box3">
     <ul>
         <li class="l1">商品分类</li>
@@ -146,15 +167,16 @@
     <div class="box3_2">
         <a href="" class="box3_img1"></a>
         <a href="" class="box3_img2"></a>
-        <a href="">天猫会员</a>
-        <a href="">电器城</a>
-        <a href="">喵鲜生</a>
-        <a href="">医药馆</a>
-        <a href="">营业厅</a>
-        <a href="">魅力惠</a>
-        <a href="">飞猪旅行</a>
-        <a href="">苏宁易购</a>
+        <a href="" class="a1">天猫会员</a>
+        <a href="" class="a2">电器城</a>
+        <a href="" class="a2">喵鲜生</a>
+        <a href="" class="a2">医药馆</a>
+        <a href="" class="a2">营业厅</a>
+        <a href="" class="a2">魅力惠</a>
+        <a href="" class="a1">飞猪旅行</a>
+        <a href="" class="a1">苏宁易购</a>
     </div>
+</div>
 </div>
 <!--  首页开头3-->
 <div class="box4_5">
@@ -221,7 +243,7 @@
             <span>BRAND SALE</span>
             <a href=""></a>
         </div>
-        <div class="box5_1_2"></div>
+        <a href=""><div class="box5_1_2"></div></a>
     </div>
     <div class="box5_2">
         <div class="box5_2_1">
@@ -790,7 +812,8 @@
                     </div>
                 </div>
             </div>
-            <a href=""><div class="box7_2-right-1">
+            <a href="">
+                <div class="box7_2-right-1">
                 <div class="box7_2-right-1-1">
                     <img src="../Imgs/quchengshi.jpg" alt="">
                 </div>
@@ -1543,9 +1566,7 @@
             <div class="box9-tip_1">
                 <div class="box9-tip-1"></div>
                 <div class="box9-tip-2"><span>猜你喜欢</span></div>
-
                 <div class="box9-tip-3"></div>
-
             </div>
 
     </div>
