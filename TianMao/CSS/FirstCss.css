@@ -13,6 +13,20 @@ h1,h2,h3,h4,h5,h6,ul,li,strong,p,em,a,span,b{
     text-decoration: none;
     color: black;
 }
+@font-face {
+    font-family: 'iconfont';
+    src: url('../iconfont.eot'); /* IE9*/
+    src: url('../iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;}
 /*首页开头*/
 .box1{
     width: 100%;
@@ -99,6 +113,126 @@ h1,h2,h3,h4,h5,h6,ul,li,strong,p,em,a,span,b{
 }
 
 /*首页开头*/
+/*右侧的*/
+.youce{
+    width: 85px;
+    height: 1130px;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+
+}
+.youce-top{
+    width: 85px;
+    height: 150px;
+    background: url("../Imgs/youce.png") no-repeat center;
+}
+.youce-center{
+    width: 85px;
+    height: 50px;
+    background:pink;
+}
+.youce-center img{
+    width: 35px;
+    height: 35px;
+    display: block;
+    margin: auto;
+}
+.youce-center span{
+    display: block;
+    margin: -5px auto;
+    width: 50px;
+    height:15px ;
+    text-align: center;
+    color: white;
+}
+.youce-btommon-left{
+    width: 40px;
+    height: 130px;
+    float: left;
+    background: url("../Imgs/youce3.png") no-repeat;
+}
+.youce-btommon-right{
+    width: 45px;
+    height: 400px;
+    float: left;
+    border: 2px solid black;
+    box-sizing: border-box;
+    background: black;
+}
+.youce-btommon-right-1{
+    float: left;
+    width: 45px;
+    height: 25px;
+    background: url("../Imgs/youce5.png") no-repeat center;
+    margin: 5px auto ;
+}
+.youce-btommon-right-2{
+    float: left;
+    width:  25px;
+    height: 80px;
+    border-top: 0.51px solid darkgray;
+    border-bottom: 0.5px solid darkgray;
+    margin: 5px 10px 20px 10px;
+}
+.youce-btommon-right-2 span{
+    display: block;
+    color: white;
+    text-align: center;
+    line-height: 25px;
+    margin-top: 5px;
+    font-size: 13px;
+}
+.youce-btommon-right-3{
+    float: left;
+    width: 45px;
+    height: 25px;
+    background: url("../Imgs/youce4.png") no-repeat center;
+    margin: 5px auto ;
+}
+.youce-btommon-right-4{
+    float: left;
+    width: 45px;
+    height: 25px;
+    background: url("../Imgs/youce6.png") no-repeat center;
+    margin: 5px auto ;
+}
+.youce-btommon-right-5{
+    float: left;
+    width: 45px;
+    height: 25px;
+    background: url("../Imgs/youce10.png") no-repeat center;
+    margin: 5px auto ;
+}
+.youce-btommon-right-6{
+    float: left;
+    width: 45px;
+    height: 25px;
+    background: url("../Imgs/youce8.png") no-repeat center;
+    margin: 5px auto ;
+}
+.youce-btommon-right-7{
+    float: left;
+    width: 45px;
+    height: 25px;
+    background: url("../Imgs/rightwrite.png") no-repeat center;
+    margin: 5px auto ;
+}
+.youce-btommon-right-8{
+    float: left;
+    width: 45px;
+    height: 25px;
+    background: url("../Imgs/youce7.png") no-repeat center;
+    margin: 5px auto ;
+}
+.youce-btommon-right-9{
+    float: left;
+    width: 45px;
+    height: 25px;
+    background: url("../Imgs/youce9.png") no-repeat center;
+    margin: 5px auto ;
+}
+/*右侧的*/
 /*首页开头-2*/
 .box2{
     width: 1519.2px;
@@ -205,9 +339,18 @@ h1,h2,h3,h4,h5,h6,ul,li,strong,p,em,a,span,b{
     color: white;
     background: red;
 }
+.box3:hover .l1{
+    background:darkgray;
+}
+.box3:hover .l2{
+    background: red;
+}
 .box3 .l2{
     color: white;
     background: black;
+}
+.l1:hover{
+    background: red;
 }
 .box3 .box3_2{
     float: left;
@@ -281,7 +424,7 @@ h1,h2,h3,h4,h5,h6,ul,li,strong,p,em,a,span,b{
 
     width: 200px;
     height: 31.2px;
-    padding-left: 35px;
+    padding-left: 20px;
 }
 .box4-center-left a{
     color: white;
@@ -299,7 +442,7 @@ h1,h2,h3,h4,h5,h6,ul,li,strong,p,em,a,span,b{
     height:499.2px;
     margin: auto;
     position: absolute;
-    left: 300px;
+    left: 120px;
     top: 0px;
     z-index: 2;
 }
@@ -1111,7 +1254,7 @@ h1,h2,h3,h4,h5,h6,ul,li,strong,p,em,a,span,b{
     width: 70px;
     height: 43px;
     margin: auto;
-    
+
 
 }
 .box9-tip-2 span{
