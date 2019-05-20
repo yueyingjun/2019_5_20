@@ -5,6 +5,7 @@ body{
     overflow-x: hidden;
 }
 
+
 ul,li{ padding:0;margin:0;list-style:none}
 em,i{ font-style: normal;}
 p{color: #fff; display: inline-block; padding: 0; margin: 0px;}
@@ -43,20 +44,92 @@ p{color: #fff; display: inline-block; padding: 0; margin: 0px;}
 .rightphoto {
     position: absolute;top: 0px;right: 0px;
     float: right;
-    width: 85px; height: 321px;
+    width: 85px; height: 283px;
     background-color: #f9919d;
     z-index: 999;
 }
 .rightblack{
     position: absolute;bottom: 0px; right: 0px;
-    background-color: black; width: 35px;height: 70%;
+    background-color: black; width: 35px;height: 65%;
     float: left; z-index: 998;
+}
+.rightblack .xiao{
+    width: 35px; height: 35px;
+    float: left;
+}
+.xiao .smalllogo:hover{
+    background-color: red;
+}
+.xiao .gouwuche:hover{
+    background-color: red;
+}
+.xiao .xie:hover{
+    background-color: red;
+}
+.xiao .top:hover{
+    background-color: red;
+}
+.xiao .wujiao:hover{
+    background-color: red;
+}
+.xiao .sige:hover{
+    background-color: red;
+}
+.xiao .money:hover{
+    background-color: red;
+}
+.xiao .addmoney:hover{
+    background-color: red;
+}
+.xiao .shizhong:hover{
+    background-color: red;
+}
+
+.xiao .gouwuche{
+    width: 35px; height: 100px;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid white;
+    color: white;
+    z-index: 999;
+    font-size: 18px;
+    text-align: center; line-height: 30px;
+}
+
+.xiao .smalllogo{
+    background: url("../imgs/smalllogo.png") no-repeat center;
+}
+.xiao .money{
+    background: url("../imgs/money.png") no-repeat center;
+}
+.xiao .wujiao{
+    background: url("../imgs/collect.png") no-repeat center;
+}
+.xiao .shizhong{
+    background: url("../imgs/clock.png") no-repeat center;
+}
+
+.xiao .addmoney{
+    background: url("../imgs/addmoney.png") no-repeat center;
+    margin-bottom: 100px;
+}
+
+.xiao .xie{
+    background: url("../imgs/rightwrite.png") no-repeat center;
+
+}
+.xiao .sige{
+    background: url("../imgs/twocode.png") no-repeat center;
+
+}
+.xiao .top{
+    background: url("../imgs/top.png") no-repeat center;
+
 }
 .gezi{
     float: left; z-index: 998;
     width: 40px;height: 130px;
     position: absolute;right: 35px;
-    top: 321px; background: url("../imgs/hei.png");
+    top: 283px; background: url("../imgs/hei.png");
 }
 
 .rightiimg{
@@ -323,6 +396,9 @@ input{
     position: absolute;left: 140px; top:20px;
     background-color: white;
 }
+.fastshop .fastshop-tubiao:hover{
+    opacity: 0.7;
+}
 .cntitle{
     float: left;
     font-size: 18px; font-weight: bold;
@@ -331,7 +407,6 @@ input{
 .english{
     float: left; font-weight: bold; font-size: 14px;
     line-height: 56px;
-
 }
 .memore{
     float: right;  line-height: 56px; padding-right: 40px;
@@ -346,6 +421,9 @@ input{
     width: 485px; height: 372px;
     position: absolute;left: 394px; top:20px;
     background-color: white;
+}
+.jushop-tubiao:hover{
+    opacity: 0.7;
 
 }
 .brand{
@@ -355,7 +433,10 @@ input{
     background-color: white;
 
 }
+.brand-tubiao:hover{
+    opacity: 0.7;
 
+}
 .fastshop-tubiao{
     float: left;
     width: 234px; height: 316px;
@@ -386,114 +467,49 @@ input{
 }
 .pinpaibigbox{
     width: 1230px; height:  327px; margin: auto;
+    position: relative;
 }
-.pinpaibox{
+.blackbox{
+    position: absolute; top:0px; left: 0px;
+    width: 1230px; height:  327px; margin: auto;
+
+}
+.blackbox1{
+    position: relative;
     float: left;
     width: 121px; height: 109px;
-    border:  1px solid #333333;
+    background-color: rgba(0,0,0,0.5);
+    box-sizing: border-box;
+    z-index: 2;
 }
-.pinpai .pinpai1{
-    background: url("../imgs/pinpai11.png") no-repeat center;
-    background-size: 100% 100%;
+.blackbox1 .text{
+    width: 100%; height: 10px;
+    text-align: center;
+    margin-top: 20px;
 }
-.pinpai .pinpai2{
-    background: url("../imgs/pinpai11.png") no-repeat center;
-    background-size: 100% 100%;
+.blackbox1  .init{
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 60%; height: 20px;
+    background-color: #ff0036;
+    color: white;
+    border-radius: 10px;
+    text-align: center
 }
-.pinpai .pinpai3{
-    background: url("../imgs/pinpai11.png") no-repeat center;
-    background-size: 100% 100%;
+.pinpai1:hover{
+     z-index: 1;
 }
-.pinpai .pinpai4{
-    background: url("../imgs/pinpai11.png") no-repeat center;
-    background-size: 100% 100%;
-}
-.pinpai .pinpai5{
-    background: url("../imgs/pinpai11.png") no-repeat center;
-    background-size: 100% 100%;
-}
-.pinpai .pinpai6{
-    background: url("../imgs/pinpai11.png") no-repeat center;
-    background-size: 100% 100%;
-}
-.pinpai .pinpai7{
-    background: url("../imgs/pinpai11.png") no-repeat center;
-    background-size: 100% 100%;
-}
-.pinpai .pinpai8{
-    background: url("../imgs/pinpai11.png") no-repeat center;
-    background-size: 100% 100%;
-}
-.pinpai .pinpai9{
-    background: url("../imgs/pinpai11.png") no-repeat center;
-    background-size: 100% 100%;
-}
-.pinpai .pinpai10{
-    background: url("../imgs/pinpai11.png") no-repeat center;
-    background-size: 100% 100%;
+.pinpai1{
+    position: relative;
+    width: 121px; height: 109px;
+    float: left;
+    z-index: 3;
 }
 
-.pinpai .pinpai11{
-    background: url("../imgs/yunnan.webp") no-repeat center;
+.pinpaibox{
+    width: 1230px; height:  327px; margin: auto;
+    position: relative;
 }
-.pinpai .pinpai12{
-    background: url("../imgs/yunnan.webp") no-repeat center;
-}
-.pinpai .pinpai13{
-    background: url("../imgs/yunnan.webp") no-repeat center;
-}
-.pinpai .pinpai14{
-    background: url("../imgs/yunnan.webp") no-repeat center;
-}
-.pinpai .pinpai15{
-    background: url("../imgs/yunnan.webp") no-repeat center;
-}
-.pinpai .pinpai16{
-    background: url("../imgs/yunnan.webp") no-repeat center;
-}
-.pinpai .pinpai17{
-    background: url("../imgs/yunnan.webp") no-repeat center;
-}
-.pinpai .pinpai18{
-    background: url("../imgs/yunnan.webp") no-repeat center;
-}
-.pinpai .pinpai19{
-    background: url("../imgs/yunnan.webp") no-repeat center;
-}
-.pinpai .pinpai20{
-    background: url("../imgs/pinpai33.webp") no-repeat center;
-}
-.pinpai .pinpai21{
-    background: url("../imgs/pinpai33.webp") no-repeat center;
-}
-.pinpai .pinpai22{
-    background: url("../imgs/pinpai33.webp") no-repeat center;
-}
-.pinpai .pinpai23{
-    background: url("../imgs/pinpai33.webp") no-repeat center;
-}
-.pinpai .pinpai24{
-    background: url("../imgs/pinpai33.webp") no-repeat center;
-}
-.pinpai .pinpai25{
-    background: url("../imgs/pinpai33.webp") no-repeat center;
-}
-.pinpai .pinpai26{
-    background: url("../imgs/pinpai33.webp") no-repeat center;
-}
-.pinpai .pinpai27{
-    background: url("../imgs/pinpai33.webp") no-repeat center;
-}
-.pinpai .pinpai28{
-    background: url("../imgs/pinpai33.webp") no-repeat center;
-}
-.pinpai .pinpai29{
-    background: url("../imgs/pinpai33.webp") no-repeat center;
-}
-.pinpai .pinpai30{
-    background: url("../imgs/pinpai33.webp") no-repeat center;
-}
-
 .morelist{
 
     width: 1230px; height: 50px;
@@ -512,11 +528,22 @@ input{
     float: right;
     margin-top: 20px;
 }
+.s2{
+    width: 280px; height: 25px;
+    float: right;
+    margin-top: 20px;
+}
+
 .morelistright a{
     text-decoration: none;
     color: black;
     margin: 0px 6px;
 }
+.morelistright a:hover{
+    text-decoration: underline;
+
+}
+
 .shangpinmore{
     width: 1230px; height: 618px;
     float: left;
@@ -604,10 +631,12 @@ input{
     background: #ffffff;
     box-sizing: border-box;
     margin-top: 5px;
+    border: 1px solid white;
 }
 .more-minimg:hover{
     box-sizing: border-box;
     border: 1px solid red;
+    opacity: 0.7;
 }
 .name{
     width: 236px; height: 50px;
@@ -634,8 +663,26 @@ input{
     width: 100%; height: 5868px;
     background-color: rgb(245,245,245);
 }
+.cncn{
+    float: left;
+    padding-left: 20px;
+    width: 83px;
+    font-size: 20px; font-weight: bold;
+    border-left: 3px solid black;
+}
 
+.enen{
+    float: left;
+    padding-left: 40px;
+    width: 200px;
 
+}
+.morelistleftcn{
+    float: left;
+    margin-left: 0px; margin-top: 20px;
+    width: 500px; height: 25px;
+    background-size: 100% 100%;
+}
 .chatu{
     float: left;
     margin-top: 30px;
