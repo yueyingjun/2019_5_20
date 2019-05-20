@@ -7,7 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>首页</title>
     <link rel="stylesheet" href="./index.css">
+
     <script>
+        /*轮播图*/
         window.onload=function(ev){
             var lun = document.querySelectorAll(".lun");
             var btn=document.querySelectorAll(".btn");
@@ -26,10 +28,28 @@
                 btn[num].style.background="orange"
                 num++
             },3000)
+
+            var types=document.querySelectorAll(".daohang-left-top-type");
+            var cons=document.querySelectorAll(".daohang-left-type");
+
+            for (var i=0;i<types.length;i++){
+                types[i].index=i;
+                types[i].onmouseover=function (ev) {
+                    for (var j=0;j<cons.length;j++){
+                        cons[j].style.display="none";
+                    }
+                    cons[this.index].style.display="block";
+                }
+            }
         }
+
+
+
+
     </script>
 </head>
 <body>
+<div class="out">
 <!--顶部-->
 <div class="top">
     <div class="top-left">
@@ -90,6 +110,75 @@
         </ul>
     </div>
 </div>
+<!--导航部分-->
+<div class="daohang-left">
+    <div class="daohang-left-top">
+        <div class="daohang-left-top-left daohang-left-top-type">
+            <a href="">     <span>商品分类</span></a>
+        </div>
+        <div class="daohang-left-top-right daohang-left-top-type">
+            <a href=""> <span>天猫520活动</span> </a>
+        </div>
+    </div>
+    <div class="daohang-left-down">
+        <ul class="daohang-left-type">
+            <li>大牌女装</li>
+            <li>家纺装饰</li>
+            <li>运动户外</li>
+            <li>型格男装</li>
+            <li>大牌美妆</li>
+            <li>纸品家清</li>
+            <li>潮流个户</li>
+            <li>大家电</li>
+            <li>手机会场</li>
+            <li>精品家居</li>
+        </ul>
+        <ul class="daohang-left-type">
+            <li>女装/内衣</li>
+            <li>男装/运动户外</li>
+            <li>美妆/个人护理</li>
+            <li>母婴玩具</li>
+            <li>生鲜水果</li>
+            <li>家具建材</li>
+            <li>医药保健</li>
+        </ul>
+    </div>
+</div>
+<!--最左边导航-->
+<div class="left-index">
+    <div class="left-index-one"><a href="">导航</a></div>
+    <div class="left-index-two"><a href="">天猫<br>超市</a></div>
+    <div class="left-index-three"><a href="">天猫<br>国际</a></div>
+    <div class="left-index-four"><a href="">美丽<br>人生</a></div>
+    <div class="left-index-five"><a href="">潮电酷玩</a></div>
+    <div class="left-index-six"><a href="">居家生活</a></div>
+    <div class="left-index-seven"><a href="">打造爱巢</a></div>
+    <div class="left-index-eight"><a href="">户外出行</a></div>
+    <div class="left-index-nine"><a href="">猜你喜欢</a></div>
+    <div class="left-index-ten"><a href="">顶部</a></div>
+
+</div>
+
+<!--右边导航-->
+<div class="right-index">
+    <a href="javascpipt；" class="right-index-520">
+
+    </a>
+    <div class="right-index-bottom">
+        <div class="right-index-bottom-left"></div>
+        <div class="right-index-bottom-right">
+            <div class="right-index2"></div>
+            <div class="right-index3"></div>
+            <div class="right-index4"></div>
+            <div class="right-index5"></div>
+            <div class="right-index6"></div>
+            <div class="right-index7"></div>
+            <div class="right-index9"></div>
+        </div>
+    </div>
+
+</div>
+
 <!--主页部分-->
 <div class="main-main">
     <div class="main-main-one">
@@ -108,6 +197,7 @@
 <div class="main">
 <!--主页上部-->
 <div  class="main-top">
+
       <!--  <div id="list" class="main-top-list">
          <img src="./imgs/2.jpg" width="100%" height="100%" class="main-top-li">
             <img src="./imgs/3.jpg" width="100%" height="100%" class="main-top-li">
@@ -126,7 +216,7 @@
      <img src="imgs/2.jpg" height="100%" width="100%">
     </div>
     <div class="lun lun2">
-        <img src="imgs/3.jpg" height="100%" width="100%">
+        <img src="imgs/oo.jpg" height="100%" width="100%">
     </div>
     <div class="btns">
         <div class="btn active"></div>
@@ -148,18 +238,18 @@
                 <strong>品牌闪购 BRAND SALE</strong>
             </div>
             <div class="main-middle-left-down">
-                <a href="">   <img src="imgs/7.jpg" width="100%" height="100%"></a>
+                <a href="">   <img src="imgs/r.jpg" width="100%" height="100%"></a>
             </div>
         </div>
-        <div class="main-middle-left">
+        <div class="main-middle-left2">
             <div class="main-middle-left-top">
                 <strong>聚名品 LUXURY CHANNEL</strong>
             </div>
             <div class="main-middle-left-down">
-                <a href=""><img src="imgs/8.jpg" width="100%" height="100%"></a>
+                <a href=""><img src="imgs/ff.jpg" width="100%" height="100%"></a>
             </div>
         </div>
-        <div class="main-middle-left">
+        <div class="main-middle-left3">
             <div class="main-middle-left-top">
                 <strong>品牌活动BRAND ACTIVITY</strong>
             </div>
@@ -184,7 +274,7 @@
         </div>
         <div class="main-down-demo">
             <div class="main-down-demo-top">
-                <a href="">     <img src="imgs/9.JPG" height="100%" width="100%"></a>
+                <a href="">     <img src="imgs/c.JPG" height="100%" width="100%"></a>
             </div>
             <div class="main-down-demo-middle">
                 <a href="">  <img src="imgs/44.JPG" height="100%" width="100%"></a>
@@ -232,19 +322,19 @@
         </div>
         <div class="main-down-demo">
             <div class="main-down-demo-top">
-                <a href="">     <img src="imgs/uu.JPG" height="100%" width="100%"></a>
+                <a href="">     <img src="imgs/c.JPG" height="100%" width="100%"></a>
             </div>
             <div class="main-down-demo-middle">
                 <a href="">  <img src="imgs/yy.JPG" height="100%" width="100%"></a>
             </div>
             <div class="main-down-demo-down">
-                <a href=""> <img src="imgs/8.JPG" height="100%" width="100%"></a>
+                <a href=""> <img src="imgs/c.JPG" height="100%" width="100%"></a>
             </div>
 
         </div>
         <div class="main-down-demo">
             <div class="main-down-demo-top">
-                <a href="">     <img src="imgs/7.JPG" height="100%" width="100%"></a>
+                <a href="">     <img src="imgs/11.JPG" height="100%" width="100%"></a>
             </div>
             <div class="main-down-demo-middle">
                 <a href="">  <img src="imgs/nn.JPG" height="100%" width="100%"></a>
@@ -438,6 +528,9 @@
         </div>
     </div>
 </div>
+<div class="text-ctn">
+    <span>猜你喜欢</span>
+</div>
 <!--商品列表-->
 <div class="klist">
 <div class="klist-demo">
@@ -621,6 +714,7 @@
                 </p>
             </div></div>
     </div>
+</div>
 </div>
 </div>
 </body>

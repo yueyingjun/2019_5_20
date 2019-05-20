@@ -2,6 +2,10 @@
 body{
     margin: 0;
 }
+.out{
+    margin: auto;
+    padding: auto;
+}
 .top{
     background: #e982a5;
  /*   border: 1px solid red;*/
@@ -114,6 +118,317 @@ body{
     top: -60px;
     right: -145px;
 }
+/*导航部分*/
+.daohang-left{
+
+    float: left;
+    position: relative;
+    right: -150px;
+    bottom: 20px;
+    height: 644px;
+    width: 250px;
+    border: 1px red solid;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 3;
+}
+.daohang-left-top{
+    border: 1px red solid;
+    width: 100%;
+    height: 10%;
+}
+.daohang-left-top-left{
+    /*border: 1px red solid;*/
+    width: 50%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    font-size: 23px;
+}
+.daohang-left-top-left a{
+    color: white;
+}
+.daohang-left-top-right a {
+    color: white;
+}
+.daohang-left-top-left span{
+   /* border: 1px black solid;*/
+  position: relative;
+    bottom: -20px;
+}
+
+.daohang-left-top-right span{
+   /* border: 1px red solid;*/
+    position: relative;
+    bottom: -20px;
+}
+.daohang-left-top-right{
+    float:left;
+   /* border: 1px black solid;*/
+    width: 48%;
+    height: 100%;
+    color:white ;
+    text-align: center;
+    font-size: 23px;
+}
+.daohang-left-top-right:hover{
+    background: red;
+}
+.daohang-left-top-left:hover{
+    background: red;
+}
+.daohang-left-type li{
+    list-style: none;
+    border: red 1px solid;
+    padding: 8px;
+    margin: 7px;
+   text-align: center;
+    color: white;
+    font-size: large;
+
+}
+/*右边导航*/
+/*右导航*/
+.right-index{
+    width: 100px;
+    height: 940px;
+    position: fixed;
+    left: 1700px;
+    top: 0;
+    background-color: #f09ad9;
+}
+
+.right-index-520{
+    width: 100%;
+    height: 20%;
+    display: block;
+    margin-top: 94px;
+    background: url("./imgs/right-index1.png") no-repeat 0 0;
+    background-size: 100%;
+}
+
+.right-index-bottom{
+    width: 100%;
+    height: 70%;
+    float: bottom;
+    background: white;
+}
+
+.right-index-bottom-left{
+    width: 50%;
+    height: 100%;
+    float: left;
+    background: url("./imgs/right-index8.png") no-repeat 0 0;
+    background-size: 100%;
+}
+
+.right-index-bottom-right{
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+
+.right-index2{
+    height: 7%;
+    width: 100%;
+    display: block;
+    background: url("./imgs/right-index2.png") no-repeat 0 0;
+    background-size: 100%;
+    background-color: black;
+}
+
+.right-index3{
+    height: 7%;
+    width: 100%;
+    display: block;
+    background: url("./imgs/right-index3.png") no-repeat 0 0;
+    background-size: 100%;
+    background-color: black;
+}
+.right-index4{
+    height: 7%;
+    width: 100%;
+    display: block;
+    background: url("./imgs/right-index4.png") no-repeat 0 0;
+    background-size: 100%;
+    background-color: black;
+}
+.right-index5{
+    height: 7%;
+    width: 100%;
+    display: block;
+    background: url("./imgs/right-index5.png") no-repeat 0 0;
+    background-size: 100%;
+    background-color: black;
+}
+.right-index6{
+    height: 7%;
+    width: 100%;
+    display: block;
+    background: url("./imgs/right-index6.png") no-repeat 0 0;
+    background-size: 100%;
+    background-color: black;
+}
+.right-index7{
+    height: 7%;
+    width: 100%;
+    display: block;
+    background: url("./imgs/right-index7.png") no-repeat 0 0;
+    background-size: 100%;
+    background-color: black;
+}
+.right-index9{
+    height: 7%;
+    width: 100%;
+    display: block;
+    background: url("./imgs/right-index9.png") no-repeat 0 0;
+    background-size: 100%;
+    background-color: black;
+}
+/*最左边导航*/
+.left-index{
+    height: 460px;
+    width: 45px;
+    position: fixed;
+    left: 100px;
+    top: 100px;
+}
+
+.left-index-one{
+    width: 100%;
+    height: 45px;
+    display: block;
+    margin-top: 1px;
+    text-align: center;
+    background-color: red;
+    line-height: 40px;
+}
+
+.left-index a{
+    color: #fff;
+}
+
+.left-index-two{
+    width: 100%;
+    height: 45px;
+    display: block;
+    margin-top: 1px;
+    text-align: center;
+    background-color: #666;
+    line-height: 20px;
+}
+
+.left-index-three{
+    width: 100%;
+    height: 45px;
+    display: block;
+    margin-top: 1px;
+    text-align: center;
+    background-color: #666;
+    line-height: 20px;
+}
+
+.left-index-four{
+    width: 100%;
+    height: 45px;
+    display: block;
+    margin-top: 1px;
+    text-align: center;
+    background-color: #666;
+    line-height: 20px;
+}
+
+.left-index-five{
+    width: 100%;
+    height: 45px;
+    display: block;
+    margin-top: 1px;
+    text-align: center;
+    background-color: #666;
+    line-height: 20px;
+}
+
+.left-index-six{
+    width: 100%;
+    height: 45px;
+    display: block;
+    margin-top: 1px;
+    text-align: center;
+    background-color: #666;
+    line-height: 20px;
+}
+
+.left-index-seven{
+    width: 100%;
+    height: 45px;
+    display: block;
+    margin-top: 1px;
+    text-align: center;
+    background-color: #666;
+    line-height: 20px;
+}
+
+.left-index-eight{
+    width: 100%;
+    height: 45px;
+    display: block;
+    margin-top: 1px;
+    text-align: center;
+    background-color: #666;
+    line-height: 20px;
+}
+
+.left-index-nine{
+    width: 100%;
+    height: 45px;
+    display: block;
+    margin-top: 1px;
+    text-align: center;
+    background-color: #666;
+    line-height: 20px;
+}
+
+.left-index-ten{
+    width: 100%;
+    height: 45px;
+    display: block;
+    margin-top: 1px;
+    text-align: center;
+    background-color: #a1a1a1;
+    line-height: 40px;
+}
+
+.left-index-two:hover{
+    background-color: #00B262;
+}
+
+.left-index-three:hover{
+    background-color: black;
+}
+
+.left-index-four:hover{
+    background-color: #f09ad9;
+}
+
+.left-index-five:hover{
+    background-color: #3b8de3;
+}
+
+.left-index-six:hover{
+    background-color: #00B262;
+}
+
+.left-index-seven:hover{
+    background-color: #f09ad9;
+}
+
+.left-index-eight:hover{
+    background-color: #42a0ff;
+}
+
+.left-index-nine:hover{
+    background-color: black;
+}
+
 /*主页部分*/
 .main-main{
    /* border: 1px black solid;*/
@@ -141,7 +456,8 @@ body{
        background: #f4fff8;
 }
 .main{
-    background: darksalmon;
+    background: url("imgs/b.png");
+    background-position-y: -200px;
     /*border: 1px solid red;*/
     width: 100%;
     height: 1800px;
@@ -153,12 +469,13 @@ body{
     margin-top: 10px;
 
     /*border: 1px red solid;*/
-    width: 90%;
+    width: 70%;
     height: 580px;
     position: relative;
     margin: auto;
-
+    right: -60px;
 }
+
 /*
 .main-top-list{
     width: 100%;
@@ -264,16 +581,33 @@ body{
 /*主页中部*/
 .main-middle{
     /*border: 1px red solid;*/
-    width: 90%;
+    width: 100%;
     height: 30%;
     margin: auto;
 }
 .main-middle-left{
   /*  border: 1px red solid;*/
     height: 100%;
+    width: 18%;
+    float:left;
+    margin-left: -100px;
+
+
+}
+.main-middle-left2{
+    /*  border: 1px red solid;*/
+    height: 100%;
+    width: 38%;
+    float:left;
+    margin: 10px;
+
+}
+.main-middle-left3{
+    /*  border: 1px red solid;*/
+    height: 100%;
     width: 30%;
     float:left;
-    margin: 21px;
+    margin: 0px;
 
 }
 .main-middle-left-top{
@@ -289,6 +623,7 @@ body{
 .main-middle-left-down{
  /*   border: 1px red solid;*/
     height: 450px;
+    width: 100%;
     float: left;
 }
 /*主页底部*/
@@ -392,18 +727,27 @@ body{
     height: 50%;
     width: 100%;
 }
+
+.text-ctn{
+    padding: 20px;
+    text-align: center;
+    font-family: 幼圆;
+   color: #178288;
+    /* border: 1px red solid;*/
+}
+
 /*主要商品列表*/
 .klist{
    /* border: 1px red solid;*/
     width: 90%;
-    height: 700px;
+    height: 1000px;
     margin: auto;
     margin-top: 20px;
 }
 .klist-demo{
     height: 50%;
     width: 100%;
-    border: 1px red solid;
+  /*  border: 1px red solid;*/
 }
 .klist-demo-front{
     float: left;
