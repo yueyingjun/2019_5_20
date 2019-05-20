@@ -518,6 +518,7 @@ body {
   float: left;
   color: #555;
   font-size: 14px;
+  border-bottom: 1px dashed #555;
 }
 .navigation-header-classify-list-in-right-link {
   margin-right: 5px;
@@ -704,7 +705,146 @@ body {
 }
 
 
-
-
-
+/*footer*/
+.footer {
+  width: 1349px;
+  height: 604px;
+  /*background-color: yellow;*/
+}
+.footer-help {
+  width: 1200px;
+  height: 150px;
+  background-color: white;
+  margin: 0 auto;
+  border-bottom: 1px solid #666;
+}
+.footer-help-link {
+  width: 300px;
+  height: 100px;
+  float: left;
+  margin-top: 50px;
+  /*background-color: blue;*/
+}
+.footer-help-link-img {
+  width: 60px;
+  height: 60px;
+  float: left;
+  margin-left: 30px;
+}
+.footer-help-link-title {
+  width: 180px;
+  height: 30px;
+  float: left;
+  background-color: white;
+  font-weight: bold;
+  color: #444;
+}
+.footer-help-link-info {
+  width: 180px;
+  height: 30px;
+  float: left;
+  color: #555;
+  background-color: white;
+}
+.footer-model {
+  width: 1200px;
+  height: 215px;
+  background-color: white;
+  margin: 0 auto;
+}
+.footer-model-info {
+  padding-top: 30px;
+  width: 20%;
+  height: 100%;
+  float: left;
+}
+.footer-model-info-top {
+  width: 100%;
+  height: 30px;
+  background-color: white;
+  font-size: 20px;
+  font-weight: bold;
+  color: #555;
+}
+.footer-model-info-bottom {
+  width: 100%;
+  height: 140px;
+  background-color: white;
+}
+.footer-model-info-bottom-link {
+  width: 100%;
+  font-size: 12px;
+  float: left;
+  text-decoration: none;
+  margin: 2px 0;
+  color: #555;
+}
+.footer-model-info-bottom-link-img {
+  width: 95px;
+  height: 95px;
+}
+.footer-end {
+  width: 1200px;
+  height: 240px;
+  background-color: black;
+  margin: 0 auto;
+  border-top: 3px solid red;
+  font-size: 12px;
+}
+.footer-end-top {
+  width: 100%;
+  margin: 5px 0;
+  float: left;
+}
+.footer-end-top-link {
+  float: left;
+  margin-right: 10px;
+  color: white;
+  text-decoration: none;
+  margin-top: -10px;
+}
+.footer-end-bet {
+  width: 100%;
+  margin: 20px 0;
+  float: left;
+}
+.footer-end-bet-link {
+  float: left;
+  margin-right: 10px;
+  color: white;
+  text-decoration: none;
+}
+.footer-end-bet-divide {
+  float: left;
+  margin: 0 2px;
+  color: white;
+}
+.footer-end-bottom {
+  width: 100%;
+  color: #bbb;
+}
+.footer-end-bottom-info {
+  float: left;
+  margin-right: 30px;
+}
+.footer-end-bottom-info-imgs {
+  float: left;
+  line-height: 30px;
+}
+.footer-end-bottom-info-imgs-img {
+  width: 30px;
+  height: 30px;
+  float: left;
+}
+.footer-end-imgs {
+  float: left;
+  margin-top: 15px;
+  width: 100%;
+}
+.footer-end-imgs-img {
+  width: 80px;
+  height: 35px;
+  float: left;
+  margin-right: 10px;
+}
 
