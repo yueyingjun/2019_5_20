@@ -2,6 +2,11 @@ body {
   padding: 0;
   margin: 0;
 }
+.inner-width {
+  width: 1370px;
+  height: 100%;
+  margin: 0 auto;
+}
 /*右侧导航*/
 .navigation-right {
 
