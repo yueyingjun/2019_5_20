@@ -4,7 +4,27 @@
     <meta charset="UTF-8">
     <title>天猫商城</title>
   <link rel="stylesheet" href="css/tianmao.css">
+  <script>
+    window.onload = function (ev) {
+      var ban1 = document.querySelectorAll(".ban1");
+      var btns = document.querySelectorAll(".btn");
+      var num=0;
+      setInterval(function () {
+        num++;
+        if(num==ban1.length){
+          num=0;
+        }
+        for (var i = 0; i < ban1.length; i++) {
+          ban1[i].style.display="none";
+          btns[i].style.background="black";
+        }
+        // console.log(num);
+        ban1[num].style.display="block";
+        btns[num].style.background="orange";
+      },3000)
 
+    }
+  </script>
 
 </head>
 <body>
@@ -94,7 +114,14 @@
       </div>
     </div>
     <div class="ban">
+      <div class="ban1   ban11"></div>
 
+      <div class="ban1   ban12"></div>
+      <div class="btns">
+        <div class="btn1 btn"></div>
+        <div class="btn2 btn"></div>
+
+      </div>
     </div>
     <div class="con">
       <div class="con-top">
@@ -185,7 +212,8 @@
 <div class="neikuan">
   <div class="tubiao">
     <div>
-      <a href=""></a>
+      <a href="">
+      </a>
     </div>
     <div>
       <a href=""></a>
@@ -819,6 +847,271 @@
 
 <div class="neikuan">
   <div class="tu2"></div>
+</div>
+
+<!--中间内容-->
+<div class="neikuan">
+  <div class="zhongjian1">
+    <li>
+      <a href="">
+        <div class="chaoshi-bottom-right-b"></div>
+        <div class="chaoshi-bottom-right-c">
+          三利毛巾纯棉 洗脸 家用 纱布大毛巾成人情
+        </div>
+        <div class="chaoshi-bottom-right-d">
+          ￥12.9
+        </div>
+      </a>
+
+    </li>
+    <li>
+      <a href="">
+        <div class="chaoshi-bottom-right-b"></div>
+        <div class="chaoshi-bottom-right-c">
+          三利毛巾纯棉 洗脸 家用 纱布大毛巾成人情
+        </div>
+        <div class="chaoshi-bottom-right-d">
+          ￥12.9
+        </div>
+      </a>
+
+    </li>
+    <li>
+      <a href="">
+        <div class="chaoshi-bottom-right-b"></div>
+        <div class="chaoshi-bottom-right-c">
+          三利毛巾纯棉 洗脸 家用 纱布大毛巾成人情
+        </div>
+        <div class="chaoshi-bottom-right-d">
+          ￥12.9
+        </div>
+      </a>
+
+    </li>
+    <li>
+      <a href="">
+        <div class="chaoshi-bottom-right-b"></div>
+        <div class="chaoshi-bottom-right-c">
+          三利毛巾纯棉 洗脸 家用 纱布大毛巾成人情
+        </div>
+        <div class="chaoshi-bottom-right-d">
+          ￥12.9
+        </div>
+      </a>
+
+    </li>
+    <li>
+      <a href="">
+        <div class="chaoshi-bottom-right-b"></div>
+        <div class="chaoshi-bottom-right-c">
+          三利毛巾纯棉 洗脸 家用 纱布大毛巾成人情
+        </div>
+        <div class="chaoshi-bottom-right-d">
+          ￥12.9
+        </div>
+      </a>
+
+    </li>
+    <li>
+      <a href="">
+        <div class="chaoshi-bottom-right-b"></div>
+        <div class="chaoshi-bottom-right-c">
+          三利毛巾纯棉 洗脸 家用 纱布大毛巾成人情
+        </div>
+        <div class="chaoshi-bottom-right-d">
+          ￥12.9
+        </div>
+      </a>
+
+    </li>
+    <li>
+      <a href="">
+        <div class="chaoshi-bottom-right-b"></div>
+        <div class="chaoshi-bottom-right-c">
+          三利毛巾纯棉 洗脸 家用 纱布大毛巾成人情
+        </div>
+        <div class="chaoshi-bottom-right-d">
+          ￥12.9
+        </div>
+      </a>
+
+    </li>
+    <li>
+      <a href="">
+        <div class="chaoshi-bottom-right-b"></div>
+        <div class="chaoshi-bottom-right-c">
+          三利毛巾纯棉 洗脸 家用 纱布大毛巾成人情
+        </div>
+        <div class="chaoshi-bottom-right-d">
+          ￥12.9
+        </div>
+      </a>
+
+    </li>
+    <li>
+      <a href="">
+        <div class="chaoshi-bottom-right-b"></div>
+        <div class="chaoshi-bottom-right-c">
+          三利毛巾纯棉 洗脸 家用 纱布大毛巾成人情
+        </div>
+        <div class="chaoshi-bottom-right-d">
+          ￥12.9
+        </div>
+      </a>
+
+    </li>
+    <li>
+      <a href="">
+        <div class="chaoshi-bottom-right-b"></div>
+        <div class="chaoshi-bottom-right-c">
+          三利毛巾纯棉 洗脸 家用 纱布大毛巾成人情
+        </div>
+        <div class="chaoshi-bottom-right-d">
+          ￥12.9
+        </div>
+      </a>
+
+    </li>
+  </div>
+</div>
+
+<!-- 底部-->
+<div class="neikuan">
+  <div class="footer">
+    <div class="footer-help">
+      <a href="" class="footer-help-link">
+        <img src="./img/footer-help-1.png" alt="" class="footer-help-link-img">
+        <span class="footer-help-link-title">品质保障</span>
+        <span class="footer-help-link-info">
+        品质护航 购物无忧
+      </span>
+      </a>
+      <a href="" class="footer-help-link">
+        <img src="./img/footer-help-2.png" alt="" class="footer-help-link-img">
+        <span class="footer-help-link-title">七天无理由退换货</span>
+        <span class="footer-help-link-info">
+        为您提供售后无忧保障
+      </span>
+      </a>
+      <a href="" class="footer-help-link">
+        <img src="./img/footer-help-3.png" alt="" class="footer-help-link-img">
+        <span class="footer-help-link-title">特色服务体验</span>
+        <span class="footer-help-link-info">
+        为您呈现不一样的服务
+      </span>
+      </a>
+      <a href="" class="footer-help-link">
+        <img src="./img/footer-help-4.png" alt="" class="footer-help-link-img">
+        <span class="footer-help-link-title">帮助中心</span>
+        <span class="footer-help-link-info">
+        您的购物指南
+      </span>
+      </a>
+    </div>
+    <div class="footer-model">
+      <div class="footer-model-info">
+        <div class="footer-model-info-top">购物指南</div>
+        <div class="footer-model-info-bottom">
+          <a href="" class="footer-model-info-bottom-link">免费注册</a>
+          <a href="" class="footer-model-info-bottom-link">开通支付宝</a>
+          <a href="" class="footer-model-info-bottom-link">支付宝充值</a>
+        </div>
+      </div>
+      <div class="footer-model-info">
+        <div class="footer-model-info-top">天猫保障</div>
+        <div class="footer-model-info-bottom">
+          <a href="" class="footer-model-info-bottom-link">发票保障</a>
+          <a href="" class="footer-model-info-bottom-link">售后规则</a>
+          <a href="" class="footer-model-info-bottom-link">缺货赔付</a>
+        </div>
+      </div>
+      <div class="footer-model-info">
+        <div class="footer-model-info-top">支付方式</div>
+        <div class="footer-model-info-bottom">
+          <a href="" class="footer-model-info-bottom-link">快捷支付</a>
+          <a href="" class="footer-model-info-bottom-link">信用卡</a>
+          <a href="" class="footer-model-info-bottom-link">余额宝</a>
+          <a href="" class="footer-model-info-bottom-link">蚂蚁花呗</a>
+          <a href="" class="footer-model-info-bottom-link">货到付款</a>
+        </div>
+      </div>
+      <div class="footer-model-info">
+        <div class="footer-model-info-top">商家服务</div>
+        <div class="footer-model-info-bottom">
+          <a href="" class="footer-model-info-bottom-link">天猫规则</a>
+          <a href="" class="footer-model-info-bottom-link">商家入驻</a>
+          <a href="" class="footer-model-info-bottom-link">商家中心</a>
+          <a href="" class="footer-model-info-bottom-link">天猫智库</a>
+          <a href="" class="footer-model-info-bottom-link">物流服务</a>
+          <a href="" class="footer-model-info-bottom-link">喵言喵语</a>
+          <a href="" class="footer-model-info-bottom-link">运营服务</a>
+        </div>
+      </div>
+      <div class="footer-model-info">
+        <div class="footer-model-info-top">手机天猫</div>
+        <div class="footer-model-info-bottom">
+          <a href="" class="footer-model-info-bottom-link">
+            <img src="./img/shoujitianmao.png" alt="" class="footer-model-info-bottom-link-img">
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-end">
+      <div class="footer-end-top">
+        <a href="" class="footer-end-top-link">关于天猫</a>
+        <a href="" class="footer-end-top-link">帮助中心</a>
+        <a href="" class="footer-end-top-link">开放平台</a>
+        <a href="" class="footer-end-top-link">诚聘英才</a>
+        <a href="" class="footer-end-top-link">联系我们</a>
+        <a href="" class="footer-end-top-link">网站合作</a>
+        <a href="" class="footer-end-top-link">法律声明</a>
+        <a href="" class="footer-end-top-link">隐私权设置</a>
+        <a href="" class="footer-end-top-link">知识产权</a>
+        <a href="" class="footer-end-top-link">廉政举报</a>
+        <a href="" class="footer-end-top-link">规则意见征集</a>
+      </div>
+      <div class="footer-end-bet">
+        <a href="" class="footer-end-bet-link">阿里巴巴集团</a><span class="footer-end-bet-divide">|</span>
+        <a href="" class="footer-end-bet-link">淘宝网</a><span class="footer-end-bet-divide">|</span>
+        <a href="" class="footer-end-bet-link">天猫</a><span class="footer-end-bet-divide">|</span>
+        <a href="" class="footer-end-bet-link">聚划算</a><span class="footer-end-bet-divide">|</span>
+        <a href="" class="footer-end-bet-link">全球速卖通</a><span class="footer-end-bet-divide">|</span>
+        <a href="" class="footer-end-bet-link">阿里巴巴国际交易市场</a><span class="footer-end-bet-divide">|</span>
+        <a href="" class="footer-end-bet-link">1688</a><span class="footer-end-bet-divide">|</span>
+        <a href="" class="footer-end-bet-link">阿里妈妈</a><span class="footer-end-bet-divide">|</span>
+        <a href="" class="footer-end-bet-link">飞猪</a><span class="footer-end-bet-divide">|</span>
+        <a href="" class="footer-end-bet-link">阿里云计算</a><span class="footer-end-bet-divide">|</span>
+        <a href="" class="footer-end-bet-link">AliOS</a><span class="footer-end-bet-divide">|</span>
+        <a href="" class="footer-end-bet-link">阿里通信</a><span class="footer-end-bet-divide">|</span>
+        <a href="" class="footer-end-bet-link">万网</a><span class="footer-end-bet-divide">|</span>
+        <a href="" class="footer-end-bet-link">高德</a><span class="footer-end-bet-divide">|</span>
+        <a href="" class="footer-end-bet-link">UC</a><span class="footer-end-bet-divide">|</span>
+        <a href="" class="footer-end-bet-link">友盟</a><span class="footer-end-bet-divide">|</span>
+        <a href="" class="footer-end-bet-link">虾米</a><span class="footer-end-bet-divide">|</span>
+        <a href="" class="footer-end-bet-link">钉钉</a><span class="footer-end-bet-divide">|</span>
+        <a href="" class="footer-end-bet-link">支付宝</a>
+      </div>
+      <div class="footer-end-bottom">
+        <span class="footer-end-bottom-info">增值电信业务经营许可证： 浙B2-20110446</span>
+        <span class="footer-end-bottom-info">市场名称登记证：工商网市字3301004119号</span>
+        <span class="footer-end-bottom-info">出版物网络交易平台服务经营备案证： 新出发浙备字第001号</span>
+        <span class="footer-end-bottom-info">互联网违法和不良信息举报电话：0571-81683755 blxxjb@alibaba-inc.com</span>
+        <span class="footer-end-bottom-info">互联网药品信息服务资质证书编号：浙-（经营性）-2017-0005</span>
+        <div class="footer-end-bottom-info-imgs">
+          <img src="./img/guohui.png" alt="" class="footer-end-bottom-info-imgs-img">
+          <span class="footer-end-bottom-info footer-end-bottom-info-imgs-text">浙公网安备 33010002000120号</span>
+        </div>
+        <span class="footer-end-bottom-info">医疗器械网络交易服务第三方平台备案：（浙）网械平台备字[2018]第00002号</span>
+        <span class="footer-end-bottom-info">互联网药品交易服务资格证书：国A20150001</span>
+        <span class="footer-end-bottom-info">浙江省网络食品销售第三方平台提供者备案：浙网食A33010002</span>
+        <span class="footer-end-bottom-info"> 12318举报</span>
+        <span class="footer-end-bottom-info">&copy;2003-2019 TMALL.COM 版权所有</span>
+      </div>
+      <div class="footer-end-imgs">
+        <img src="./img/end-img1.png" alt="" class="footer-end-imgs-img"><img src="./img/end-img2.png" alt="" class="footer-end-imgs-img">
+      </div>
+    </div>
+  </div>
 </div>
 
 <!--导航 -->

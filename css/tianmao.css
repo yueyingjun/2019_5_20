@@ -170,12 +170,57 @@ a{
   width: 1226px;
   height: 500px;
   background: red;
+  position: relative;
+  float: left;
 }
+.ban11{
+   height: 500px;
+   position: absolute;
+   left:0px;
+   right:0px;
+   display: block;
+   z-index: 1;
+   background-image: url("../img/2.jpg");
+   background-size: cover;
+
+ }
+.ban12{
+  height: 500px;
+  position: absolute;
+  left:0px;
+  right:0px;
+  background-image: url("../img/3.jpg");
+  background-size: cover;
+}
+.btns{
+  width:200px;
+  height: 10px;
+  position: absolute;
+  right:200px ;
+  top:400px;
+  z-index: 3;
+}
+.btn1{
+  background: orange;
+  width:40px;
+  height: 5px;
+  position: absolute;
+}
+
+.btn2{
+  background: black;
+  width:40px;
+  height: 5px;
+  position: absolute;
+  left: 100px;
+}
+
 .banner .con{
   width: 200px;
   height: 540px;
   background: yellow;
   position: absolute;
+  z-index: 2;
   top: 0;
   left: 0;
   overflow: hidden;
@@ -384,12 +429,14 @@ a{
 .tubiao{
   width: 1226px;
   height: 330px;
-  background: red;
+
   margin-top: 20px;
 }
 .tubiao div{
   width: 10%;
   height: 110px;
+  background-image: url("../img/9.jpg");
+  background-size: cover;
   box-sizing: border-box;
   border: gray solid 1px;
   float: left;
@@ -800,8 +847,169 @@ a{
   margin-top: 10px;
 }
 
+/**
+中间
+ */
+.zhongjian1{
+  width: 1226px;
+  height: 620px;
+  /*background: red;*/
+  margin-top: 10px;
 
+}
+.zhongjian1 li{
+  float: left;
+  margin-right: 20px;
 
+}
+
+/**
+底部
+ */
+
+/*footer*/
+.footer {
+  width: 1226px;
+  height: 604px;
+
+  /*background-color: yellow;*/
+}
+.footer-help {
+  width: 1226px;
+  height: 150px;
+  background-color: white;
+  margin: 0 auto;
+  border-bottom: 1px solid #666;
+}
+.footer-help-link {
+  width: 300px;
+  height: 100px;
+  float: left;
+  margin-top: 50px;
+  /*background-color: blue;*/
+}
+.footer-help-link-img {
+  width: 60px;
+  height: 60px;
+  float: left;
+  margin-left: 30px;
+}
+.footer-help-link-title {
+  width: 180px;
+  height: 30px;
+  float: left;
+  background-color: white;
+  font-weight: bold;
+  color: #444;
+}
+.footer-help-link-info {
+  width: 180px;
+  height: 30px;
+  float: left;
+  color: #555;
+  background-color: white;
+}
+.footer-model {
+  width: 1226px;
+  height: 215px;
+  background-color: white;
+  margin: 0 auto;
+}
+.footer-model-info {
+  padding-top: 30px;
+  width: 20%;
+  height: 100%;
+  float: left;
+}
+.footer-model-info-top {
+  width: 100%;
+  height: 30px;
+  background-color: white;
+  font-size: 20px;
+  font-weight: bold;
+  color: #555;
+}
+.footer-model-info-bottom {
+  width: 100%;
+  height: 140px;
+  background-color: white;
+}
+.footer-model-info-bottom-link {
+  width: 100%;
+  font-size: 12px;
+  float: left;
+  text-decoration: none;
+  margin: 2px 0;
+  color: #555;
+}
+.footer-model-info-bottom-link-img {
+  width: 95px;
+  height: 95px;
+}
+.footer-end {
+  width: 1226px;
+  height: 240px;
+  background-color: black;
+  margin: 0 auto;
+  border-top: 1px solid red;
+  font-size: 12px;
+}
+.footer-end-top {
+  width: 100%;
+  margin-top: 10px;
+  float: left;
+}
+.footer-end-top-link {
+  float: left;
+  margin-right: 10px;
+  color: white;
+  text-decoration: none;
+  margin-top: -10px;
+}
+.footer-end-bet {
+  width: 100%;
+  margin: 20px 0;
+  float: left;
+}
+.footer-end-bet-link {
+  float: left;
+  margin-right: 10px;
+  color: white;
+  text-decoration: none;
+}
+.footer-end-bet-divide {
+  float: left;
+  margin: 0 2px;
+  color: white;
+}
+.footer-end-bottom {
+  width: 100%;
+  color: #bbb;
+}
+.footer-end-bottom-info {
+  float: left;
+  margin-right: 30px;
+}
+.footer-end-bottom-info-imgs {
+  float: left;
+  line-height: 30px;
+}
+.footer-end-bottom-info-imgs-img {
+  width: 30px;
+  height: 30px;
+  float: left;
+}
+.footer-end-imgs {
+  float: left;
+  margin-top: 15px;
+  width: 100%;
+}
+.footer-end-imgs-img {
+  width: 80px;
+  height: 35px;
+  float: left;
+  margin-right: 10px;
+}
 
 /**
 导航
