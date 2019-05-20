@@ -307,22 +307,12 @@ header{
 .lunbo-left-top .one{
     color: #ffffff;
 }
-.lunbo-left-top .one:hover{
-    color: red;
-    background: rgba(238,238,238,.95);
-}
+
 .lunbo-left-top .two{
     color: orange;
 }
-.lunbo-left-top .two:hover{
-    color: #ffffff;
-    background: url("../imgs/xiazai.png");
 
-}
-.lunbo-left-top .active{
-    color: #ffffff;
-    background: url("../imgs/xiazai.png");
-}
+
 
 .lunbo-left-bottom{
     position: relative;
@@ -339,19 +329,18 @@ header{
     position: absolute;
     top: 0px;
     left: 0px;
+    z-index: 2 ;
 
 }
 .lunbo-left-bottom-one li{
     float: left;
-    width: 152px;
+    width: 150px;
     height: 31px;
     margin: 0 24px 14px;
     border: 1px solid red;
     border-radius: 10px;
     text-align: center;
     line-height: 30px;
-
-
 }
 
 lunbo-left-top .one:hover .lunbo-left-bottom-two{
@@ -362,24 +351,38 @@ lunbo-left-top .one:hover .lunbo-left-bottom-two{
     z-index: 2;
 }
 
-.lunbo-left-bottom-two li{
-    float: left;
-    width: 152px;
-    height: 31px;
-    margin: 0 24px 14px;
-    border: 1px solid red;
-    border-radius: 10px;
-    text-align: center;
-    line-height: 30px;
 
+
+.lunbo-left-bottom-two  {
+    height: 500px;
+    background: rgba(0,0,0,.55);
+
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
 
 }
-.lunbo-left-bottom-one a{
+.lunbo-left-bottom-two li{
+    float: left;
+    width: 150px;
+    height: 31px;
+
+
+    border-radius: 10px;
+    padding-left: 20px;
+    line-height: 30px;
+}
+.lunbo-left-bottom a{
 
     text-decoration: none;
     color: #ffffff;
     font-size: 14px;
 }
+
+
+
+
 .dinner2 .one{
     position: absolute;
     right: 0px;
