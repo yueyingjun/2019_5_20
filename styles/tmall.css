@@ -323,7 +323,7 @@ ul.hot-query .final{
     top:470px;
     position: absolute;
     z-index: 7;
-
+    cursor: pointer;
 }
 .btn{
     float: left;
@@ -332,6 +332,7 @@ ul.hot-query .final{
     margin-left: 8px;
     margin-top: 5px;
     background: rgba(0,0,0,.4);
+
 }
 .btn.show{
     background: rgba(255,255,255,.4);
@@ -1100,5 +1101,120 @@ ul.hot-query .final{
     background: url("../images/pl.png") no-repeat;
     background-size: 100% 100%;
 }
+.mbar-mask{
+    position: fixed;
+    right: 0px;
+    height: 100%;
+    width: 35px;
+    background: black;
+    z-index: 1;
+}
+.mbar-top{
+    position: fixed;
+    display: block;
+    right: 0px;
+    top: 0;
+    height: 45%;
+    width: 85px;
+    background: #f9919d;
+    z-index: 2;
+}
+.mbar-top-img{
+    height: 150px;
+    width: 85px;
+    margin-top: 190px;
+    background: url("../images/mbar-top-img.png") no-repeat center center /100% auto;
+}
+.zhuhuichang{
+    width: 85px;
+    height: 45px;
+    padding-top: 25px;
+    text-align: center;
+    color: white;
+    background: url("../images/zhuhuichang.png") no-repeat top center;
+}
+.mbar-left{
+    position: fixed;
+    right: 35px;
+    top: 45%;
+    height: 130px;
+    width: 40px;
+    background: url("../images/mbar-left.png") no-repeat top center;
+    z-index: 1;
+}
+.mbar-tab-one{
+    position: fixed;
+    display: block;
+    right: 0px;
+    top: 45%;
+    height: 35px;
+    width: 35px;
+    background: url("../images/mbar-tab-one.png") no-repeat top center;
+    z-index: 2;
+}
+.mbar-tab-one:hover{
+    background-color: #ff0036;
+}
+.mbar-tab-two{
+    position: fixed;
+    right: 0px;
+    top: 49.5%;
+    color: white;
+    padding:5px;
+    padding-top:15px ;
+    text-align: center;
+    height: 100px;
+    width: 35px;
+    z-index: 2;
+    border-top: 1px solid #444444;box-sizing: border-box;
+    border-bottom: 1px solid #444444;box-sizing: border-box;
+}
+.mbar-tab-two:hover{
+    background-color: #ff0036;
+}
+.mbar-tab-three{
+    position: fixed;
+    right: 0px;
+    top: 60.3%;
+    height: 105px;
+    width: 35px;
+    z-index: 2;
 
+}
+.tab{
+    display: block;
+    height: 35px;
+    width: 35px;
+}
+.tab:hover{
+    background-color: #ff0036;
+}
 
+.mbar-tab-three .tab:nth-child(1){
+    background-image: url("../images/mbar-tab-three1.png");
+}
+.mbar-tab-three .tab:nth-child(2){
+    background-image: url("../images/mbar-tab-three2.png");
+}
+.mbar-tab-three .tab:nth-child(3){
+    background-image: url("../images/mbar-tab-three3.png");
+}
+
+.mbar-tab-four{
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    color: white;
+    height: 105px;
+    width: 35px;
+    z-index: 2;
+}
+.mbar-tab-four .tab:nth-child(1){
+    background-image: url("../images/mbar-tab-four1.png");
+}
+.mbar-tab-four .tab:nth-child(2){
+    background-image: url("../images/mbar-tab-four2.png");
+}
+.mbar-tab-four .tab:nth-child(3){
+    background-image: url("../images/mbar-tab-four3.png");
+}
