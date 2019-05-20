@@ -36,13 +36,13 @@ body{
 }
 
 .cont-right a{
-     line-height: 30px;
-     text-decoration: none;
-     font-size: 12px;
-     color: #ffffff;
-     margin-left: 15px;
-     float: left;
- }
+    line-height: 30px;
+    text-decoration: none;
+    font-size: 12px;
+    color: #ffffff;
+    margin-left: 15px;
+    float: left;
+}
 .small-a{
     width:1px;
     height: 15px;
@@ -247,11 +247,11 @@ body{
     color: red;
 }
 .top{
-     width: 100%;
-     height: 1430px;
-     background: url("../image/p6.png") no-repeat -80px -20px;
-     position: relative;
- }
+    width: 100%;
+    height: 1430px;
+    background: url("../image/p6.png") no-repeat -80px -20px;
+    position: relative;
+}
 /*轮播*/
 .lunbo {
     width: 1215px;
@@ -270,7 +270,7 @@ body{
     top: 0px;
     background: rgb(67,28,20);
     z-index: 3;
-  display: none;
+    display: none;
 }
 .lunbo-left2{
     width: 200px;
@@ -339,6 +339,7 @@ body{
     background: url("../image/l3.jpg")  no-repeat ;
     background-size:1215px 510px ;
     z-index: 1;
+    cursor: pointer;
 }
 .pic2{
     width: 100%;
@@ -346,19 +347,19 @@ body{
     position: absolute;
     left: 0;
     top: 0;
-
+    cursor: pointer;
     background: url("../image/l2.jpg")  no-repeat ;
     background-size:1215px 510px ;
 }
 .pic3{
-     width: 100%;
-     height: 100%;
-     position: absolute;
-     left: 0;
-     top: 0;
-     background: url("../image/jp1.jpg")  no-repeat ;
-    background-size:1215px 510px ;
- }
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url("../image/jp1.jpg")  no-repeat ;
+    background-size:1215px 510px ;cursor: pointer;
+}
 .pic4{
     width: 100%;
     height: 100%;
@@ -366,26 +367,26 @@ body{
     left: 0;
     top: 0;
     background: url("../image/l1.jpg")  no-repeat ;
-    background-size:1215px 510px ;
+    background-size:1215px 510px ;cursor: pointer;
 }
 .pic5{
-       width: 100%;
-       height: 100%;
-       position: absolute;
-       left: 0;
-       top: 0;
-       background: url("../image/l4.jpg")  no-repeat ;
-    background-size:1215px 510px ;
-   }
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url("../image/l4.jpg")  no-repeat ;
+    background-size:1215px 510px ;cursor: pointer;
+}
 .pic6{
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        left: 0;
-        top: 0;
-        background: url("../image/l5.jpg")  no-repeat ;
-    background-size:1215px 510px ;
-    }
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url("../image/l5.jpg")  no-repeat ;
+    background-size:1215px 510px ;cursor: pointer;
+}
 .lunbo-line{
     width: 230px;
     height: 20px;
@@ -426,7 +427,7 @@ body{
     height:380px;
     float: left;
     margin-left:8px;
- }
+}
 .topmiddle-top{
     width: 100%;
     height: 50px;
@@ -471,6 +472,7 @@ body{
     margin-right: 5px;
     background: url("../image/p10.png") no-repeat;
     background-size: 20px 20px;
+    cursor: pointer;
 }
 .topmiddle-top-text4{
     height: 100%;
@@ -553,6 +555,7 @@ body{
 .middle{
     width: 100%;
     height: 4900px;
+    margin-top: 26px;
     background:rgb(245,245,245);
     position: relative;
 }
@@ -706,7 +709,7 @@ body{
     background: url("../image/68.png") no-repeat;
     background-size: 33px 33px;
     left: 190px;
-    top: 545px;
+    top: 525px;
     cursor: pointer;
 }
 .mall2-item1{
@@ -749,7 +752,7 @@ body{
 .mallleft121{
     width:130px;
     height: 100%;
-     background: rgba(21,16,14,0.8);
+    background: rgba(21,16,14,0.8);
     float: left;
 }
 .mallleft111{
@@ -841,14 +844,18 @@ body{
     width: 100%;
     height: 230px;
     margin-top: 10px;
+    position: relative;
 }
 .mall1-right-item1-bottom-left{
-    width: 260px;
+    width: 280px;
     height: 70px;
     background: url("../image/hghg.png") no-repeat;
-    background-size:260px 70px;
+    background-size:280px 70px;
     margin-top: 90px;
     float: left;
+    position: absolute;
+    left: 0px;
+    right: 0px;
 
 }
 
@@ -858,9 +865,17 @@ body{
     background: url("../image/mallleft1.jpg") no-repeat;
     background-size:200px 200px ;
     margin-top: 0px;
+    margin-left: 220px;
     float: left;
-
-
+}
+.mall1-right-item1-bottom-right2{
+    width: 200px;
+    height: 200px;
+    background: url("../image/mallleft2.jpg") no-repeat;
+    background-size:200px 200px ;
+    margin-left: 220px;
+    margin-top: 0px;
+    float: left;
 }
 .mall1jps{
     width: 30px;
@@ -869,13 +884,13 @@ body{
     margin-top: 5px;
     background: url("../image/3-23.png") no-repeat;
     float: left;
+
 }
 .mall1-right-item1-bottom-left-top{
     width: 100%;
     font-size: 24px;
     color: rgb(0,178,98);
     height: 50%;
-
     margin-left: 30px;
     line-height: 30px;
 }
@@ -904,6 +919,335 @@ body{
     width: 100%;
     height: 200px;
     background: url("../image/mall1item21.jpg") no-repeat;
+    margin-left: 20px;
+    background-size:195px 195px ;
+}
+.mall2pic3{
+    width: 100%;
+    height: 200px;
+    background: url("../image/mall23.jpg") no-repeat;
+    margin-left: 20px;
+    background-size:195px 195px ;
+}
+.mall2pic4{
+    width: 100%;
+    height: 200px;
+    background: url("../image/mall24.jpg") no-repeat;
+    margin-left: 20px;
+    background-size:195px 195px ;
+}
+.mall2pic5{
+    width: 100%;
+    height: 200px;
+    background: url("../image/mall25.jpg") no-repeat;
+    margin-left: 20px;
+    background-size:195px 195px ;
+}
+.mall2pic6{
+    width: 100%;
+    height: 200px;
+    background: url("../image/mall26.jpg") no-repeat;
+    margin-left: 20px;
+    background-size:195px 195px ;
+}
+.mall2pic7{
+    width: 100%;
+    height: 200px;
+    background: url("../image/mall27.jpg") no-repeat;
+    margin-left: 20px;
+    background-size:195px 195px ;
+}
+.mall2pic8{
+    width: 100%;
+    height: 200px;
+    background: url("../image/mall28.jpg") no-repeat;
+    margin-left: 20px;
+    background-size:195px 195px ;
+}
+.mall2pic9{
+    width: 100%;
+    height: 200px;
+    background: url("../image/mall29.jpg") no-repeat;
+    margin-left: 20px;
+    background-size:195px 195px ;
+}
+.mall3pic5{
+    width: 100%;
+    height: 200px;
+    background: url("../image/mall35.jpg") no-repeat;
+    margin-left: 20px;
+    background-size:195px 195px ;
+}
+.mall3pic6{
+    width: 100%;
+    height: 200px;
+    background: url("../image/mall36.jpg") no-repeat;
+    margin-left: 20px;
+    background-size:195px 195px ;
+}
+.mall3pic7{
+    width: 100%;
+    height: 200px;
+    background: url("../image/mall37.jpg") no-repeat;
+    margin-left: 20px;
+    background-size:195px 195px ;
+}
+.mall3pic8{
+    width: 100%;
+    height: 200px;
+    background: url("../image/mall38.jpg") no-repeat;
+    margin-left: 20px;
+    background-size:195px 195px ;
+}
+.mall3pic1{
+    width: 100%;
+    height: 200px;
+    background: url("../image/mall31.jpg") no-repeat;
+    margin-left: 20px;
+    background-size:195px 195px ;
+}
+.mall3pic2{
+    width: 100%;
+    height: 200px;
+    background: url("../image/mall32.jpg") no-repeat;
+    margin-left: 20px;
+    background-size:195px 195px ;
+}
+.mall3pic3{
+    width: 100%;
+    height: 200px;
+    background: url("../image/mall33.jpg") no-repeat;
+    margin-left: 20px;
+    background-size:195px 195px ;
+}
+.mall3pic4{
+    width: 100%;
+    height: 200px;
+    background: url("../image/mall34.jpg") no-repeat;
+    margin-left: 20px;
+    background-size:195px 195px ;
+}
+.mall4pic1{
+    width: 100%;
+    height: 200px;
+    background: url("../image/mall41.jpg") no-repeat;
+    margin-left: 20px;
+    background-size:195px 195px ;
+}
+.mall4pic5{
+    width: 100%;
+    height: 200px;
+    background: url("../image/mall45.jpg") no-repeat;
+    margin-left: 20px;
+    background-size:195px 195px ;
+}
+.mall4pic6{
+    width: 100%;
+    height: 200px;
+    background: url("../image/mall46.jpg") no-repeat;
+    margin-left: 20px;
+    background-size:195px 195px ;
+}
+.mall4pic7{
+    width: 100%;
+    height: 200px;
+    background: url("../image/mall47.jpg") no-repeat;
+    margin-left: 20px;
+    background-size:195px 195px ;
+}
+.mall4pic8{
+    width: 100%;
+    height: 200px;
+    background: url("../image/mall48.jpg") no-repeat;
+    margin-left: 20px;
+    background-size:195px 195px ;
+}
+.mall5pic5{
+    width: 100%;
+    height: 200px;
+    background: url("../image/mall55.jpg") no-repeat;
+    margin-left: 20px;
+    background-size:195px 195px ;
+}
+.mall5pic6{
+    width: 100%;
+    height: 200px;
+    background: url("../image/mall56.jpg") no-repeat;
+    margin-left: 20px;
+    background-size:195px 195px ;
+}
+.mall5pic7{
+    width: 100%;
+    height: 200px;
+    background: url("../image/mall57.jpg") no-repeat;
+    margin-left: 20px;
+    background-size:195px 195px ;
+}
+.mall5pic8{
+    width: 100%;
+    height: 200px;
+    background: url("../image/mall58.jpg") no-repeat;
+    margin-left: 20px;
+    background-size:195px 195px ;
+}
+.mall6pic5{
+    width: 100%;
+    height: 200px;
+    background: url("../image/mall65.jpg") no-repeat;
+    margin-left: 20px;
+    background-size:195px 195px ;
+}
+.mall6pic6{
+    width: 100%;
+    height: 200px;
+    background: url("../image/mall66.jpg") no-repeat;
+    margin-left: 20px;
+    background-size:195px 195px ;
+}
+.mall6pic7{
+    width: 100%;
+    height: 200px;
+    background: url("../image/mall67.jpg") no-repeat;
+    margin-left: 20px;
+    background-size:195px 195px ;
+}
+.mall6pic8{
+    width: 100%;
+    height: 200px;
+    background: url("../image/mall68.jpg") no-repeat;
+    margin-left: 20px;
+    background-size:195px 195px ;
+}
+.mall7pic5{
+    width: 100%;
+    height: 200px;
+    background: url("../image/mall75.jpg") no-repeat;
+    margin-left: 20px;
+    background-size:195px 195px ;
+}
+.mall7pic6{
+    width: 100%;
+    height: 200px;
+    background: url("../image/mall76.jpg") no-repeat;
+    margin-left: 20px;
+    background-size:195px 195px ;
+}
+.mall7pic7{
+    width: 100%;
+    height: 200px;
+    background: url("../image/mall77.jpg") no-repeat;
+    margin-left: 20px;
+    background-size:195px 195px ;
+}
+.mall7pic8{
+    width: 100%;
+    height: 200px;
+    background: url("../image/mall78.jpg") no-repeat;
+    margin-left: 20px;
+    background-size:195px 195px ;
+}
+.mall4pic2{
+    width: 100%;
+    height: 200px;
+    background: url("../image/mall42.jpg") no-repeat;
+    margin-left: 20px;
+    background-size:195px 195px ;
+}
+.mall4pic3{
+    width: 100%;
+    height: 200px;
+    background: url("../image/mall43.jpg") no-repeat;
+    margin-left: 20px;
+    background-size:195px 195px ;
+}
+.mall4pic4{
+    width: 100%;
+    height: 200px;
+    background: url("../image/mall44.jpg") no-repeat;
+    margin-left: 20px;
+    background-size:195px 195px ;
+}
+.mall5pic1{
+    width: 100%;
+    height: 200px;
+    background: url("../image/mall51.jpg") no-repeat;
+    margin-left: 20px;
+    background-size:195px 195px ;
+}
+.mall5pic2{
+    width: 100%;
+    height: 200px;
+    background: url("../image/mall52.jpg") no-repeat;
+    margin-left: 20px;
+    background-size:195px 195px ;
+}
+.mall5pic3{
+    width: 100%;
+    height: 200px;
+    background: url("../image/mall53.jpg") no-repeat;
+    margin-left: 20px;
+    background-size:195px 195px ;
+}
+.mall5pic4{
+    width: 100%;
+    height: 200px;
+    background: url("../image/mall54.jpg") no-repeat;
+    margin-left: 20px;
+    background-size:195px 195px ;
+}
+.mall6pic1{
+    width: 100%;
+    height: 200px;
+    background: url("../image/mall61.jpg") no-repeat;
+    margin-left: 20px;
+    background-size:195px 195px ;
+}
+.mall6pic2{
+    width: 100%;
+    height: 200px;
+    background: url("../image/mall62.jpg") no-repeat;
+    margin-left: 20px;
+    background-size:195px 195px ;
+}
+.mall6pic3{
+    width: 100%;
+    height: 200px;
+    background: url("../image/mall63.jpg") no-repeat;
+    margin-left: 20px;
+    background-size:195px 195px ;
+}
+.mall6pic4{
+    width: 100%;
+    height: 200px;
+    background: url("../image/mall64.jpg") no-repeat;
+    margin-left: 20px;
+    background-size:195px 195px ;
+}
+.mall7pic1{
+    width: 100%;
+    height: 200px;
+    background: url("../image/mall71.jpg") no-repeat;
+    margin-left: 20px;
+    background-size:195px 195px ;
+}
+.mall7pic2{
+    width: 100%;
+    height: 200px;
+    background: url("../image/mall72.jpg") no-repeat;
+    margin-left: 20px;
+    background-size:195px 195px ;
+}
+.mall7pic3{
+    width: 100%;
+    height: 200px;
+    background: url("../image/mall73.jpg") no-repeat;
+    margin-left: 20px;
+    background-size:195px 195px ;
+}
+.mall7pic4{
+    width: 100%;
+    height: 200px;
+    background: url("../image/mall74.jpg") no-repeat;
     margin-left: 20px;
     background-size:195px 195px ;
 }
@@ -1014,6 +1358,7 @@ body{
     background: #ffffff;
     margin-left: 15px;
     margin-top: 10px;
+    cursor: pointer;
 }
 
 .middle-pic1{
@@ -1280,7 +1625,7 @@ body{
     margin-left: 40px;
     margin-top:20px;
     background: url("../image/maopic.png") no-repeat;
-  background-size:85px 30px;
+    background-size:85px 30px;
 
 }
 .tianmaotext{
@@ -1356,16 +1701,16 @@ body{
     width: 50px;
     height: 90px;
     top: 260px;
-    left: 1430px;
+    left: 1440px;
     background:url("../image/ke.png") no-repeat;
     z-index: 6;cursor: pointer;
 }
 .fix5{
     position:fixed;
-    width: 50px;
+    width: 40px;
     height: 100%;
     top: 260px;
-    left: 1470px;
+    left: 1480px;
     background: #000000 ;
     z-index: 7;cursor: pointer;
 }
@@ -1378,18 +1723,54 @@ body{
 .ac1{
     position:fixed;
     width: 50px;
-    height: 30px;
+    height: 40px;
     top: 260px;
-    left: 1472px;
-    background: url("../image/ac1.png") ;
+    left: 1482px;
+
     z-index: 8; cursor: pointer;
+}
+.right-pic1{
+    width: 100%;
+    height: 100%;
+    background: url("../image/ac1.png") no-repeat ;
+}
+.right-pic3{
+    width: 100%;
+    height: 100%;
+    background: url("../image/ac3.png") no-repeat ;
+}
+.right-pic4{
+    width: 100%;
+    height: 100%;
+    background: url("../image/ac4.png") no-repeat ;
+}
+.right-pic5{
+    width: 100%;
+    height: 100%;
+    background: url("../image/ac5.png") no-repeat ;
+}
+.right-pic6{
+    width: 100%;
+    height: 100%;
+    background: url("../image/ac6.png") no-repeat ;
+}
+.right-pic7{
+    width: 100%;
+    height: 100%;
+    background: url("../image/ac7.png") no-repeat ;
+    opacity:0.5;
+}
+.right-pic8{
+    width: 100%;
+    height: 100%;
+    background: url("../image/ac8.png") no-repeat ;
 }
 .ac2{
     position:fixed;
-    width: 28px;
-    height: 85px;
+    width: 38px;
+    height: 105px;
     top: 300px;
-    left: 1476px;
+    left: 1482px;
     border-top: 1px solid rgb(85,85,85);
     border-bottom: 1px solid rgb(85,85,85);
     z-index: 8; cursor: pointer;
@@ -1404,45 +1785,44 @@ body{
     position:fixed;
     width: 50px;
     height: 30px;
-    top: 390px;
-    left: 1472px;
-    background: url("../image/ac3.png") ;
+    top: 410px;
+    left: 1482px;
+
     z-index: 8; cursor: pointer;
 }
 .ac4{
     position:fixed;
     width: 50px;
     height: 30px;
-    top: 425px;
-    left: 1472px;
-    background: url("../image/ac4.png") ;
+    top: 445px;
+    left: 1482px;
+
     z-index: 8; cursor: pointer;
 }
 .ac5{
     position:fixed;
     width: 50px;
     height: 30px;
-    top: 470px;
-    left: 1472px;
-    background: url("../image/ac5.png") ;
+    top: 485px;
+    left: 1482px;
+
     z-index: 8; cursor: pointer;
 }
 .ac6{
     position:fixed;
     width: 50px;
     height: 30px;
-    top: 510px;
-    left: 1472px;
-    background: url("../image/ac6.png") ;
+    top: 530px;
+    left: 1482px;
+
     z-index: 8; cursor: pointer;
 }
 .ac7{
     position:fixed;
     width: 50px;
     height: 30px;
-    top: 556px;
-    left: 1472px;
-    background: url("../image/ac8.png") ;
+    top: 626px;
+    left: 1482px;
     z-index: 8; cursor: pointer;
 }
 .ac8{
@@ -1450,13 +1830,16 @@ body{
     width: 50px;
     width: 50px;
     height: 30px;
-    top: 596px;
-    left: 1472px;
-    background: url("../image/ac8.png") ;
+    top: 666px;
+    left: 1482px;
+
+
     z-index: 8;
     cursor: pointer;
 }
-
+.ac:hover{
+    background: rgba(255,0,54,0.8);
+}
 
 
 
