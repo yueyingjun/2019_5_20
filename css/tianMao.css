@@ -282,29 +282,126 @@ height: 9%;
     position: relative;
     top: 60px;
     left: 140px;
-background-image: url("../imgs/天猫商品.jpg");
+background-image: url("../imgs/商品1.png");
     float: left;
-    width:350px;
+    width:293px;
     height: 350px;
 }
+.shangping:nth-child(4){
+    background-image: url("../imgs/商品2.png");
+    width:440px;
+}
+.shangping:nth-child(5){
+    background-image: url("../imgs/商品3.png");
+    width:440px;
+}
 .yiduishangping{
     position: relative;
     float: left;
-    background-image: url("../imgs/天猫商品.jpg");
-    width:150px;
-    height: 150px;
-    background-size: 90% 90%;
+    background-image: url("../imgs/11.png");
+    width:120px;
+    height: 100px;
+    background-size: 100% 100%;
     background-repeat: no-repeat;/*只放一个*/
-    border: 1px solid #999999;
+    border-right: 1px solid #eeeeee;
+    border-top: 1px solid #eeeeee;
+
+    text-align: center;
+}
+.yiduishangping:nth-child(2){
+    background-image: url("../imgs/12.png");
+}
+.yiduishangping:nth-child(3){
+    background-image: url("../imgs/13.png");
+}
+.yiduishangping:nth-child(4){
+    background-image: url("../imgs/14.png");
+}
+.yiduishangping:nth-child(5){
+    background-image: url("../imgs/15.png");
+}
+.yiduishangping:nth-child(6){
+    background-image: url("../imgs/16.png");
+}
+.yiduishangping:nth-child(7){
+    background-image: url("../imgs/17.png");
+}
+.yiduishangping:nth-child(8){
+    background-image: url("../imgs/18.png");
+}
+.yiduishangping:nth-child(9){
+    background-image: url("../imgs/19.png");
+}
+.yiduishangping:nth-child(10){
+    background-image: url("../imgs/20.png");
+}.yiduishangping:nth-child(11){
+     border-left: 1px solid #eeeeee;
+     background-image: url("../imgs/21.png");
+ }.yiduishangping:nth-child(12){
+      background-image: url("../imgs/22.png");
+  }.yiduishangping:nth-child(13){
+       background-image: url("../imgs/23.png");
+   }
+.yiduishangping:nth-child(14){
+    background-image: url("../imgs/24.png");
 }
 
-.yiduishangping{
-    position: relative;
-    float: left;
-    text-align: center;
-    width:150px;
-    height: 150px;
-    border: 1px solid #999999;
+.yiduishangping:nth-child(15){
+    background-image: url("../imgs/25.png");
+}
+.yiduishangping:nth-child(16){
+    background-image: url("../imgs/26.png");
+}
+.yiduishangping:nth-child(17){
+    background-image: url("../imgs/27.png");
+}
+.yiduishangping:nth-child(18){
+    background-image: url("../imgs/28.png");
+}
+.yiduishangping:nth-child(19){
+    background-image: url("../imgs/29.png");
+}
+.yiduishangping:nth-child(20){
+    background-image: url("../imgs/30.png");
+}
+.yiduishangping:nth-child(21){
+    border-bottom: 1px solid #eeeeee;
+    border-left: 1px solid #eeeeee;
+    background-image: url("../imgs/31.png");
+}
+.yiduishangping:nth-child(22){
+    border-bottom: 1px solid #eeeeee;
+    background-image: url("../imgs/32.png");
+}
+.yiduishangping:nth-child(23){
+    border-bottom: 1px solid #eeeeee;
+    background-image: url("../imgs/33.png");
+}
+.yiduishangping:nth-child(24){
+    border-bottom: 1px solid #eeeeee;
+    background-image: url("../imgs/34.png");
+}
+.yiduishangping:nth-child(25){
+    background-image: url("../imgs/35.png");
+}
+.yiduishangping:nth-child(26){
+    border-bottom: 1px solid #eeeeee;
+    background-image: url("../imgs/36.png");
+}
+.yiduishangping:nth-child(27){
+    background-image: url("../imgs/37.png");
+}
+.yiduishangping:nth-child(28){
+    border-bottom: 1px solid #eeeeee;
+    background-image: url("../imgs/38.png");
+}
+
+.yiduishangping:nth-child(29){
+    border-bottom: 1px solid #eeeeee;
+    background-image: url("../imgs/39.png");
+}
+.yiduishangping:nth-child(30){
+    background-image: url("../imgs/40.png");
 }
 .yiduishangpingbaba{
     position: relative;
@@ -318,11 +415,11 @@ background-image: url("../imgs/天猫商品.jpg");
 .daxiaoshangping{
     background-color: rgb(244 244 244);
     position: relative;
-    top: -220px;
+    top: -370px;
     left: 140px;
     float: left;
     width:1225px;
-    height: 650px;
+    height: 600px;
 }
 
 .daxiaoshangping1{
@@ -336,16 +433,50 @@ background-image: url("../imgs/天猫商品.jpg");
     float: left;
     height: 100%;
     width: 20%;
-    background-image: url("../imgs/天猫商品2.png");
+    background-image: url("../imgs/手机1.png");
+    background-size: 100% 100%;
     background-repeat: no-repeat;/*只放一个*/
 }
 .daxiaoshangping2{
     background-color: rgb(214 214 214);
     float: left;
     position: relative;
-    left: 10px;
+    left: 2%;
     height: 48%;
-    width: 20%;
-    background-image: url("../imgs/天猫商品2.png");
+    width: 18%;
+    background-image: url("../imgs/手机2.png");
+    background-size: 100% 102%;
+    background-repeat: no-repeat;/*只放一个*/
+}
+.daxiaoshangping2:nth-child(3){
+    background-image: url("../imgs/手机3.png");
+}
+.daxiaoshangping2:nth-child(4){
+    background-image: url("../imgs/手机4.png");
+}
+.daxiaoshangping2:nth-child(5){
+    background-image: url("../imgs/手机5.png");
+}
+.daxiaoshangping2:nth-child(6){
+    background-image: url("../imgs/手机6.png");
+}
+.daxiaoshangping2:nth-child(7){
+    background-image: url("../imgs/手机7.png");
+}
+.daxiaoshangping2:nth-child(8){
+    background-image: url("../imgs/手机8.png");
+}
+.daxiaoshangping2:nth-child(9){
+    background-image: url("../imgs/手机9.png");
+}
+.youxibeng{
+    position: relative;
+    top: -350px;
+    left: 140px;
+    float: left;
+    width:1225px;
+    height: 90px;
+    background-image: url("../imgs/游戏本.png");
+    background-size: 100% 102%;
     background-repeat: no-repeat;/*只放一个*/
 }
