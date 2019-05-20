@@ -656,12 +656,12 @@ h1,h2,h3,h4,h5,h6,ul,li,strong,p,em,a,span,b{
 .box6_1-1{
     width: 100px;
     height: 100px;
-    margin: 0 auto;
+    margin: 15px auto;
 }
 .box6_1-1  img{
     display: inline-block;
     width: 100px;
-    height: 100px;
+    height: 80px;
     margin: 0 auto;
 
 }
@@ -850,7 +850,7 @@ h1,h2,h3,h4,h5,h6,ul,li,strong,p,em,a,span,b{
 }
 .box7_2-right-1-1 img{
     display: block;
-    border: 1px solid darkgrey;
+
     width: 185px;
     height: 185px;
 
