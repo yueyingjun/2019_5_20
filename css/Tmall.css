@@ -167,7 +167,7 @@ input{
     float: left;
     width: 100px;height: 100%;
     line-height: 36px;
-    background-color: rgb(65,63,63);
+    background-color: #ff0036;
 }
 
 .shoplist .jieri{
@@ -206,6 +206,22 @@ input{
     background-color: rgba(0, 0, 0, 0.5);
 }
 
+.blacklist li{
+      width: 200px; height: 32px;
+      margin-top: 16px;
+}
+.blacklist .minblack{
+    width: 152px; height: 31px;
+    margin: auto;
+    border-radius: 12px;
+    border: 1px solid red;
+    text-align: center;
+}
+.minblack a{
+    font-size: 14px;
+    text-decoration: none;
+    color: #ffffff;
+}
 .banner {
     width: 1230px;
     height: 500px;
@@ -304,17 +320,38 @@ input{
     float: left;
     width: 234px; height: 372px;
     position: absolute;left: 140px; top:20px;
+    background-color: white;
+}
+.cntitle{
+    float: left;
+    font-size: 18px; font-weight: bold;
+    line-height: 56px;
+}
+.english{
+    float: left; font-weight: bold; font-size: 14px;
+    line-height: 56px;
+
+}
+.memore{
+    float: right;  line-height: 56px; padding-right: 40px;
+    background: url("../imgs/memore.png") no-repeat 37px 19px;
+    background-size: 20px 20px;
+}
+.memore a{
+    text-decoration: none; color: #666666;
 }
 .jushop{
     float: left;
     width: 485px; height: 372px;
     position: absolute;left: 394px; top:20px;
+    background-color: white;
 
 }
 .brand{
     float: left;
     width: 485px; height: 372px;
     position: absolute;left: 900px; top:20px;
+    background-color: white;
 
 }
 
@@ -481,7 +518,7 @@ input{
 }
 .shangpinmore{
     width: 1230px; height: 618px;
-    border: 1px solid black; float: left;
+    float: left;
     margin: 0px 145px;
 }
 
@@ -512,6 +549,33 @@ input{
     text-align: center;
     line-height: 57px;
 }
+.zhixiang{
+    position: absolute; top:137px; left: 0px;
+     z-index: 100;
+    width: 291px; height:  87px;
+    background: url("../imgs/zhixiang.png") no-repeat;
+    background-size: 100% 100%;
+}
+.zhititle{
+    width: 265px; height: 36px;
+    font-size: 24px; color: #00b262;
+    padding-left: 65px;
+     background: url("../imgs/rili.png") no-repeat 25px 5px ;
+}
+.zhiname{
+    padding-top: 5px;
+    width: 265px; height: 30px;
+    color: black; font-size: 20px;
+    padding-left: 25px;
+}
+.more-bigimg-img{
+    width: 200px; height: 200px;
+    background: url("../imgs/baby1.jpg" ) no-repeat ;
+    background-size: 100% 100%;
+    position: absolute; top:57px; right: 20px;
+    z-index: 99;
+
+}
 .more-bigimg p{
       font-size: 16px;
     color: black;
@@ -530,14 +594,15 @@ input{
     float: left;
    width: 478px; height: 300px;
     border: 1px solid #a4a4a4;
-    background: url("../imgs/baby1.jpg" ) no-repeat 85px 10px;
+    position: relative;
 }
 .more-minimg{
     float: left;
     width: 236px; height: 302px;
     margin: 0px 2px;
-    background: #dfdfdf;
+    background: #ffffff;
     box-sizing: border-box;
+    margin-top: 5px;
 }
 .more-minimg:hover{
     box-sizing: border-box;
@@ -563,7 +628,11 @@ input{
     color: #ff0036;
 
 }
-
+.bodycolor{
+    float: left;
+    width: 100%; height: 5868px;
+    background-color: rgb(245,245,245);
+}
 
 
 .chatu{
