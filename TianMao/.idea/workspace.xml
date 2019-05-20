@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="676066cb-05c3-4adb-bdb5-28ef9dff89e0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../2019_5_20" beforeDir="false" afterPath="$PROJECT_DIR$/../2019_5_20" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSS/TianMao.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/TianMao.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TianMao.html" beforeDir="false" afterPath="$PROJECT_DIR$/TianMao.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/brand1-wps图片-wps图片.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -18,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TianMao.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="379" column="32" selection-start-line="379" selection-start-column="32" selection-end-line="379" selection-end-column="32" />
+            <state relative-caret-position="223">
+              <caret line="264" column="59" selection-start-line="264" selection-start-column="35" selection-end-line="264" selection-end-column="59" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -39,9 +41,11 @@
                 <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#6;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#8;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#img#0;n#div#2;n#div#0;n#a#1;n#div#1;n#div#0;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#1;n#div#2;n#div#0;n#a#1;n#div#1;n#div#0;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#2;n#div#0;n#a#1;n#div#1;n#div#0;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#a#1;n#div#1;n#div#0;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#div#10;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#a#0;n#div#0;n#div#1;n#div#0;n#div#11;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#a#0;n#div#0;n#div#1;n#div#0;n#div#11;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -52,24 +56,29 @@
                 <element signature="n#style#0;n#div#1;n#a#1;n#div#0;n#div#1;n#div#0;n#div#11;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#13;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#div#12;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#14;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#div#15;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#14;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#div#17;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#div#16;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#div#18;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#div#18;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#div#19;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#21;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#div#20;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#div#23;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#24;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#div#23;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#26;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#div#28;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#0;n#div#0;n#div#28;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CSS/TianMao.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+            <state relative-caret-position="290">
+              <caret line="807" column="1" selection-start-line="807" selection-start-column="1" selection-end-line="807" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -77,8 +86,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1045">
-              <caret line="55" column="27" selection-start-line="55" selection-start-column="27" selection-end-line="55" selection-end-column="27" />
+            <state relative-caret-position="114">
+              <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -109,7 +118,6 @@
       <find>box</find>
       <find>head</find>
       <find>.ban</find>
-      <find>.boxx</find>
       <find>boxx</find>
       <find>.produ</find>
       <find>.supers_content_foot_center</find>
@@ -118,12 +126,20 @@
       <find>.be</find>
       <find>.box11-3</find>
       <find>.right1</find>
-      <find>right11</find>
       <find>pro</find>
-      <find>.br</find>
       <find>.clazz</find>
       <find>.e</find>
+      <find>.pro</find>
+      <find>.supers_content_foot_centerr_three</find>
+      <find>.you</find>
+      <find>.brands_content_left_foot</find>
       <find>.o</find>
+      <find>.boxx</find>
+      <find>.box11-4</find>
+      <find>right11</find>
+      <find>.br</find>
+      <find>.supe</find>
+      <find>.supers_content_foot_left</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -136,8 +152,8 @@
         <option value="$PROJECT_DIR$/images/brand1-wps图片.jpg" />
         <option value="$PROJECT_DIR$/demo.html" />
         <option value="$PROJECT_DIR$/test.html" />
-        <option value="$PROJECT_DIR$/CSS/TianMao.css" />
         <option value="$PROJECT_DIR$/TianMao.html" />
+        <option value="$PROJECT_DIR$/CSS/TianMao.css" />
       </list>
     </option>
   </component>
@@ -174,7 +190,13 @@
               <item name="TianMao" type="b2602c69:ProjectViewProjectNode" />
               <item name="TianMao" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="right_daohan" type="462c0819:PsiDirectoryNode" />
+              <item name="banners" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TianMao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TianMao" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="inter" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -187,7 +209,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/images/right_daohan" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images/super" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -199,11 +221,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WebStorm\TianMao\images\super" />
       <recent name="D:\WebStorm\TianMao\images\right_daohan" />
       <recent name="D:\WebStorm\TianMao\images\beautis" />
       <recent name="D:\WebStorm\TianMao" />
       <recent name="D:\WebStorm\TianMao\images\foot" />
-      <recent name="D:\WebStorm\TianMao\images\inter" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -235,12 +257,12 @@
       <workItem from="1558250283067" duration="9886000" />
       <workItem from="1558266273027" duration="2887000" />
       <workItem from="1558269421722" duration="91000" />
-      <workItem from="1558312607636" duration="19994000" />
+      <workItem from="1558312607636" duration="28439000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95658000" />
+    <option name="totallyTimeSpent" value="104103000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -280,9 +302,6 @@
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/images/brand1.jpg" />
-    <entry file="file://$PROJECT_DIR$/images/brand1-wps图片-wps图片.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/brand1-wps图片.jpg" />
     <entry file="file://$PROJECT_DIR$/images/LOGO/logo30.jpg">
       <provider selected="true" editor-type-id="text-editor">
@@ -321,10 +340,6 @@
     <entry file="file://$PROJECT_DIR$/images/inter/qitianwuliyou.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/brand2.jpg">
-      <provider selected="true" editor-type-id="images" />
-      <provider editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/LOGO/logo15.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -333,14 +348,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/images/banners/lunbo1_wps.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/banners/lunbodicengshang_1.jpg">
-      <provider selected="true" editor-type-id="images" />
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/images/inter/huwai.jpg">
       <provider selected="true" editor-type-id="images" />
@@ -357,16 +364,6 @@
     <entry file="file://$PROJECT_DIR$/images/right_daohan/car.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/jian.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1045">
-          <caret line="55" column="27" selection-start-line="55" selection-start-column="27" selection-end-line="55" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -374,17 +371,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CSS/TianMao.css">
+    <entry file="file://$PROJECT_DIR$/images/super/you.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/jian.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        <state relative-caret-position="114">
+          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/brand3-wps图片.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/brand2.jpg">
+      <provider selected="true" editor-type-id="images" />
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/brand1-wps图片-wps图片.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/inter/yifu.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/banners/lunbodicengshang_1.jpg">
+      <provider selected="true" editor-type-id="images" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TianMao.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="379" column="32" selection-start-line="379" selection-start-column="32" selection-end-line="379" selection-end-column="32" />
+        <state relative-caret-position="223">
+          <caret line="264" column="59" selection-start-line="264" selection-start-column="35" selection-end-line="264" selection-end-column="59" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -401,9 +425,11 @@
             <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#6;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#8;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#img#0;n#div#2;n#div#0;n#a#1;n#div#1;n#div#0;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#1;n#div#2;n#div#0;n#a#1;n#div#1;n#div#0;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#2;n#div#0;n#a#1;n#div#1;n#div#0;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#a#1;n#div#1;n#div#0;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#10;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#a#0;n#div#0;n#div#1;n#div#0;n#div#11;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#a#0;n#div#0;n#div#1;n#div#0;n#div#11;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -414,15 +440,27 @@
             <element signature="n#style#0;n#div#1;n#a#1;n#div#0;n#div#1;n#div#0;n#div#11;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#13;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#12;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#14;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#div#15;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#14;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#17;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#16;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#18;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#18;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#div#19;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#21;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#20;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#23;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#24;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#23;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#26;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#28;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#div#28;n#body#0;n#html#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/TianMao.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="807" column="1" selection-start-line="807" selection-start-column="1" selection-end-line="807" selection-end-column="1" />
         </state>
       </provider>
     </entry>
