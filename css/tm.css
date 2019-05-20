@@ -3,30 +3,23 @@ body{
     margin-left: 0px;
     overflow-x: hidden;
 }
-.top{
-    width: 1200px;
-    height: 40px;
-    background-color: rgb(249,145,157);
-    float: left;
-    position: absolute;
-    left: -60px;
-    top: 0;
+.tm{
+    width: 100%;
+    height: 8630px;
+    margin: auto;
 }
-.center{
-    width: 60px;
-    height: 915px;
-    background-color: rgb(255,157,179);
-    position: absolute;
-    top: 216px;
-    left: -60px;
+.person_info_out{
+    width:1349px;
+    height: 27px;
+    margin: auto;
+    background-color: rgb(249,145,157);
 }
 .person_info{
-    width: 1300px;
+    width: 100%;
     height: 27px;
     background-color: rgb(249,145,157);
-    float: left;
+    /*float: left;*/
     padding-top: 13px;
-    margin-left: 100px;
 }
 .person_info_left a{
     font-size: 11px;
@@ -248,8 +241,13 @@ body{
 }
 
 /*顶部品牌以及搜索框*/
+.head_out{
+    width:1349px;
+    height: 194px;
+    margin: auto;
+}
 .head{
-    width: 1300px;
+    width: 1230px;
     height: 130px;
     float: left;
     position: relative;
@@ -322,15 +320,15 @@ body{
 
 /*轮播图*/
 .banner_head_out{
-    width: 1200px;
-    height: 36px;
-    float: left;
+    width: 100%;
+    height: 40px;
+    margin: auto;
 }
 .banner_head{
-    width: 1120px;
-    height: 100%;
-    float: left;
-    margin-left: 85px;
+    width: 1090px;
+    height: 40px;
+    /*padding-left: 85px;*/
+    margin: auto;
     border-bottom: 1px solid red;
 }
 .banner_head_a1{
@@ -345,6 +343,10 @@ body{
     font-weight: bold;
     font-family: 华文宋体;
     cursor: pointer;
+    padding-bottom: 1px;
+}
+.banner_head_a1:nth-child(1){
+    margin-left: -45px;
 }
 .banner_head_a1:hover{
     color:red;
@@ -371,7 +373,7 @@ body{
 .banner_head_b{
     text-align: center;
     width: 70px;
-    height:100%;
+    height:32px;
     float: left;
     cursor: pointer;
     line-height: 36px;
@@ -382,8 +384,14 @@ body{
 .banner_head_b:hover{
     color: red;
 }
+.banner_out_out{
+    width: 100%;
+    height: 521px;
+    margin: auto;
+    padding-top: -5px;
+}
 .banner_out{
-    width: 1320px;
+    width: 1349px;
     height: 521px;
     float: left;
     position: relative;
@@ -524,10 +532,14 @@ body{
 
 
 /*品牌闪购*/
-.brandsale{
-    width: 1320px;
+.brandsale_out{
+    width: 100%;
     height: 394px;
-    float: left;
+    margin: auto;
+}
+.brandsale{
+    width: 1349px;
+    height: 394px;
     background-color: rgb(255,157,179);
 }
 .sale{
@@ -653,12 +665,16 @@ body{
 }
 
 /*品牌*/
+.brands_out{
+    width: 1349px;
+    height: 330px;
+   /* float: left;*/
+}
 .brands{
-    width: 1200px;
+    width: 1230px;
     height: 330px;
     float: left;
     padding-left: 82px;
-    padding-right: 85px;
     background-color: rgb(245,245,245);
 }
 .brand{
@@ -779,10 +795,10 @@ body{
 
 /*天猫超市*/
 .mart_out{
-    width: 1250px;
+    width: 1349px;
     height: 690px;
     background-color: rgb(245,245,245);
-    float: left;
+   /* float: left;*/
     padding-right: 65px;
 }
 .mart{
@@ -1124,9 +1140,9 @@ body{
 
 /*短袖*/
 .t-shirt_out{
-    width: 1250px;
+    width: 1349px;
     height: 90px;
-    float: left;
+    /*float: left;*/
     background-color: rgb(245,245,245);
     padding-right:65px;
 }
@@ -1167,6 +1183,12 @@ body{
 }
 
 /*猜你喜欢*/
+.like_up{
+    width: 1349px;
+    height: 30px;
+    margin: auto;
+   /* float: left;*/
+}
 .like{
     width: 1300px;
     height: 30px;
@@ -1204,14 +1226,15 @@ body{
 }
 
 .like_cards {
-    width: 210px;
-    height: 302px;
+    width: 211px;
+    height: 303px;
     float: left;
     margin-left: 18px;
     margin-bottom: 10px;
     background-color: white;
     position: relative;
     cursor: pointer;
+    border: 1px solid rgba(0,0,0,0);
 }
 .like_cards_up{
     position:absolute;
@@ -1226,9 +1249,9 @@ body{
     border: 0.5px solid red;
 }
 .like_out{
-    width: 1320px;
-    height: 1300px;
-    float: left;
+    width: 1349px;
+    height: 2000px;
+    /*float: left;*/
     background-color: rgb(245,245,245);
     padding-left: 68px;
     border-bottom: 1px solid rgba(0,0,0,0.4);
@@ -1245,11 +1268,17 @@ body{
 
 
 /*品质保证*/
+.end_out_up{
+    width: 1349px;
+    height: 300px;
+    /*float: left;*/
+}
 div.end_out{
-    width: 1120px;
+    width: 1230px;
     height:300px;
     float: left;
     padding-left: 85px;
+
 }
 div.end1{
     width: 270px;
@@ -1352,11 +1381,11 @@ div.end1{
 
 /*页面底部信息*/
 .tmall-bottomshow{
-    float: left;
-    width: 1150px;
+/*    float: left;*/
+    width: 1349px;
     height: 235px;
     background-color: #020202;
-    margin: auto;
+/*    margin: auto;*/
     margin-top: 62.5px;
     padding-left: 85px;
     padding-right: 100px;
