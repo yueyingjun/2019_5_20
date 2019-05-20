@@ -134,11 +134,11 @@
 
         <div class="lunbo-left">
             <div class="lunbo-left-top">
-                <li class="one">商品分类</li>
-                <li class="two active">天猫520活动</li>
+                <li class="one top1">商品分类</li>
+                <li class="two active top2">天猫520活动</li>
             </div>
             <div class="lunbo-left-bottom">
-                <div class="lunbo-left-bottom-one">
+                <div class="lunbo-left-bottom-one bottom1">
                     <li><a href="">大牌女装</a></li>
                     <li><a href="">家纺家饰</a></li>
                     <li><a href="">运动户外</a></li>
@@ -150,8 +150,22 @@
                     <li><a href="">手机专场</a></li>
                     <li><a href="">精品家居</a></li>
                 </div>
-                <div class="lunbo-left-bottom-two">
-
+                <div class="lunbo-left-bottom-two bottom2">
+                    <li><a href="">大牌女装</a></li>
+                    <li><a href="">家纺家饰</a></li>
+                    <li><a href="">运动户外</a></li>
+                    <li><a href="">型格男装</a></li>
+                    <li><a href="">大牌美妆</a></li>
+                    <li><a href="">纸品家清</a></li>
+                    <li><a href="">潮流个户</a></li>
+                    <li><a href="">大家电</a></li>
+                    <li><a href="">手机专场</a></li>
+                    <li><a href="">精品家居</a></li>
+                    <li><a href="">大家电</a></li>
+                    <li><a href="">手机专场</a></li>
+                    <li><a href="">精品家居</a></li>
+                    <li><a href="">精品家居</a></li>
+                    <li><a href="">精品家居</a></li>
                 </div>
 
 
@@ -2585,6 +2599,51 @@
             num++
         }
     },3000)
+
+</script>
+<script>
+    var top1 = document.querySelector(".top1");
+    var top2 = document.querySelector(".top2");
+    var bottom1 = document.querySelector(".bottom1");
+    var bottom2 = document.querySelector(".bottom2");
+
+    top2.style.color="#ffffff";
+    top2.style.backgroundImage="url('imgs/xiazai.png')";
+    bottom2.style.display="none";
+
+
+        top1.onmouseover =function () {
+            top1.style.color="red";
+            top1.style.background="rgba(238,238,238,.95)";
+            bottom1.style.display="none";
+            top2.style.color="orange";
+            top2.style.background="red";
+            bottom2.style.display="block";
+        }
+
+
+        top1.onmouseout = function(){
+            top2.style.color="#ffffff";
+            top2.style.background="url('imgs/xiazai.png')";
+            bottom2.style.display="none";
+            top1.style.color="#fff";
+            top1.style.background="red";
+            bottom1.style.display="block";
+        }
+    top2.onmouseover =function () {
+
+        top2.style.color="#ffffff";
+        top2.style.background="url('imgs/xiazai.png')";
+        bottom2.style.display="none";
+        top1.style.color="#fff";
+        top1.style.background="red";
+        bottom1.style.display="block";
+
+
+    }
+
+
+
 
 </script>
 </html>
