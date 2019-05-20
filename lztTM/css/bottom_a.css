@@ -1,0 +1,42 @@
+/*底部链接*/
+.bottom-abox{
+    width: 1190px;
+    height: 213px;
+    margin: auto;
+}
+.aitem{
+    width: 238px;
+    height: fit-content;
+    float: left;
+    box-sizing: border-box;
+}
+.aitem-content{
+    width: 186px;
+    height: fit-content;
+    box-sizing: border-box;
+    float: right;
+
+}
+.aitem-content-text{
+    text-align: left;
+    font-size: 16px;
+}
+.aitem-content a{
+    height: fit-content;
+    text-align: left;
+    font: 12px/1.5 tahoma,arial,"\5b8b\4f53";
+    color: #000;
+    text-decoration: none;
+
+}
+.erweima{
+    width: fit-content;
+    height: fit-content;
+    box-sizing: border-box;
+
+}
+.erweima img{
+    width: 105px;
+    height: 105px;
+    background-size: cover;
+}
