@@ -1,10 +1,10 @@
 body{
     margin: 0;
-    margin-left: 60px;
-    position: relative;
+    margin-left: 0px;
+    overflow-x: hidden;
 }
 .top{
-    width: 100%;
+    width: 1200px;
     height: 40px;
     background-color: rgb(249,145,157);
     float: left;
@@ -21,12 +21,12 @@ body{
     left: -60px;
 }
 .person_info{
-    width: 100%;
+    width: 1300px;
     height: 27px;
     background-color: rgb(249,145,157);
     float: left;
     padding-top: 13px;
-    margin-left: 60px;
+    margin-left: 100px;
 }
 .person_info_left a{
     font-size: 11px;
@@ -173,14 +173,15 @@ body{
     float: left;
 }
 .right_lead_marks{
-    height: 260px;
+    height: 280px;
     width: 100%;
     float: left;
     background-color: black;
-    padding-top: 15px;
+    padding-top: 5px;
+    padding-bottom: 20px;
 }
 .right_lead_mark1{
-     height: 16%;
+     height: 16.7%;
      width: 100%;
      float: left;
      background-image: url("../images/mark1.png");
@@ -188,7 +189,7 @@ body{
     background-position: 0px 5px;
  }
 .right_lead_mark2{
-    height: 16%;
+    height: 16.7%;
     width: 100%;
     float: left;
     background-image: url("../images/mark2.png");
@@ -196,15 +197,23 @@ body{
     background-position: 0px 5px;
 }
 .right_lead_mark3{
-    height: 16%;
+    height: 16.7%;
     width: 100%;
     float: left;
     background-image: url("../images/mark3.png");
     background-repeat: no-repeat;
     background-position: 0px 5px;
 }
+.right_lead_mark4{
+    height: 16.7%;
+    width: 100%;
+    float: left;
+    background-image: url("../images/mark4.png");
+    background-repeat: no-repeat;
+    background-position: 0px 5px;
+}
 .right_lead_mark5{
-    height: 16%;
+    height: 16.7%;
     width: 100%;
     float: left;
     background-image: url("../images/mark5.png");
@@ -212,7 +221,7 @@ body{
     background-position: 0px 5px;
 }
 .right_lead_mark6{
-    height: 16%;
+    height: 16.7%;
     width: 100%;
     float: left;
     background-image: url("../images/mark6.png");
@@ -240,7 +249,7 @@ body{
 
 /*顶部品牌以及搜索框*/
 .head{
-    width: 100%;
+    width: 1300px;
     height: 130px;
     float: left;
     position: relative;
@@ -252,7 +261,7 @@ body{
     height: 260px;
     transform-origin: 0 0;
     transform: scale(0.5,0.5);
-    margin-left: 20px;
+    margin-left: 60px;
 }
 .head_search{
     width: 100%;
@@ -265,7 +274,7 @@ body{
     width: 625px;
     height: 66px;
     float: left;
-    margin-left: 315px;
+    margin-left: 355px;
     padding-top: 40px;
 }
 .head_search_inner input {
@@ -285,6 +294,7 @@ body{
     font-size: 22px;
     color: white;
     font-weight: bold;
+    cursor: pointer;
 }
 .head_search_inner_a{
     float: left;
@@ -312,7 +322,7 @@ body{
 
 /*轮播图*/
 .banner_head_out{
-    width: 100%;
+    width: 1200px;
     height: 36px;
     float: left;
 }
@@ -320,7 +330,7 @@ body{
     width: 1120px;
     height: 100%;
     float: left;
-    margin-left: 45px;
+    margin-left: 85px;
     border-bottom: 1px solid red;
 }
 .banner_head_a1{
@@ -335,10 +345,6 @@ body{
     font-weight: bold;
     font-family: 华文宋体;
     cursor: pointer;
-}
-.banner_head_a1:nth-child(2){
-    color: yellow;
-    background-color: red;
 }
 .banner_head_a1:hover{
     color:red;
@@ -377,7 +383,7 @@ body{
     color: red;
 }
 .banner_out{
-    width: 100%;
+    width: 1320px;
     height: 521px;
     float: left;
     position: relative;
@@ -386,7 +392,7 @@ body{
 .banners{
     width: 1120px;
     height: 521px;
-    margin-left: 45px;
+    margin-left: 85px;
     float: left;
     position: absolute;
     top: 2px;
@@ -414,9 +420,9 @@ body{
     float: left;
     margin-right:5px ;
 }
-.banner_left{
+.banner_left1{
     position: absolute;
-    left: 45px;
+    left: 85px;
     top: 0;
     width: 200px;
     height: 503px;
@@ -489,10 +495,37 @@ body{
     background-image: url("../images/c10.jpg");
     background-position: 23px 3px;
 }
+.banner_left2{
+    position: absolute;
+    left: 85px;
+    top: 0;
+    width: 200px;
+    height: 503px;
+    background-color: rgba(0,0,0,0.4);
+}
+.banner_left2_cards{
+    width: 150px;
+    height: 6.2%;
+    float: left;
+    padding-left: 50px;
+}
+.banner_left2_cards a{
+    line-height: 31px;
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+}
+.banner_left2_cards:hover{
+    background-color: white;
+}
+.banner_left2_cards:hover a{
+    color: blue;
+}
+
 
 /*品牌闪购*/
 .brandsale{
-    width: 100%;
+    width: 1320px;
     height: 394px;
     float: left;
     background-color: rgb(255,157,179);
@@ -500,7 +533,7 @@ body{
 .sale{
     width: 234px;
     height: 370px;
-    margin-left: 45px;
+    margin-left: 85px;
     float: left;
     margin-top: 20px;
 }
@@ -613,7 +646,7 @@ body{
 }
 
 .clear{
-    width: 100%;
+    width: 1320px;
     height:20px;
     float: left;
     background: rgb(245,245,245);
@@ -621,14 +654,15 @@ body{
 
 /*品牌*/
 .brands{
-    width: 1185px;
+    width: 1200px;
     height: 330px;
     float: left;
-    padding-left: 45px;
+    padding-left: 82px;
+    padding-right: 85px;
     background-color: rgb(245,245,245);
 }
 .brand{
-    width: 111px;
+    width: 112px;
     height: 87px;
     float: left;
     margin: 0.5px;
@@ -745,15 +779,16 @@ body{
 
 /*天猫超市*/
 .mart_out{
-    width: 100%;
+    width: 1250px;
     height: 690px;
     background-color: rgb(245,245,245);
     float: left;
+    padding-right: 65px;
 }
 .mart{
     width: 1124px;
     height: 690px;
-    margin-left: 45px;
+    margin-left:85px;
     float: left;
 }
 .mart_head{
@@ -845,7 +880,7 @@ body{
     left: 0;
     top: 0;
     width: 100%;
-    height: 100%;
+    height: 625px;
     background-color: rgba(255,255,255,0);
 }
 .mart_body_left:hover .mart_body_left_up{
@@ -877,13 +912,20 @@ body{
     color: white;
 }
 .mart_c_body{
-    width: 390px;
+    width: 405px;
     height: 225px;
     float: left;
     margin-left: 10px;
     position: relative;
     cursor: pointer;
     border: 1px solid rgba(0,0,0,0.05);
+}
+.body{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 .mart_c_body img{
     margin-left: 200px;
@@ -915,7 +957,7 @@ body{
     float: left;
 }
 .mart_c_body_info_top_txt{
-    width: 100px;
+    width: 110px;
     height: 30px;
     float: left;
     margin-top: 20px;
@@ -958,6 +1000,20 @@ body{
     margin-left: 10px;
     margin-bottom: 20px;
     background-color: white;
+    position: relative;
+    cursor: pointer;
+}
+.mart_cards_up{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,0);
+}
+.mart_cards_up:hover{
+    background-color: rgba(255,255,255,0.3);
+    border: 0.5px solid red;
 }
 .mart_cards_top{
     width: 170px;
@@ -998,6 +1054,7 @@ body{
     position: relative;
     margin-bottom: 10px;
 }
+
 .hk_body_left img{
     transform-origin: 0 0;
     transform: scale(0.5,0.50);
@@ -1022,6 +1079,7 @@ body{
     transform: scale(0.5,0.5);
 }
 .hk_body_left:hover .mart_body_left_up{
+    height: 100%;
     background-color: rgba(255,255,255,0.5);
 }
 .hk_head img{
@@ -1066,17 +1124,18 @@ body{
 
 /*短袖*/
 .t-shirt_out{
-    width: 100%;
+    width: 1250px;
     height: 90px;
     float: left;
     background-color: rgb(245,245,245);
+    padding-right:65px;
 }
 .t-shirt{
     width: 1120px;
     height: 100%;
     float: left;
     background-color: rgba(128,128,128,0.7);
-    margin-left: 45px;
+    margin-left: 85px;
     background-image: url("../images/tshirt.jpg");
     background-repeat: no-repeat;
     background-position: -250px 0;
@@ -1089,7 +1148,7 @@ body{
     height: 100%;
     float: left;
     background-color: rgba(128,128,128,0.7);
-    margin-left: 45px;
+    margin-left: 85px;
     background-image: url("../images/fashion.jpg");
     background-repeat: no-repeat;
     background-position: -250px 0;
@@ -1101,27 +1160,27 @@ body{
     height: 100%;
     float: left;
     background-color: rgba(128,128,128,0.7);
-    margin-left: 45px;
+    margin-left: 85px;
     background-image: url("../images/com.jpg");
     background-repeat: no-repeat;
     background-position: -250px 0;
 }
 
-
 /*猜你喜欢*/
 .like{
-    width: 100%;
+    width: 1300px;
     height: 30px;
     float: left;
     background-color:rgb(245,245,245);
     text-align: center;
     background-image: url("../images/like.jpg");
     background-repeat: no-repeat;
-    background-position:565px -5px;
+    background-position:600px -5px;
     line-height: 30px;
     font-size: 15px;
     font-weight: lighter;
     position: relative;
+    padding-right: 20px;
 }
 .like_line{
     width: 30px;
@@ -1129,8 +1188,8 @@ body{
     border: 0.5px solid rgba(0,0,0,0.5);
     float: left;
     position: absolute;
-    top: 14px;
-    left: 530px;
+    top: 15px;
+    left: 565px;
 
 }
 .like_line1{
@@ -1139,25 +1198,39 @@ body{
     border: 0.5px solid rgba(0,0,0,0.5);
     float: left;
     position: absolute;
-    top: 14px;
-    left: 660px;
+    top: 15px;
+    left: 695px;
 
 }
 
 .like_cards {
-    width: 216px;
+    width: 210px;
     height: 302px;
     float: left;
-    margin-left: 10px;
+    margin-left: 18px;
     margin-bottom: 10px;
     background-color: white;
+    position: relative;
+    cursor: pointer;
+}
+.like_cards_up{
+    position:absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,0);
+}
+.like_cards_up:hover{
+    background-color: rgba(255,255,255,0.4);
+    border: 0.5px solid red;
 }
 .like_out{
-    width: 1180px;
+    width: 1320px;
     height: 1300px;
     float: left;
     background-color: rgb(245,245,245);
-    padding-left: 35px;
+    padding-left: 68px;
     border-bottom: 1px solid rgba(0,0,0,0.4);
 }
 .like_end{
@@ -1176,7 +1249,7 @@ div.end_out{
     width: 1120px;
     height:300px;
     float: left;
-    padding-left: 45px;
+    padding-left: 85px;
 }
 div.end1{
     width: 270px;
@@ -1285,7 +1358,8 @@ div.end1{
     background-color: #020202;
     margin: auto;
     margin-top: 62.5px;
-    padding-left: 45px;
+    padding-left: 85px;
+    padding-right: 100px;
 }
 .tmall-tmallabout{
     width: 650px;

@@ -35,14 +35,94 @@
                     }
                 }
                 a++;
+
+                if(bodys[0].style.display=="block"){
+                    heads[1].style.background="green";
+                    heads[1].style.color="white";
+                    heads[0].style.background="rgb(241,241,241)";
+                    heads[0].style.color="black";
+                    bodys[1].style.display="block";
+                    bodys[0].style.display="none"
+                }else{
+                    heads[0].style.background="green";
+                    heads[0].style.color="white";
+                    heads[1].style.background="rgb(241,241,241)";
+                    heads[1].style.color="black";
+                    bodys[0].style.display="block";
+                    bodys[1].style.display="none"
+                }
+
+
             },3000)
+
+
+            var banner_lefts=document.querySelectorAll(".banner_lefts");
+            var banner_catlog=document.querySelectorAll(".banner_head_a1");
+            var a=0;
+            var b=1;
+            banner_lefts[a].style.display="none";
+            banner_lefts[b].style.display="block";
+            banner_catlog[a].style.background="rgb(128,128,128)";
+            banner_catlog[a].style.color="white";
+            banner_catlog[b].style.background="yellow";
+            banner_catlog[b].style.color="rgb(255,0,0)";
+            banner_catlog[a].onmouseenter=function (ev1) {
+                var a=0;
+                var b=1;
+                banner_lefts[a].style.display="none";
+                banner_lefts[b].style.display="block";
+                banner_catlog[a].style.background="rgb(239,239,239)";
+                banner_catlog[a].style.color="red";
+                banner_catlog[b].style.background="yellow";
+                banner_catlog[b].style.color="rgb(255,0,0)"
+            };
+            banner_catlog[b].onmouseenter=function (ev2) {
+                var a=0;
+                var b=1;
+                banner_lefts[a].style.display="block";
+                banner_lefts[b].style.display="none";
+                banner_catlog[a].style.background="rgb(128,128,128)";
+                banner_catlog[a].style.color="white";
+                banner_catlog[b].style.background="rgb(65,63,63)";
+                banner_catlog[b].style.color="white"
+            }
+
+
+            var heads=document.querySelectorAll(".mart_c_head");
+            var bodys=document.querySelectorAll(".body");
+            heads[a].style.background="green";
+            heads[a].style.color="white";
+            heads[b].style.background="rgb(241,241,241)";
+            heads[b].style.color="black";
+            bodys[a].style.display="block";
+            bodys[b].style.display="none"
+            heads[a].onmouseenter=function (ev3) {
+                var a=0;
+                var b=1;
+                heads[a].style.background="green";
+                heads[a].style.color="white";
+                heads[b].style.background="rgb(241,241,241)";
+                heads[b].style.color="black";
+                bodys[a].style.display="block";
+                bodys[b].style.display="none"
+            }
+            heads[b].onmouseenter=function (ev4) {
+                var a=0;
+                var b=1;
+                heads[b].style.background="green";
+                heads[b].style.color="white";
+                heads[a].style.background="rgb(241,241,241)";
+                heads[a].style.color="black";
+                bodys[b].style.display="block";
+                bodys[a].style.display="none"
+            }
         }
     </script>
 </head>
 <body>
 
 <hiv class="top">
-<!--顶部导航栏-->
+    <!--顶部导航栏-->
     <hiv class="person_info">
         <hiv class="person_info_left">
             <a>喵，欢迎来天猫</a>
@@ -110,7 +190,8 @@
             <div class="banner_opt"></div>
         </div>
     </div>
-    <div class="banner_left">
+    <div class="banner_lefts">
+    <div class="banner_left1">
         <div class="banner_left_cards">
             <div class="banner_left_cards_pic banner_left_cards_pic1"></div>
             大牌男装
@@ -150,6 +231,59 @@
         <div class="banner_left_cards">
             <div class="banner_left_cards_pic banner_left_cards_pic10"></div>
             大牌男装
+        </div>
+    </div>
+    </div>
+    <div class="banner_lefts">
+        <div class="banner_left2">
+            <hiv class="banner_left2_cards">
+                <a href="">女装/内衣</a>
+            </hiv>
+            <hiv class="banner_left2_cards">
+                <a href="">男装/运动户外</a>
+            </hiv>
+            <hiv class="banner_left2_cards">
+                <a href="">女鞋/男鞋/箱包</a>
+            </hiv>
+            <hiv class="banner_left2_cards">
+                <a href="">美妆/个人护理</a>
+            </hiv>
+            <hiv class="banner_left2_cards">
+                <a href="">腕表/眼镜/珠宝饰品</a>
+            </hiv>
+            <hiv class="banner_left2_cards">
+                <a href="">手机/数码/电脑办公</a>
+            </hiv>
+            <hiv class="banner_left2_cards">
+                <a href="">母婴玩具</a>
+            </hiv>
+            <hiv class="banner_left2_cards">
+                <a href="">零食/茶酒/进口食品</a>
+            </hiv>
+            <hiv class="banner_left2_cards">
+                <a href="">生鲜水果</a>
+            </hiv>
+            <hiv class="banner_left2_cards">
+                <a href="">大家电/生活电器</a>
+            </hiv>
+            <hiv class="banner_left2_cards">
+                <a href="">家具器材</a>
+            </hiv>
+            <hiv class="banner_left2_cards">
+                <a href="">汽车/配件/用品</a>
+            </hiv>
+            <hiv class="banner_left2_cards">
+                <a href="">家纺/家饰/鲜花</a>
+            </hiv>
+            <hiv class="banner_left2_cards">
+                <a href="">医药保健</a>
+            </hiv>
+            <hiv class="banner_left2_cards">
+                <a href="">厨具/收纳/宠物</a>
+            </hiv>
+            <hiv class="banner_left2_cards">
+                <a href="">图书音像</a>
+            </hiv>
         </div>
     </div>
 </hiv>
@@ -399,6 +533,7 @@
             <hiv class="mart_c_head">今日疯抢</hiv>
             <hiv class="mart_c_head">量贩装</hiv>
             <hiv class="mart_c_body">
+                <hiv class="body">
                 <img src="images/mart3.jpg" alt="">
                     <hiv class="mart_c_body_info">
                         <hiv class="mart_c_body_info_top">
@@ -411,6 +546,20 @@
                     </hiv>
                 <hiv class="mart_c_body_info_up"></hiv>
             </hiv>
+                <hiv class="body">
+                    <img src="images/mart6.jpg" alt="">
+                    <hiv class="mart_c_body_info">
+                        <hiv class="mart_c_body_info_top">
+                            <hiv class="mart_c_body_info_top_txt">力士洗浴套餐</hiv>
+                            <hiv class="mart_c_body_info_pic">
+                                <img src="images/mart5.png" alt="">
+                            </hiv>
+                        </hiv>
+                        <hiv class="mart_c_body_info_bot">抢第二件0元</hiv>
+                    </hiv>
+                    <hiv class="mart_c_body_info_up"></hiv>
+                </hiv>
+            </hiv>
         </div>
         <div class="mart_cards">
             <div class="mart_cards_top">
@@ -418,6 +567,15 @@
             </div>
             <div class="mart_cards_cen">屈臣氏苏打汽水<br>330ml*24整箱原味</div>
             <div class="mart_cards_price">￥88</div>
+            <div class="mart_cards_up"></div>
+        </div>
+        <div class="mart_cards">
+            <div class="mart_cards_top">
+                <img src="https://gw.alicdn.com/bao/uploaded/i3/725677994/O1CN01aFmGCi28vIfIlsNos_!!0-item_pic.jpg" alt="">
+            </div>
+            <div class="mart_cards_cen">屈臣氏苏打汽水<br>330ml*24整箱原味</div>
+            <div class="mart_cards_price">￥88</div>
+            <div class="mart_cards_up"></div>
         </div>
         <div class="mart_cards">
             <div class="mart_cards_top">
@@ -425,6 +583,7 @@
             </div>
             <div class="mart_cards_cen">屈臣氏苏打汽水<br>330ml*24整箱原味</div>
             <div class="mart_cards_price">￥88</div>
+            <div class="mart_cards_up"></div>
         </div>
         <div class="mart_cards">
             <div class="mart_cards_top">
@@ -432,6 +591,7 @@
             </div>
             <div class="mart_cards_cen">屈臣氏苏打汽水<br>330ml*24整箱原味</div>
             <div class="mart_cards_price">￥88</div>
+            <div class="mart_cards_up"></div>
         </div>
         <div class="mart_cards">
             <div class="mart_cards_top">
@@ -439,6 +599,7 @@
             </div>
             <div class="mart_cards_cen">屈臣氏苏打汽水<br>330ml*24整箱原味</div>
             <div class="mart_cards_price">￥88</div>
+            <div class="mart_cards_up"></div>
         </div>
         <div class="mart_cards">
             <div class="mart_cards_top">
@@ -446,13 +607,7 @@
             </div>
             <div class="mart_cards_cen">屈臣氏苏打汽水<br>330ml*24整箱原味</div>
             <div class="mart_cards_price">￥88</div>
-        </div>
-        <div class="mart_cards">
-            <div class="mart_cards_top">
-                <img src="images/mart_c1.jpg" alt="">
-            </div>
-            <div class="mart_cards_cen">屈臣氏苏打汽水<br>330ml*24整箱原味</div>
-            <div class="mart_cards_price">￥88</div>
+            <div class="mart_cards_up"></div>
         </div>
     </div>
 </hiv>
@@ -492,6 +647,7 @@
             </div>
             <div class="mart_cards_cen">屈臣氏苏打汽水<br>330ml*24整箱原味</div>
             <div class="mart_cards_price">￥88</div>
+            <div class="mart_cards_up"></div>
         </div>
         <div class="mart_cards">
             <div class="mart_cards_top">
@@ -499,6 +655,7 @@
             </div>
             <div class="mart_cards_cen">屈臣氏苏打汽水<br>330ml*24整箱原味</div>
             <div class="mart_cards_price">￥88</div>
+            <div class="mart_cards_up"></div>
         </div>
         <div class="mart_cards">
             <div class="mart_cards_top">
@@ -506,6 +663,7 @@
             </div>
             <div class="mart_cards_cen">屈臣氏苏打汽水<br>330ml*24整箱原味</div>
             <div class="mart_cards_price">￥88</div>
+            <div class="mart_cards_up"></div>
         </div>
         <div class="mart_cards">
             <div class="mart_cards_top">
@@ -513,6 +671,7 @@
             </div>
             <div class="mart_cards_cen">屈臣氏苏打汽水<br>330ml*24整箱原味</div>
             <div class="mart_cards_price">￥88</div>
+            <div class="mart_cards_up"></div>
         </div>
         <div class="hk_body_left">
             <img src="images/hk2.png" alt="">
@@ -536,6 +695,7 @@
             </div>
             <div class="mart_cards_cen">屈臣氏苏打汽水<br>330ml*24整箱原味</div>
             <div class="mart_cards_price">￥88</div>
+            <div class="mart_cards_up"></div>
         </div>
         <div class="mart_cards">
             <div class="mart_cards_top">
@@ -543,6 +703,7 @@
             </div>
             <div class="mart_cards_cen">屈臣氏苏打汽水<br>330ml*24整箱原味</div>
             <div class="mart_cards_price">￥88</div>
+            <div class="mart_cards_up"></div>
         </div>
         <div class="mart_cards">
             <div class="mart_cards_top">
@@ -550,6 +711,7 @@
             </div>
             <div class="mart_cards_cen">屈臣氏苏打汽水<br>330ml*24整箱原味</div>
             <div class="mart_cards_price">￥88</div>
+            <div class="mart_cards_up"></div>
         </div>
         <div class="mart_cards">
             <div class="mart_cards_top">
@@ -557,6 +719,7 @@
             </div>
             <div class="mart_cards_cen">屈臣氏苏打汽水<br>330ml*24整箱原味</div>
             <div class="mart_cards_price">￥88</div>
+            <div class="mart_cards_up"></div>
         </div>
     </div>
 </hiv>
@@ -597,6 +760,7 @@
             </div>
             <div class="mart_cards_cen">屈臣氏苏打汽水<br>330ml*24整箱原味</div>
             <div class="mart_cards_price">￥88</div>
+            <div class="mart_cards_up"></div>
         </div>
         <div class="mart_cards">
             <div class="mart_cards_top">
@@ -604,6 +768,7 @@
             </div>
             <div class="mart_cards_cen">屈臣氏苏打汽水<br>330ml*24整箱原味</div>
             <div class="mart_cards_price">￥88</div>
+            <div class="mart_cards_up"></div>
         </div>
         <div class="mart_cards">
             <div class="mart_cards_top">
@@ -611,6 +776,7 @@
             </div>
             <div class="mart_cards_cen">屈臣氏苏打汽水<br>330ml*24整箱原味</div>
             <div class="mart_cards_price">￥88</div>
+            <div class="mart_cards_up"></div>
         </div>
         <div class="mart_cards">
             <div class="mart_cards_top">
@@ -618,6 +784,7 @@
             </div>
             <div class="mart_cards_cen">屈臣氏苏打汽水<br>330ml*24整箱原味</div>
             <div class="mart_cards_price">￥88</div>
+            <div class="mart_cards_up"></div>
         </div>
         <div class="mart_cards">
             <div class="mart_cards_top">
@@ -625,6 +792,7 @@
             </div>
             <div class="mart_cards_cen">屈臣氏苏打汽水<br>330ml*24整箱原味</div>
             <div class="mart_cards_price">￥88</div>
+            <div class="mart_cards_up"></div>
         </div>
         <div class="mart_cards">
             <div class="mart_cards_top">
@@ -632,6 +800,7 @@
             </div>
             <div class="mart_cards_cen">屈臣氏苏打汽水<br>330ml*24整箱原味</div>
             <div class="mart_cards_price">￥88</div>
+            <div class="mart_cards_up"></div>
         </div>
         <div class="mart_cards">
             <div class="mart_cards_top">
@@ -639,6 +808,7 @@
             </div>
             <div class="mart_cards_cen">屈臣氏苏打汽水<br>330ml*24整箱原味</div>
             <div class="mart_cards_price">￥88</div>
+            <div class="mart_cards_up"></div>
         </div>
         <div class="mart_cards">
             <div class="mart_cards_top">
@@ -646,6 +816,7 @@
             </div>
             <div class="mart_cards_cen">屈臣氏苏打汽水<br>330ml*24整箱原味</div>
             <div class="mart_cards_price">￥88</div>
+            <div class="mart_cards_up"></div>
         </div>
     </div>
 </hiv>
@@ -680,6 +851,7 @@
             </div>
             <div class="mart_cards_cen">屈臣氏苏打汽水<br>330ml*24整箱原味</div>
             <div class="mart_cards_price">￥88</div>
+            <div class="mart_cards_up"></div>
         </div>
         <div class="mart_cards">
             <div class="mart_cards_top">
@@ -687,6 +859,7 @@
             </div>
             <div class="mart_cards_cen">屈臣氏苏打汽水<br>330ml*24整箱原味</div>
             <div class="mart_cards_price">￥88</div>
+            <div class="mart_cards_up"></div>
         </div>
         <div class="mart_cards">
             <div class="mart_cards_top">
@@ -694,6 +867,7 @@
             </div>
             <div class="mart_cards_cen">屈臣氏苏打汽水<br>330ml*24整箱原味</div>
             <div class="mart_cards_price">￥88</div>
+            <div class="mart_cards_up"></div>
         </div>
         <div class="mart_cards">
             <div class="mart_cards_top">
@@ -701,6 +875,7 @@
             </div>
             <div class="mart_cards_cen">屈臣氏苏打汽水<br>330ml*24整箱原味</div>
             <div class="mart_cards_price">￥88</div>
+            <div class="mart_cards_up"></div>
         </div>
         <div class="mart_cards">
             <div class="mart_cards_top">
@@ -708,6 +883,7 @@
             </div>
             <div class="mart_cards_cen">屈臣氏苏打汽水<br>330ml*24整箱原味</div>
             <div class="mart_cards_price">￥88</div>
+            <div class="mart_cards_up"></div>
         </div>
         <div class="mart_cards">
             <div class="mart_cards_top">
@@ -715,6 +891,7 @@
             </div>
             <div class="mart_cards_cen">屈臣氏苏打汽水<br>330ml*24整箱原味</div>
             <div class="mart_cards_price">￥88</div>
+            <div class="mart_cards_up"></div>
         </div>
         <div class="mart_cards">
             <div class="mart_cards_top">
@@ -722,6 +899,7 @@
             </div>
             <div class="mart_cards_cen">屈臣氏苏打汽水<br>330ml*24整箱原味</div>
             <div class="mart_cards_price">￥88</div>
+            <div class="mart_cards_up"></div>
         </div>
         <div class="mart_cards">
             <div class="mart_cards_top">
@@ -729,6 +907,7 @@
             </div>
             <div class="mart_cards_cen">屈臣氏苏打汽水<br>330ml*24整箱原味</div>
             <div class="mart_cards_price">￥88</div>
+            <div class="mart_cards_up"></div>
         </div>
     </div>
 </hiv>
@@ -768,6 +947,7 @@
             </div>
             <div class="mart_cards_cen">屈臣氏苏打汽水<br>330ml*24整箱原味</div>
             <div class="mart_cards_price">￥88</div>
+            <div class="mart_cards_up"></div>
         </div>
         <div class="mart_cards">
             <div class="mart_cards_top">
@@ -775,6 +955,7 @@
             </div>
             <div class="mart_cards_cen">屈臣氏苏打汽水<br>330ml*24整箱原味</div>
             <div class="mart_cards_price">￥88</div>
+            <div class="mart_cards_up"></div>
         </div>
         <div class="mart_cards">
             <div class="mart_cards_top">
@@ -782,6 +963,7 @@
             </div>
             <div class="mart_cards_cen">屈臣氏苏打汽水<br>330ml*24整箱原味</div>
             <div class="mart_cards_price">￥88</div>
+            <div class="mart_cards_up"></div>
         </div>
         <div class="mart_cards">
             <div class="mart_cards_top">
@@ -789,6 +971,7 @@
             </div>
             <div class="mart_cards_cen">屈臣氏苏打汽水<br>330ml*24整箱原味</div>
             <div class="mart_cards_price">￥88</div>
+            <div class="mart_cards_up"></div>
         </div>
         <div class="mart_cards">
             <div class="mart_cards_top">
@@ -796,6 +979,7 @@
             </div>
             <div class="mart_cards_cen">屈臣氏苏打汽水<br>330ml*24整箱原味</div>
             <div class="mart_cards_price">￥88</div>
+            <div class="mart_cards_up"></div>
         </div>
         <div class="mart_cards">
             <div class="mart_cards_top">
@@ -803,6 +987,7 @@
             </div>
             <div class="mart_cards_cen">屈臣氏苏打汽水<br>330ml*24整箱原味</div>
             <div class="mart_cards_price">￥88</div>
+            <div class="mart_cards_up"></div>
         </div>
         <div class="mart_cards">
             <div class="mart_cards_top">
@@ -810,6 +995,7 @@
             </div>
             <div class="mart_cards_cen">屈臣氏苏打汽水<br>330ml*24整箱原味</div>
             <div class="mart_cards_price">￥88</div>
+            <div class="mart_cards_up"></div>
         </div>
         <div class="mart_cards">
             <div class="mart_cards_top">
@@ -817,6 +1003,7 @@
             </div>
             <div class="mart_cards_cen">屈臣氏苏打汽水<br>330ml*24整箱原味</div>
             <div class="mart_cards_price">￥88</div>
+            <div class="mart_cards_up"></div>
         </div>
     </div>
 </hiv>
@@ -849,6 +1036,7 @@
             </div>
             <div class="mart_cards_cen">屈臣氏苏打汽水<br>330ml*24整箱原味</div>
             <div class="mart_cards_price">￥88</div>
+            <div class="mart_cards_up"></div>
         </div>
         <div class="mart_cards">
             <div class="mart_cards_top">
@@ -856,6 +1044,7 @@
             </div>
             <div class="mart_cards_cen">屈臣氏苏打汽水<br>330ml*24整箱原味</div>
             <div class="mart_cards_price">￥88</div>
+            <div class="mart_cards_up"></div>
         </div>
         <div class="mart_cards">
             <div class="mart_cards_top">
@@ -863,6 +1052,7 @@
             </div>
             <div class="mart_cards_cen">屈臣氏苏打汽水<br>330ml*24整箱原味</div>
             <div class="mart_cards_price">￥88</div>
+            <div class="mart_cards_up"></div>
         </div>
         <div class="mart_cards">
             <div class="mart_cards_top">
@@ -870,6 +1060,7 @@
             </div>
             <div class="mart_cards_cen">屈臣氏苏打汽水<br>330ml*24整箱原味</div>
             <div class="mart_cards_price">￥88</div>
+            <div class="mart_cards_up"></div>
         </div>
         <div class="mart_cards">
             <div class="mart_cards_top">
@@ -877,6 +1068,7 @@
             </div>
             <div class="mart_cards_cen">屈臣氏苏打汽水<br>330ml*24整箱原味</div>
             <div class="mart_cards_price">￥88</div>
+            <div class="mart_cards_up"></div>
         </div>
         <div class="mart_cards">
             <div class="mart_cards_top">
@@ -884,6 +1076,7 @@
             </div>
             <div class="mart_cards_cen">屈臣氏苏打汽水<br>330ml*24整箱原味</div>
             <div class="mart_cards_price">￥88</div>
+            <div class="mart_cards_up"></div>
         </div>
         <div class="mart_cards">
             <div class="mart_cards_top">
@@ -891,6 +1084,7 @@
             </div>
             <div class="mart_cards_cen">屈臣氏苏打汽水<br>330ml*24整箱原味</div>
             <div class="mart_cards_price">￥88</div>
+            <div class="mart_cards_up"></div>
         </div>
         <div class="mart_cards">
             <div class="mart_cards_top">
@@ -898,6 +1092,7 @@
             </div>
             <div class="mart_cards_cen">屈臣氏苏打汽水<br>330ml*24整箱原味</div>
             <div class="mart_cards_price">￥88</div>
+            <div class="mart_cards_up"></div>
         </div>
     </div>
 </hiv>
@@ -937,6 +1132,7 @@
             </div>
             <div class="mart_cards_cen">屈臣氏苏打汽水<br>330ml*24整箱原味</div>
             <div class="mart_cards_price">￥88</div>
+            <div class="mart_cards_up"></div>
         </div>
         <div class="mart_cards">
             <div class="mart_cards_top">
@@ -944,6 +1140,7 @@
             </div>
             <div class="mart_cards_cen">屈臣氏苏打汽水<br>330ml*24整箱原味</div>
             <div class="mart_cards_price">￥88</div>
+            <div class="mart_cards_up"></div>
         </div>
         <div class="mart_cards">
             <div class="mart_cards_top">
@@ -951,6 +1148,7 @@
             </div>
             <div class="mart_cards_cen">屈臣氏苏打汽水<br>330ml*24整箱原味</div>
             <div class="mart_cards_price">￥88</div>
+            <div class="mart_cards_up"></div>
         </div>
         <div class="mart_cards">
             <div class="mart_cards_top">
@@ -958,6 +1156,7 @@
             </div>
             <div class="mart_cards_cen">屈臣氏苏打汽水<br>330ml*24整箱原味</div>
             <div class="mart_cards_price">￥88</div>
+            <div class="mart_cards_up"></div>
         </div>
         <div class="mart_cards">
             <div class="mart_cards_top">
@@ -965,6 +1164,7 @@
             </div>
             <div class="mart_cards_cen">屈臣氏苏打汽水<br>330ml*24整箱原味</div>
             <div class="mart_cards_price">￥88</div>
+            <div class="mart_cards_up"></div>
         </div>
         <div class="mart_cards">
             <div class="mart_cards_top">
@@ -972,6 +1172,7 @@
             </div>
             <div class="mart_cards_cen">屈臣氏苏打汽水<br>330ml*24整箱原味</div>
             <div class="mart_cards_price">￥88</div>
+            <div class="mart_cards_up"></div>
         </div>
         <div class="mart_cards">
             <div class="mart_cards_top">
@@ -979,6 +1180,7 @@
             </div>
             <div class="mart_cards_cen">屈臣氏苏打汽水<br>330ml*24整箱原味</div>
             <div class="mart_cards_price">￥88</div>
+            <div class="mart_cards_up"></div>
         </div>
         <div class="mart_cards">
             <div class="mart_cards_top">
@@ -986,10 +1188,13 @@
             </div>
             <div class="mart_cards_cen">屈臣氏苏打汽水<br>330ml*24整箱原味</div>
             <div class="mart_cards_price">￥88</div>
+            <div class="mart_cards_up"></div>
         </div>
     </div>
 </hiv>
 
+<hiv class="clear"></hiv>
+<hiv class="clear"></hiv>
 
 <!--猜你喜欢-->
 <hiv class="like">
@@ -1003,146 +1208,186 @@
 
 <!--底部产品-->
 <hiv class="like_out">
-        <div class="like_cards">
+    <div class="like_cards">
+            <div class="like_cards_up">
+            <div class="mart_cards_top">
+                <img src="images/mart_c1.jpg" alt="">
+            </div>
+            <div class="mart_cards_cen">屈臣氏苏打汽水<br>330ml*24整箱原味</div>
+            <div class="mart_cards_price">￥88</div>
+            </div>
+        </div>
+    <div class="like_cards">
+        <div class="like_cards_up">
             <div class="mart_cards_top">
                 <img src="images/mart_c1.jpg" alt="">
             </div>
             <div class="mart_cards_cen">屈臣氏苏打汽水<br>330ml*24整箱原味</div>
             <div class="mart_cards_price">￥88</div>
         </div>
-        <div class="like_cards">
+    </div>
+    <div class="like_cards">
+        <div class="like_cards_up">
             <div class="mart_cards_top">
                 <img src="images/mart_c1.jpg" alt="">
             </div>
             <div class="mart_cards_cen">屈臣氏苏打汽水<br>330ml*24整箱原味</div>
             <div class="mart_cards_price">￥88</div>
         </div>
-        <div class="like_cards">
+    </div>
+    <div class="like_cards">
+        <div class="like_cards_up">
             <div class="mart_cards_top">
                 <img src="images/mart_c1.jpg" alt="">
             </div>
             <div class="mart_cards_cen">屈臣氏苏打汽水<br>330ml*24整箱原味</div>
             <div class="mart_cards_price">￥88</div>
         </div>
-        <div class="like_cards">
+    </div>
+    <div class="like_cards">
+        <div class="like_cards_up">
             <div class="mart_cards_top">
                 <img src="images/mart_c1.jpg" alt="">
             </div>
             <div class="mart_cards_cen">屈臣氏苏打汽水<br>330ml*24整箱原味</div>
             <div class="mart_cards_price">￥88</div>
         </div>
-        <div class="like_cards">
+    </div>
+    <div class="like_cards">
+        <div class="like_cards_up">
             <div class="mart_cards_top">
                 <img src="images/mart_c1.jpg" alt="">
             </div>
             <div class="mart_cards_cen">屈臣氏苏打汽水<br>330ml*24整箱原味</div>
             <div class="mart_cards_price">￥88</div>
         </div>
-        <div class="like_cards">
+    </div>
+    <div class="like_cards">
+        <div class="like_cards_up">
             <div class="mart_cards_top">
                 <img src="images/mart_c1.jpg" alt="">
             </div>
             <div class="mart_cards_cen">屈臣氏苏打汽水<br>330ml*24整箱原味</div>
             <div class="mart_cards_price">￥88</div>
         </div>
-        <div class="like_cards">
+    </div>
+    <div class="like_cards">
+        <div class="like_cards_up">
             <div class="mart_cards_top">
                 <img src="images/mart_c1.jpg" alt="">
             </div>
             <div class="mart_cards_cen">屈臣氏苏打汽水<br>330ml*24整箱原味</div>
             <div class="mart_cards_price">￥88</div>
         </div>
-        <div class="like_cards">
+    </div>
+    <div class="like_cards">
+        <div class="like_cards_up">
             <div class="mart_cards_top">
                 <img src="images/mart_c1.jpg" alt="">
             </div>
             <div class="mart_cards_cen">屈臣氏苏打汽水<br>330ml*24整箱原味</div>
             <div class="mart_cards_price">￥88</div>
         </div>
-        <div class="like_cards">
+    </div>
+    <div class="like_cards">
+        <div class="like_cards_up">
             <div class="mart_cards_top">
                 <img src="images/mart_c1.jpg" alt="">
             </div>
             <div class="mart_cards_cen">屈臣氏苏打汽水<br>330ml*24整箱原味</div>
             <div class="mart_cards_price">￥88</div>
         </div>
-        <div class="like_cards">
+    </div>
+    <div class="like_cards">
+        <div class="like_cards_up">
             <div class="mart_cards_top">
                 <img src="images/mart_c1.jpg" alt="">
             </div>
             <div class="mart_cards_cen">屈臣氏苏打汽水<br>330ml*24整箱原味</div>
             <div class="mart_cards_price">￥88</div>
         </div>
-        <div class="like_cards">
+    </div>
+    <div class="like_cards">
+        <div class="like_cards_up">
             <div class="mart_cards_top">
                 <img src="images/mart_c1.jpg" alt="">
             </div>
             <div class="mart_cards_cen">屈臣氏苏打汽水<br>330ml*24整箱原味</div>
             <div class="mart_cards_price">￥88</div>
         </div>
-        <div class="like_cards">
+    </div>
+    <div class="like_cards">
+        <div class="like_cards_up">
             <div class="mart_cards_top">
                 <img src="images/mart_c1.jpg" alt="">
             </div>
             <div class="mart_cards_cen">屈臣氏苏打汽水<br>330ml*24整箱原味</div>
             <div class="mart_cards_price">￥88</div>
         </div>
-        <div class="like_cards">
+    </div>
+    <div class="like_cards">
+        <div class="like_cards_up">
             <div class="mart_cards_top">
                 <img src="images/mart_c1.jpg" alt="">
             </div>
             <div class="mart_cards_cen">屈臣氏苏打汽水<br>330ml*24整箱原味</div>
             <div class="mart_cards_price">￥88</div>
         </div>
-        <div class="like_cards">
+    </div>
+    <div class="like_cards">
+        <div class="like_cards_up">
             <div class="mart_cards_top">
                 <img src="images/mart_c1.jpg" alt="">
             </div>
             <div class="mart_cards_cen">屈臣氏苏打汽水<br>330ml*24整箱原味</div>
             <div class="mart_cards_price">￥88</div>
         </div>
-        <div class="like_cards">
+    </div>
+    <div class="like_cards">
+        <div class="like_cards_up">
             <div class="mart_cards_top">
                 <img src="images/mart_c1.jpg" alt="">
             </div>
             <div class="mart_cards_cen">屈臣氏苏打汽水<br>330ml*24整箱原味</div>
             <div class="mart_cards_price">￥88</div>
         </div>
-        <div class="like_cards">
+    </div>
+    <div class="like_cards">
+        <div class="like_cards_up">
             <div class="mart_cards_top">
                 <img src="images/mart_c1.jpg" alt="">
             </div>
             <div class="mart_cards_cen">屈臣氏苏打汽水<br>330ml*24整箱原味</div>
             <div class="mart_cards_price">￥88</div>
         </div>
-        <div class="like_cards">
+    </div>
+    <div class="like_cards">
+        <div class="like_cards_up">
             <div class="mart_cards_top">
                 <img src="images/mart_c1.jpg" alt="">
             </div>
             <div class="mart_cards_cen">屈臣氏苏打汽水<br>330ml*24整箱原味</div>
             <div class="mart_cards_price">￥88</div>
         </div>
-        <div class="like_cards">
+    </div>
+    <div class="like_cards">
+        <div class="like_cards_up">
             <div class="mart_cards_top">
                 <img src="images/mart_c1.jpg" alt="">
             </div>
             <div class="mart_cards_cen">屈臣氏苏打汽水<br>330ml*24整箱原味</div>
             <div class="mart_cards_price">￥88</div>
         </div>
-        <div class="like_cards">
+    </div>
+    <div class="like_cards">
+        <div class="like_cards_up">
             <div class="mart_cards_top">
                 <img src="images/mart_c1.jpg" alt="">
             </div>
             <div class="mart_cards_cen">屈臣氏苏打汽水<br>330ml*24整箱原味</div>
             <div class="mart_cards_price">￥88</div>
         </div>
-        <div class="like_cards">
-            <div class="mart_cards_top">
-                <img src="images/mart_c1.jpg" alt="">
-            </div>
-            <div class="mart_cards_cen">屈臣氏苏打汽水<br>330ml*24整箱原味</div>
-            <div class="mart_cards_price">￥88</div>
-        </div>
+    </div>
     <hiv class="like_end">
         <img src="images/end.jpg" alt="">
     </hiv>
