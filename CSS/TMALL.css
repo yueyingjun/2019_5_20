@@ -8,7 +8,7 @@ body{
     position: relative;margin: auto auto;
 }
 .direct-left{
-    width: 222px;height: 40px;
+    width: 240px;height: 40px;
     margin-left: 50px;float: left;
 }
 .direct-left-one{
@@ -29,8 +29,8 @@ body{
     cursor: pointer;
 }
 .direct-right{
-    width: 570px;height: 40px;
-    margin-left: 710px;font-size: 12px;color: white;
+    width: 670px;height: 40px;
+    margin-left: 780px;font-size: 12px;color: white;
     text-decoration: none;
 }
 .direct-right a{
@@ -38,7 +38,7 @@ body{
     text-decoration: none;
 }
 .direct-right-one{
-    width: 50px;height: 42px;
+    width: 60px;height: 42px;
     margin-left: 5px;line-height: 42px;
     float: left;
 }
@@ -60,7 +60,7 @@ body{
     margin-left: 1px;margin-top: 3px;
 }
 .direct-right-two{
-    width: 60px;height: 42px;
+    width: 70px;height: 42px;
     margin-left: 5px;
     float: left;padding-left: 20px;line-height: 42px;
     background: url("../Image/gouwuchelogo.png") no-repeat left;
@@ -69,7 +69,7 @@ body{
     color: yellow;
 }
 .direct-right-three{
-    width: 38px;height: 42px;line-height: 42px;
+    width: 50px;height: 42px;line-height: 42px;
     margin-left: 15px;
     float: left;
 }
@@ -95,7 +95,7 @@ body{
     color: darkgrey;font-size: 18px;float: left;margin-left: 10px;margin-right: 10px;
 }
 .direct-right-five{
-    width: 38px;height: 42px;margin-left: 0px;line-height: 42px;
+    width: 50px;height: 42px;margin-left: 0px;line-height: 42px;
     float: left;padding-left: 18px;line-height: 42px;
     background: url("../Image/phonelogo.png") no-repeat left;
 }
@@ -103,14 +103,14 @@ body{
     color: yellow;
 }
 .direct-right-six{
-    width: 40px;height: 42px;line-height:42px;margin-left: 15px;
+    width: 50px;height: 42px;line-height:42px;margin-left: 15px;
     float: left;
 }
 .direct-right-six a:hover{
     color: yellow;
 }
 .direct-right-seven{
-    width: 50px;height: 42px;line-height: 42px;
+    width: 60px;height: 42px;line-height: 42px;
     margin-left: 15px;
     float: left;
 }
@@ -132,7 +132,7 @@ body{
     margin-left: 1px;margin-top: 3px;
 }
 .direct-right-eight{
-    width: 50px;height: 42px;line-height: 42px;
+    width: 60px;height: 42px;line-height: 42px;
     margin-left: 15px;
     float: left;padding-left: 22px;line-height: 42px;
     background: url("../Image/daohanglogo.png") no-repeat left;
@@ -153,8 +153,8 @@ body{
 }
 /*-----------------------------------顶部搜索框-----------------------------------*/
 .tmall-select{
-    width: 1000px;height: 130px;float: left;
-    margin: auto auto;
+    width: 1000px;height: 130px;
+    margin-left: 95px;
 }
 .tmall-select-tmalllogo{
     width: 240px;height: 100%;margin-left: 30px;
@@ -327,8 +327,7 @@ body{
 }
 /*-----------------------------------天猫的经营分店-----------------------------------*/
 .tmall-companys{
-    width: 1100px;height: 40px;
-    float: left;margin: auto auto;
+    width: 1100px;height: 40px;margin-left: 95px;
 }
 .tmall-companys-one{
     width: 100px;height: 40px;line-height: 40px;margin-left: 55px;
@@ -341,18 +340,20 @@ body{
 .tmall-companys-three{
     width: 120px;height: 38px;line-height: 38px;
     float: left;background:url("../Image/tmallsumarket.png") no-repeat center;
+    border-bottom: 2px solid red;
 }
 .tmall-companys-four{
     width: 120px;height: 38px;line-height: 38px;
     float: left;background:url("../Image/tmallcontry.png") no-repeat center;
+    border-bottom: 2px solid red;
 }
 .tmall-companys-five{
     width: 80px;height: 38px;line-height: 38px;
-    float: left;
+    float: left;border-bottom: 2px solid red;
 }
 .tmall-companys-six{
     width: 65px;height: 38px;line-height: 38px;
-    float: left;
+    float: left;border-bottom: 2px solid red;
 }
 .tmall-companys a{
     text-decoration: none;
@@ -361,16 +362,11 @@ body{
 .tmall-companys a:hover{
     color: red;
 }
-/*-----------------------------------分割线-----------------------------------*/
-.fengexian{
-    width: 1000px;height: 2px;background-color: red;
-    float: left;margin-left: 255px;margin-top: -2px;
-}
 /*-----------------------------------左部导航-----------------------------------*/
 .left-direct{
     z-index: 4;margin: auto auto;
     width:40px;height:400px;
-    position: fixed;left:5px;top:220px;
+    position: fixed;left:2%;top:220px;
 }
 .left-direct-part{
     width:40px;height:40px;
@@ -392,12 +388,12 @@ body{
 }
 /*-----------------------------------大背景 包括轮播图 会场-----------------------------------*/
 .bigbackground{
-    width: 1331px;height: 1000px;float: left;margin: auto auto;
+    width: 100%;height: 1000px;margin: auto auto;
     background: url("../Image/background.png") no-repeat center;
 }
 .bigbackground-top{
     width:1200px ;height: 500px;
-    margin-left: 55px;
+    margin:auto auto;
     position: relative;
 }
 .bigbackground-top-left{
@@ -516,13 +512,13 @@ body{
     background-color: white;
 }
 .bigbackground-mid{
-    width:1200px ;height: 120px;
-    margin-left: 55px;background: url("../Image/mid520.png") no-repeat center;
+    width:100%;height: 120px;
+    margin:auto auto;background: url("../Image/mid520.png") no-repeat center;
 }
 /*-----------------------------------品牌活动-----------------------------------*/
 .bigbackground-bottom{
     width:1200px ;height: 374px;
-    margin-left: 55px;float: left;
+    margin:auto auto;
 }
 .bigbackground-bottom span{
     font-size: 18px;font-family: 微软雅黑;
@@ -592,31 +588,31 @@ body{
 }
 /*-----------------------------------全页面最大的颜色背景图-----------------------------------*/
 .maxground{
-    width: 1314px;height: 11920px;position: absolute;top: 1220px;
-    background-color: #F9F9F9;float: left;margin: auto auto;
+    width: 100%;height: 12210px;
+    background-color: #F9F9F9;margin: auto auto;
 }
 /*-----------------------------------品牌logo-----------------------------------*/
 .maxground-pinpais{
-    width: 1200px;height: 362px;border-bottom: 1px solid #999999;
-    float: left;margin-left: 55px;margin-top: 10px;
+    width: 1200px;height: 440px;border-bottom:1px solid #999999;
+    margin:auto auto;margin-top: 20px;
 }
 .maxground-pinpais-pinpailogo-replace{
     display: none;
 }
 .maxground-pinpais-pinpailogo{
-    width: 110px;height: 110px;float: left;cursor: pointer;
+    width: 110px;height: 110px;float: left;cursor: pointer;margin-top: 20px;
     background-size: 100%;border-bottom: 10px solid #F9F9F9;border-right: 11px solid #F9F9F9;
 }
 .maxground-pinpais-pinpailogo10{
-    width: 110px;height: 110px;float: left;cursor: pointer;
+    width: 110px;height: 110px;float: left;cursor: pointer;margin-top: 20px;
     background-size: 100%;border-bottom: 10px solid #F9F9F9;
 }
 .maxground-pinpais-pinpailogo20{
-    width: 110px;height: 110px;float: left;cursor: pointer;
+    width: 110px;height: 110px;float: left;cursor: pointer;margin-top: 20px;
     background-size: 100%;border-bottom: 10px solid #F9F9F9;
 }
 .maxground-pinpais-pinpailogo30{
-    width: 110px;height: 110px;float: left;cursor: pointer;
+    width: 110px;height: 110px;float: left;cursor: pointer;margin-top: 20px;
     background-size: 100%;border-bottom: 10px solid #F9F9F9;
 }
 .maxground-pinpais-pinpailogo:hover .maxground-pinpais-pinpailogo-replace{
@@ -733,11 +729,11 @@ body{
 }
 /*-----------------------------------天猫超市-----------------------------------*/
 .maxground-tmallmarket{
-    width: 1200px;height: 665px;margin-left: 55px;margin-top: 370px;
+    width: 1200px;height: 665px;margin:auto auto;
 }
 .maxground-tmallmarket-top{
     width: 100%;height: 40px;float: left;
-    margin-bottom: 10px;
+    margin-bottom: 10px;margin-top: 10px;
 }
 .maxground-tmallmarket-top-left{
     width: 215px;height: 100%;float: left;
@@ -924,11 +920,11 @@ body{
 }
 /*-----------------------------------天猫国际-----------------------------------*/
 .maxground-tmallguoji{
-    width: 1200px;height: 665px;margin-left: 55px;margin-top: 30px;
+    width: 1200px;height: 705px;margin:auto auto;
 }
 .maxground-tmallguoji-top{
     width: 100%;height: 40px;float: left;
-    margin-bottom: 10px;
+    margin-bottom: 10px;margin-top: 10px;
 }
 .maxground-tmallguoji-top-left{
     width: 215px;height: 100%;float: left;
@@ -1089,15 +1085,16 @@ body{
 }
 /*-----------------------------------给老公抢一件-----------------------------------*/
 .maxground-geilaogong{
-    width: 1200px;height: 90px;margin-left: 55px;margin-top: 30px;
+    width: 1200px;height: 120px;margin:auto auto;
     background: url("../Image/geilaogong.jpg") no-repeat center;
 }
 /*-----------------------------------美丽人生-----------------------------------*/
 .maxground-beautylife{
-    width: 1200px;height: 665px;margin-left: 55px;margin-top: 30px;
+    width: 1200px;height: 665px;margin:auto auto;
 }
 .maxground-beautylife-top{
     width: 100%;height: 40px;float: left;
+    margin-top: 10px;
 }
 .maxground-beautylife-top-1{
     width: 5px;height: 18px;float: left;
@@ -1181,10 +1178,11 @@ body{
 }
 /*-----------------------------------潮电酷玩-----------------------------------*/
 .maxground-coolplay{
-    width: 1200px;height: 665px;margin-left: 55px;margin-top: 30px;
+    width: 1200px;height: 705px;margin:auto auto;
 }
 .maxground-coolplay-top{
     width: 100%;height: 40px;float: left;
+    margin-top: 10px;
 }
 .maxground-coolplay-top-1{
     width: 5px;height: 18px;float: left;
@@ -1268,15 +1266,16 @@ body{
 }
 /*-----------------------------------现在买划算1-----------------------------------*/
 .maxground-buynow1{
-    width: 1200px;height: 90px;margin-left: 55px;margin-top: 30px;
+    width: 1200px;height: 90px;margin:auto auto;
     background: url("../Image/bynow.jpg") no-repeat center;
 }
 /*-----------------------------------居家生活-----------------------------------*/
 .maxground-homelife{
-    width: 1200px;height: 665px;margin-left: 55px;margin-top: 30px;
+    width: 1200px;height: 665px;margin:auto auto;
 }
 .maxground-homelife-top{
     width: 100%;height: 40px;float: left;
+    margin-top: 10px;
 }
 .maxground-homelife-top-1{
     width: 5px;height: 18px;float: left;
@@ -1360,10 +1359,11 @@ body{
 }
 /*-----------------------------------打造爱巢-----------------------------------*/
 .maxground-lovehome{
-    width: 1200px;height: 665px;margin-left: 55px;margin-top: 30px;
+    width: 1200px;height: 705px;margin:auto auto;
 }
 .maxground-lovehome-top{
     width: 100%;height: 40px;float: left;
+    margin-top: 10px;
 }
 .maxground-lovehome-top-1{
     width: 5px;height: 18px;float: left;
@@ -1447,12 +1447,12 @@ body{
 }
 /*-----------------------------------现在买划算2-----------------------------------*/
 .maxground-buynow2{
-    width: 1200px;height: 90px;margin-left: 55px;margin-top: 30px;
+    width: 1200px;height: 90px;margin:auto auto;
     background: url("../Image/bynow.jpg") no-repeat center;
 }
 /*-----------------------------------户外出行-----------------------------------*/
 .maxground-outside{
-    width: 1200px;height: 665px;margin-left: 55px;margin-top: 30px;
+    width: 1200px;height: 705px;margin:auto auto;margin-top: 20px;
 }
 .maxground-outside-top{
     width: 100%;height: 40px;float: left;
@@ -1539,7 +1539,7 @@ body{
 }
 /*-----------------------------------猜你喜欢-----------------------------------*/
 .maxground-caititle{
-    width: 1200px;height: 43px;margin-left: 55px;float: left;margin-top: 30px;
+    width: 1200px;height: 43px;margin:auto;
 }
 .maxground-caititle-1{
     width: 30px;height: 1px;float: left;
@@ -1556,10 +1556,10 @@ body{
     background-color: #979797;margin-top: 10px;
 }
 .maxground-cainiproducts{
-    width: 1200px;height: 6200px;float: left;margin-top: 30px;
+    width: 1200px;height: 6200px;margin:auto auto;
 }
 .maxground-cainiproducts-topone{
-    width: 1200px;height: 300px;margin-left: 55px;float: left;margin-bottom: 10px;
+    width: 1200px;height: 300px;float: left;margin-bottom: 10px;
 }
 .maxground-cainiproducts-topone-one{
     width: 231px;height: 100%;float: left;
@@ -1811,7 +1811,7 @@ body{
     background-color: white;margin-right: 10px;
 }
 .maxground-cainiproducts-topone-shijiu:hover{
-    border: 1px solid red;
+    border: 1px solid #ff0000;
 }
 .maxground-cainiproducts-topone-shijiu-top{
     width: 185px;height: 185px;float: left;
@@ -1834,27 +1834,26 @@ body{
 }
 /*-----------------------------------商品展示收尾logo-----------------------------------*/
 .maxground-end{
-    width: 1200px;height: 45px;margin-left: 55px;
-    float: left;
+    width: 100%;height: 45px;margin-top: 10px;
 }
 .maxground-end-logo{
-    width: 80px;height: 45px;margin: 0px 555px 0px;
+    width: 80px;height: 45px;margin:auto auto;
     background: url("../Image/tmallend.png") no-repeat center;
 }
 /*-----------------------------------帮助和服务-----------------------------------*/
 .helpserver{
-    width: 1314px;height: 500px;margin: auto auto;
-    background-color: white;position: absolute;top: 13140px;
+    width: 100%;height: 357px;margin: auto auto;
+    background-color: white;
 }
 .helpserver-top{
-    width: 1192px;height: 133px;float: left;
-    margin-left: 65px;border-bottom: 1px solid #999999;
+    width: 1192px;height: 133px;
+    border-bottom: 1px solid #999999;margin: auto auto;
     background: url("../Image/tmallservice.png") no-repeat center;
     background-size: 100%;
 }
 .helpserver-bottom{
     width: 1192px;height: 220px;
-    margin: auto;float: left;margin-left: 65px;
+    margin: auto;margin: auto auto;
     background: url("../Image/tmllfoot.png") no-repeat;
     background-position: 50px 195px;
     background-size: 70px 25px;
@@ -1893,16 +1892,16 @@ body{
 }
 /*-----------------------------------网站结尾说明-----------------------------------*/
 .tmallend{
-    width: 1314px;height: 235px;
-    position: absolute;top: 13497px;margin: auto auto;
+    width: 100%;height: 235px;
+    margin: auto auto;
     background: url("../Image/endbackground.jpg") no-repeat center;
     background-size: 100%;
 }
 .tmallend-bottomshow{
     width: 1192px;height: 235px;
     background-color: #020202;
-    margin: auto;float: left;
-    border: 1px black;margin-left: 65px;
+    margin: auto auto;
+    border: 1px black;
 }
 .tmallend-tmallabout{
     width: 650px;height: 21px;color: white;
