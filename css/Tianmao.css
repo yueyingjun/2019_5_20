@@ -666,24 +666,70 @@ lunbo-left-top .one:hover .lunbo-left-bottom-two{
 
 }
 .shangbiao li{
+    position: relative;
     float: left;
     height: 108px;
     width: 122px;
     text-align: center;
-    line-height: 150px;
+
     margin-right: 1px;
     margin-bottom: 1px;
     background: #ffffff;
 
 }
-.shangbiao li:hover{
-   opacity: 0.5;
-}
 
-.shangbiao li img{
+.shangbiao li:hover .litwo{
+    z-index: 3;
+}
+.shangbiao .lione img{
+    padding-top: 25px;
+    padding-left: 20px;
     height: 50px;
     width: 80px;
 }
+
+.lione{
+    background: #FFFFFF;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    height: 108px;
+    width: 122px;
+}
+.litwo{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    float: left;
+    text-decoration: none;
+    color: #FFFFFF;
+    height: 108px;
+    width: 122px;
+    background: url("../imgs/xiazai.png");
+}
+.litwo div{
+    display: block;
+    font-size: 12px;
+
+
+}
+.litwo-one{
+    position: absolute;
+    top: 30px;
+    left: 25px;
+}
+.litwo-two{
+    height: 20px ;
+    width: 56px;
+    background-color: #FF0036;
+    border-radius: 10px;
+    position: absolute;
+    top: 50px;
+    left: 35px;
+
+}
+
 
 
 
