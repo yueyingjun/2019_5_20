@@ -439,10 +439,11 @@ h1,h2,h3,h4,h5,h6,ul,li{
 }
 /*右部导航栏*/
 .tmall-right-direct{
-    width: 100px;
+    width: 80px;
     height: 700px;
     position: fixed;
     right: 0px;
+    z-index: 5;
     top:0px;
 }
 .tmall-right-direct-one{
@@ -451,10 +452,10 @@ h1,h2,h3,h4,h5,h6,ul,li{
     background-color: #f9919d;
 }
 .tmall-right-direct-two{
-    width: 100px;
+    width: 80px;
     height: 170px;
     background:url("../images/TB-right-direct.png") no-repeat;
-    background-size:100px 170px;
+    background-size:80px 170px;
 }
 .tmall-right-direct-three{
     width: 100%;
@@ -479,10 +480,21 @@ h1,h2,h3,h4,h5,h6,ul,li{
     text-decoration: none;
 }
 .tmall-right-direct-four{
-    width: 35px;
+    width: 80px;
     height: 450px;
-    margin-left: 65px;
+}
+.tmall-right-direct-four-left{
+    width: 40px;
+    height: 450px;
+    background: url("../images/shadow.png") no-repeat;
+    background-size: 40px 130px;
+    float: left;
+}
+.tmall-right-direct-four-right{
+    width: 40px;
+    height: 450px;
     background-color: black;
+    float: left;
 }
 .tmall-right-direct-icon1{
     cursor: pointer;
@@ -551,7 +563,7 @@ h1,h2,h3,h4,h5,h6,ul,li{
 .tmall-right-direct-icon7{
     cursor: pointer;
     width: 35px;
-    margin-top:40px;
+    margin-top:5px;
     height: 35px;
     background: url("../images/twocode.png") no-repeat;
 }
@@ -566,6 +578,16 @@ h1,h2,h3,h4,h5,h6,ul,li{
     background: url("../images/top.png") no-repeat;
 }
 .tmall-right-direct-icon8:hover{
+    background-color: red;
+}
+.tmall-right-direct-icon9{
+    cursor: pointer;
+    width: 35px;
+    margin-top: 20px;
+    height: 35px;
+    background: url("../images/rightwrite.png") no-repeat;
+}
+.tmall-right-direct-icon9:hover{
     background-color: red;
 }
 /*导航栏*/
@@ -979,13 +1001,14 @@ h1,h2,h3,h4,h5,h6,ul,li{
 }
 .tmall-content-all{
     width: 100%;
+    padding-top: 10px;
     background-color: #f6f6f6;
 }
 /*品牌闪购*/
 .tmall-brand{
     width: 1230px;
     height: 380px;
-    margin: 30px auto 0px;
+    margin: 10px auto 0px;
 }
 .tmall-brand-left{
     width:235px;
@@ -1021,7 +1044,17 @@ h1,h2,h3,h4,h5,h6,ul,li{
     height:330px;
     background: url("../images/pinpaishangou.jpg") no-repeat;
     background-size: 234px 330px;
+}
+.tmall-good-back-good1{
+    width:234px;
+    height:330px;
+    color: rgba(255,255,255,0.1);
     cursor: pointer;
+}
+.tmall-good-back-good1:hover{
+    width:234px;
+    height:330px;
+    background-color: rgba(255,255,255,0.3);
 }
 .tmall-brand-center{
     width:480px;
@@ -1060,6 +1093,18 @@ h1,h2,h3,h4,h5,h6,ul,li{
     background-size: 480px 330px;
     cursor: pointer;
 }
+.tmall-good-back-good2{
+    width:480px;
+    height:330px;
+    float: left;
+    color: rgba(255,255,255,0.1);
+    cursor: pointer;
+}
+.tmall-good-back-good2:hover{
+    width:480px;
+    height:330px;
+    background-color: rgba(255,255,255,0.3);
+}
 .tmall-brand-right {
     width:480px;
     height: 380px;
@@ -1095,20 +1140,54 @@ h1,h2,h3,h4,h5,h6,ul,li{
     background-size: 480px 330px;
     cursor: pointer;
 }
+.tmall-good-back-good3{
+    width:480px;
+    height:330px;
+    float: left;
+    color: rgba(255,255,255,0.1);
+    cursor: pointer;
+}
+.tmall-good-back-good3:hover{
+    width:480px;
+    height:330px;
+    background-color: rgba(255,255,255,0.3);
+}
 /*赞助公司*/
 .tmall-brand-company{
     width:1230px;
     height:320px;
-    margin: 10px auto 0px;
+    margin: 20px auto 0px;
 }
 .tmall-brand-company-list1{
     width: 120px;
     height: 104px;
-    cursor: pointer;
     float: left;
     margin-right: 2px;
     background: url("../images/brand1.png") no-repeat;
     background-size: 120px 104px;
+}
+.tmall-brand-company-inner{
+    width: 120px;
+    height: 104px;
+    color: rgba(255,255,255,0.1);
+    text-align: center;
+    line-height: 134px;
+    cursor: pointer;
+}
+.tmall-brand-company-inner a{
+    color: rgba(255,255,255,0.1);
+    padding: 5px 10px 5px 5px;
+    background-color: rgba(255,255,255,0.1);
+    text-decoration: none;
+    border-radius: 15px;
+}
+.tmall-brand-company-inner:hover{
+    background-color: rgba(0,0,0,0.6);
+}
+.tmall-brand-company-inner:hover a{
+    background-color: #ff0036;
+    font-size: 12px;
+    color: white;
 }
 .tmall-brand-company-list2{
     width: 120px;
@@ -1416,6 +1495,17 @@ h1,h2,h3,h4,h5,h6,ul,li{
     background: url("../images/TBmarket-left.jpg") no-repeat;
     background-size: 235px 620px;
     position: relative;
+}
+.tmall-good-back-good4{
+    width:235px;
+    height:620px;
+    color: rgba(255,255,255,0.1);
+    cursor: pointer;
+}
+.tmall-good-back-good4:hover{
+    width:235px;
+    height:620px;
+    background-color: rgba(255,255,255,0.3);
 }
 .tmall-tamllmarket-bottom-left-market{
     float: left;
@@ -1770,6 +1860,17 @@ h1,h2,h3,h4,h5,h6,ul,li{
     margin-bottom: 10px;
     position: relative;
 }
+.tmall-good-back-good5{
+    width:235px;
+    height:620px;
+    color: rgba(255,255,255,0.1);
+    cursor: pointer;
+}
+.tmall-good-back-good5:hover{
+    width:235px;
+    height:620px;
+    background-color: rgba(255,255,255,0.3);
+}
 .tmall-tmallworld .tmall-tamllmarket-bottom-left-content .tmall-tamllmarket-bottom-left-market{
     float: left;
     font-size: 20px;
@@ -1807,6 +1908,17 @@ h1,h2,h3,h4,h5,h6,ul,li{
     background: url("../images/TBWorld-left-good2.png") no-repeat;
     background-size: 235px 305px;
     position: relative;
+}
+.tmall-good-back-good6{
+    width:235px;
+    height:620px;
+    color: rgba(255,255,255,0.1);
+    cursor: pointer;
+}
+.tmall-good-back-good6:hover{
+    width:235px;
+    height:620px;
+    background-color: rgba(255,255,255,0.3);
 }
 .tmall-tmallworld .tmall-tamllmarket-bottom-left-content .tmall-tamllmarket-bottom-left-market{
     float: left;
@@ -2611,5 +2723,62 @@ h1,h2,h3,h4,h5,h6,ul,li{
     background: url("../images/TBNetculture.jpg") no-repeat;
     background-size: 80px 30px;
 }
-
-
+.tmall-foot-all{
+    width: 100%;
+    background: url("../images/footimage.png") no-repeat;
+}
+.tmall-good-back-good7{
+    width:235px;
+    height:620px;
+    color: rgba(255,255,255,0.1);
+    cursor: pointer;
+}
+.tmall-good-back-good7:hover{
+    width:235px;
+    height:620px;
+    background-color: rgba(255,255,255,0.3);
+}
+.tmall-good-back-good8{
+    width:235px;
+    height:620px;
+    color: rgba(255,255,255,0.1);
+    cursor: pointer;
+}
+.tmall-good-back-good8:hover{
+    width:235px;
+    height:620px;
+    background-color: rgba(255,255,255,0.3);
+}
+.tmall-good-back-good9{
+    width:235px;
+    height:620px;
+    color: rgba(255,255,255,0.1);
+    cursor: pointer;
+}
+.tmall-good-back-good9:hover{
+    width:235px;
+    height:620px;
+    background-color: rgba(255,255,255,0.3);
+}
+.tmall-good-back-good10{
+    width:235px;
+    height:620px;
+    color: rgba(255,255,255,0.1);
+    cursor: pointer;
+}
+.tmall-good-back-good10:hover{
+    width:235px;
+    height:620px;
+    background-color: rgba(255,255,255,0.3);
+}
+.tmall-good-back-good11{
+    width:235px;
+    height:620px;
+    color: rgba(255,255,255,0.1);
+    cursor: pointer;
+}
+.tmall-good-back-good11:hover{
+    width:235px;
+    height:620px;
+    background-color: rgba(255,255,255,0.3);
+}
