@@ -3,7 +3,7 @@ body {
   margin: 0;
 }
 .inner-width {
-  width: 1370px;
+  width: 1349px;
   height: 100%;
   margin: 0 auto;
 }
@@ -144,7 +144,7 @@ body {
 .navigation-top-in-fight-frame-lists-bottom {
   width: 100%;
   height: 80px;
-  border-right: 1px solid #888;
+  /*border-right: 1px solid #888;*/
 }
 .navigation-top-in-fight-frame-lists-bottom-info {
   width: 20%;
