@@ -143,6 +143,67 @@ header{
     border-top: 1px solid #a4a4a4;
     font-size: 13px;
 }
+
+/*左导航*/
+
+.zuodaohang{
+    height: 369px;
+    width: 35px;
+    position: fixed;
+    left: 5px;
+    bottom: 50px;
+}
+.zuodaohangone{
+    position: relative;
+    display: block;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 1px;
+    background-color: red;
+    overflow: hidden;
+    font-size: 12px;
+}
+.zuodaohangtwo{
+    height: 330px;
+    width: 35px;
+    float: left;
+    position: relative;
+
+}
+.zuodaohangtwo div{
+    height: 36px;
+    width: 36px;
+    background: url("../imgs/xiazai.png");
+    position: relative;
+    float: left;
+    margin-top: 2px;
+}
+.zuodaohangtwo a{
+    position: absolute;
+    left: 5px;
+    top: 3px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+
+    line-height: 15px;
+    vertical-align: middle;
+    font-size: 12px;
+}
+
+.zuodaohangtwo div:hover{
+    background-color: greenyellow;
+}
+
+
+
+
+
 /*搜索*/
 .daohang {
     width: 100%;
@@ -150,6 +211,7 @@ header{
 
 }
 .daohang-logo{
+    padding-left:   16px;
     float: left;
     height: 130px;
     width: 290px;
@@ -231,6 +293,7 @@ header{
     border-bottom: 2px solid red;
 }
 .shang-right .one{
+    cursor: pointer;
     width: 100px;
     text-align: center;
     height: 35px;
@@ -540,10 +603,16 @@ lunbo-left-top .one:hover .lunbo-left-bottom-two{
     width: 18px;
 }
 
-
+.pinpai-one-bottom{
+    background: #FFFFFF;
+}
 .pinpai-one-bottom img{
+
     width: 234px;
     height: 316px;
+}
+.pinpai-one-bottom img:hover{
+    opacity: 0.5;
 }
 
 .pinpai-two{
@@ -579,9 +648,15 @@ lunbo-left-top .one:hover .lunbo-left-bottom-two{
     height: 18px;
     width: 18px;
 }
+.pinpai-two-bottom{
+    background: #FFFFFF;
+}
 .pinpai-two-bottom img{
     width: 485px;
     height: 316px;
+}
+.pinpai-two-bottom img:hover{
+    opacity: 0.5 ;
 }
 
 .shangbiao{
@@ -601,6 +676,10 @@ lunbo-left-top .one:hover .lunbo-left-bottom-two{
     background: #ffffff;
 
 }
+.shangbiao li:hover{
+   opacity: 0.5;
+}
+
 .shangbiao li img{
     height: 50px;
     width: 80px;
@@ -709,7 +788,7 @@ lunbo-left-top .one:hover .lunbo-left-bottom-two{
     background: #ffffff;
     float: left;
     width: 484px;
-    height: 300px;
+    height: 302px;
     margin-left: 13px;
     border-bottom: 15px solid #f5f5f5;
 }
@@ -719,17 +798,13 @@ lunbo-left-top .one:hover .lunbo-left-bottom-two{
     background: #f1f1f1;
     height: 57px;
     width: 464px;
-
-
 }
 .tmchaoshi-bottom-two-top li{
-
     font-size: 18px;
     float: left;
     text-align: center;
     width: 231px;
     height: 100%;
-
     color: #000000;
     cursor: pointer;
     line-height: 57px;
@@ -749,7 +824,6 @@ lunbo-left-top .one:hover .lunbo-left-bottom-two{
 .tmchaoshi-bottom-two-bottom1{
     height: 87px;
     width: 291px;
-
     position: absolute;
     left: 0px;
     bottom: 52px;
@@ -767,23 +841,39 @@ lunbo-left-top .one:hover .lunbo-left-bottom-two{
     margin-left: 26px;
     margin-top: 8px;
 }
+.tmchaoshi-bottom-two-bottomone{
 
+    margin: 0 10px;
+    background: #FFFFFF;
+    height: 230px;
+    width: 464px;
+    position: absolute;
+    top: 67px;
+    left: 0px;
+    z-index: 3 ;
+}
+.tmchaoshi-bottom-two-bottomtwo{
+    margin: 0 10px;
+    background: #FFFFFF;
+    height: 235px;
+    width: 464px;
+    position: absolute;
+    top: 67px;
+    left: 0px;
+    z-index: 3 ;
+}
 .tmchaoshi-bottom-two-bottom1-two{
     font-size: 22px;
-
     color: #000000;
-
     line-height: 36px;
-
     height: 36px;
-
     margin-left: 26px;
 
 }
 .tmchaoshi-bottom-two-bottom2 img{
     position: absolute;
     right: 0px;
-    top: 67px;
+    top: 0px;
     float: right;
     margin-top: 10px;
     margin-right: 30px;
@@ -856,13 +946,13 @@ lunbo-left-top .one:hover .lunbo-left-bottom-two{
 
 }
 
-.tmchaoshi-bottom-five-top{
+.tmchaoshi-bottom-five-topone{
     width: 235px;
-    height: 300px;
+    height:302px;
 }
-.tmchaoshi-bottom-five-top img  {
+.tmchaoshi-bottom-five-topone img  {
     width: 235px;
-    height: 300px;
+    height: 302px;
 }
 
 
@@ -870,7 +960,7 @@ lunbo-left-top .one:hover .lunbo-left-bottom-two{
     position: relative;
     float: left;
     width: 235px;
-    height: 305px;
+    height: 300px;
 
     background: #ffffff;
 
@@ -889,14 +979,17 @@ lunbo-left-top .one:hover .lunbo-left-bottom-two{
 
 .tmchaoshi-bottom-four:hover{
     border-color: red;
+    opacity: 0.5;
 }
 
 .tmchaoshi-bottom-three:hover{
     border-color: red;
+    opacity: 0.5;
 
 }
 .tmchaoguoji-bottom-three:hover{
     border-color: red;
+    opacity:0.5;
 }
 
 /*横幅*/
@@ -997,6 +1090,7 @@ lunbo-left-top .one:hover .lunbo-left-bottom-two{
 .xihuan-bottom-five:hover{
 
     border: 2px solid red;
+    opacity: 0.5;
 }
 
 
@@ -1013,7 +1107,7 @@ lunbo-left-top .one:hover .lunbo-left-bottom-two{
 }
 
 .xihuan-bottom-three:hover{
-
+    opacity: 0.5;
     border: 2px solid red;
 }
 
