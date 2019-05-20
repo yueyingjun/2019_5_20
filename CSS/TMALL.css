@@ -1,9 +1,11 @@
 body{
     margin: 0px;padding: 0;
+    margin: auto auto;
 }
+/*-----------------------------------顶部导航-------------------------------------*/
 .direct{
-    width: 1314px;height: 42px;background-color: #F9919D;
-    position: relative;
+    width: 100%;height: 42px;background-color: #F9919D;
+    position: relative;margin: auto auto;
 }
 .direct-left{
     width: 222px;height: 40px;
@@ -149,9 +151,10 @@ body{
     border-right: 3px solid #F9919D;
     margin-left: 1px;margin-top: 3px;
 }
-/*顶部搜索框*/
+/*-----------------------------------顶部搜索框-----------------------------------*/
 .tmall-select{
     width: 1000px;height: 130px;float: left;
+    margin: auto auto;
 }
 .tmall-select-tmalllogo{
     width: 240px;height: 100%;margin-left: 30px;
@@ -187,7 +190,7 @@ body{
 .tmall-select-tmallsousuo-two a{
     text-decoration: none;color: #999999;
 }
-/*右部导航栏*/
+/*-----------------------------------右部导航栏-----------------------------------*/
 .tmall-right-direct{
     width: 35px;height: 700px;
     position: fixed;right: 0px;top:40px;
@@ -322,10 +325,10 @@ body{
 .tmall-right-direct-icon9:hover{
     background-color: red;
 }
-/*天猫的经营分店*/
+/*-----------------------------------天猫的经营分店-----------------------------------*/
 .tmall-companys{
     width: 1100px;height: 40px;
-    float: left;
+    float: left;margin: auto auto;
 }
 .tmall-companys-one{
     width: 100px;height: 40px;line-height: 40px;margin-left: 55px;
@@ -358,14 +361,38 @@ body{
 .tmall-companys a:hover{
     color: red;
 }
-/*分割线*/
+/*-----------------------------------分割线-----------------------------------*/
 .fengexian{
     width: 1000px;height: 2px;background-color: red;
     float: left;margin-left: 255px;margin-top: -2px;
 }
-/*大背景 包括轮播图 会场*/
+/*-----------------------------------左部导航-----------------------------------*/
+.left-direct{
+    z-index: 4;margin: auto auto;
+    width:40px;height:400px;
+    position: fixed;left:5px;top:220px;
+}
+.left-direct-part{
+    width:40px;height:40px;
+    border-bottom:1px #ffffff solid;
+    text-align: center;line-height: 20px;
+    background: rgba(0,0,0,0.6);
+    color:#ffffff;font-size: 13px;
+}
+.left-direct-active{
+    background: red;
+}
+.left-direct-part:hover{
+    cursor: pointer;
+    background:#f9919d;
+}
+.left-direct-active:hover{
+    cursor: pointer;
+    background: rgba(0,0,0,0.2);
+}
+/*-----------------------------------大背景 包括轮播图 会场-----------------------------------*/
 .bigbackground{
-    width: 1331px;height: 1000px;float: left;
+    width: 1331px;height: 1000px;float: left;margin: auto auto;
     background: url("../Image/background.png") no-repeat center;
 }
 .bigbackground-top{
@@ -374,7 +401,7 @@ body{
     position: relative;
 }
 .bigbackground-top-left{
-    width: 200px;height: 500px;background-color: rgba(0,0,0,.7);
+    width: 200px;height: 500px;background-color: rgba(0,0,0,0.7);
     float: left;z-index: 111!important;
     position: absolute;left: 0;top: 0;
 }
@@ -388,13 +415,13 @@ body{
     border: 1px solid #c80000;
     margin: auto;margin-top: 14px;
     border-radius: 10px;line-height: 15px;
-    font-size: 14px;
-
+    font-size: 14px;background: url("../Image/twocode.png") no-repeat;
+    background-position: 26px,6px;
 }
 .bigbackground-top-left-list a:hover{
     background-color: #c80000;
 }
-/*轮播图*/
+/*-----------------------------------轮播图-----------------------------------*/
 .bigbackground-top-right{
     width: 1150px;height: 500px;
     float: left;margin-left: 50px;margin-top: 0px;
@@ -492,7 +519,7 @@ body{
     width:1200px ;height: 120px;
     margin-left: 55px;background: url("../Image/mid520.png") no-repeat center;
 }
-/*品牌活动*/
+/*-----------------------------------品牌活动-----------------------------------*/
 .bigbackground-bottom{
     width:1200px ;height: 374px;
     margin-left: 55px;float: left;
@@ -563,192 +590,148 @@ body{
     background: url("../Image/pinpaihuodong.jpg") no-repeat top;
     background-size: 100%;
 }
-/*全页面最大的颜色背景图*/
+/*-----------------------------------全页面最大的颜色背景图-----------------------------------*/
 .maxground{
     width: 1314px;height: 11920px;position: absolute;top: 1220px;
-    background-color: #F9F9F9;float: left;
+    background-color: #F9F9F9;float: left;margin: auto auto;
 }
-/*各种品牌*/
+/*-----------------------------------品牌logo-----------------------------------*/
 .maxground-pinpais{
     width: 1200px;height: 362px;border-bottom: 1px solid #999999;
     float: left;margin-left: 55px;margin-top: 10px;
 }
-.maxground-pinpais-pinpailogo1{
-    width: 110px;height: 110px;float: left;
-    background: url("../Image/brand1.png") no-repeat center;
-    background-size: 100%;border-bottom: 10px solid #F9F9F9;border-right: 11px solid #F9F9F9;
+.maxground-pinpais-pinpailogo-replace{
+    display: none;
 }
-.maxground-pinpais-pinpailogo2{
-    width: 110px;height: 110px;float: left;
-    background: url("../Image/brand2.png") no-repeat center;
-    background-size: 100%;border-bottom: 10px solid #F9F9F9;border-right: 11px solid #F9F9F9;
-}
-.maxground-pinpais-pinpailogo3{
-    width: 110px;height: 110px;float: left;
-    background: url("../Image/brand3.png") no-repeat center;
-    background-color: white;
-    background-size: 100%;border-bottom: 10px solid #F9F9F9;border-right: 11px solid #F9F9F9;
-}
-.maxground-pinpais-pinpailogo4{
-    width: 110px;height: 110px;float: left;
-    background: url("../Image/brand4.png") no-repeat center;
-    background-color: white;
-    background-size: 100%;border-bottom: 10px solid #F9F9F9;border-right: 11px solid #F9F9F9;
-}
-.maxground-pinpais-pinpailogo5{
-    width: 110px;height: 110px;float: left;
-    background: url("../Image/brand5.png") no-repeat center;
-    background-color: white;
-    background-size: 100%;border-bottom: 10px solid #F9F9F9;border-right: 11px solid #F9F9F9;
-}
-.maxground-pinpais-pinpailogo6{
-    width: 110px;height: 110px;float: left;
-    background: url("../Image/brand6.png") no-repeat center;
-    background-color: white;
-    background-size: 100%;border-bottom: 10px solid #F9F9F9;border-right: 11px solid #F9F9F9;
-}
-.maxground-pinpais-pinpailogo7{
-    width: 110px;height: 110px;float: left;
-    background: url("../Image/brand7.png") no-repeat center;
-    background-color: white;
-    background-size: 100%;border-bottom: 10px solid #F9F9F9;border-right: 11px solid #F9F9F9;
-}
-.maxground-pinpais-pinpailogo8{
-    width: 110px;height: 110px;float: left;
-    background: url("../Image/brand8.png") no-repeat center;
-    background-color: white;
-    background-size: 100%;border-bottom: 10px solid #F9F9F9;border-right: 11px solid #F9F9F9;
-}
-.maxground-pinpais-pinpailogo9{
-    width: 110px;height: 110px;float: left;
-    background: url("../Image/brand9.png") no-repeat center;
-    background-color: white;
+.maxground-pinpais-pinpailogo{
+    width: 110px;height: 110px;float: left;cursor: pointer;
     background-size: 100%;border-bottom: 10px solid #F9F9F9;border-right: 11px solid #F9F9F9;
 }
 .maxground-pinpais-pinpailogo10{
-    width: 110px;height: 110px;float: right;
-    background: url("../Image/brand10.png") no-repeat center;
-    background-color: white;
+    width: 110px;height: 110px;float: left;cursor: pointer;
     background-size: 100%;border-bottom: 10px solid #F9F9F9;
-}
-.maxground-pinpais-pinpailogo11{
-    width: 110px;height: 110px;float: left;
-    background: url("../Image/brand11.png") no-repeat center;
-    background-color: white;
-    background-size: 100%;border-bottom: 10px solid #F9F9F9;border-right: 11px solid #F9F9F9;
-}
-.maxground-pinpais-pinpailogo12{
-    width: 110px;height: 110px;float: left;
-    background: url("../Image/brand12.png") no-repeat center;
-    background-size: 100%;border-bottom: 10px solid #F9F9F9;border-right: 11px solid #F9F9F9;
-}
-.maxground-pinpais-pinpailogo13{
-    width: 110px;height: 110px;float: left;
-    background: url("../Image/brand13.png") no-repeat center;
-    background-color: white;
-    background-size: 100%;border-bottom: 10px solid #F9F9F9;border-right: 11px solid #F9F9F9;
-}
-.maxground-pinpais-pinpailogo14{
-    width: 110px;height: 110px;float: left;
-    background: url("../Image/brand14.png") no-repeat center;
-    background-color: white;
-    background-size: 100%;border-bottom: 10px solid #F9F9F9;border-right: 11px solid #F9F9F9;
-}
-.maxground-pinpais-pinpailogo15{
-    width: 110px;height: 110px;float: left;
-    background: url("../Image/brand15.png") no-repeat center;
-    background-color: white;
-    background-size: 100%;border-bottom: 10px solid #F9F9F9;border-right: 11px solid #F9F9F9;
-}
-.maxground-pinpais-pinpailogo16{
-    width: 110px;height: 110px;float: left;
-    background: url("../Image/brand16.png") no-repeat center;
-    background-color: white;
-    background-size: 100%;border-bottom: 10px solid #F9F9F9;border-right: 11px solid #F9F9F9;
-}
-.maxground-pinpais-pinpailogo17{
-    width: 110px;height: 110px;float: left;
-    background: url("../Image/brand17.png") no-repeat center;
-    background-color: white;
-    background-size: 100%;border-bottom: 10px solid #F9F9F9;border-right: 11px solid #F9F9F9;
-}
-.maxground-pinpais-pinpailogo18{
-    width: 110px;height: 110px;float: left;
-    background: url("../Image/brand18.png") no-repeat center;
-    background-color: white;
-    background-size: 100%;border-bottom: 10px solid #F9F9F9;border-right: 11px solid #F9F9F9;
-}
-.maxground-pinpais-pinpailogo19{
-    width: 110px;height: 110px;float: left;
-    background: url("../Image/brand19.png") no-repeat center;
-    background-color: white;
-    background-size: 100%;border-bottom: 10px solid #F9F9F9;border-right: 11px solid #F9F9F9;
 }
 .maxground-pinpais-pinpailogo20{
-    width: 110px;height: 110px;float: right;
-    background: url("../Image/brand20.png") no-repeat center;
-    background-color: white;
+    width: 110px;height: 110px;float: left;cursor: pointer;
     background-size: 100%;border-bottom: 10px solid #F9F9F9;
-}
-.maxground-pinpais-pinpailogo21{
-    width: 110px;height: 110px;float: left;
-    background: url("../Image/brand21.png") no-repeat center;
-    background-size: 100%;border-bottom: 10px solid #F9F9F9;border-right: 11px solid #F9F9F9;
-}
-.maxground-pinpais-pinpailogo22{
-    width: 110px;height: 110px;float: left;
-    background: url("../Image/brand22.png") no-repeat center;
-    background-size: 100%;border-bottom: 10px solid #F9F9F9;border-right: 11px solid #F9F9F9;
-}
-.maxground-pinpais-pinpailogo23{
-    width: 110px;height: 110px;float: left;
-    background: url("../Image/brand23.png") no-repeat center;
-    background-color: white;
-    background-size: 100%;border-bottom: 10px solid #F9F9F9;border-right: 11px solid #F9F9F9;
-}
-.maxground-pinpais-pinpailogo24{
-    width: 110px;height: 110px;float: left;
-    background: url("../Image/brand24.png") no-repeat center;
-    background-color: white;
-    background-size: 100%;border-bottom: 10px solid #F9F9F9;border-right: 11px solid #F9F9F9;
-}
-.maxground-pinpais-pinpailogo25{
-    width: 110px;height: 110px;float: left;
-    background: url("../Image/brand25.png") no-repeat center;
-    background-color: white;
-    background-size: 100%;border-bottom: 10px solid #F9F9F9;border-right: 11px solid #F9F9F9;
-}
-.maxground-pinpais-pinpailogo26{
-    width: 110px;height: 110px;float: left;
-    background: url("../Image/brand26.png") no-repeat center;
-    background-color: white;
-    background-size: 100%;border-bottom: 10px solid #F9F9F9;border-right: 11px solid #F9F9F9;
-}
-.maxground-pinpais-pinpailogo27{
-    width: 110px;height: 110px;float: left;
-    background: url("../Image/brand27.png") no-repeat center;
-    background-color: white;
-    background-size: 100%;border-bottom: 10px solid #F9F9F9;border-right: 11px solid #F9F9F9;
-}
-.maxground-pinpais-pinpailogo28{
-    width: 110px;height: 110px;float: left;
-    background: url("../Image/brand28.png") no-repeat center;
-    background-color: white;
-    background-size: 100%;border-bottom: 10px solid #F9F9F9;border-right: 11px solid #F9F9F9;
-}
-.maxground-pinpais-pinpailogo29{
-    width: 110px;height: 110px;float: left;
-    background: url("../Image/brand29.png") no-repeat center;
-    background-color: white;
-    background-size: 100%;border-bottom: 10px solid #F9F9F9;border-right: 11px solid #F9F9F9;
 }
 .maxground-pinpais-pinpailogo30{
-    width: 110px;height: 110px;float: right;
-    background: url("../Image/brand30.png") no-repeat center;
-    background-color: white;
+    width: 110px;height: 110px;float: left;cursor: pointer;
     background-size: 100%;border-bottom: 10px solid #F9F9F9;
 }
-/*天猫超市*/
+.maxground-pinpais-pinpailogo:hover .maxground-pinpais-pinpailogo-replace{
+    display: block;z-index: 3;text-align: center;
+    line-height: 15px;width:110px;height:70px;
+    float:left;color:#ffffff;font-size: 10px;padding-top: 40px;
+    position: relative;background: rgba(0,0,0,0.8);
+}
+.maxground-pinpais-pinpailogo10:hover .maxground-pinpais-pinpailogo-replace{
+    display: block;z-index: 3;text-align: center;
+    line-height: 15px;width:110px;height:70px;
+    float:left;color:#ffffff;font-size: 10px;padding-top: 40px;
+    position: relative;background: rgba(0,0,0,0.8);
+}
+.maxground-pinpais-pinpailogo20:hover .maxground-pinpais-pinpailogo-replace{
+    display: block;z-index: 3;text-align: center;
+    line-height: 15px;width:110px;height:70px;
+    float:left;color:#ffffff;font-size: 10px;padding-top: 40px;
+    position: relative;background: rgba(0,0,0,0.8);
+}
+.maxground-pinpais-pinpailogo30:hover .maxground-pinpais-pinpailogo-replace{
+    display: block;z-index: 3;width:110px;height:110px;
+    position: relative;background: rgba(0,0,0,0.8);
+}
+.maxground-pinpais-pinpailogo-logo1{
+    background: url("../Image/brand1.png") no-repeat center;
+}
+.maxground-pinpais-pinpailogo-logo2{
+    background: url("../Image/brand2.png") no-repeat center;
+}
+.maxground-pinpais-pinpailogo-logo3{
+    background: url("../Image/brand3.png") no-repeat center;
+}
+.maxground-pinpais-pinpailogo-logo4{
+    background: url("../Image/brand4.png") no-repeat center;
+}
+.maxground-pinpais-pinpailogo-logo5{
+    background: url("../Image/brand5.png") no-repeat center;
+}
+.maxground-pinpais-pinpailogo-logo6{
+    background: url("../Image/brand6.png") no-repeat center;
+}
+.maxground-pinpais-pinpailogo-logo7{
+    background: url("../Image/brand7.png") no-repeat center;
+}
+.maxground-pinpais-pinpailogo-logo8{
+    background: url("../Image/brand8.png") no-repeat center;
+}
+.maxground-pinpais-pinpailogo-logo9{
+    background: url("../Image/brand9.png") no-repeat center;
+}
+.maxground-pinpais-pinpailogo-logo10{
+    background: url("../Image/brand10.png") no-repeat center;
+}
+.maxground-pinpais-pinpailogo-logo11{
+    background: url("../Image/brand11.png") no-repeat center;
+}
+.maxground-pinpais-pinpailogo-logo12{
+    background: url("../Image/brand12.png") no-repeat center;
+}
+.maxground-pinpais-pinpailogo-logo13{
+    background: url("../Image/brand13.png") no-repeat center;
+}
+.maxground-pinpais-pinpailogo-logo14{
+    background: url("../Image/brand14.png") no-repeat center;
+}
+.maxground-pinpais-pinpailogo-logo15{
+    background: url("../Image/brand15.png") no-repeat center;
+}
+.maxground-pinpais-pinpailogo-logo16{
+    background: url("../Image/brand16.png") no-repeat center;
+}
+.maxground-pinpais-pinpailogo-logo17{
+    background: url("../Image/brand17.png") no-repeat center;
+}
+.maxground-pinpais-pinpailogo-logo18{
+    background: url("../Image/brand18.png") no-repeat center;
+}
+.maxground-pinpais-pinpailogo-logo19{
+    background: url("../Image/brand19.png") no-repeat center;
+}
+.maxground-pinpais-pinpailogo-logo20{
+    background: url("../Image/brand20.png") no-repeat center;
+}
+.maxground-pinpais-pinpailogo-logo21{
+    background: url("../Image/brand21.png") no-repeat center;
+}
+.maxground-pinpais-pinpailogo-logo22{
+    background: url("../Image/brand22.png") no-repeat center;
+}
+.maxground-pinpais-pinpailogo-logo23{
+    background: url("../Image/brand23.png") no-repeat center;
+}
+.maxground-pinpais-pinpailogo-logo24{
+    background: url("../Image/brand24.png") no-repeat center;
+}
+.maxground-pinpais-pinpailogo-logo25{
+    background: url("../Image/brand25.png") no-repeat center;
+}
+.maxground-pinpais-pinpailogo-logo26{
+    background: url("../Image/brand26.png") no-repeat center;
+}
+.maxground-pinpais-pinpailogo-logo27{
+    background: url("../Image/brand27.png") no-repeat center;
+}
+.maxground-pinpais-pinpailogo-logo28{
+    background: url("../Image/brand28.png") no-repeat center;
+}
+.maxground-pinpais-pinpailogo-logo29{
+    background: url("../Image/brand29.png") no-repeat center;
+}
+.maxground-pinpais-pinpailogo-logo30{
+    background: url("../Image/brand30.png") no-repeat center;
+}
+/*-----------------------------------天猫超市-----------------------------------*/
 .maxground-tmallmarket{
     width: 1200px;height: 665px;margin-left: 55px;margin-top: 370px;
 }
@@ -939,7 +922,7 @@ body{
     background: url("../Image/baijiebu.gif") no-repeat center;
     background-size: 100%;
 }
-/*天猫国际*/
+/*-----------------------------------天猫国际-----------------------------------*/
 .maxground-tmallguoji{
     width: 1200px;height: 665px;margin-left: 55px;margin-top: 30px;
 }
@@ -1104,12 +1087,12 @@ body{
     background: url("../Image/layered.jpg") no-repeat center;
     background-size: 100%;
 }
-/*给老公抢一件*/
+/*-----------------------------------给老公抢一件-----------------------------------*/
 .maxground-geilaogong{
     width: 1200px;height: 90px;margin-left: 55px;margin-top: 30px;
     background: url("../Image/geilaogong.jpg") no-repeat center;
 }
-/*美丽人生*/
+/*-----------------------------------美丽人生-----------------------------------*/
 .maxground-beautylife{
     width: 1200px;height: 665px;margin-left: 55px;margin-top: 30px;
 }
@@ -1196,7 +1179,7 @@ body{
     background: url("../Image/tangshi.jpg") no-repeat center;
     background-size: 100%;
 }
-/*潮电酷玩*/
+/*-----------------------------------潮电酷玩-----------------------------------*/
 .maxground-coolplay{
     width: 1200px;height: 665px;margin-left: 55px;margin-top: 30px;
 }
@@ -1283,12 +1266,12 @@ body{
     background: url("../Image/iphoneu.jpg") no-repeat center;
     background-size: 100%;
 }
-/*现在买划算1*/
+/*-----------------------------------现在买划算1-----------------------------------*/
 .maxground-buynow1{
     width: 1200px;height: 90px;margin-left: 55px;margin-top: 30px;
     background: url("../Image/bynow.jpg") no-repeat center;
 }
-/*居家生活*/
+/*-----------------------------------居家生活-----------------------------------*/
 .maxground-homelife{
     width: 1200px;height: 665px;margin-left: 55px;margin-top: 30px;
 }
@@ -1375,7 +1358,7 @@ body{
     background: url("../Image/zhuanjiexian.jpg") no-repeat center;
     background-size: 100%;
 }
-/*打造爱巢*/
+/*-----------------------------------打造爱巢-----------------------------------*/
 .maxground-lovehome{
     width: 1200px;height: 665px;margin-left: 55px;margin-top: 30px;
 }
@@ -1462,12 +1445,12 @@ body{
     background: url("../Image/guolvqi.jpg") no-repeat center;
     background-size: 100%;
 }
-/*现在买划算2*/
+/*-----------------------------------现在买划算2-----------------------------------*/
 .maxground-buynow2{
     width: 1200px;height: 90px;margin-left: 55px;margin-top: 30px;
     background: url("../Image/bynow.jpg") no-repeat center;
 }
-/*户外出行*/
+/*-----------------------------------户外出行-----------------------------------*/
 .maxground-outside{
     width: 1200px;height: 665px;margin-left: 55px;margin-top: 30px;
 }
@@ -1554,7 +1537,7 @@ body{
     background: url("../Image/pumabag.gif") no-repeat center;
     background-size: 100%;
 }
-/*猜你喜欢*/
+/*-----------------------------------猜你喜欢-----------------------------------*/
 .maxground-caititle{
     width: 1200px;height: 43px;margin-left: 55px;float: left;margin-top: 30px;
 }
@@ -1849,7 +1832,7 @@ body{
     background: url("../Image/guessyourlove/ipad.jpg") no-repeat center;
     background-size: 100%;
 }
-/*商品展示收尾*/
+/*-----------------------------------商品展示收尾logo-----------------------------------*/
 .maxground-end{
     width: 1200px;height: 45px;margin-left: 55px;
     float: left;
@@ -1858,9 +1841,9 @@ body{
     width: 80px;height: 45px;margin: 0px 555px 0px;
     background: url("../Image/tmallend.png") no-repeat center;
 }
-/*帮助和服务*/
+/*-----------------------------------帮助和服务-----------------------------------*/
 .helpserver{
-    width: 1314px;height: 500px;
+    width: 1314px;height: 500px;margin: auto auto;
     background-color: white;position: absolute;top: 13140px;
 }
 .helpserver-top{
@@ -1908,10 +1891,10 @@ body{
     background: url("../Image/erweima.png") no-repeat center;
     background-size: 100%;margin-left: -7px;
 }
-/*网站结尾说明*/
+/*-----------------------------------网站结尾说明-----------------------------------*/
 .tmallend{
     width: 1314px;height: 235px;
-    position: absolute;top: 13497px;
+    position: absolute;top: 13497px;margin: auto auto;
     background: url("../Image/endbackground.jpg") no-repeat center;
     background-size: 100%;
 }
