@@ -2,15 +2,18 @@ body {
   padding: 0;
   margin: 0;
 }
+
 .inner-width {
   width: 1349px;
   height: 100%;
   margin: 0 auto;
 }
+
 /*右侧导航*/
 .navigation-right {
 
 }
+
 /*顶部导航*/
 .navigation-top {
   width: 100%;
@@ -21,11 +24,13 @@ body {
   line-height: 32px;
   /*border: 1px solid gray;*/
 }
+
 .navigation-top-in {
   width: 1230px;
   height: 32px;
   margin: 0 auto;
 }
+
 .navigation-top-in-left {
   width: 218px;
   height: 100%;
@@ -33,9 +38,11 @@ body {
   float: left;
   margin-left: -22px;
 }
+
 .navigation-top-left-text {
   float: left;
 }
+
 .navigation-top-link {
   text-decoration: none;
   color: white;
@@ -48,26 +55,30 @@ body {
   top: 0;
   z-index: 1;
 }
+
 .navigation-top-in-fight {
   width: 550px;
   height: 100%;
   /*border: 1px solid blue;*/
   float: right;
 }
+
 .navigation-top-in-fight-divide {
   color: #888;
   float: left;
   margin-left: 5px;
   margin-right: -5px;
 }
+
 #navigation-top-link2-QRcode {
   width: 178px;
   height: 299px;
   position: absolute;
-  top:25px;
+  top: 25px;
   left: -55px;
   display: none;
 }
+
 #navigation-top-in-fight-mytaobao-lists {
   width: 100px;
   height: 100px;
@@ -78,6 +89,7 @@ body {
   z-index: 0;
   display: none;
 }
+
 #navigation-top-in-fight-collect-lists {
   width: 88px;
   height: 94px;
@@ -87,6 +99,7 @@ body {
   background-color: white;
   display: none;
 }
+
 #navigation-top-in-fight-merchant-lists {
   width: 147px;
   height: 268px;
@@ -97,6 +110,7 @@ body {
   display: none;
   z-index: 3;
 }
+
 #navigation-top-in-fight-frame-lists {
   width: 1100px;
   height: 160px;
@@ -108,24 +122,28 @@ body {
   color: #555;
   display: none;
 }
+
 .navigation-top-in-fight-frame-lists-hot {
   width: 350px;
   height: 100%;
   float: left;
   margin-left: 50px;
 }
+
 .navigation-top-in-fight-frame-lists-market {
   width: 350px;
   height: 100%;
   float: left;
   margin-left: 30px;
 }
+
 .navigation-top-in-fight-frame-lists-help {
   width: 250px;
   height: 100%;
   float: left;
   margin-left: 30px;
 }
+
 .navigation-top-in-fight-frame-lists-top {
   width: 100%;
   margin-top: 20px;
@@ -134,6 +152,7 @@ body {
   line-height: 40px;
   border-right: 1px solid #888;
 }
+
 .navigation-top-in-fight-frame-lists-top-help {
   width: 100%;
   margin-top: 20px;
@@ -141,49 +160,59 @@ body {
   font-size: 20px;
   line-height: 40px;
 }
+
 .navigation-top-in-fight-frame-lists-bottom {
   width: 100%;
   height: 80px;
   /*border-right: 1px solid #888;*/
 }
+
 .navigation-top-in-fight-frame-lists-bottom-info {
   width: 20%;
   height: 10px;
   float: left;
   margin-bottom: 15px;
 }
+
 .navigation-top-in-fight-frame-lists-bottom-info-help {
   width: 50%;
   height: 10px;
   float: left;
   margin-bottom: 15px;
 }
+
 .navigation-top-in-fight-frame-lists-top-hot {
   color: orange;
 }
+
 .navigation-top-in-fight-frame-lists-top-market {
   color: dodgerblue;
 }
+
 .navigation-top-in-fight-frame-lists-bottom-info:hover {
   color: red;
   text-decoration: underline;
 }
+
 .navigation-top-in-fight-frame-lists-bottom-info-help:hover {
   color: red;
   text-decoration: underline;
 }
+
 .navigation-top-in-fight-merchant-lists-top {
   width: 120px;
   height: 190px;
   margin: 0 auto;
   border-bottom: 1px dashed #888;
 }
+
 .navigation-top-in-fight-merchant-lists-bottom {
   width: 120px;
   height: 60px;
   margin: 0 auto;
   border-bottom: 1px dashed #888;
 }
+
 .navigation-top-in-fight-merchant-lists-title {
   width: 100%;
   height: 15px;
@@ -191,6 +220,7 @@ body {
   float: left;
   font-weight: bold;
 }
+
 .navigation-top-in-fight-merchant-lists-info-left {
   width: 50%;
   height: 35px;
@@ -200,6 +230,7 @@ body {
   margin-top: 5px;
 
 }
+
 .navigation-top-in-fight-merchant-lists-info-right {
   width: 50%;
   height: 35px;
@@ -209,31 +240,38 @@ body {
   text-align: right;
   margin-top: 5px;
 }
+
 .navigation-top-in-fight-merchant-lists-info-left:hover {
   color: red;
   text-decoration: underline;
 }
+
 .navigation-top-in-fight-merchant-lists-info-right:hover {
   color: red;
   text-decoration: underline;
 }
+
 .navigation-top-in-fight-link-list {
   color: #555555;
 }
+
 .navigation-top-in-fight-link-list:hover {
   color: red;
   text-decoration: underline;
 }
+
 .navigation-top-in-fight-mytaobao-list {
   text-align: center;
   display: block;
   line-height: 40px;
 }
+
 .navigation-top-in-fight-collect-list {
   text-align: center;
   display: block;
   line-height: 40px;
 }
+
 .navigation-top-link1:hover {
   color: red;
   height: 45px;
@@ -242,6 +280,7 @@ body {
   text-decoration: underline;
   z-index: 1;
 }
+
 .navigation-top-link2:hover {
   color: yellow;
 }
@@ -254,6 +293,7 @@ body {
   left: 0;
   top: 0;
 }
+
 .header-left {
   width: 290px;
   height: 100%;
@@ -261,10 +301,12 @@ body {
   padding-left: 20px;
   /*border: 1px solid red;*/
 }
+
 .header-left-img {
   width: 240px;
   height: 100%;
 }
+
 .header-right {
   width: 1230px;
   height: 106px;
@@ -273,17 +315,20 @@ body {
   left: 55px;
   /*border: 1px solid blue;*/
 }
+
 .right-top {
   width: 625px;
   height: 106px;
   margin: 0 auto;
 }
+
 .header-right-top-input {
   width: 491px;
   height: 36px;
   border: 2px solid red;
   margin-top: 30px;
 }
+
 .header-right-top-submit {
   width: 95px;
   height: 36px;
@@ -292,16 +337,19 @@ body {
   font-size: 18px;
   margin-top: 30px;
 }
+
 .right-bottom {
   width: 100%;
   height: 40px;
 }
+
 .right-bottom-link {
   text-decoration: none;
   color: #555;
   float: left;
   margin-top: 5px;
 }
+
 .right-bottom-divide {
   width: 5px;
   height: 100%;
@@ -315,6 +363,7 @@ body {
   height: 535px;
   margin: 0 auto;
 }
+
 /*商品分类 天猫520活动(左侧)*/
 .navigation-header-left {
   width: 200px;
@@ -325,16 +374,19 @@ body {
   left: 0;
   top: 0;
 }
+
 /*右侧*/
 .navigation-header-right {
   width: 1030px;
   height: 100%;
   float: left;
 }
+
 .navigation-header-top {
   width: 100%;
   height: 35px;
 }
+
 .navigation-header-link {
   width: 80px;
   height: 36px;
@@ -344,6 +396,7 @@ body {
   text-align: center;
   color: #555;
 }
+
 .navigation-header-link-left {
   width: 100px;
   height: 36px;
@@ -353,26 +406,31 @@ body {
   color: #555;
   line-height: 36px;
 }
+
 .navigation-header-link:hover {
   color: orange;
 }
+
 #navigation-header-chaoshi {
   width: 95px;
   height: 30px;
   margin-top: -5px;
   float: left;
 }
+
 #navigation-header-guoji {
   width: 95px;
   height: 30px;
   margin-top: -5px;
   float: left;
 }
+
 /*天猫520活动*/
 #navigation-header-activity {
   color: white;
   background-color: #333;
 }
+
 #navigation-header-activity-list {
   background-color: #888;
   width: 200px;
@@ -382,6 +440,7 @@ body {
   left: 0;
   display: none;
 }
+
 .navigation-header-activity-list-link {
   width: 152px;
   height: 33px;
@@ -393,15 +452,18 @@ body {
   line-height: 33px;
   border: 1px solid red;
 }
+
 .navigation-header-activity-list-link:hover {
   background-color: red;
 }
+
 /*商品分类*/
 #navigation-header-classify {
   color: white;
   background-color: red;
 
 }
+
 #navigation-header-classify-list {
   background-color: #888;
   width: 200px;
@@ -411,6 +473,7 @@ body {
   left: 0;
   /*display: none;*/
 }
+
 .navigation-header-classify-link {
   width: 100%;
   height: 6.25%;
@@ -420,24 +483,31 @@ body {
   float: left;
   text-align: left;
 }
+
 .navigation-header-classify-link:hover {
   background-color: white;
 }
+
 .navigation-header-classify-link-pink:hover {
   color: deeppink;
 }
+
 .navigation-header-classify-link-blue:hover {
   color: dodgerblue;
 }
+
 .navigation-header-classify-link-purple:hover {
   color: purple;
 }
+
 .navigation-header-classify-link-orange:hover {
   color: orange;
 }
+
 .navigation-header-classify-link-green:hover {
   color: greenyellow;
 }
+
 /*轮播图*/
 .nacigation-header-bottom {
   width: 1030px;
@@ -448,6 +518,7 @@ body {
   left: 0;
   top: 0;
 }
+
 .nacigation-header-bottom-img {
   /*display: none;*/
   width: 1030px;
@@ -457,6 +528,7 @@ body {
   top: 0;
 
 }
+
 #nacigation-header-bottom-indexs {
   width: 685px;
   height: 10px;
@@ -466,6 +538,7 @@ body {
   /*background-color: yellow;*/
   z-index: 3;
 }
+
 .nacigation-header-bottom-index {
   width: 30px;
   height: 8px;
@@ -474,6 +547,7 @@ body {
   margin-right: 15px;
   z-index: 1;
 }
+
 /*商品分类详情*/
 #navigation-header-classify-list-1-out {
   width: 855px;
@@ -487,28 +561,33 @@ body {
   z-index: 4;
   display: none;
 }
+
 .navigation-header-classify-list-out-left {
   width: 75%;
   height: 100%;
   float: left;
   background-color: white;
 }
+
 .navigation-header-classify-list-out-right {
   width: 25%;
   height: 100%;
   float: left;
   background-color: #eee;
 }
+
 .navigation-header-classify-list-out-right-nvzhuang-img1 {
   float: left;
   width: 190px;
   height: 380px;
   margin: 10px 10px 0px 10px;
 }
+
 .navigation-header-classify-list-out-right-nvzhuang-img2 {
   float: left;
   margin: 10px;
 }
+
 .navigation-header-classify-list-in-left {
   width: 20%;
   /*height: 75px;*/
@@ -517,6 +596,7 @@ body {
   color: #444;
   /*background-color: blue;*/
 }
+
 .navigation-header-classify-list-in-right {
   width: 75%;
   /*height: 75px;*/
@@ -525,9 +605,11 @@ body {
   font-size: 14px;
   border-bottom: 1px dashed #555;
 }
+
 .navigation-header-classify-list-in-right-link {
   margin-right: 5px;
 }
+
 #navigation-header-classify-list-2-out {
   width: 855px;
   height: 500px;
@@ -540,6 +622,7 @@ body {
   z-index: 4;
   display: none;
 }
+
 #navigation-header-classify-list-3-out {
   width: 855px;
   height: 500px;
@@ -552,6 +635,7 @@ body {
   z-index: 4;
   display: none;
 }
+
 #navigation-header-classify-list-4-out {
   width: 855px;
   height: 500px;
@@ -564,6 +648,7 @@ body {
   z-index: 4;
   display: none;
 }
+
 #navigation-header-classify-list-5-out {
   width: 855px;
   height: 500px;
@@ -576,6 +661,7 @@ body {
   z-index: 4;
   display: none;
 }
+
 #navigation-header-classify-list-6-out {
   width: 855px;
   height: 500px;
@@ -588,6 +674,7 @@ body {
   z-index: 4;
   display: none;
 }
+
 #navigation-header-classify-list-7-out {
   width: 855px;
   height: 500px;
@@ -600,6 +687,7 @@ body {
   z-index: 4;
   display: none;
 }
+
 #navigation-header-classify-list-8-out {
   width: 855px;
   height: 500px;
@@ -612,6 +700,7 @@ body {
   z-index: 4;
   display: none;
 }
+
 #navigation-header-classify-list-9-out {
   width: 855px;
   height: 500px;
@@ -624,6 +713,7 @@ body {
   z-index: 4;
   display: none;
 }
+
 #navigation-header-classify-list-10-out {
   width: 855px;
   height: 500px;
@@ -636,6 +726,7 @@ body {
   z-index: 4;
   display: none;
 }
+
 #navigation-header-classify-list-11-out {
   width: 855px;
   height: 500px;
@@ -648,6 +739,7 @@ body {
   z-index: 4;
   display: none;
 }
+
 #navigation-header-classify-list-12-out {
   width: 855px;
   height: 500px;
@@ -660,6 +752,7 @@ body {
   z-index: 4;
   display: none;
 }
+
 #navigation-header-classify-list-13-out {
   width: 855px;
   height: 500px;
@@ -672,6 +765,7 @@ body {
   z-index: 4;
   display: none;
 }
+
 #navigation-header-classify-list-14-out {
   width: 855px;
   height: 500px;
@@ -684,6 +778,7 @@ body {
   z-index: 4;
   display: none;
 }
+
 #navigation-header-classify-list-15-out {
   width: 855px;
   height: 500px;
@@ -696,6 +791,7 @@ body {
   z-index: 4;
   display: none;
 }
+
 #navigation-header-classify-list-16-out {
   width: 855px;
   height: 500px;
@@ -716,6 +812,7 @@ body {
   height: 604px;
   /*background-color: yellow;*/
 }
+
 .footer-help {
   width: 1200px;
   height: 150px;
@@ -723,6 +820,7 @@ body {
   margin: 0 auto;
   border-bottom: 1px solid #666;
 }
+
 .footer-help-link {
   width: 300px;
   height: 100px;
@@ -730,12 +828,14 @@ body {
   margin-top: 50px;
   /*background-color: blue;*/
 }
+
 .footer-help-link-img {
   width: 60px;
   height: 60px;
   float: left;
   margin-left: 30px;
 }
+
 .footer-help-link-title {
   width: 180px;
   height: 30px;
@@ -744,6 +844,7 @@ body {
   font-weight: bold;
   color: #444;
 }
+
 .footer-help-link-info {
   width: 180px;
   height: 30px;
@@ -751,18 +852,21 @@ body {
   color: #555;
   background-color: white;
 }
+
 .footer-model {
   width: 1200px;
   height: 215px;
   background-color: white;
   margin: 0 auto;
 }
+
 .footer-model-info {
   padding-top: 30px;
   width: 20%;
   height: 100%;
   float: left;
 }
+
 .footer-model-info-top {
   width: 100%;
   height: 30px;
@@ -771,11 +875,13 @@ body {
   font-weight: bold;
   color: #555;
 }
+
 .footer-model-info-bottom {
   width: 100%;
   height: 140px;
   background-color: white;
 }
+
 .footer-model-info-bottom-link {
   width: 100%;
   font-size: 12px;
@@ -784,10 +890,12 @@ body {
   margin: 2px 0;
   color: #555;
 }
+
 .footer-model-info-bottom-link-img {
   width: 95px;
   height: 95px;
 }
+
 .footer-end {
   width: 1200px;
   height: 240px;
@@ -796,11 +904,13 @@ body {
   border-top: 3px solid red;
   font-size: 12px;
 }
+
 .footer-end-top {
   width: 100%;
   margin: 5px 0;
   float: left;
 }
+
 .footer-end-top-link {
   float: left;
   margin-right: 10px;
@@ -808,48 +918,183 @@ body {
   text-decoration: none;
   margin-top: -10px;
 }
+
 .footer-end-bet {
   width: 100%;
   margin: 20px 0;
   float: left;
 }
+
 .footer-end-bet-link {
   float: left;
   margin-right: 10px;
   color: white;
   text-decoration: none;
 }
+
 .footer-end-bet-divide {
   float: left;
   margin: 0 2px;
   color: white;
 }
+
 .footer-end-bottom {
   width: 100%;
   color: #bbb;
 }
+
 .footer-end-bottom-info {
   float: left;
   margin-right: 30px;
 }
+
 .footer-end-bottom-info-imgs {
   float: left;
   line-height: 30px;
 }
+
 .footer-end-bottom-info-imgs-img {
   width: 30px;
   height: 30px;
   float: left;
 }
+
 .footer-end-imgs {
   float: left;
   margin-top: 15px;
   width: 100%;
 }
+
 .footer-end-imgs-img {
   width: 80px;
   height: 35px;
   float: left;
   margin-right: 10px;
 }
+
+/*品牌*/
+.pingpai-top {
+  width: 1230px;
+  height: 367px;
+  /*background-color: yellow;*/
+  margin: 30px auto 0 auto;
+}
+
+.pingpai-top-box {
+  height: 367px;
+  /*background-color: red;*/
+  float: left;
+  margin-right: 6px;
+}
+
+.pingpai-top-box-title {
+  height: 45px;
+  background-color: white;
+  text-align: left;
+  line-height: 45px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.pingpai-top-box-img {
+  height: 320px;
+  position: relative;
+  left: 0;
+  top: 0;
+}
+
+.pingpai-top-box-title-eng {
+  font-size: 16px;
+}
+
+.pingpai-top-box-title-link {
+  height: 100%;
+  float: right;
+  text-decoration: none;
+  font-weight: normal;
+  color: #555;
+  font-size: 16px;
+}
+.pingpai-top-box-img:hover {
+  filter: alpha(opacity:30);
+  opacity: 0.3;
+}
+
+
+.pingpai-bottom {
+  width: 1230px;
+  height: 330px;
+  background-color: yellow;
+  position: relative;
+  left: 0;
+  top: 0;
+  margin: 0 auto;
+}
+
+.pingpai-bottom-imgs {
+  width: 9.9%;
+  height: 33%;
+  float: left;
+  border: 0.5px solid #666;
+  position: relative;
+}
+.pingpai-bottom-img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+}
+
+.pingpai-bottom-img-touming {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 0;
+  text-align: center;
+  background-color: black;
+  filter: alpha(opacity:30);
+  opacity: 0.8;
+}
+
+.pingpai-bottom-img-touming-text {
+  width: 100%;
+  height: 30%;
+  float: left;
+  color: white;
+  margin-top: 35px;
+  font-size: 12px;
+
+}
+
+.pingpai-bottom-img-touming-button {
+  float: top;
+  width: 40%;
+  background-color: red;
+  color: white;
+  font-size: 12px;
+}
+
+.pingpai-bottom-imgs:hover .pingpai-bottom-img-touming{
+  z-index: 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
