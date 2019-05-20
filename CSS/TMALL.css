@@ -410,7 +410,6 @@ ul,ol,li{
 #content3{
     width: 82%; height: 327px;
     margin:10px auto;
-    border: 1px solid pink;
 }
 #content3 .brand{
     width: 100%; height: 327px;
@@ -418,15 +417,46 @@ ul,ol,li{
 }
 
 #content3 .brand .more{
-    width: 125px; height: 108px;
+    width: 123px; height: 108px;
     background: #ffffff;
     float: right;
+    margin-right: 2px;
+
 }
-#content3 .brand .more span{
-    display: inline-block;
-    width: 50px; height: 30px;
-    margin-top: 39px;
+
+@keyframes  animate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(180deg);
+    }
+}
+
+#content3 .brand .more img:hover{
+    animation-name: animate;
+    animation-duration: 0.5s;
+    animation-timing-function: initial;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#content3 .brand .more img{
+    width: 40px; height: 40px;
+    vertical-align: middle;
+    margin-top: 20px;
     margin-left: 40px;
+    cursor: pointer;
+}
+
+
+#content3 .brand .more span{
+    display: block;
+    width: 50px; height: 30px;
+    margin-top: 10px;
+    margin-left: 40px;
+    font-size: 14px;
+    color: #8b8b8b;
     cursor: pointer;
 }
 #content3 .brand-item{
@@ -446,7 +476,7 @@ ul,ol,li{
     cursor: pointer;
     display: none;
 }
-#content3 .mask span{
+#content3 .mask .title{
     width: 123px; height: 20px;
     cursor: pointer;
     display: block;
@@ -454,6 +484,19 @@ ul,ol,li{
     font-size: 12px;
     margin-top: 20px;
     margin-left: 30px;
+}
+#content3 .mask .go{
+    width: 60px; height: 20px;
+    cursor: pointer;
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-left: 35px;
+    background-color: #ff0036;
+    border: 1px solid #ff0036;
+    border-radius: 15px;
 }
 #content3 .brand-item .brand-img{
     margin: 0 auto;
