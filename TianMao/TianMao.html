@@ -24,10 +24,32 @@
             },5000)
         }
 
+
+        window.onscroll = function () {
+            var top = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
+            var node = document.getElementById('topbar');
+            if (top > 700) {//500就是滚动条滚动到的位置，大于500(500指500px)才显示
+                node.style.display = 'block';
+            } else {
+                node.style.display = 'none';
+            }
+        }
     </script>
 </head>
 <body>
-
+<!--left_daohan-->
+<div class="left_daohan" id="topbar">
+    <div class="left_daohan1">导航</div>
+    <div class="left_daohan2">天猫<br>超市</div>
+    <div class="left_daohan2">天猫<br>国际</div>
+    <div class="left_daohan2">美丽<br>人生</div>
+    <div class="left_daohan2">潮店<br>酷玩</div>
+    <div class="left_daohan2">居家<br>生活</div>
+    <div class="left_daohan2">打造<br>爱巢</div>
+    <div class="left_daohan2">户外<br>出行</div>
+    <div class="left_daohan2">猜你<br>喜欢</div>
+    <div class="left_daohan2">天猫<br>顶部</div>
+</div>
 
 <!--right_daohan-->
 <div class="right_daohan">
@@ -355,7 +377,7 @@
     </div>
 </div>
 
-<div style="background: #f6f6f6"><img src="images/inter/yifu0.jpg" alt="" height="90px" width="1348px"></div>
+<div style="background: #f6f6f6;"><img src="images/inter/yifu0.jpg" alt="" height="90px" width="1348px" ></div>
 
 
 <!--美丽人生-->
