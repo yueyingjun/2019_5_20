@@ -15,10 +15,14 @@
     -moz-osx-font-smoothing: grayscale;
     color:#ffffff;
 }
-body{/*1536*//*750px*/
+html{
+    overflow-x:hidden;
+}
+body{
     margin:0;padding:0;
-    height:2000px;
-    background: rgba(0,0,0,0.05)
+    background: rgba(0,0,0,0.05);
+    overflow-y: auto;
+    overflow-x:hidden;
 }
 h3,h5,ul,li,a,input,button{
     margin: 0;padding: 0;
@@ -34,14 +38,15 @@ a:hover{
 
 /*背景图*/
 
-.beijing{
+/*.beijing{
     z-index: 1;
     width:100%;
-    /*height:100%;*/
-    /*margin-top: 250px;*/
-    /*position: relative;left:0;top:250px;*/
-    background: url("../imgs-TMALL/head/background1.png")no-repeat;
-}
+    !*margin: auto;*!
+    !*height:100%;*!
+    !*margin-top: 250px;*!
+    !*position: relative;left:0;top:250px;*!
+    background: url("../imgs-TMALL/head/background11.png")no-repeat;
+}*/
 
 /*右导航栏*/
 
@@ -49,6 +54,11 @@ a:hover{
     z-index: 4;
     width:80px;height:100%;
     position: fixed;right: 0;top:0;
+}
+.you-kuai{
+    width:40px;height:130px;
+    background: url("../imgs-TMALL/you/shadow.png");
+    position: absolute;right: 40px;top:300px;
 }
 .you-up{
     width:80px;height:300px;
@@ -118,13 +128,13 @@ a:hover{
 .you-down-9{
     background: url("../imgs-TMALL/you/top.png") no-repeat 3px 3px;
 }
-.ma{
+/*.ma{
     z-index: 4;
     width:110px;height:110px;
     padding:10px 10px 10px 10px;
     background: red;
     position: fixed;right:40px;bottom:40px;
-}
+}*/
 
 .zuo{
     z-index: 4;
@@ -458,10 +468,18 @@ a:hover{
     float:right;
     background: url("../imgs-TMALL/active/tubiao.png") no-repeat 25px 18px;
 }
-
+.active-tu{
+    display: none;
+}
 .active-sale-tu{
     width:240px;height:330px;
     background: url("../imgs-TMALL/active/sale.jpg") no-repeat 0 0px;
+}
+.active-sale-tu:hover .active-tu{
+    display: block;
+    width:240px;height:330px;
+    float:left;
+    background: rgba(255,255,255,0.3);
 }
 .active-luxury{
     width:460px;height:380px;
@@ -477,6 +495,12 @@ a:hover{
     width:460px;height:330px;
     background: url("../imgs-TMALL/active/luxury.jpg") no-repeat 0 0px;
 }
+.active-luxury-tu:hover .active-tu{
+    display: block;
+    width:460px;height:330px;
+    float:left;
+    background: rgba(255,255,255,0.3);
+}
 .active-activity{
     width:460px;height:380px;
     margin-left: 17px;
@@ -490,6 +514,12 @@ a:hover{
 .active-activity-tu{
     width:460px;height:330px;
     background: url("../imgs-TMALL/active/act.jpg") no-repeat 0 0px;
+}
+.active-activity-tu:hover .active-tu{
+    display: block;
+    width:460px;height:330px;
+    float:left;
+    background: rgba(255,255,255,0.3);
 }
 
 /*品牌墙*/
@@ -516,95 +546,102 @@ a:hover{
     position: relative;
     background: rgba(0,0,0,0.8);
 }
+.brand-tu:hover:hover a{
+    background-color: #ff0036;
+    padding: 5px 10px 5px 10px;
+    border-radius: 15px;
+    font-size: 14px;
+    color: white;
+}
 .brand .tu1{
-    background: url("../imgs-TMALL/brand/brand1.png");
+    background: url("../imgs-TMALL/brand/brand-1.png");
 }
 .brand .tu2{
-    background: url("../imgs-TMALL/brand/brand2.png");
+    background: url("../imgs-TMALL/brand/brand-2.png");
 }
 .brand .tu3{
-    background: url("../imgs-TMALL/brand/brand3.png") no-repeat -20px 0;
+    background: url("../imgs-TMALL/brand/brand-3.png") no-repeat 0px 0;
 }
 .brand .tu4{
-    background: url("../imgs-TMALL/brand/brand4.png")no-repeat -20px 0;
+    background: url("../imgs-TMALL/brand/brand-4.png")no-repeat 0px 0;
 }
 .brand .tu5{
-    background: url("../imgs-TMALL/brand/brand5.png")no-repeat -20px 0;
+    background: url("../imgs-TMALL/brand/brand-5.png")no-repeat 0px 0;
 }
 .brand .tu6{
-    background: url("../imgs-TMALL/brand/brand6.png")no-repeat -20px 0;
+    background: url("../imgs-TMALL/brand/brand-6.png")no-repeat 0 0;
 }
 .brand .tu7{
-    background: url("../imgs-TMALL/brand/brand7.png")no-repeat -20px 0px;
+    background: url("../imgs-TMALL/brand/brand-7.png")no-repeat 0px 0px;
 }
 .brand .tu8{
-    background: url("../imgs-TMALL/brand/brand8.png")no-repeat -20px 0;
+    background: url("../imgs-TMALL/brand/brand-8.png")no-repeat 0px 0;
 }
 .brand .tu9{
-    background: url("../imgs-TMALL/brand/brand9.png")no-repeat -20px 0;
+    background: url("../imgs-TMALL/brand/brand-9.png")no-repeat 0px 0;
 }
 .brand .tu10{
-    background: url("../imgs-TMALL/brand/brand10.png")no-repeat -20px 0;
+    background: url("../imgs-TMALL/brand/brand-10.png")no-repeat 0px 0;
 }
 .brand .tu11{
-    background: url("../imgs-TMALL/brand/brand11.png")no-repeat -20px 0;
+    background: url("../imgs-TMALL/brand/brand-11.png")no-repeat 0px 0;
 }
 .brand .tu12{
-    background: url("../imgs-TMALL/brand/brand12.png")no-repeat -20px 0;
+    background: url("../imgs-TMALL/brand/brand-12.png")no-repeat 0px 0;
 }
 .brand .tu13{
-    background: url("../imgs-TMALL/brand/brand13.png")no-repeat -20px 0;
+    background: url("../imgs-TMALL/brand/brand-13.png")no-repeat 0px 0;
 }
 .brand .tu14{
-    background: url("../imgs-TMALL/brand/brand14.png")no-repeat -20px 0;
+    background: url("../imgs-TMALL/brand/brand-14.png")no-repeat 0px 0;
 }
 .brand .tu15{
-    background: url("../imgs-TMALL/brand/brand15.png")no-repeat -20px 0;
+    background: url("../imgs-TMALL/brand/brand-15.png")no-repeat 0px 0;
 }
 .brand .tu16{
-    background: url("../imgs-TMALL/brand/brand16.png")no-repeat -20px 0;
+    background: url("../imgs-TMALL/brand/brand-16.png")no-repeat 0px 0;
 }
 .brand .tu17{
-    background: url("../imgs-TMALL/brand/brand17.png")no-repeat -20px 0;
+    background: url("../imgs-TMALL/brand/brand-17.png")no-repeat 0px 0;
 }
 .brand .tu18{
-    background: url("../imgs-TMALL/brand/brand18.png")no-repeat -20px 0;
+    background: url("../imgs-TMALL/brand/brand-18.png")no-repeat 0px 0;
 }
 .brand .tu19{
-    background: url("../imgs-TMALL/brand/brand19.png")no-repeat -20px 0;
+    background: url("../imgs-TMALL/brand/brand-19.png")no-repeat 0px 0;
 }
 .brand .tu20{
-    background: url("../imgs-TMALL/brand/brand20.png")no-repeat -20px 0;
+    background: url("../imgs-TMALL/brand/brand-20.png")no-repeat 0px 0;
 }
 .brand .tu21{
-    background: url("../imgs-TMALL/brand/brand21.png")no-repeat -20px 0;
+    background: url("../imgs-TMALL/brand/brand-21.png")no-repeat 0px 0;
 }
 .brand .tu22{
-    background: url("../imgs-TMALL/brand/brand22.png")no-repeat -20px 0;
+    background: url("../imgs-TMALL/brand/brand-22.png")no-repeat 0px 0;
 }
 .brand .tu23{
-    background: url("../imgs-TMALL/brand/brand23.png")no-repeat -20px 0;
+    background: url("../imgs-TMALL/brand/brand-23.png")no-repeat 0px 0;
 }
 .brand .tu24{
-    background: url("../imgs-TMALL/brand/brand24.png")no-repeat -20px 0;
+    background: url("../imgs-TMALL/brand/brand-24.png")no-repeat 0px 0;
 }
 .brand .tu25{
-    background: url("../imgs-TMALL/brand/brand25.png")no-repeat -20px 0;
+    background: url("../imgs-TMALL/brand/brand-25.png")no-repeat 0px 0;
 }
 .brand .tu26{
-    background: url("../imgs-TMALL/brand/brand26.png")no-repeat -20px 0;
+    background: url("../imgs-TMALL/brand/brand-26.png")no-repeat 0px 0;
 }
 .brand .tu27{
-    background: url("../imgs-TMALL/brand/brand27.png")no-repeat -20px 0;
+    background: url("../imgs-TMALL/brand/brand-27.png")no-repeat 0px 0;
 }
 .brand .tu28{
-    background: url("../imgs-TMALL/brand/brand28.png")no-repeat -20px 0;
+    background: url("../imgs-TMALL/brand/brand-28.png")no-repeat 0px 0;
 }
 .brand .tu29{
-    background: url("../imgs-TMALL/brand/brand29.png")no-repeat -20px 0;
+    background: url("../imgs-TMALL/brand/brand-29.png")no-repeat 0px 0;
 }
 .brand .tu30{
-    background: url("../imgs-TMALL/brand/brand30.png")no-repeat -20px 0;
+    background: url("../imgs-TMALL/brand/brand-30.png")no-repeat 0px 0;
 }
 
 /*天猫超市*/
@@ -662,6 +699,12 @@ a:hover{
     width:50%;height:50px;
     float:left;
     background: #cccccc;
+}
+.mart-main-1-up-left:hover {
+    background: red;
+}
+.mart-main-1-up-right:hover{
+    background: red ;
 }
 .mart-main-1-down{
     width:100%;height:230px;
@@ -916,8 +959,10 @@ a:hover{
 }
 /*横图1*/
 .hengtu1{
-    width:100%;height:90px;
-    background:url("../imgs-TMALL/hk/hengtu1.jpg") ;
+    /*width:100%;*/
+    width:1200px;
+    margin: auto;height:90px;
+    background:url("../imgs-TMALL/hk/hengtu11.jpg") ;
 }
 
 /*美丽人生*/
@@ -1045,8 +1090,10 @@ a:hover{
 }
 /*横图2*/
 .hengtu2{
-    width:100%;height:90px;
-    background:url("../imgs-TMALL/beauty/hengtu2.jpg") ;
+    width:1200px;
+    /*width:100%;*/
+    margin: auto;height:90px;
+    background:url("../imgs-TMALL/beauty/hengtu22.jpg") ;
 }
 
 /*打造爱巢*/
@@ -1298,8 +1345,9 @@ a:hover{
 }
 /*横图3*/
 .hengtu3{
-    width:100%;height:90px;
-    background:url("../imgs-TMALL/beauty/hengtu3.jpg") ;
+    width:1200px;
+    margin: auto;height:90px;
+    background:url("../imgs-TMALL/beauty/hengtu33.jpg") ;
 }
 
 /*猜你喜欢*/
@@ -1384,24 +1432,43 @@ a:hover{
 }
 /*foor*/
 .foot{
-    width:1200px;height:150px;
+    width:1200px;height:200px;
     margin:auto;
+    /*padding-left: 10px;*/
     font-size: 13px;
     line-height: 20px;
     background: black;
     color:#ffffff;
+    position: relative;
 }
 .foot a{
     color:#ffffff;
 }
 .foot-1{
     float:left;
+    margin-left:20px;
 }
 .foot-2{
     float:left;
 }
 .foot span{
-    float:left;
     font-size: 13px;
     color:#ffffff;
+}
+.foot-4{
+    width:170px;
+    height:30px;
+    position: absolute;left:0px ;bottom: 10px;
+}
+.foot-4-left{
+    width:73px;
+    height:30px;
+    float:left;
+    background: url("../imgs-TMALL/end/foot-4-left.jpg");
+}
+.foot-4-right{
+    width:80px;
+    height:30px;
+    float:right;
+    background: url("../imgs-TMALL/end/foot-4-right.jpg");
 }

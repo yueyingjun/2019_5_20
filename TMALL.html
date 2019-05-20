@@ -5,29 +5,29 @@
     <title>天猫</title>
     <link rel="stylesheet" href="CSS/TMALL.css">
     <script>
-        window.onload=function(ev){
-            var box = document.querySelectorAll(".box")
-            var btns = document.querySelectorAll(".btn")
-            var num=0
-            setInterval(function () {
-                if (num == 5) {
-                    num = 0;
-                }
-                for (var i = 0; i < box.length; i++) {
-                    box[i].style.display = "none"
-                    btns[i].style.background="#ffffff"
-                }
-                box[num].style.display = "block";
-                btns[num].style.background="#ccc"
-                num++
-            },3000)
-        }
-    </script>
+    window.onload=function(ev){
+        var box = document.querySelectorAll(".box")
+        var btns = document.querySelectorAll(".btn")
+        var num=0
+        setInterval(function () {
+            if (num == 5) {
+                num = 0;
+            }
+            for (var i = 0; i < box.length; i++) {
+                box[i].style.display = "none"
+                btns[i].style.background="#ffffff"
+            }
+            box[num].style.display = "block";
+            btns[num].style.background="#ccc"
+            num++
+        },3000)
+    }
+</script>
 </head>
 <body>
 
 <!--背景图-->
-<div class="beijing">
+    <div class="beijing"></div>
     <!--右导航栏-->
         <div class="you">
             <div class="you-up">
@@ -45,6 +45,7 @@
                 <div class="you-down-8 box1"></div>
                 <div class="you-down-9 box1"></div>
             </div>
+            <div class="you-kuai"></div>
         </div>
         <div class="zuo">
             <div class="zuo-part zuo-active">导航</div>
@@ -195,7 +196,7 @@
                     <span class="active-name-1 c">&nbsp;&nbsp;BRAND&nbsp;SALE</span>
                     <span class="active-name-1 d">&nbsp;&nbsp;&nbsp;&nbsp;</span>
                 </div>
-                <div class="active-sale-tu"></div>
+                <div class="active-sale-tu"><div class="active-tu"></div></div>
             </div>
             <div class="active-luxury">
                 <div class="active-name">
@@ -203,7 +204,7 @@
                     <span class="active-name-1 c">&nbsp;&nbsp;LUXURY&nbsp;CHANNEL</span>
                     <span class="active-name-1 d">更多&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
                 </div>
-                <div class="active-luxury-tu"></div>
+                <div class="active-luxury-tu"><div class="active-tu"></div></div>
             </div>
             <div class="active-activity">
                 <div class="active-name">
@@ -211,41 +212,41 @@
                     <span class="active-name-1 c">&nbsp;&nbsp;BRAND&nbsp;ACTIVITY</span>
                     <span class="active-name-1 d">更多&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
                 </div>
-                <div class="active-activity-tu"></div>
+                <div class="active-activity-tu"><div class="active-tu"></div></div>
             </div>
         </div>
     <!--品牌墙-->
         <div class="brand">
-            <div class="brand-tu tu1"><div class="brand-tu1">点击进入</div></div>
-            <div class="brand-tu tu2"><div class="brand-tu1">点击进入</div></div>
-            <div class="brand-tu tu3"><div class="brand-tu1">点击进入</div></div>
-            <div class="brand-tu tu4"><div class="brand-tu1">点击进入</div></div>
-            <div class="brand-tu tu5"><div class="brand-tu1">点击进入</div></div>
-            <div class="brand-tu tu6"><div class="brand-tu1">点击进入</div></div>
-            <div class="brand-tu tu7"><div class="brand-tu1">点击进入</div></div>
-            <div class="brand-tu tu8"><div class="brand-tu1">点击进入</div></div>
-            <div class="brand-tu tu9"><div class="brand-tu1">点击进入</div></div>
-            <div class="brand-tu tu10"><div class="brand-tu1">点击进入</div></div>
-            <div class="brand-tu tu11"><div class="brand-tu1">点击进入</div></div>
-            <div class="brand-tu tu12"><div class="brand-tu1">点击进入</div></div>
-            <div class="brand-tu tu13"><div class="brand-tu1">点击进入</div></div>
-            <div class="brand-tu tu14"><div class="brand-tu1">点击进入</div></div>
-            <div class="brand-tu tu15"><div class="brand-tu1">点击进入</div></div>
-            <div class="brand-tu tu16"><div class="brand-tu1">点击进入</div></div>
-            <div class="brand-tu tu17"><div class="brand-tu1">点击进入</div></div>
-            <div class="brand-tu tu18"><div class="brand-tu1">点击进入</div></div>
-            <div class="brand-tu tu19"><div class="brand-tu1">点击进入</div></div>
-            <div class="brand-tu tu20"><div class="brand-tu1">点击进入</div></div>
-            <div class="brand-tu tu21"><div class="brand-tu1">点击进入</div></div>
-            <div class="brand-tu tu22"><div class="brand-tu1">点击进入</div></div>
-            <div class="brand-tu tu23"><div class="brand-tu1">点击进入</div></div>
-            <div class="brand-tu tu24"><div class="brand-tu1">点击进入</div></div>
-            <div class="brand-tu tu25"><div class="brand-tu1">点击进入</div></div>
-            <div class="brand-tu tu26"><div class="brand-tu1">点击进入</div></div>
-            <div class="brand-tu tu27"><div class="brand-tu1">点击进入</div></div>
-            <div class="brand-tu tu28"><div class="brand-tu1">点击进入</div></div>
-            <div class="brand-tu tu29"><div class="brand-tu1">点击进入</div></div>
-            <div class="brand-tu tu30"><div class="brand-tu1">点击进入</div></div>
+            <div class="brand-tu tu1"><div class="brand-tu1"><a href="">点击进入</a></div></div>
+            <div class="brand-tu tu2"><div class="brand-tu1"><a href="">点击进入</a></div></div>
+            <div class="brand-tu tu3"><div class="brand-tu1"><a href="">点击进入</a></div></div>
+            <div class="brand-tu tu4"><div class="brand-tu1"><a href="">点击进入</a></div></div>
+            <div class="brand-tu tu5"><div class="brand-tu1"><a href="">点击进入</a></div></div>
+            <div class="brand-tu tu6"><div class="brand-tu1"><a href="">点击进入</a></div></div>
+            <div class="brand-tu tu7"><div class="brand-tu1"><a href="">点击进入</a></div></div>
+            <div class="brand-tu tu8"><div class="brand-tu1"><a href="">点击进入</a></div></div>
+            <div class="brand-tu tu9"><div class="brand-tu1"><a href="">点击进入</a></div></div>
+            <div class="brand-tu tu10"><div class="brand-tu1"><a href="">点击进入</a></div></div>
+            <div class="brand-tu tu11"><div class="brand-tu1"><a href="">点击进入</a></div></div>
+            <div class="brand-tu tu12"><div class="brand-tu1"><a href="">点击进入</a></div></div>
+            <div class="brand-tu tu13"><div class="brand-tu1"><a href="">点击进入</a></div></div>
+            <div class="brand-tu tu14"><div class="brand-tu1"><a href="">点击进入</a></div></div>
+            <div class="brand-tu tu15"><div class="brand-tu1"><a href="">点击进入</a></div></div>
+            <div class="brand-tu tu16"><div class="brand-tu1"><a href="">点击进入</a></div></div>
+            <div class="brand-tu tu17"><div class="brand-tu1"><a href="">点击进入</a></div></div>
+            <div class="brand-tu tu18"><div class="brand-tu1"><a href="">点击进入</a></div></div>
+            <div class="brand-tu tu19"><div class="brand-tu1"><a href="">点击进入</a></div></div>
+            <div class="brand-tu tu20"><div class="brand-tu1"><a href="">点击进入</a></div></div>
+            <div class="brand-tu tu21"><div class="brand-tu1"><a href="">点击进入</a></div></div>
+            <div class="brand-tu tu22"><div class="brand-tu1"><a href="">点击进入</a></div></div>
+            <div class="brand-tu tu23"><div class="brand-tu1"><a href="">点击进入</a></div></div>
+            <div class="brand-tu tu24"><div class="brand-tu1"><a href="">点击进入</a></div></div>
+            <div class="brand-tu tu25"><div class="brand-tu1"><a href="">点击进入</a></div></div>
+            <div class="brand-tu tu26"><div class="brand-tu1"><a href="">点击进入</a></div></div>
+            <div class="brand-tu tu27"><div class="brand-tu1"><a href="">点击进入</a></div></div>
+            <div class="brand-tu tu28"><div class="brand-tu1"><a href="">点击进入</a></div></div>
+            <div class="brand-tu tu29"><div class="brand-tu1"><a href="">点击进入</a></div></div>
+            <div class="brand-tu tu30"><div class="brand-tu1"><a href="">点击进入</a></div></div>
         </div>
     <!--天猫超市-->
         <div class="mart">
@@ -672,7 +673,7 @@
         </div>
     <!--foot-->
         <div class="foot">
-            <div class="foot-1">
+            <div class="foot-1 ">
                 <a href="">关于天猫</a>&nbsp;
                 <a href="">帮助中心</a>&nbsp;
                 <a href="">开放平台</a>&nbsp;
@@ -685,7 +686,7 @@
                 <a href="">廉政举报</a>&nbsp;
                 <a href="">规则意见征集</a>
             </div>
-            <div class="foot-2">
+            <div class="foot-2 foot-1">
                 <a href="">阿里巴巴集团</a>&nbsp;&nbsp;|
                 <a href="">淘宝网</a>&nbsp;&nbsp;|
                 <a href="">天猫</a>&nbsp;&nbsp;|
@@ -706,10 +707,13 @@
                 <a href="">钉钉</a>&nbsp;&nbsp;|
                 <a href="">支付宝</a><br><br>
             </div>
-            <div class="foot-3">
+            <div class="foot-3 foot-1">
                 <span>出版物网络交易平台服务经营备案证： 新出发浙备字第001号<br><br>
                 互联网违法和不良信息举报电话：0571-81683755 blxxjb@alibaba-inc.com</span>
             </div>
+            <div class="foot-4 foot-1">
+                <div class="foot-4-left"></div>
+                <div class="foot-4-right"></div>
+            </div>
         </div>
-</div>
 
