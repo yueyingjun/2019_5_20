@@ -1024,7 +1024,7 @@ body {
 .pingpai-bottom {
   width: 1230px;
   height: 330px;
-  background-color: yellow;
+  background-color: white;
   position: relative;
   left: 0;
   top: 0;
@@ -1073,11 +1073,24 @@ body {
   color: white;
   font-size: 12px;
 }
-
 .pingpai-bottom-imgs:hover .pingpai-bottom-img-touming{
   z-index: 2;
 }
-
+.pingpai-bottom-imgs-flush:hover {
+  background-color: red;
+}
+.pingpai-bottom-img-touming-text-flush {
+  text-decoration: none;
+  color: #555;
+  text-align: center;
+  position: absolute;
+  left: 35px;
+  top: 60px;
+  float: left;
+}
+.pingpai-bottom-imgs-flush:hover .pingpai-bottom-img-touming-text-flush {
+  color: white;
+}
 
 
 
