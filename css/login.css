@@ -11,7 +11,114 @@ body {
 
 /*右侧导航*/
 .navigation-right {
+  width: 35px;
+  height: 100%;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 3;
+}
+.navigation-right-icon {
+  width: 35px;
+  height: 35px;
+  position: relative;
+  left: 0;
+  top: 150px;
+  margin-bottom: 5px;
+  /*background-color: red;*/
+}
+.navigation-right-trolley {
+  width: 25px;
+  position: relative;
+  height: 100px;
+  top: 150px;
+  left: 5px;
+  /*background-color: red;*/
+  text-align: center;
+  font-size: 14px;
+  color: white;
+  border-top: 1px solid #bbb;
+  border-bottom: 1px solid #bbb;
+}
+.navigation-right-trolley-img {
+  margin-top: 10px;
+}
 
+.navigation-right-bottom {
+  width: 35px;
+  height: 120px;
+  position: relative;
+  top: 200px;
+  /*background: blue;*/
+}
+.navigation-right-bottom-icon {
+  margin-bottom: 5px;
+  margin-left: 2px;
+  margin-top: 2px;
+}
+.navigation-right-icon-info {
+  width: 88px;
+  height: 35px;
+  background-color: #666;
+  font-size: 12px;
+  color: white;
+  text-align: center;
+  line-height: 35px;
+  position: absolute;
+  left: -88px;
+  top: 0;
+  display: none;
+}
+.navigation-right-icon:hover {
+  background-color: red;
+}
+.navigation-right-bottom-icon:hover {
+  background-color: red;
+}
+#navigation-right-icon-1:hover .navigation-right-icon-info-1 {
+  display: block;
+}
+#navigation-right-icon-2:hover .navigation-right-icon-info-2 {
+  display: block;
+}
+#navigation-right-icon-3:hover .navigation-right-icon-info-3 {
+  display: block;
+}
+#navigation-right-icon-4:hover .navigation-right-icon-info-4 {
+  display: block;
+}
+#navigation-right-icon-5:hover .navigation-right-icon-info-5 {
+  display: block;
+}
+#navigation-right-icon-6:hover .navigation-right-icon-info-6 {
+  display: block;
+}
+#navigation-right-icon-7:hover .navigation-right-icon-info-7 {
+  display: block;
+  width: 88px;
+  height: 35px;
+  background-color: #666;
+  font-size: 12px;
+  color: white;
+  text-align: center;
+  line-height: 35px;
+  position: absolute;
+  left: -88px;
+  top: 80px;
+}
+#navigation-right-icon-8:hover .navigation-right-icon-info-8 {
+  display: block;
+  width: 155px;
+  height: 155px;
+  background-color: #666;
+  font-size: 12px;
+  color: white;
+  text-align: center;
+  line-height: 35px;
+  position: absolute;
+  left: -155px;
+  top: -80px;
 }
 
 /*顶部导航*/
@@ -89,6 +196,13 @@ body {
   z-index: 0;
   display: none;
 }
+
+.navigation-top-in-fight-link-icon {
+  margin-top: 8px;
+  float: left;
+  margin-right: 3px;
+}
+
 
 #navigation-top-in-fight-collect-lists {
   width: 88px;
@@ -526,6 +640,7 @@ body {
   position: absolute;
   left: 0;
   top: 0;
+  z-index: 0;
 
 }
 
@@ -895,13 +1010,17 @@ body {
   width: 95px;
   height: 95px;
 }
-
+.footer-end-backgroud {
+  width: 100%;
+  background-color: black;
+  border-top: 3px solid red;
+}
 .footer-end {
   width: 1200px;
   height: 240px;
-  background-color: black;
+  /*background-color: black;*/
   margin: 0 auto;
-  border-top: 3px solid red;
+  /*border-top: 3px solid red;*/
   font-size: 12px;
 }
 
@@ -1092,8 +1211,15 @@ body {
   color: white;
 }
 
-
-
+/*天猫超市*/
+/*.tianmaochaoshi {
+  width: 1230px;
+  height: 665px;
+}
+.tianmaochaoshi-top {
+  width: 100%;
+  height: 35px;
+}*/
 
 
 
