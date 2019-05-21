@@ -142,7 +142,28 @@ window.onload = function () {
     getElementById("navigation-header-classify-list-16-out").style.display = "none";
   }
 
+  getElementById("tianmaochaoshi-bottom-right-big-top-card1").onmouseover = function() {
+    getElementById("tianmaochaoshi-bottom-right-big-top-card1").style.backgroundColor = "#00b262";
+    getElementById("tianmaochaoshi-bottom-right-big-top-card2").style.backgroundColor = "#ddd";
+    getElementById("tianmaochaoshi-bottom-right-big-top-bottom-img2").style.display = "none";
+    getElementById("tianmaochaoshi-bottom-right-big-top-bottom-img1").style.display = "block";
+  }
+  getElementById("tianmaochaoshi-bottom-right-big-top-card2").onmouseover = function() {
+    getElementById("tianmaochaoshi-bottom-right-big-top-card2").style.backgroundColor = "#00b262";
+    getElementById("tianmaochaoshi-bottom-right-big-top-card1").style.backgroundColor = "#ddd";
+    getElementById("tianmaochaoshi-bottom-right-big-top-bottom-img1").style.display = "none";
+    getElementById("tianmaochaoshi-bottom-right-big-top-bottom-img2").style.display = "block";
+  }
   lunbo();
+
+  var t = tianMaoChaoShiLunBo();
+  getElementById("tianmaochaoshi-bottom-right-big-top-id").onmouseover = function () {
+    window.clearInterval(t);
+  }
+  getElementById("tianmaochaoshi-bottom-right-big-top-id").onmouseout = function () {
+    t = tianMaoChaoShiLunBo();
+  }
+
 }
 function getElementById(id) {
   return document.getElementById(id);
@@ -168,4 +189,23 @@ function lunbo() {
     nacigationHeaderBottomIndexs[count].style.backgroundColor = "#ddd";
     count++;
   },3000);
+}
+/*天猫超市轮播*/
+function tianMaoChaoShiLunBo() {
+  var cards = getElementsByClassName("tianmaochaoshi-bottom-right-big-top-card");
+  var imgs = getElementsByClassName("tianmaochaoshi-bottom-right-big-top-bottom-img");
+  var count = 0;
+  var t = setInterval(function () {
+    if (count == 2) {
+      count = 0;
+    }
+    for (var i=0;i<cards.length;i++) {
+      cards[i].style.backgroundColor = "#ddd";
+      imgs[i].style.display = "none";
+    }
+    cards[count].style.backgroundColor = "#00b262";
+    imgs[count].style.display = "block";
+    count++;
+  },3000);
+  return t;
 }
