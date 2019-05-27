@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+1 文档说明
+2 数文档
+3 双标签
+4 单标签  开始标签 -> 没必要在里面写内容
+5 属性 对于标签功能补充性地说明
+6 head 对于文档的中心思想的说明
+
+7 呈现形式： 矩形
+8 排列方式： 块元素        不能和别的元素共享一行,能设置宽高（<div></div>）
+            行内元素     能和别的元素在同一行，不能设置宽高，所有修饰文字的标签都是行元素，其他的都是块元素(<span></span>)
+            行内块元素    <img src="" alt="">
+            div:只设置宽度或者高度默认是他的宽高等比缩放
+9  <del></del> <em></em> <strong></strong>具有强调性（seo搜索引擎会检测到）
+10 float 为了让一个元素和其它元素共享一行，并且能够设置宽高，并且能够忽略空格，从而达到布局的目的
+
+   23.html     当一个元素浮动之后他的层级就提高了
+                1、如果说元素浮动之后，并且父元素没有指定高度，那么父元素撑不开的，就会导致后面的元素出现排列错误
+                   a、可以给父元素设置高度
+                   b、清楚浮动带来的问题
+                   c、可以给父元素 设置一个属性，overflow:hidden
+                   (对于超出的内容做处理 visible hidden scroll(出现滚动条) auto(超出出现滚动条，否则不出现)
+                2.float:left;依此靠第一个左上角浮动   如果说父元素的宽度不足以放下剩下的内容，自动的换行环列
+                3.在使用浮动的时候，我们要保证同一行浮动的元素的高度要统一，否则会出现排列错误的情况
+   24.html background
+   25.html 4种定位： 静态定位  绝对定位  相对定位  固定定位  position
+               静态定位:static 默认定位方式
+               绝对定位:（z-index）absolute
+                         一般伴随left和top，相对于原点来进行位置的设定，但是这个原点，具有定位属性的前辈元素，如果前辈
+                        元素都没有定位属性，那么会相对于浏览器的左上角进行定位(谁的左上角  具有定位属性的父元素，如果前辈元
+                        素没有定位属性则直接想对于浏览器的左上角)
+                        注意：a、需要指定left 和top的值，否则会待在原地不动
+                              b、层级问题
+               相对定位:（relative）就是相对于自己的位置来进行定位，但是自己原来的位置并不会消失
+                        就是给绝对定位的元素提供原点，又不会影响其他元素的排列
+               固定定位:fixed
+html样式： 1、行内样式  2、嵌入式   3、外部样式
+继承 ：所有关于文字修饰的属性都能继承（优先级最低）
+box-sizing:边框不影响整个框
+
+    31html  变换    transfrom:;(4个属性，移动 缩放 旋转 斜切)
+            过渡    transition ：属性 时间 过渡方式 等待时间
+            动画    @keyframes  动画名字{}  animation:动画名字 时间 方式  次数
+            border-radius:20px 20px 0 0;
+            box-shadow:0 0 20px #000 inset;
+
+元素出现手型，不用css 就要用到a链接这种写法(<a href="javascript:;"></a>) cursor:pointer
+
+css里面的bug：当给父元素里面的子元素设置margin-top的时候，如果父元素没有边框，那么这个margin-top会作用在父元素的身上，
+给父元素设置一个边框，padding-top，代替margin-top
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>UBDF</title>
+    <style>
+        div{
+            width:96px;
+            height:48px;
+            border:2px solid #000;
+            border-bottom:50px solid #000;
+            border-radius:50%;
+            position:absolute;
+            left:0;
+            right:0;
+            bottom:0;
+            top:0;
+            margin:auto;
+            transition:all 2s ease;
+        }
+        div:before{
+            content:"";
+            position:absolute;
+            width:8px;
+            height:8px;
+            border:20px solid #000;
+            background:#fff;
+            border-radius:50%;
+            left:0;
+            top:50%;
+        }
+        div:after{
+            content:"";
+            position: absolute;
+            width:8px;
+            height: 8px;
+            border:20px solid #fff;
+            background: #000;
+            border-radius:50%;
+            right:0;
+            top:50%;
+
+        }
+
+    </style>
+    <script>
+        window.onload=function (ev) {
+            var div = document.querySelector("div")
+            div.onmouseover=function(ev2){
+                div.style.transform="rotate(180deg)"
+            }
+        }
+
+    </script>
+</head>
+<body>
+<div></div>
+</body>
+</html>
